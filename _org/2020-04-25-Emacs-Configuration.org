@@ -1,8 +1,10 @@
-#+BEGIN_SRC html
+#+BEGIN_EXPORT html
+
 ---
 title: Emacs configuration
 layout: post
 ---
+
 #+END_SRC
 
 

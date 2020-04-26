@@ -1,9 +1,10 @@
 #+BEGIN_EXPORT html
+
 ---
 title: Blogging with Org Mode and FastPages
 layout: post
-toc: false
 ---
+
 #+END_EXPORT
 
 
