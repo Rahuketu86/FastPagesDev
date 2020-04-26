@@ -1,10 +1,11 @@
 #+BEGIN_EXPORT html
-
 ---
-title: Blogging with Org Mode and FastPages
+toc: true
 layout: post
+description: A minimal orgmode of using markdown with fastpages.
+categories: [orgmode]
+title: Blog 1
 ---
-
 #+END_EXPORT
 
 

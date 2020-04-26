@@ -1,11 +1,12 @@
 #+BEGIN_EXPORT html
-
 ---
-title: Emacs configuration
+toc: true
 layout: post
+description: A minimal example of using markdown with fastpages.
+categories: [orgmode]
+title: Emacs Conifguration
 ---
-
-#+END_SRC
+#+END_EXPORT
 
 
 This post contains sample configuration for my emacs in an org file 

@@ -1,12 +1,11 @@
 #+BEGIN_EXPORT html
-
 ---
-title: Blogging with Org Mode 2
 layout: post
+description: A minimal example of using markdown with fastpages.
+categories: [orgmode]
+title: An Example Markdown Post
 ---
-
 #+END_EXPORT
-
 
 
 * Export to FastPages
