@@ -25,7 +25,7 @@
 	    :recursive t
 	    :publishing-function org-html-publish-to-html
 	    :headline-levels 4
-	    :html-extension "html"
+	    :html-extension "md"
 	    :body-only t ;; Only export section between <body> </body>
       )
 
