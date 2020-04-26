@@ -10,7 +10,7 @@ title: Blog XYZ
 
 
 * Export to FastPages
-  This is the beginning. I am gonna test it again. Getting errors how to fix it. Updatingsss 
+  This is the beginning. I am gonna test it again. Getting errors how to fix it. Updating
 
 #+BEGIN_SRC python
   print("Hello World")

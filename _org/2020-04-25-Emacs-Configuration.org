@@ -8,7 +8,7 @@ title: Emacs Conifguration is fixed
 #+END_EXPORT
 
 
-This post contains sample configuration for my emacs in an org filesss
+This post contains sample configuration for my emacs in an org file
 * Emacs init.el
   #+BEGIN_EXAMPLE
     (package-initialize)
