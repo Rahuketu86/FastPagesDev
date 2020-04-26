@@ -1,0 +1,16 @@
+#+BEGIN_EXPORT html
+---
+title: Blogging with Org Mode 2
+layout: post
+toc: true
+---
+#+END_EXPORT
+
+
+
+* Export to FastPages
+  This is the beginning. I am gonna test it again. Getting errors how to fix it22222
+
+#+BEGIN_SRC python
+  print("Hello World 2")
+#+END_SRC

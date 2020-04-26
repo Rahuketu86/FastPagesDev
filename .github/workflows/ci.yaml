@@ -17,9 +17,6 @@ jobs:
       with:
         persist-credentials: false
 
-    - name: convert notebooks and word docs to posts
-      uses: ./_action_files
-
     - name: setup directories for Jekyll build
       run: |
         rm -rf _site
@@ -29,7 +26,10 @@ jobs:
       uses: docker://iquiw/alpine-emacs
       if: github.event.deleted == false
       with:
-        args: ./build.sh
+        args: ./_action_files/build.sh
+
+    - name: convert notebooks and word docs to posts
+      uses: ./_action_files
 
     - name: Jekyll build
       uses: docker://hamelsmu/fastpages-jekyll
