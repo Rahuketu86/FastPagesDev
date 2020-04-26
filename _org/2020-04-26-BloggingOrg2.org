@@ -1,10 +1,10 @@
-#+BEGIN_EXPORT html
+#+BEGIN_SRC html
 ---
 title: Blogging with Org Mode 2
 layout: post
 toc: false
 ---
-#+END_EXPORT
+#+END_SRC
 
 
 

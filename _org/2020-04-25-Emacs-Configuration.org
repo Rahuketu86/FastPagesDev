@@ -1,10 +1,9 @@
-#+BEGIN_EXPORT html
+#+BEGIN_SRC html
 ---
 title: Emacs configuration
 layout: post
-toc: false
 ---
-#+END_EXPORT
+#+END_SRC
 
 
 This post contains sample configuration for my emacs in an org file 
