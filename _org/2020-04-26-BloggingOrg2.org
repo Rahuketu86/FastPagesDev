@@ -3,13 +3,13 @@
 layout: post
 description: A minimal example of using markdown with fastpages.
 categories: [orgmode]
-title: An Example Markdown Post
+title: An Example Markdown Post222
 ---
 #+END_EXPORT
 
 
 * Export to FastPages
-  This is the beginning. I am gonna test it again. Getting errors how to fix.
+  This is the beginning. I am gonna test it again. Getting errors how to fix.Updateding 
 
 #+BEGIN_SRC python
   print("Hello World 2")

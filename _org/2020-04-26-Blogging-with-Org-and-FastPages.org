@@ -4,14 +4,14 @@ toc: true
 layout: post
 description: A minimal orgmode of using markdown with fastpages.
 categories: [orgmode]
-title: Blog 1
+title: Blog XYZ
 ---
 #+END_EXPORT
 
 
 
 * Export to FastPages
-  This is the beginning. I am gonna test it again. Getting errors how to fix it ttttt
+  This is the beginning. I am gonna test it again. Getting errors how to fix it. Updating 
 
 #+BEGIN_SRC python
   print("Hello World")
