@@ -1,11 +1,9 @@
 #+BEGIN_EXPORT html
-
 ---
 title: Blogging with Org Mode 2
 layout: post
 toc: true
 ---
-
 #+END_EXPORT
 
 
