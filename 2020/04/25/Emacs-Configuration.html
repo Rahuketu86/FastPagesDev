@@ -2,50 +2,57 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd36ea94">1. Emacs init.el</a></li>
-<li><a href="#orgece1fa1">2. Emacs Customization Group</a></li>
-<li><a href="#org28761ca">3. Emacs Repositories</a></li>
-<li><a href="#org3dce486">4. Personal Information</a></li>
-<li><a href="#orgc6e265f">5. Emacs : Add Info directory</a></li>
-<li><a href="#orgbbab5ac">6. Emacs: Backups</a></li>
-<li><a href="#org21df9d6">7. Emacs: SaveHist</a></li>
-<li><a href="#org6bcbe68">8. Emacs Additional Infopath</a></li>
-<li><a href="#orgb277b11">9. Utility Functions</a>
+<li><a href="#org5708bce">1. Emacs init.el</a></li>
+<li><a href="#orgfd00eed">2. Emacs Customization Group</a></li>
+<li><a href="#orgf91cb18">3. Emacs Repositories</a></li>
+<li><a href="#org056c604">4. Personal Information</a></li>
+<li><a href="#org879c43e">5. Emacs : Add Info directory</a></li>
+<li><a href="#orgec35b4e">6. Emacs: Backups</a></li>
+<li><a href="#org0fa6830">7. Emacs: SaveHist</a></li>
+<li><a href="#org2d6e88c">8. Emacs Additional Infopath</a></li>
+<li><a href="#org330d2bf">9. Utility Functions</a>
 <ul>
-<li><a href="#orgc627ee7">9.1. Function to open this configuration file</a></li>
+<li><a href="#org14fdd27">9.1. Function to open this configuration file</a></li>
 </ul>
 </li>
-<li><a href="#org52cb5ff">10. Splash Screen and bars</a></li>
-<li><a href="#orgb8ee486">11. Configure Emacs for use-package</a></li>
-<li><a href="#org2efbad4">12. Improve performance on Windows</a></li>
-<li><a href="#org846bdb4">13. Emacs Custom Theme</a></li>
-<li><a href="#org9d374f0">14. Setup Ido and smex</a></li>
-<li><a href="#orgc714369">15. Setup Guru Mode</a></li>
-<li><a href="#org54999d3">16. Setup Magit</a></li>
-<li><a href="#org16602c0">17. Setup Company Mode</a></li>
-<li><a href="#org4976099">18. Org-Mode Settings</a></li>
-<li><a href="#orga88749e">19. Nikola Blog Settings</a></li>
-<li><a href="#orgbf62383">20. Games</a>
+<li><a href="#orgcc08ec6">10. Splash Screen and bars</a></li>
+<li><a href="#org085b472">11. Configure Emacs for use-package</a></li>
+<li><a href="#org4435d22">12. Improve performance on Windows</a></li>
+<li><a href="#orgbec6731">13. Emacs Custom Theme</a></li>
+<li><a href="#org3342400">14. Setup Ido and smex</a></li>
+<li><a href="#org45a6192">15. Setup Guru Mode</a></li>
+<li><a href="#org48ba430">16. Setup Magit</a></li>
+<li><a href="#org7076e8b">17. Setup Company Mode</a></li>
+<li><a href="#org1ad9d0e">18. Org-Mode Settings</a></li>
+<li><a href="#org8a7a1dc">19. Nikola Blog Settings</a></li>
+<li><a href="#orgf5ac890">20. Games</a>
 <ul>
-<li><a href="#org83dbdf6">20.1. Chess</a></li>
+<li><a href="#org95bc228">20.1. Chess</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div class="org-src-container">
-<pre class="src src-html">---
+<p>
+#+BEGIN<sub>EXPORT</sub> html
+</p>
+
+<p>
+&#x2014;
 title: Emacs configuration
 layout: post
----
-</pre>
-</div>
+&#x2014;
+</p>
+
+<p>
+#+END<sub>SRC</sub>
+</p>
 
 <p>
 This post contains sample configuration for my emacs in an org file 
 </p>
-<div id="outline-container-orgd36ea94" class="outline-2">
-<h2 id="orgd36ea94"><span class="section-number-2">1</span> Emacs init.el</h2>
+<div id="outline-container-org5708bce" class="outline-2">
+<h2 id="org5708bce"><span class="section-number-2">1</span> Emacs init.el</h2>
 <div class="outline-text-2" id="text-1">
 <pre class="example">
 (package-initialize)
@@ -58,8 +65,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 
-<div id="outline-container-orgece1fa1" class="outline-2">
-<h2 id="orgece1fa1"><span class="section-number-2">2</span> Emacs Customization Group</h2>
+<div id="outline-container-orgfd00eed" class="outline-2">
+<h2 id="orgfd00eed"><span class="section-number-2">2</span> Emacs Customization Group</h2>
 <div class="outline-text-2" id="text-2">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> custom-file
@@ -70,8 +77,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 
-<div id="outline-container-org28761ca" class="outline-2">
-<h2 id="org28761ca"><span class="section-number-2">3</span> Emacs Repositories</h2>
+<div id="outline-container-orgf91cb18" class="outline-2">
+<h2 id="orgf91cb18"><span class="section-number-2">3</span> Emacs Repositories</h2>
 <div class="outline-text-2" id="text-3">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(<span style="font-weight: bold;">require</span> '<span style="font-weight: bold; text-decoration: underline;">package</span>)
@@ -96,8 +103,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 
-<div id="outline-container-org3dce486" class="outline-2">
-<h2 id="org3dce486"><span class="section-number-2">4</span> Personal Information</h2>
+<div id="outline-container-org056c604" class="outline-2">
+<h2 id="org056c604"><span class="section-number-2">4</span> Personal Information</h2>
 <div class="outline-text-2" id="text-4">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> user-full-name <span style="font-style: italic;">"Rahul Saraf"</span>
@@ -106,8 +113,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 </div>
-<div id="outline-container-orgc6e265f" class="outline-2">
-<h2 id="orgc6e265f"><span class="section-number-2">5</span> Emacs : Add Info directory</h2>
+<div id="outline-container-org879c43e" class="outline-2">
+<h2 id="org879c43e"><span class="section-number-2">5</span> Emacs : Add Info directory</h2>
 <div class="outline-text-2" id="text-5">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> Info-default-directory-list
@@ -122,8 +129,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 </div>
-<div id="outline-container-orgbbab5ac" class="outline-2">
-<h2 id="orgbbab5ac"><span class="section-number-2">6</span> Emacs: Backups</h2>
+<div id="outline-container-orgec35b4e" class="outline-2">
+<h2 id="orgec35b4e"><span class="section-number-2">6</span> Emacs: Backups</h2>
 <div class="outline-text-2" id="text-6">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> backup-directory-alist '((<span style="font-style: italic;">"."</span> . <span style="font-style: italic;">"~/.emacs.d/backups"</span>)))
@@ -134,8 +141,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 </div>
-<div id="outline-container-org21df9d6" class="outline-2">
-<h2 id="org21df9d6"><span class="section-number-2">7</span> Emacs: SaveHist</h2>
+<div id="outline-container-org0fa6830" class="outline-2">
+<h2 id="org0fa6830"><span class="section-number-2">7</span> Emacs: SaveHist</h2>
 <div class="outline-text-2" id="text-7">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> savehist-file <span style="font-style: italic;">"~/.emacs.d/savehist"</span>)
@@ -151,8 +158,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 </div>
-<div id="outline-container-org6bcbe68" class="outline-2">
-<h2 id="org6bcbe68"><span class="section-number-2">8</span> Emacs Additional Infopath</h2>
+<div id="outline-container-org2d6e88c" class="outline-2">
+<h2 id="org2d6e88c"><span class="section-number-2">8</span> Emacs Additional Infopath</h2>
 <div class="outline-text-2" id="text-8">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(add-to-list 'Info-default-directory-list <span style="font-style: italic;">"~/.emacs.d/info"</span>)
@@ -160,12 +167,12 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 </div>
-<div id="outline-container-orgb277b11" class="outline-2">
-<h2 id="orgb277b11"><span class="section-number-2">9</span> Utility Functions</h2>
+<div id="outline-container-org330d2bf" class="outline-2">
+<h2 id="org330d2bf"><span class="section-number-2">9</span> Utility Functions</h2>
 <div class="outline-text-2" id="text-9">
 </div>
-<div id="outline-container-orgc627ee7" class="outline-3">
-<h3 id="orgc627ee7"><span class="section-number-3">9.1</span> Function to open this configuration file</h3>
+<div id="outline-container-org14fdd27" class="outline-3">
+<h3 id="org14fdd27"><span class="section-number-3">9.1</span> Function to open this configuration file</h3>
 <div class="outline-text-3" id="text-9-1">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">
@@ -183,8 +190,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 
-<div id="outline-container-org52cb5ff" class="outline-2">
-<h2 id="org52cb5ff"><span class="section-number-2">10</span> Splash Screen and bars</h2>
+<div id="outline-container-orgcc08ec6" class="outline-2">
+<h2 id="orgcc08ec6"><span class="section-number-2">10</span> Splash Screen and bars</h2>
 <div class="outline-text-2" id="text-10">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(<span style="font-weight: bold;">setq</span> inhibit-splash-screen t
@@ -200,8 +207,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 
-<div id="outline-container-orgb8ee486" class="outline-2">
-<h2 id="orgb8ee486"><span class="section-number-2">11</span> Configure Emacs for use-package</h2>
+<div id="outline-container-org085b472" class="outline-2">
+<h2 id="org085b472"><span class="section-number-2">11</span> Configure Emacs for use-package</h2>
 <div class="outline-text-2" id="text-11">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp"> (<span style="font-weight: bold;">unless</span> (package-installed-p 'use-package)
@@ -220,8 +227,8 @@ This post contains sample configuration for my emacs in an org file
 </div>
 </div>
 </div>
-<div id="outline-container-org2efbad4" class="outline-2">
-<h2 id="org2efbad4"><span class="section-number-2">12</span> Improve performance on Windows</h2>
+<div id="outline-container-org4435d22" class="outline-2">
+<h2 id="org4435d22"><span class="section-number-2">12</span> Improve performance on Windows</h2>
 <div class="outline-text-2" id="text-12">
 <p>
 Improving File Saving Performance on windows.
@@ -233,8 +240,8 @@ Improving File Saving Performance on windows.
 </div>
 </div>
 
-<div id="outline-container-org846bdb4" class="outline-2">
-<h2 id="org846bdb4"><span class="section-number-2">13</span> Emacs Custom Theme</h2>
+<div id="outline-container-orgbec6731" class="outline-2">
+<h2 id="orgbec6731"><span class="section-number-2">13</span> Emacs Custom Theme</h2>
 <div class="outline-text-2" id="text-13">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(use-package monokai-theme
@@ -245,8 +252,8 @@ Improving File Saving Performance on windows.
 </div>
 </div>
 
-<div id="outline-container-org9d374f0" class="outline-2">
-<h2 id="org9d374f0"><span class="section-number-2">14</span> Setup Ido and smex</h2>
+<div id="outline-container-org3342400" class="outline-2">
+<h2 id="org3342400"><span class="section-number-2">14</span> Setup Ido and smex</h2>
 <div class="outline-text-2" id="text-14">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp"><span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Activate ido</span>
@@ -262,8 +269,8 @@ Improving File Saving Performance on windows.
 </div>
 </div>
 </div>
-<div id="outline-container-orgc714369" class="outline-2">
-<h2 id="orgc714369"><span class="section-number-2">15</span> Setup Guru Mode</h2>
+<div id="outline-container-org45a6192" class="outline-2">
+<h2 id="org45a6192"><span class="section-number-2">15</span> Setup Guru Mode</h2>
 <div class="outline-text-2" id="text-15">
 <p>
 Guru mode works by disabling common key bindings and pushing for
@@ -284,8 +291,8 @@ other so that it plays nice with ido-mode.
 </div>
 </div>
 
-<div id="outline-container-org54999d3" class="outline-2">
-<h2 id="org54999d3"><span class="section-number-2">16</span> Setup Magit</h2>
+<div id="outline-container-org48ba430" class="outline-2">
+<h2 id="org48ba430"><span class="section-number-2">16</span> Setup Magit</h2>
 <div class="outline-text-2" id="text-16">
 <p>
 Magit is a git porcelain. With this we can stay within emacs for
@@ -300,8 +307,8 @@ configuration modifications and commiting to git.
 </div>
 </div>
 
-<div id="outline-container-org16602c0" class="outline-2">
-<h2 id="org16602c0"><span class="section-number-2">17</span> Setup Company Mode</h2>
+<div id="outline-container-org7076e8b" class="outline-2">
+<h2 id="org7076e8b"><span class="section-number-2">17</span> Setup Company Mode</h2>
 <div class="outline-text-2" id="text-17">
 <p>
 Company mode is used for autocompletion in Emacs.
@@ -320,8 +327,8 @@ Company mode is used for autocompletion in Emacs.
 </div>
 </div>
 </div>
-<div id="outline-container-org4976099" class="outline-2">
-<h2 id="org4976099"><span class="section-number-2">18</span> Org-Mode Settings</h2>
+<div id="outline-container-org1ad9d0e" class="outline-2">
+<h2 id="org1ad9d0e"><span class="section-number-2">18</span> Org-Mode Settings</h2>
 <div class="outline-text-2" id="text-18">
 <p>
 Global settings for all the org-mode buffers.
@@ -356,8 +363,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 </div>
 </div>
 
-<div id="outline-container-orga88749e" class="outline-2">
-<h2 id="orga88749e"><span class="section-number-2">19</span> Nikola Blog Settings</h2>
+<div id="outline-container-org8a7a1dc" class="outline-2">
+<h2 id="org8a7a1dc"><span class="section-number-2">19</span> Nikola Blog Settings</h2>
 <div class="outline-text-2" id="text-19">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(use-package htmlize
@@ -485,12 +492,12 @@ Org Mode with Twitter bootstrap(ox-twbs)
 </div>
 </div>
 
-<div id="outline-container-orgbf62383" class="outline-2">
-<h2 id="orgbf62383"><span class="section-number-2">20</span> Games</h2>
+<div id="outline-container-orgf5ac890" class="outline-2">
+<h2 id="orgf5ac890"><span class="section-number-2">20</span> Games</h2>
 <div class="outline-text-2" id="text-20">
 </div>
-<div id="outline-container-org83dbdf6" class="outline-3">
-<h3 id="org83dbdf6"><span class="section-number-3">20.1</span> Chess</h3>
+<div id="outline-container-org95bc228" class="outline-3">
+<h3 id="org95bc228"><span class="section-number-3">20.1</span> Chess</h3>
 <div class="outline-text-3" id="text-20-1">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(use-package chess
