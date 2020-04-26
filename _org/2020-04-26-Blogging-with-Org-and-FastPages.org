@@ -1,4 +1,3 @@
-#+TITLE: Blogging with Org Mode
 #+BEGIN_EXPORT html
 
 ---
