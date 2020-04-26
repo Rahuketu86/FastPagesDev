@@ -12,6 +12,10 @@ eval "$(ssh-agent -s)"
 cp /fastpages/settings.ini .
 python /fastpages/nb2post.py
 
+# emacs converter
+/fastpages/build.sh
+
+
 
 ######## Optionally save files and build GitHub Pages ########
 if [[ "$INPUT_BOOL_SAVE_MARKDOWN" == "true" ]];then
