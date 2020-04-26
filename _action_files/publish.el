@@ -9,7 +9,6 @@
 ;;    (package-install pkg)))
 
 (require 'org)
-(require 'ox-rss)
 (require 'ox-publish)
 (require 'ox-html)
 (setq org-publish-project-alist
