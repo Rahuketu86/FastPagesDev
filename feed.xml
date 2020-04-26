@@ -1,56 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-04-26T08:26:22-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Bloggingorg2</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html" rel="alternate" type="text/html" title="Bloggingorg2" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html">&lt;div id=&quot;table-of-contents&quot;&gt;
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;div id=&quot;text-table-of-contents&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgbedc0a0&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;title: Blogging with Org Mode 2
-layout: post
-toc: true
-—&lt;/p&gt;
-
-&lt;div id=&quot;outline-container-orgbedc0a0&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgbedc0a0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-04-26T08:33:45-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Blogging with Org Mode 2</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html" rel="alternate" type="text/html" title="Blogging with Org Mode 2" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html">&lt;div id=&quot;outline-container-org68a732b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org68a732b&quot;&gt;Export to FastPages&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-org68a732b&quot;&gt;
 &lt;p&gt;
 This is the beginning. I am gonna test it again. Getting errors how to fix it22222
 &lt;/p&gt;
 
-&lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-python&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;print&lt;/span&gt;(&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Hello World 2&quot;&lt;/span&gt;)
-&lt;/pre&gt;
+'pygmentize' is not recognized as an internal or external command,
+operable program or batch file.
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Export to FastPages title: Blogging with Org Mode 2 layout: post toc: true —</summary></entry><entry><title type="html">Blogging With Org And Fastpages</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/26/Blogging-with-Org-and-FastPages.html" rel="alternate" type="text/html" title="Blogging With Org And Fastpages" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/26/Blogging-with-Org-and-FastPages</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/26/Blogging-with-Org-and-FastPages.html">&lt;div id=&quot;table-of-contents&quot;&gt;
-&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;div id=&quot;text-table-of-contents&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org1a80546&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;title: Blogging with Org Mode and FastPages
-layout: post
-toc: true
-—&lt;/p&gt;
-
-&lt;div id=&quot;outline-container-org1a80546&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org1a80546&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
-&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Export to FastPages This is the beginning. I am gonna test it again. Getting errors how to fix it22222</summary></entry><entry><title type="html">Blogging with Org Mode and FastPages</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/26/Blogging-with-Org-and-FastPages.html" rel="alternate" type="text/html" title="Blogging with Org Mode and FastPages" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/26/Blogging-with-Org-and-FastPages</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/26/Blogging-with-Org-and-FastPages.html">&lt;div id=&quot;outline-container-orgdbe32a1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgdbe32a1&quot;&gt;Export to FastPages&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-orgdbe32a1&quot;&gt;
 &lt;p&gt;
 This is the beginning. I am gonna test it again. Getting errors how to fix it ttttt
 &lt;/p&gt;
 
-&lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-python&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;print&lt;/span&gt;(&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;)
-&lt;/pre&gt;
+'pygmentize' is not recognized as an internal or external command,
+operable program or batch file.
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Export to FastPages title: Blogging with Org Mode and FastPages layout: post toc: true —</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html">&lt;!--
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Export to FastPages This is the beginning. I am gonna test it again. Getting errors how to fix it ttttt</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
