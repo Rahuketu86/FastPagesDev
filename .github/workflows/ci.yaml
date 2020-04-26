@@ -17,6 +17,12 @@ jobs:
       with:
         persist-credentials: false
 
+    - name: convert org-mode
+      uses: docker://iquiw/alpine-emacs
+      if: github.event.deleted == false
+      with:
+        args: ./build.sh
+
     - name: convert notebooks and word docs to posts
       uses: ./_action_files
 
