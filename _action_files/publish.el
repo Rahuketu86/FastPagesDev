@@ -24,7 +24,6 @@
 	    :publishing-directory "./_posts/"
 	    :recursive t
 	    :publishing-function org-html-publish-to-html
-	    :headline-levels 4
 	    :html-extension "md"
 	    :body-only t ;; Only export section between <body> </body>
       )

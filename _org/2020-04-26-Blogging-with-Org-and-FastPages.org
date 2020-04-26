@@ -1,12 +1,14 @@
+#+OPTIONS: toc:nil 
 #+BEGIN_EXPORT html
 ---
-toc: true
 layout: post
 categories: [orgmode]
 title: Blog XYZ
 ---
 #+END_EXPORT
 
+
+#+TOC: headlines 3
 
 
 * Export to FastPages
