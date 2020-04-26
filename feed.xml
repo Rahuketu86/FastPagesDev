@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-04-26T13:24:09-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Bloggingorg2</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html" rel="alternate" type="text/html" title="Bloggingorg2" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-04-26T14:25:08-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">An Example Markdown Post222</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/26/BloggingOrg2.html" rel="alternate" type="text/html" title="An Example Markdown Post222" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/26/BloggingOrg2</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/26/BloggingOrg2.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgf19870d&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org0ed94ba&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;layout: post
-categories: [orgmode]
-title: An Example Markdown Post222
-—&lt;/p&gt;
 
-&lt;div id=&quot;outline-container-orgf19870d&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf19870d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0ed94ba&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0ed94ba&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 This is the beginning. I am gonna test it again. Getting errors how to fix.Updateding
@@ -24,23 +19,17 @@ This is the beginning. I am gonna test it again. Getting errors how to fix.Updat
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Export to FastPages layout: post categories: [orgmode] title: An Example Markdown Post222 —</summary></entry><entry><title type="html">Blogging With Org And Fastpages</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/26/Blogging-with-Org-and-FastPages.html" rel="alternate" type="text/html" title="Blogging With Org And Fastpages" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/26/Blogging-with-Org-and-FastPages</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/26/Blogging-with-Org-and-FastPages.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Export to FastPages</summary></entry><entry><title type="html">Blog XYZ</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/26/Blogging-with-Org-and-FastPages.html" rel="alternate" type="text/html" title="Blog XYZ" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/26/Blogging-with-Org-and-FastPages</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/26/Blogging-with-Org-and-FastPages.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org00e683b&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org9171d62&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;toc: true
-layout: post
-categories: [orgmode]
-title: Blog XYZ
-—&lt;/p&gt;
 
-&lt;div id=&quot;outline-container-org00e683b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org00e683b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org9171d62&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9171d62&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 This is the beginning. I am gonna test it again. Getting errors how to fix it. Updating
@@ -51,53 +40,47 @@ This is the beginning. I am gonna test it again. Getting errors how to fix it. U
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Export to FastPages toc: true layout: post categories: [orgmode] title: Blog XYZ —</summary></entry><entry><title type="html">Emacs Configuration</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/25/Emacs-Configuration.html" rel="alternate" type="text/html" title="Emacs Configuration" /><published>2020-04-25T00:00:00-05:00</published><updated>2020-04-25T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/25/Emacs-Configuration</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/25/Emacs-Configuration.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Export to FastPages</summary></entry><entry><title type="html">Emacs Conifguration is fixed</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html" rel="alternate" type="text/html" title="Emacs Conifguration is fixed" /><published>2020-04-25T00:00:00-05:00</published><updated>2020-04-25T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgad8533f&quot;&gt;1. Emacs init.el&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orge2b0134&quot;&gt;2. Emacs Customization Group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org02d4d30&quot;&gt;3. Emacs Repositories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgdad0f6f&quot;&gt;4. Personal Information&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgcea6cf6&quot;&gt;5. Emacs : Add Info directory&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org7c93c19&quot;&gt;6. Emacs: Backups&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org5ec9424&quot;&gt;7. Emacs: SaveHist&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org6688fdb&quot;&gt;8. Emacs Additional Infopath&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org2c1a864&quot;&gt;9. Utility Functions&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org94f61a5&quot;&gt;1. Emacs init.el&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org0847b77&quot;&gt;2. Emacs Customization Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org718d6a2&quot;&gt;3. Emacs Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgec0747d&quot;&gt;4. Personal Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5a9fce4&quot;&gt;5. Emacs : Add Info directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org02c9285&quot;&gt;6. Emacs: Backups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgc6d81d5&quot;&gt;7. Emacs: SaveHist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org2ccdf77&quot;&gt;8. Emacs Additional Infopath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org00dba0b&quot;&gt;9. Utility Functions&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgfe348b3&quot;&gt;9.1. Function to open this configuration file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org80e2774&quot;&gt;9.1. Function to open this configuration file&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org21a27cd&quot;&gt;10. Splash Screen and bars&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgd572128&quot;&gt;11. Configure Emacs for use-package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org87d6b1b&quot;&gt;12. Improve performance on Windows&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org364fb14&quot;&gt;13. Emacs Custom Theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgd6d532b&quot;&gt;14. Setup Ido and smex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org8071841&quot;&gt;15. Setup Guru Mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org192dc8d&quot;&gt;16. Setup Magit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgdc62040&quot;&gt;17. Setup Company Mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgbdb78e9&quot;&gt;18. Org-Mode Settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgbc06151&quot;&gt;19. Nikola Blog Settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org902b4f0&quot;&gt;20. Games&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#orge27cf96&quot;&gt;10. Splash Screen and bars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgdaf248d&quot;&gt;11. Configure Emacs for use-package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5571eda&quot;&gt;12. Improve performance on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org3a59522&quot;&gt;13. Emacs Custom Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org7962d78&quot;&gt;14. Setup Ido and smex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org18fb3ac&quot;&gt;15. Setup Guru Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgfeaadf7&quot;&gt;16. Setup Magit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org350b5b0&quot;&gt;17. Setup Company Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgd400853&quot;&gt;18. Org-Mode Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orged66e0f&quot;&gt;19. Nikola Blog Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org1eac76c&quot;&gt;20. Games&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgc9f7b6f&quot;&gt;20.1. Chess&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org66d962b&quot;&gt;20.1. Chess&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;hr /&gt;
-&lt;p&gt;toc: true
-layout: post
-categories: [orgmode]
-title: Emacs Conifguration is fixed
-—&lt;/p&gt;
 
 &lt;p&gt;
 This post contains sample configuration for my emacs in an org file
 &lt;/p&gt;
-&lt;div id=&quot;outline-container-orgad8533f&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgad8533f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Emacs init.el&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org94f61a5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org94f61a5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Emacs init.el&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 (package-initialize)
@@ -110,8 +93,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orge2b0134&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orge2b0134&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Emacs Customization Group&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0847b77&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0847b77&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Emacs Customization Group&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(setq custom-file
@@ -122,8 +105,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org02d4d30&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org02d4d30&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Emacs Repositories&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org718d6a2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org718d6a2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Emacs Repositories&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span style=&quot;font-weight: bold;&quot;&gt;require&lt;/span&gt; '&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;package&lt;/span&gt;)
@@ -148,8 +131,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgdad0f6f&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgdad0f6f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal Information&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgec0747d&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgec0747d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal Information&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(setq user-full-name &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Rahul Saraf&quot;&lt;/span&gt;
@@ -158,8 +141,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgcea6cf6&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgcea6cf6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Emacs : Add Info directory&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org5a9fce4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5a9fce4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Emacs : Add Info directory&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(setq Info-default-directory-list
@@ -174,8 +157,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org7c93c19&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org7c93c19&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Emacs: Backups&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org02c9285&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org02c9285&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Emacs: Backups&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(setq backup-directory-alist '((&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;.&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;~/.emacs.d/backups&quot;&lt;/span&gt;)))
@@ -186,8 +169,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org5ec9424&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org5ec9424&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Emacs: SaveHist&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc6d81d5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc6d81d5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Emacs: SaveHist&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(setq savehist-file &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;~/.emacs.d/savehist&quot;&lt;/span&gt;)
@@ -203,8 +186,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org6688fdb&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org6688fdb&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; Emacs Additional Infopath&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org2ccdf77&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org2ccdf77&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; Emacs Additional Infopath&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-8&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(add-to-list 'Info-default-directory-list &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;~/.emacs.d/info&quot;&lt;/span&gt;)
@@ -212,12 +195,12 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org2c1a864&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org2c1a864&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;9&lt;/span&gt; Utility Functions&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org00dba0b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org00dba0b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;9&lt;/span&gt; Utility Functions&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-9&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgfe348b3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgfe348b3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;9.1&lt;/span&gt; Function to open this configuration file&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org80e2774&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org80e2774&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;9.1&lt;/span&gt; Function to open this configuration file&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-9-1&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;
@@ -235,8 +218,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org21a27cd&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org21a27cd&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;10&lt;/span&gt; Splash Screen and bars&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orge27cf96&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge27cf96&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;10&lt;/span&gt; Splash Screen and bars&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-10&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(setq inhibit-splash-screen t
@@ -252,8 +235,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgd572128&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd572128&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;11&lt;/span&gt; Configure Emacs for use-package&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgdaf248d&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgdaf248d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;11&lt;/span&gt; Configure Emacs for use-package&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-11&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt; (&lt;span style=&quot;font-weight: bold;&quot;&gt;unless&lt;/span&gt; (package-installed-p 'use-package)
@@ -272,8 +255,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org87d6b1b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org87d6b1b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;12&lt;/span&gt; Improve performance on Windows&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org5571eda&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5571eda&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;12&lt;/span&gt; Improve performance on Windows&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-12&quot;&gt;
 &lt;p&gt;
 Improving File Saving Performance on windows.
@@ -285,8 +268,8 @@ Improving File Saving Performance on windows.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org364fb14&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org364fb14&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;13&lt;/span&gt; Emacs Custom Theme&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org3a59522&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3a59522&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;13&lt;/span&gt; Emacs Custom Theme&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-13&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package monokai-theme
@@ -297,8 +280,8 @@ Improving File Saving Performance on windows.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgd6d532b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd6d532b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;14&lt;/span&gt; Setup Ido and smex&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org7962d78&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org7962d78&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;14&lt;/span&gt; Setup Ido and smex&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-14&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Activate ido&lt;/span&gt;
@@ -314,8 +297,8 @@ Improving File Saving Performance on windows.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org8071841&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org8071841&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;15&lt;/span&gt; Setup Guru Mode&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org18fb3ac&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org18fb3ac&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;15&lt;/span&gt; Setup Guru Mode&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-15&quot;&gt;
 &lt;p&gt;
 Guru mode works by disabling common key bindings and pushing for
@@ -336,8 +319,8 @@ other so that it plays nice with ido-mode.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org192dc8d&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org192dc8d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;16&lt;/span&gt; Setup Magit&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgfeaadf7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgfeaadf7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;16&lt;/span&gt; Setup Magit&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-16&quot;&gt;
 &lt;p&gt;
 Magit is a git porcelain. With this we can stay within emacs for
@@ -352,8 +335,8 @@ configuration modifications and commiting to git.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgdc62040&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgdc62040&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;17&lt;/span&gt; Setup Company Mode&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org350b5b0&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org350b5b0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;17&lt;/span&gt; Setup Company Mode&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-17&quot;&gt;
 &lt;p&gt;
 Company mode is used for autocompletion in Emacs.
@@ -372,8 +355,8 @@ Company mode is used for autocompletion in Emacs.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgbdb78e9&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgbdb78e9&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;18&lt;/span&gt; Org-Mode Settings&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgd400853&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd400853&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;18&lt;/span&gt; Org-Mode Settings&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-18&quot;&gt;
 &lt;p&gt;
 Global settings for all the org-mode buffers.
@@ -408,8 +391,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgbc06151&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgbc06151&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;19&lt;/span&gt; Nikola Blog Settings&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orged66e0f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orged66e0f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;19&lt;/span&gt; Nikola Blog Settings&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-19&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package htmlize
@@ -537,12 +520,12 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org902b4f0&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org902b4f0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;20&lt;/span&gt; Games&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org1eac76c&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1eac76c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;20&lt;/span&gt; Games&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-20&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgc9f7b6f&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgc9f7b6f&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;20.1&lt;/span&gt; Chess&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org66d962b&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org66d962b&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;20.1&lt;/span&gt; Chess&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-20-1&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package chess
@@ -552,7 +535,7 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Emacs init.el 2. Emacs Customization Group 3. Emacs Repositories 4. Personal Information 5. Emacs : Add Info directory 6. Emacs: Backups 7. Emacs: SaveHist 8. Emacs Additional Infopath 9. Utility Functions 9.1. Function to open this configuration file 10. Splash Screen and bars 11. Configure Emacs for use-package 12. Improve performance on Windows 13. Emacs Custom Theme 14. Setup Ido and smex 15. Setup Guru Mode 16. Setup Magit 17. Setup Company Mode 18. Org-Mode Settings 19. Nikola Blog Settings 20. Games 20.1. Chess toc: true layout: post categories: [orgmode] title: Emacs Conifguration is fixed —</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html">&lt;!--
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Emacs init.el 2. Emacs Customization Group 3. Emacs Repositories 4. Personal Information 5. Emacs : Add Info directory 6. Emacs: Backups 7. Emacs: SaveHist 8. Emacs Additional Infopath 9. Utility Functions 9.1. Function to open this configuration file 10. Splash Screen and bars 11. Configure Emacs for use-package 12. Improve performance on Windows 13. Emacs Custom Theme 14. Setup Ido and smex 15. Setup Guru Mode 16. Setup Magit 17. Setup Company Mode 18. Org-Mode Settings 19. Nikola Blog Settings 20. Games 20.1. Chess</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
