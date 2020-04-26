@@ -37,10 +37,11 @@
 	    :publishing-directory "./_post"
 	    :recursive t
 	    :publishing-function 'org-publish-attachment
+	  )
 
       ("fastpages" :components ("org-post-fastpages" "org-static-fastpages"))
 
-  )))
+  ))
 
 (defun fastpages-publish-all ()
   "Publish the blog to HTML."
