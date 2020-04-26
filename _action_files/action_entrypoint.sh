@@ -5,6 +5,11 @@ set -e
 export GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
 eval "$(ssh-agent -s)"
 
+
+# emacs converter
+/fastpages/build.sh
+
+
 ######## Run notebook/word converter ########
 # word converter using pandoc
 /fastpages/word2post.sh
@@ -12,8 +17,6 @@ eval "$(ssh-agent -s)"
 cp /fastpages/settings.ini .
 python /fastpages/nb2post.py
 
-# emacs converter
-/fastpages/build.sh
 
 
 
