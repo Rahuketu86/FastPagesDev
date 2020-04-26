@@ -2,14 +2,14 @@
 ---
 title: Blogging with Org Mode 2
 layout: post
-toc: true
+toc: false
 ---
 #+END_EXPORT
 
 
 
 * Export to FastPages
-  This is the beginning. I am gonna test it again. Getting errors how to fix it22222
+  This is the beginning. I am gonna test it again. Getting errors how to fix.
 
 #+BEGIN_SRC python
   print("Hello World 2")

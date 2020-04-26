@@ -1,8 +1,8 @@
 #+BEGIN_EXPORT html
 ---
-title: Emacs Configuration
+title: Emacs configuration
 layout: post
-category: [emacs, programming, orgmode]
+toc: false
 ---
 #+END_EXPORT
 

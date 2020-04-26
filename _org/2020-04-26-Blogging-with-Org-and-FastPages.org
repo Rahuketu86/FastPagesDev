@@ -2,7 +2,7 @@
 ---
 title: Blogging with Org Mode and FastPages
 layout: post
-toc: true
+toc: false
 ---
 #+END_EXPORT
 
