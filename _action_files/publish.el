@@ -12,6 +12,7 @@
 (require 'ox-rss)
 (require 'ox-publish)
 (require 'ox-html)
+(setq org-html-htmlize-output-type 'css)
 (setq org-publish-project-alist
 	'(
 

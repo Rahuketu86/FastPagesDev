@@ -5,11 +5,14 @@ layout: post
 categories: [orgmode]
 title: Blog XYZ
 ---
+<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 #+END_EXPORT
 
 
 #+TOC: headlines 3
 
+
+Coolo
 
 * Export to FastPages
   This is the beginning. I am gonna test it again. Getting errors how to fix it. Updating

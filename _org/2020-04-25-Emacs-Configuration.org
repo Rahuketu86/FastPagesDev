@@ -5,11 +5,12 @@ layout: post
 categories: [orgmode]
 title: Emacs Conifguration is fixed
 ---
+<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 #+END_EXPORT
 
 #+TOC: headlines 3
 
-
+Collorize
 This post contains sample configuration for my emacs in an org file
 * Emacs init.el
   #+BEGIN_EXAMPLE

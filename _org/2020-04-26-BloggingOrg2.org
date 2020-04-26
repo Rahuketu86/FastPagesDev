@@ -5,9 +5,13 @@ layout: post
 categories: [orgmode]
 title: An Example Markdown Post222
 ---
+<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 #+END_EXPORT
 
 #+TOC: headlines 3
+
+
+Collo
 
 * Export to FastPages
   This is the beginning. I am gonna test it again. Getting errors how to fix.Updateding
