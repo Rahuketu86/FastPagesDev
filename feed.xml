@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-04-26T08:48:26-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Bloggingorg2</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html" rel="alternate" type="text/html" title="Bloggingorg2" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-04-26T08:57:40-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Bloggingorg2</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html" rel="alternate" type="text/html" title="Bloggingorg2" /><published>2020-04-26T00:00:00-05:00</published><updated>2020-04-26T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/26/BloggingOrg2.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org1b5ee3c&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org9508298&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -12,8 +12,8 @@ layout: post
 toc: true
 —&lt;/p&gt;
 
-&lt;div id=&quot;outline-container-org1b5ee3c&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org1b5ee3c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org9508298&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9508298&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 This is the beginning. I am gonna test it again. Getting errors how to fix it22222
@@ -28,7 +28,7 @@ This is the beginning. I am gonna test it again. Getting errors how to fix it222
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org7bbcc04&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5f5609f&quot;&gt;1. Export to FastPages&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -38,8 +38,8 @@ layout: post
 toc: true
 —&lt;/p&gt;
 
-&lt;div id=&quot;outline-container-org7bbcc04&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org7bbcc04&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org5f5609f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5f5609f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Export to FastPages&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 This is the beginning. I am gonna test it again. Getting errors how to fix it ttttt
@@ -50,7 +50,507 @@ This is the beginning. I am gonna test it again. Getting errors how to fix it tt
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Export to FastPages title: Blogging with Org Mode and FastPages layout: post toc: true —</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html">&lt;!--
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Export to FastPages title: Blogging with Org Mode and FastPages layout: post toc: true —</summary></entry><entry><title type="html">Emacs Configuration</title><link href="https://rahuketu86.github.io/FastPagesDev/2020/04/25/Emacs-Configuration.html" rel="alternate" type="text/html" title="Emacs Configuration" /><published>2020-04-25T00:00:00-05:00</published><updated>2020-04-25T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/2020/04/25/Emacs-Configuration</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/2020/04/25/Emacs-Configuration.html">&lt;div id=&quot;table-of-contents&quot;&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;div id=&quot;text-table-of-contents&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#org4936599&quot;&gt;1. Emacs init.el&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orge059373&quot;&gt;2. Emacs Customization Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org26e01a4&quot;&gt;3. Emacs Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5d10f81&quot;&gt;4. Personal Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5b31d9a&quot;&gt;5. Emacs : Add Info directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org73af8e7&quot;&gt;6. Emacs: Backups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org8811b11&quot;&gt;7. Emacs: SaveHist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org87dc64b&quot;&gt;8. Emacs Additional Infopath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org3104607&quot;&gt;9. Utility Functions&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#org65a9dcf&quot;&gt;9.1. Function to open this configuration file&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgb6ff657&quot;&gt;10. Splash Screen and bars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org1653ace&quot;&gt;11. Configure Emacs for use-package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org644dda6&quot;&gt;12. Improve performance on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5105283&quot;&gt;13. Emacs Custom Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org279f404&quot;&gt;14. Setup Ido and smex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org86b1921&quot;&gt;15. Setup Guru Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orge19a980&quot;&gt;16. Setup Magit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org458a1bc&quot;&gt;17. Setup Company Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org7455f95&quot;&gt;18. Org-Mode Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org7c32904&quot;&gt;19. Nikola Blog Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org94a13f7&quot;&gt;20. Games&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#org4b4b028&quot;&gt;20.1. Chess&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;p&gt;title: Emacs Configuration
+layout: post
+category: [emacs, programming, orgmode]
+—&lt;/p&gt;
+
+&lt;p&gt;
+This post contains sample configuration for my emacs in an org file 
+&lt;/p&gt;
+&lt;div id=&quot;outline-container-org4936599&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4936599&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Emacs init.el&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
+&lt;pre class=&quot;example&quot;&gt;
+(package-initialize)
+
+(require 'org)
+(org-babel-load-file
+      (expand-file-name &quot;configuration.org&quot;
+                         user-emacs-directory))
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orge059373&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge059373&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Emacs Customization Group&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; custom-file
+      (expand-file-name &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;custom.el&quot;&lt;/span&gt;
+                        user-emacs-directory))
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org26e01a4&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org26e01a4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Emacs Repositories&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span style=&quot;font-weight: bold;&quot;&gt;require&lt;/span&gt; '&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;package&lt;/span&gt;)
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;;&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;(add-to-list 'package-archives&lt;/span&gt;
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;;&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;'             '(&quot;marmalade&quot; . &quot;http://marmalade-repo.org/packages/&quot;) t)&lt;/span&gt;
+(add-to-list 'package-archives
+             '(&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;melpa-stable&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;https://stable.melpa.org/packages/&quot;&lt;/span&gt;) t)
+(add-to-list 'package-archives
+             '(&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;melpa&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;http://melpa.org/packages/&quot;&lt;/span&gt;)
+             t)
+
+    (add-to-list 'package-archives 
+                 '(&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;org&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;http://orgmode.org/elpa/&quot;&lt;/span&gt;)
+                             t)
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;when&lt;/span&gt; (&amp;lt; emacs-major-version 24)
+  &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;For important compatibility libraries like cl-lib&lt;/span&gt;
+  (add-to-list 'package-archives '(&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;gnu&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;http://elpa.gnu.org/packages/&quot;&lt;/span&gt;)))
+(package-initialize)
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org5d10f81&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5d10f81&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal Information&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; user-full-name &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Rahul Saraf&quot;&lt;/span&gt;
+     user-mail-address &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;rahuketu86@gmail.com&quot;&lt;/span&gt;)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org5b31d9a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5b31d9a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Emacs : Add Info directory&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; Info-default-directory-list
+      (append
+              Info-default-directory-list
+              '(&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;~/info&quot;&lt;/span&gt; )))
+(add-hook 'Info-mode-hook           &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;After Info-mode has started&lt;/span&gt;
+    (&lt;span style=&quot;font-weight: bold;&quot;&gt;lambda&lt;/span&gt; ()
+        (&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; Info-additional-directory-list Info-default-directory-list)
+    ))
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org73af8e7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org73af8e7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Emacs: Backups&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; backup-directory-alist '((&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;.&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;~/.emacs.d/backups&quot;&lt;/span&gt;)))
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; delete-old-versions -1)
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; version-control t)
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; vc-make-backup-files t)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org8811b11&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org8811b11&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Emacs: SaveHist&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; savehist-file &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;~/.emacs.d/savehist&quot;&lt;/span&gt;)
+(savehist-mode 1)
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; history-length t)
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; history-delete-duplicates t)
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; savehist-save-minibuffer-history 1)
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; savehist-additional-variables
+    '(kill-ring
+      search-ring
+      regexp-search-ring))
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org87dc64b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org87dc64b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; Emacs Additional Infopath&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-8&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(add-to-list 'Info-default-directory-list &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;~/.emacs.d/info&quot;&lt;/span&gt;)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org3104607&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3104607&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;9&lt;/span&gt; Utility Functions&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-9&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org65a9dcf&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org65a9dcf&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;9.1&lt;/span&gt; Function to open this configuration file&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-9-1&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;defvar&lt;/span&gt; &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;config-file-name&lt;/span&gt; &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;configuration.org&quot;&lt;/span&gt;)
+
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;defun&lt;/span&gt; &lt;span style=&quot;font-weight: bold;&quot;&gt;my-config&lt;/span&gt;()
+  &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Function to open org configuration file&quot;&lt;/span&gt;
+  (&lt;span style=&quot;font-weight: bold;&quot;&gt;interactive&lt;/span&gt;)
+
+  (find-file (expand-file-name config-file-name
+                               user-emacs-directory)))  
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orgb6ff657&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgb6ff657&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;10&lt;/span&gt; Splash Screen and bars&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-10&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; inhibit-splash-screen t
+      &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;      &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;initial-scratch-message nil&lt;/span&gt;
+      &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;    &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;initial-major-mode 'org-mode&lt;/span&gt;
+      )
+
+(scroll-bar-mode -1)
+(tool-bar-mode -1)
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;(menu-bar-mode -1)&lt;/span&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org1653ace&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1653ace&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;11&lt;/span&gt; Configure Emacs for use-package&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-11&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt; (&lt;span style=&quot;font-weight: bold;&quot;&gt;unless&lt;/span&gt; (package-installed-p 'use-package)
+ (package-refresh-contents)
+ (package-install 'use-package))
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;  &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;(setq use-package-verbose t)&lt;/span&gt;
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;  &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;(setq use-package-always-ensure t)&lt;/span&gt;
+ &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;(eval-when-compile&lt;/span&gt;
+ &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;(require 'use-package))&lt;/span&gt;
+ &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;(use-package auto-compile&lt;/span&gt;
+ &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;:config (auto-compile-on-load-mode))&lt;/span&gt;
+ &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;(require 'diminish)&lt;/span&gt;
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;  &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;require&lt;/span&gt; '&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;bind-key&lt;/span&gt;)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org644dda6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org644dda6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;12&lt;/span&gt; Improve performance on Windows&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-12&quot;&gt;
+&lt;p&gt;
+Improving File Saving Performance on windows.
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; w32-get-true-file-attributes nil)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org5105283&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5105283&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;13&lt;/span&gt; Emacs Custom Theme&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-13&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package monokai-theme
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:ensure&lt;/span&gt; t
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:init&lt;/span&gt; (load-theme 'monokai t))
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org279f404&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org279f404&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;14&lt;/span&gt; Setup Ido and smex&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-14&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Activate ido&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;require&lt;/span&gt; '&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;ido&lt;/span&gt;)
+(ido-mode t)
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Set up smex&lt;/span&gt;
+(use-package smex
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:ensure&lt;/span&gt; t
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:bind&lt;/span&gt; ((&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;M-x&quot;&lt;/span&gt; . smex))
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:config&lt;/span&gt; (smex-initialize))
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org86b1921&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org86b1921&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;15&lt;/span&gt; Setup Guru Mode&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-15&quot;&gt;
+&lt;p&gt;
+Guru mode works by disabling common key bindings and pushing for
+Emacs standard key bindings. Instead of global hook up Textmode and
+other so that it plays nice with ido-mode.
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package guru-mode
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:ensure&lt;/span&gt; t
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:init&lt;/span&gt;
+  (&lt;span style=&quot;font-weight: bold;&quot;&gt;setq-default&lt;/span&gt; major-mode 'text-mode)
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:config&lt;/span&gt;
+  (add-hook 'prog-mode-hook 'guru-mode)
+  (add-hook 'text-mode-hook 'guru-mode)
+ )
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-orge19a980&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge19a980&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;16&lt;/span&gt; Setup Magit&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-16&quot;&gt;
+&lt;p&gt;
+Magit is a git porcelain. With this we can stay within emacs for
+configuration modifications and commiting to git.
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package magit
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:ensure&lt;/span&gt; t
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:bind&lt;/span&gt; (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;C-x g&quot;&lt;/span&gt; . magit-status))
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org458a1bc&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org458a1bc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;17&lt;/span&gt; Setup Company Mode&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-17&quot;&gt;
+&lt;p&gt;
+Company mode is used for autocompletion in Emacs.
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;    (use-package company
+      &lt;span style=&quot;font-weight: bold;&quot;&gt;:ensure&lt;/span&gt; t
+      &lt;span style=&quot;font-weight: bold;&quot;&gt;:defer&lt;/span&gt; t
+      &lt;span style=&quot;font-weight: bold;&quot;&gt;:config&lt;/span&gt;
+       (global-company-mode)
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;      &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;:config&lt;/span&gt;
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;       &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;(global-company-mode))&lt;/span&gt;
+           )
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org7455f95&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org7455f95&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;18&lt;/span&gt; Org-Mode Settings&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-18&quot;&gt;
+&lt;p&gt;
+Global settings for all the org-mode buffers.
+&lt;/p&gt;
+
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package org-mode
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:init&lt;/span&gt; (remove-hook 'org-mode-hook 'guru-mode)
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:bind&lt;/span&gt; ((&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;\C-cl&quot;&lt;/span&gt; . org-store-link)
+         (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;\C-ca&quot;&lt;/span&gt; . org-agenda)
+         (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;\C-cc&quot;&lt;/span&gt; . org-capture)
+         (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;\C-cb&quot;&lt;/span&gt; . org-iswitch))
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:config&lt;/span&gt;
+   (remove-hook 'org-mode-hook 'guru-mode))
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Additional Org Mode plugins
+&lt;/p&gt;
+&lt;ul class=&quot;org-ul&quot;&gt;
+&lt;li&gt;&lt;p&gt;
+Org Mode with Twitter bootstrap(ox-twbs)
+&lt;/p&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package ox-twbs
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:ensure&lt;/span&gt; t
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:defer&lt;/span&gt; t)
+&lt;/pre&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org7c32904&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org7c32904&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;19&lt;/span&gt; Nikola Blog Settings&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-19&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package htmlize
+ &lt;span style=&quot;font-weight: bold;&quot;&gt;:ensure&lt;/span&gt; t)
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;require&lt;/span&gt; '&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;org&lt;/span&gt;)
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;require&lt;/span&gt; '&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;ox-html&lt;/span&gt;)
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Custom configuration for the export.&lt;/span&gt;
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Add any custom configuration that you would like to 'conf.el'.&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; nikola-use-pygments t
+      org-export-with-toc nil
+      org-export-with-section-numbers nil
+      org-startup-folded 'showeverything)
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Load additional configuration from conf.el&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;let&lt;/span&gt; ((conf (expand-file-name &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;conf.el&quot;&lt;/span&gt; (file-name-directory load-file-name))))
+  (&lt;span style=&quot;font-weight: bold;&quot;&gt;if&lt;/span&gt; (file-exists-p conf)
+      (load-file conf)))
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Macros&lt;/span&gt;
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Load Nikola macros&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; nikola-macro-templates
+      (&lt;span style=&quot;font-weight: bold;&quot;&gt;with-current-buffer&lt;/span&gt;
+          (find-file
+           (expand-file-name &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;macros.org&quot;&lt;/span&gt; (file-name-directory load-file-name)))
+        (org-macro--collect-macros)))
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Code highlighting&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;defun&lt;/span&gt; &lt;span style=&quot;font-weight: bold;&quot;&gt;org-html-decode-plain-text&lt;/span&gt; (text)
+  &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Convert HTML character to plain TEXT. i.e. do the inversion of&lt;/span&gt;
+&lt;span style=&quot;font-style: italic;&quot;&gt;     `org-html-encode-plain-text`. Possible conversions are set in&lt;/span&gt;
+&lt;span style=&quot;font-style: italic;&quot;&gt;     `&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic; text-decoration: underline;&quot;&gt;org-html-protect-char-alist&lt;/span&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;'.&quot;&lt;/span&gt;
+  (mapc
+   (&lt;span style=&quot;font-weight: bold;&quot;&gt;lambda&lt;/span&gt; (pair)
+     (&lt;span style=&quot;font-weight: bold;&quot;&gt;setq&lt;/span&gt; text (replace-regexp-in-string (cdr pair) (car pair) text t t)))
+   (reverse org-html-protect-char-alist))
+  text)
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Use pygments highlighting for code&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;defun&lt;/span&gt; &lt;span style=&quot;font-weight: bold;&quot;&gt;pygmentize&lt;/span&gt; (lang code)
+  &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Use Pygments to highlight the given code and return the output&quot;&lt;/span&gt;
+  (&lt;span style=&quot;font-weight: bold;&quot;&gt;with-temp-buffer&lt;/span&gt;
+    (insert code)
+    (&lt;span style=&quot;font-weight: bold;&quot;&gt;let&lt;/span&gt; ((lang (&lt;span style=&quot;font-weight: bold;&quot;&gt;or&lt;/span&gt; (cdr (assoc lang org-pygments-language-alist)) &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;text&quot;&lt;/span&gt;)))
+      (shell-command-on-region (point-min) (point-max)
+                               (format &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;pygmentize -f html -l %s&quot;&lt;/span&gt; lang)
+                               (buffer-name) t))
+    (buffer-string)))
+
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;defconst&lt;/span&gt; &lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;org-pygments-language-alist&lt;/span&gt;
+  '((&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;asymptote&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;asymptote&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;awk&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;awk&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;c&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;c&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;c++&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;cpp&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;cpp&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;cpp&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;clojure&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;clojure&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;css&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;css&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;d&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;d&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;emacs-lisp&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;scheme&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;F90&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;fortran&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;gnuplot&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;gnuplot&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;groovy&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;groovy&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;haskell&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;haskell&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;java&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;java&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;js&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;js&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;julia&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;julia&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;latex&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;latex&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;lisp&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;lisp&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;makefile&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;makefile&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;matlab&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;matlab&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;mscgen&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;mscgen&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;ocaml&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;ocaml&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;octave&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;octave&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;perl&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;perl&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;picolisp&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;scheme&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;python&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;python&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;r&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;r&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;ruby&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;ruby&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;sass&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;sass&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;scala&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;scala&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;scheme&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;scheme&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;sh&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;sh&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;sql&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;sql&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;sqlite&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;sqlite3&quot;&lt;/span&gt;)
+    (&lt;span style=&quot;font-style: italic;&quot;&gt;&quot;tcl&quot;&lt;/span&gt; . &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;tcl&quot;&lt;/span&gt;))
+  &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Alist between org-babel languages and Pygments lexers.&lt;/span&gt;
+&lt;span style=&quot;font-style: italic;&quot;&gt;lang is downcased before assoc, so use lowercase to describe language available.&lt;/span&gt;
+&lt;span style=&quot;font-style: italic;&quot;&gt;See: http://orgmode.org/worg/org-contrib/babel/languages.html and&lt;/span&gt;
+&lt;span style=&quot;font-style: italic;&quot;&gt;http://pygments.org/docs/lexers/ for adding new languages to the mapping.&quot;&lt;/span&gt;)
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Override the html export function to use pygments&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;defun&lt;/span&gt; &lt;span style=&quot;font-weight: bold;&quot;&gt;org-html-src-block&lt;/span&gt; (src-block contents info)
+ &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Transcode a SRC-BLOCK element from Org to HTML.&lt;/span&gt;
+&lt;span style=&quot;font-style: italic;&quot;&gt; CONTENTS holds the contents of the item.  INFO is a plist holding&lt;/span&gt;
+&lt;span style=&quot;font-style: italic;&quot;&gt; contextual information.&quot;&lt;/span&gt;
+   (&lt;span style=&quot;font-weight: bold;&quot;&gt;if&lt;/span&gt; (org-export-read-attribute &lt;span style=&quot;font-weight: bold;&quot;&gt;:attr_html&lt;/span&gt; src-block &lt;span style=&quot;font-weight: bold;&quot;&gt;:textarea&lt;/span&gt;)
+       (org-html--textarea-block src-block)
+     (&lt;span style=&quot;font-weight: bold;&quot;&gt;let&lt;/span&gt; ((lang (org-element-property &lt;span style=&quot;font-weight: bold;&quot;&gt;:language&lt;/span&gt; src-block))
+      (code (org-element-property &lt;span style=&quot;font-weight: bold;&quot;&gt;:value&lt;/span&gt; src-block))
+      (code-html (org-html-format-code src-block info)))
+       (&lt;span style=&quot;font-weight: bold;&quot;&gt;if&lt;/span&gt; nikola-use-pygments
+      (pygmentize (downcase lang) (org-html-decode-plain-text code))
+    code-html))))
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Export images with custom link type&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;defun&lt;/span&gt; &lt;span style=&quot;font-weight: bold;&quot;&gt;org-custom-link-img-url-export&lt;/span&gt; (path desc format)
+  (&lt;span style=&quot;font-weight: bold;&quot;&gt;cond&lt;/span&gt;
+   ((eq format 'html)
+    (format &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;&amp;lt;img src=\&quot;%s\&quot; alt=\&quot;%s\&quot;/&amp;gt;&quot;&lt;/span&gt; path desc))))
+(org-add-link-type &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;img-url&quot;&lt;/span&gt; nil 'org-custom-link-img-url-export)
+
+&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;;; &lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Export function used by Nikola.&lt;/span&gt;
+(&lt;span style=&quot;font-weight: bold;&quot;&gt;defun&lt;/span&gt; &lt;span style=&quot;font-weight: bold;&quot;&gt;nikola-html-export&lt;/span&gt; (infile outfile)
+  &lt;span style=&quot;font-style: italic;&quot;&gt;&quot;Export the body only of the input file and write it to&lt;/span&gt;
+&lt;span style=&quot;font-style: italic;&quot;&gt;specified location.&quot;&lt;/span&gt;
+  (&lt;span style=&quot;font-weight: bold;&quot;&gt;with-current-buffer&lt;/span&gt; (find-file infile)
+    (org-macro-replace-all nikola-macro-templates)
+    (org-html-export-as-html nil nil t t)
+    (write-file outfile nil)))
+
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;outline-container-org94a13f7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org94a13f7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;20&lt;/span&gt; Games&lt;/h2&gt;
+&lt;div class=&quot;outline-text-2&quot; id=&quot;text-20&quot;&gt;
+&lt;/div&gt;
+&lt;div id=&quot;outline-container-org4b4b028&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org4b4b028&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;20.1&lt;/span&gt; Chess&lt;/h3&gt;
+&lt;div class=&quot;outline-text-3&quot; id=&quot;text-20-1&quot;&gt;
+&lt;div class=&quot;org-src-container&quot;&gt;
+&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(use-package chess
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:ensure&lt;/span&gt; t
+  &lt;span style=&quot;font-weight: bold;&quot;&gt;:defer&lt;/span&gt; t)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Emacs init.el 2. Emacs Customization Group 3. Emacs Repositories 4. Personal Information 5. Emacs : Add Info directory 6. Emacs: Backups 7. Emacs: SaveHist 8. Emacs Additional Infopath 9. Utility Functions 9.1. Function to open this configuration file 10. Splash Screen and bars 11. Configure Emacs for use-package 12. Improve performance on Windows 13. Emacs Custom Theme 14. Setup Ido and smex 15. Setup Guru Mode 16. Setup Magit 17. Setup Company Mode 18. Org-Mode Settings 19. Nikola Blog Settings 20. Games 20.1. Chess title: Emacs Configuration layout: post category: [emacs, programming, orgmode] —</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
