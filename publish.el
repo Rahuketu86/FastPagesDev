@@ -12,7 +12,6 @@
 (require 'ox-rss)
 (require 'ox-publish)
 (require 'ox-html)
-
 (setq org-publish-project-alist
 	'(
 
@@ -22,9 +21,9 @@
 	    :base-extension "org"
 
 	    ;; Path to your Jekyll project.
-	    :publishing-directory "./_post/"
+	    :publishing-directory "./_posts/"
 	    :recursive t
-	    :publishing-function 'org-html-publish-to-html
+	    :publishing-function org-html-publish-to-html
 	    :headline-levels 4
 	    :html-extension "html"
 	    :body-only t ;; Only export section between <body> </body>
@@ -34,10 +33,10 @@
       ("org-static-fastpages"
 	    :base-directory "./_org/"
 	    :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-	    :publishing-directory "./_post"
+	    :publishing-directory "./_posts"
 	    :recursive t
-	    :publishing-function 'org-publish-attachment
-	  )
+	    :publishing-function org-publish-attachment
+	    )
 
       ("fastpages" :components ("org-post-fastpages" "org-static-fastpages"))
 
@@ -50,3 +49,6 @@
 
   
 (provide 'publish)
+
+
+
