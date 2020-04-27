@@ -18,7 +18,7 @@
 
     ("org-post-fastpages"
 	    ;; Path to your org files.
-	    :base-directory "./_org/"
+	    :base-directory "./_org/_posts"
 	    :base-extension "org"
 
 	    ;; Path to your Jekyll project.
@@ -31,9 +31,9 @@
 
 
       ("org-static-fastpages"
-	    :base-directory "./_org/"
+	    :base-directory "./_org/assets"
 	    :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-	    :publishing-directory "./_posts"
+	    :publishing-directory "./assets"
 	    :recursive t
 	    :publishing-function org-publish-attachment
 	    )

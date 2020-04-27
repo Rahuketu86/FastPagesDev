@@ -6,10 +6,6 @@ export GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChec
 eval "$(ssh-agent -s)"
 
 
-# emacs converter
-/fastpages/build.sh
-
-
 ######## Run notebook/word converter ########
 # word converter using pandoc
 /fastpages/word2post.sh
