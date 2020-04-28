@@ -24,7 +24,7 @@ Fastpages is the recent addition in the same tradition of tools made available b
 
 My objective in this post is to showcase some of the minor changes which I have made which can enable me to use entire toolchain of fastpages to blog with emacs org mode along with notebook, markdown or word format. I also want to make a case for how powerful org mode really is ; and why it belongs IN A DATA SCIENTIST TOOLBOX; ALONGSIDE OTHER TOOLS MENTIONED ABOVE.
 
-* EMACS ORG-MODE: WHAT? WHY? HOW?
+* COMMENT EMACS ORG-MODE: WHAT? WHY? HOW?
 
 /BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS/
 
@@ -33,30 +33,33 @@ So what is org-mode? At the very basic level org mode or org format is a text ma
 
 Here are a list of example of things that you can do with it. 
 
-   - You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
+   - *Blogging* - You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
 
-   -  You can do literate programming just like jupyter notebooks, create latex reports, even write full fledged books.
+   - *Literate Programming* - You can do literate programming just like jupyter notebooks, create latex reports, even write full fledged books.
 
-   -  You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist
+   - *GTD, Task Manager, Todo* - You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist
 
+   - *Youtube Playlist Embed* - This is a nice list of videos for org mode introduction.
    #+BEGIN_EXPORT html
-
    <div style="text-align: center;">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
    </div>
-
    #+END_EXPORT
 
+   - *Youtube Video Embed*- Similar to markdown approach
+   
+    #+begin_export html
+
+    {% include youtube.html content='<a href="https://youtu.be/XfoYk_Z5AkI">https://youtu.be/XfoYk_Z5AkI</a>' %}
+
+    #+end_export
 
    - Similar to markdown fastpages, you can invoke twitter liquid template to export twitter card
+    
+    #+begin_export html
 
-   #+BEGIN_EXPORT html
+    {% include twitter.html content="https://twitter.com/jakevdp/status/1204765621767901185?s=20" %}
 
-    <div class='jekyll-twitter-plugin' align="center">
-      {% twitter https://twitter.com/jakevdp/status/1204765621767901185?s=20 %}
-    </div>
+    #+end_export
 
-   #+END_EXPORT
-
-   - You can even convert an org file to a reveal presentation and integrate with FastPages
-
+   - You can even convert an org file to a reveal presentation and integrate with FastPages.
