@@ -33,7 +33,30 @@ So what is org-mode? At the very basic level org mode or org format is a text ma
 
 Here are a list of example of things that you can do with it. 
 
-1. You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing. 
+   - You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
 
-2. You can even convert an org file to a reveal presentation and integrate with FastPages
+   -  You can do literate programming just like jupyter notebooks, create latex reports, even write full fledged books.
+
+   -  You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist
+
+   #+BEGIN_EXPORT html
+
+   <div style="text-align: center;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   </div>
+
+   #+END_EXPORT
+
+
+   - Similar to markdown fastpages, you can invoke twitter liquid template to export twitter card
+
+   #+BEGIN_EXPORT html
+
+    <div class='jekyll-twitter-plugin' align="center">
+      {% twitter https://twitter.com/jakevdp/status/1204765621767901185?s=20 %}
+    </div>
+
+   #+END_EXPORT
+
+   - You can even convert an org file to a reveal presentation and integrate with FastPages
 

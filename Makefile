@@ -28,8 +28,8 @@ quick-build: .FORCE
 
 # convert word & nb without Jekyll services
 convert: .FORCE
-	docker-compose up converter
 	docker-compose up orgconverter
+	docker-compose up converter
 
 # stop all containers
 stop: .FORCE
