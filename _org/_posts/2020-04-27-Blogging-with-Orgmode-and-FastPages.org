@@ -56,3 +56,170 @@ In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an exam
 #+begin_example
 #+INCLUDE: "2020-04-29-Awesome-Org-Mode-Links.org::FastPages link" :only-contents t 
 #+end_example
+
+
+*** *Are you excited?*
+
+What I have done is just touch upon the surface of what is possible with org mode, and by extension blogging on fastpages with org mode. There are many more options and functionality available in org mode including beamer presentation, spreadsheets , agenda views etc... which are awesome but too broad to cover in this introductory blog post. However over time I will continue to post articles on some tidbits' here and there which can greatly enhance your blogging workflow. Now I hope I have motivated you enough, so time to figure out to do it yourself. 
+
+** The How?
+
+I have already shown earlier what org mode can do and how it can enhance your writing workflow. Now I will describe how you can do it yourself. Before I go into specifics let me share a bit on general design of fastpages and describe how it can be extended. 
+
+*** *Design of fastpages*
+
+So here is brief synopsis. Fastpages is based on Jekyll. It already provides you functionality to write a blog in markdown, notebook or word document. This is how it works
+
+**** Markdown Blogging
+
+- Markdown is the native format for Jekyll Blogging Engine. Jekyll uses an enhanced version of Markdown called Kramdown which comes with addtional functionality for source code coloring links etc...
+
+- Layout of Jekyll (Structure of html) is written in `Liquid` template engine. You have liquid templates in two places
+  - *_layouts* folder - used for defining page/post structure. 
+  - *_includes* folder - used to define general html blocks or additional functionality which may be included in an article
+
+- YAML Front Matter - Each article needs to have a yaml frontmatter which defines specifics like title, author, layout to choose, comments to include or exclude , categories , tags etc... which are either generic cross cutting functionality or indicator to select some specific configuration for blogging engine. It needs to come at very top of page
+
+**** Notebook Blogging 
+
+- Notebook blogging is really what makes fastpages special for data scientist.I should rather specify and say python notebook blogging is what is possible natively in fastpages.  Notebook blogging is enabled by a python package called "nbdev" another tool from FastAI.
+
+- The way it works is as follows
+  - You need to specify front matter in first cell of notebook
+  - Import / Export/ Hide / Show/ Collapsible hide etc... are directive implemented as comments which need to appear on top of cell to indicate inclusion or exclution from html export
+  - In reality notebooks from _notebook folder are converted to html[not markdown] and exported to _posts folder with a fake (.md) extension as an initial preprocessing step
+  - From _post folder Jekyll machinery takes over to convert them into rendered site alongwith markkdown posts
+  - Fastpages provides various shims(utlities/methods) to convert some notebook specific directives for links, youtube or boxes to liquid include templates. These are then converted by Jekyll to final version of site.
+  
+
+**** Word Blogging  
+
+- Word blogging structure is a similar
+  - It uses pandoc for "docx" to "html" conversion. Which is copied to _posts folder with (.md) extension
+  - Some shim methods are provided by FastPages to handle jekyll _includes and _layout nicely
+  - For Words there is only one place to specify "Front Matter". It is _action_files/word_front_matter.txt file
+    
+**** Automation via Github Actions
+
+- All processing automation are handled by Github Actions
+  - Checkout code to some machine
+  - Cleaning up old _site/ html 
+  - Convert files in _notebooks and _word to _posts
+  - Building the site using Jekyll into _site
+  - Copying / Commiting the _site folder to gh_pages etc..
+
+- Everything in Github Actions are handled by services/ different docker containers running different scripts
+
+- For local viewing a parallel system is provided using docker-compose.yml and Makefile.
+
+*** *General Idea for extension*
+
+So based on the intuition above we basically need to figure out 3 pieces
+  - Way to convert custom format to html( with fake .md extension) or actual kramdown style markdown. It needs to have a way to insert/ send YAML FrontMatter to exported files
+  - Some customization scripts to handled Jekyll _include template nicely to manage look and feel 
+  - Automation Code
+    - Github Action [ Include an addtional conversion step in ci.yml or integrate with existing action files possibly in _action_files/action_entrypoint.sh]
+    - Update Docker Compose and Makefile
+   
+
+*** *Org Mode Blogging*
+
+So with the ideas above , I managed to create some extensions and tricks to enable org mode blogging. It has following parts
+
+**** Org File Customization
+A small customization is required to export frontmatter from org file.
+#+begin_example
+
+#+OPTIONS: toc:nil 
+#+BEGIN_EXPORT html
+---
+layout: post
+categories: [orgmode]
+title: Blogging with Org mode and FastPages
+description: Tutorial to setup Fastpages with org mode
+comments: true
+---
+#+END_EXPORT
+
+
+# COMMENT ------------------OPTIONAL FROM HERE------------------------------
+
+<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+#+TOC: headline 3
+
+#+end_example
+
+- Here first line disabling is for disabling toc specfic to org mode
+- I use org mode specific publishing framework which comes alongwith Emacs.
+- Then comes section for YAML front matter. Wrapping it in html export block allows this to be the first section on the file.
+- In my export configuration, which I will talk about later, I have some settings which only export body of converted html document.
+- You can't include #+TITLE directive in org mode , as it is rendered before everything , and thus interfere's with Front Matter.
+- Things below OPTIONAL FROM HERE line need not be included. [ In fact I am still looking forward to customize css so that we can colorize source code similar to notebooks and markdown]
+- With these simple rules, you can easily write a blog post with all the functionality of org mode.
+
+**** FastPages Customization
+
+I have done minimal non invasive customization to enable automation for org mode in fast pages. 
+
+[[info:box][All the code described below is available in github repo: https://github.com/Rahuketu86/FastPagesDev]]
+
+***** Folder Structure
+
+We need to create a _org folder . Inside _org folder , it should mirror structure of top level directories as follows
+
+[[img:/images/org_fastpages_structure.png][Structure of _org directory in fastpages]]
+
+[[note:box][For local images always assume root to be _org [The structure of _org directory should be replica of blog folder structure]. Images will always start with `/images` or `/assets`]]
+
+
+***** Github Action Customization
+
+- I have created some custom actions, which I save in /_custom_actions_files/ directory at top level. It has got 3 files
+  - publish.el - Emacs script to control publishing from _org//_posts to _posts folder and converting org to html.
+   
+    #+INCLUDE: "../../_custom_action_files/publish.el" src emacs-lisp
+
+  - fpemacs.el - Helper functions to enable links functionality translating to html/ jekyll includes. This is really the fastpages shim version of emacs. We can even call it fastpages-emacs library. All the changes should go here
+    [[warning:box][This files contains include template in code and can't be rendered for now]]
+
+  - custom.sh - Used to run emacs in batch mode with above files 
+
+    #+INCLUDE: "../../_custom_action_files/custom.sh" src bash
+  
+- Additionally I have defined a public docker image encapsulating emacs and other dependencies for add on which is available from dockerhub as rahuketu86/fastpages-emacs. I add an addtional step to *convert org files* in my ci.yaml to enable this conversion automatically on git push. My modified ci now looks as follows
+    #+INCLUDE: "../../.github/workflows/ci.yaml" src yaml
+
+
+***** Finally for local viewing
+
+  - I had to update docker-compose.yml to include an orgconverter service to use my rahuketu86/fastpages-emacs
+    #+INCLUDE: "../../docker-compose.yml" src yaml
+
+  - Update Makefile to add a single line in convert  _[# convert word & nb without Jekyll services]_ to run orgconverter alongwith nbdev converter
+    #+INCLUDE: "../../Makefile" src yaml
+
+
+* Conclusion and way forward
+
+** Org Mode Bridge and Other systems 
+
+Org mode on emacs is a really powerful tool for text processing, writing and literate programming. With all the development done on this repository now it is fairly easy to get started with org mode on fastpages. In future similar techniques can be adopted to create exporter for Rmarkdown or literate-julia or any other target. In view of author, it is important to use the language native to programming system to build these extensions. So for Rmarkdown , it would be useful to leverage existing infrastructure in "knitr" and "bookdown/ blogdown" packages rather than building things from scratch or extending nbdev. This is less burdensome to maintain and enables a writing flow where we don't have to go back and forth from existing system. 
+
+Now even though lot of functionality is enabled in orgmode bridge to fastpages, which mirrors or sometimes extend notebook version there are a few pending issues 
+
+** Outstanding Tasks
+*** TODO Fix links inside boxes in org mode
+*** TODO Define a specific layout for org files which can include some common header files.
+*** TODO Define a mechanism for code highlighting 
+[[tip:box][It can be done using custom css like org.css. But thing approach need some customization to match with default styles]]
+[[tip:box][Another approach is to use highlight.js and minor customization to read code blocks. This may be more reliable way to approach this]]
+*** TODO Handle internal links and html export more robustly
+*** TODO Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post
+*** TODO Create a demo for exporting to beamer and intergrating with blog post
+[[tip:box][Some custom function to streamline above might need to be included in fpemacs.el]]
+
+
+I hope you find this blog post informative to get started with org mode.Please share your suggestions below which can help in improving or extending this setup. 
+  
+
+
