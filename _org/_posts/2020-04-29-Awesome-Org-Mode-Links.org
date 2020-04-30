@@ -326,6 +326,8 @@ This has been awesome so far.
 *I am currently in process of fixing doclink functionality inside note box*
 [[note:box][A doc link to [an example website: fast.ai](https://www.fast.ai/) don't work yet.]]
 
+[[iframe:https://revealjs.com][Reveal JS Presentation]]
+
 #+end_example
 [[alert:This is an alert box]]
 
