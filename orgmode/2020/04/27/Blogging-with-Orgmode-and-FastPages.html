@@ -91,7 +91,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      4 min read
     
 </span></p>
 
@@ -107,8 +107,8 @@ window.onload = wrap_img;
     </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <div id="outline-container-org6fc49a0" class="outline-2">
-<h2 id="org6fc49a0"><span class="section-number-2">1</span> Introduction</h2>
+    <div id="outline-container-orgab960cf" class="outline-2">
+<h2 id="orgab960cf"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Jeremy and Rachel, esteemed founders of fastai, quote <i>Blogging is like Resume, only better</i> in this <a href="https://www.fast.ai/2019/05/13/blogging-advice/">post</a>. Blogging really is one of the best medium to learn while doing something, communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses 3 main themes.
@@ -129,82 +129,303 @@ Fastpages is the recent addition in the same tradition of tools made available b
 </p>
 
 <p>
-My objective in this post is to showcase some of the minor changes which I have made which can enable me to use entire toolchain of fastpages to blog with emacs org mode along with notebook, markdown or word format. I also want to make a case for how powerful org mode really is ; and why it belongs IN A DATA SCIENTIST TOOLBOX; ALONGSIDE OTHER TOOLS MENTIONED ABOVE.
+My objective in this post is to showcase some of the minor changes which I have made which can enable me to use entire toolchain of fastpages to blog with emacs org mode along with notebook, markdown or word format. I also want to make a case for how powerful org mode really is ; and why it belongs in a Data Scientist toolbox alongwith the list of tools mentioned above.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org4d334ae" class="outline-2">
-<h2 id="org4d334ae"><span class="section-number-2">2</span> EMACS ORG-MODE: WHAT? WHY? HOW?</h2>
+<div id="outline-container-orga63c65b" class="outline-2">
+<h2 id="orga63c65b"><span class="section-number-2">2</span> EMACS ORG-MODE: WHAT? WHY? HOW?</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 <i>BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS</i>
 </p>
+</div>
 
-
+<div id="outline-container-orgf8e630f" class="outline-3">
+<h3 id="orgf8e630f"><span class="section-number-3">2.1</span> The What?</h3>
+<div class="outline-text-3" id="text-2-1">
 <p>
 So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. But combination with emacs elisp system makes it insanely powerful. Instead of markup it is really a system of text editing which is highly extensible and infinetly programmable. With various open source plugins' it can be used like a notebook or frontend for latex report creation or even online presentations. 
 </p>
+</div>
+</div>
 
+
+<div id="outline-container-orgbba1f4f" class="outline-3">
+<h3 id="orgbba1f4f"><span class="section-number-3">2.2</span> The Why?</h3>
+<div class="outline-text-3" id="text-2-2">
 <p>
 Here are a list of example of things that you can do with it. 
 </p>
-
-<ul class="org-ul">
-<li><b>Blogging</b> - You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.</li>
-
-<li><b>Literate Programming</b> - You can do literate programming just like jupyter notebooks, create latex reports, even write full fledged books.</li>
-
-<li><b>GTD, Task Manager, Todo</b> - You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist</li>
-
-<li><b>Youtube Playlist Embed</b> - This is a nice list of videos for org mode introduction.</li>
-</ul>
-
-<div style="text-align: center;">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 </div>
 
+<div id="outline-container-orgacb88e2" class="outline-4">
+<h4 id="orgacb88e2"><span class="section-number-4">2.2.1</span> <b>Blogging</b></h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5563cd9" class="outline-4">
+<h4 id="org5563cd9"><span class="section-number-4">2.2.2</span> <b>Literate Programming</b></h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+You can do literate programming just like jupyter notebooks, create latex reports, even write full fledged books.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5f31286" class="outline-4">
+<h4 id="org5f31286"><span class="section-number-4">2.2.3</span> <b>GTD, Task Manager, Todo</b></h4>
+<div class="outline-text-4" id="text-2-2-3">
+<p>
+You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfa66417" class="outline-4">
+<h4 id="orgfa66417"><span class="section-number-4">2.2.4</span> <b>FastPages Functionality</b></h4>
+<div class="outline-text-4" id="text-2-2-4">
+<p>
+Lot of bells and whistle related to boxes and link are enabled using org mode link functionality
+</p>
 <ul class="org-ul">
-<li><p>
-<b>Youtube Video Embed</b>- Similar to markdown approach. What you need to copy is the share link from youtube.
+<li>Links are prepended by a directive</li>
+<li>When doing html export link get converted into jekyll include statement already defined in the code</li>
+<li>When exporting to other backends it follows the same structure as normal link for that structure</li>
+</ul>
+</div>
+
+<ol class="org-ol">
+<li><a id="org482ff7e"></a>Youtube Video Link<br />
+<div class="outline-text-5" id="text-2-2-4-1">
+<p>
+You can embed individual video or even playlist
 </p>
 
+<pre class="example">
+[[yt:https://youtu.be/5haX95nk02E][New Link Feature Org Mode]]
+</pre>
 
+<p>
 
 <center>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/oJTwQvgfgMM" frameborder="0" allowfullscreen=""></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5haX95nk02E" frameborder="0" allowfullscreen=""></iframe>
 </center>
-</li>
 
-<li><p>
-Similar to markdown fastpages, you can invoke twitter liquid template to export twitter card
 </p>
 
+<pre class="example">
 
+[[yt:https://www.youtube.com/playlist?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr][The Playlist for Org Mode]]
+</pre>
+<p>
+ <div style="text-align: center;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+     </div>
+</p>
+</div>
+</li>
+
+
+<li><a id="org5ced2f1"></a>Twitter Card Link<br />
+<div class="outline-text-5" id="text-2-2-4-2">
+<pre class="example">
+[[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
+</pre>
+<p>
 
 <center>
     <div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Altair 4.0 is released! <a href="https://t.co/PCyrIOTcvv">https://t.co/PCyrIOTcvv</a><br />Try it with:<br /><br />  pip install -U altair<br /><br />The full list of changes is at <a href="https://t.co/roXmzcsT58">https://t.co/roXmzcsT58</a> ...read on for some highlights. <a href="https://t.co/vWJ0ZveKbZ">pic.twitter.com/vWJ0ZveKbZ</a></p>&mdash; Jake VanderPlas (@jakevdp) <a href="https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw">December 11, 2019</a></blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </center>
+
+</p>
+</div>
 </li>
 
-<li><p>
-<b>Revealjs Presentation</b>
+<li><a id="orge472c8b"></a>Remote Image Link<br />
+<div class="outline-text-5" id="text-2-2-4-3">
+<pre class="example">
+[[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
+</pre>
+
+<p>
+<figure>
+  <a class="no_icon" target="_blank" href="https://www.fast.ai/images/fastai_paper/show_batch.png">
+    <img class="docimage" src="https://www.fast.ai/images/fastai_paper/show_batch.png" alt="Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/" />
+    </a>
+    
+      <figcaption>Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/</figcaption>
+    
+</figure>
+
+</p>
+
+<pre class="example">
+[[img:https://upload.wikimedia.org/wikipedia/commons/7/71/ChessPawnSpecialMoves.gif]]
+</pre>
+
+<p>
+<figure>
+  <a class="no_icon" target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/7/71/ChessPawnSpecialMoves.gif">
+    <img class="docimage" src="https://upload.wikimedia.org/wikipedia/commons/7/71/ChessPawnSpecialMoves.gif" alt="Image" />
+    </a>
+    
+</figure>
+
+</p>
+</div>
+</li>
+
+<li><a id="orgff07f36"></a>Local Images<br />
+<div class="outline-text-5" id="text-2-2-4-4">
+<pre class="example">
+[[img:/images/Emacs.png][Emacs is the king]]
+</pre>
+
+<p>
+<figure>
+      <img src="/FastPagesDev/images/Emacs.png" alt="Emacs is the king" />
+      <figcaption>Emacs is the king</figcaption>
+  </figure>
+</p>
+
+
+<p>
+For local images always assume root to be _org [The structure of _org directory should be replica of blog folder structure]. Images will always start with `/images` or `/assets`.
 </p>
 
 <p>
-You can easily embed a reveal presentation and integrate with fastpages. This is also possible in markdown.
+<figure>
+      <img src="/FastPagesDev/images/org_fastpages_structure.png" alt="Structure of _org directory in fastpages" />
+      <figcaption>Structure of _org directory in fastpages</figcaption>
+  </figure>
 </p>
 
-<div style="text-align:center;">
-   <iframe width="560" height="315" src="https://revealjs.com/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>
+This has been awesome so far.
+</p>
+</div>
+</li>
+
+<li><a id="org276b77a"></a>Boxes and Stuff<br />
+<div class="outline-text-5" id="text-2-2-4-5">
+<pre class="example">
+[[alert:This is an alert box]]
+
+[[alert:box][Danger ahead]]
+
+[[info:This is info box]]
+
+[[info:box][This is for your information]]
+
+[[warning:box][You have been warned]]
+
+[[important:box][This is important]]
+
+[[tip:box][You are going to get lucky with emacs]]
+
+[[note:box][This is a note]]
+
+*I am currently in process of fixing doclink functionality inside note box*
+[[note:box][A doc link to [an example website: fast.ai](https://www.fast.ai/) don't work yet.]]
+
+</pre>
+<p>
+<div class="Toast Toast--warning googoo">
+   <span class="Toast-icon"><svg class="octicon octicon-alert octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>
+   <span class="Toast-content">This is an alert box</span>
 </div>
 
+</p>
+
 <p>
-How about creating and simultaneously including a presentation both in org mode? Yup you can do that as well. 
-</p></li>
-</ul>
+<div class="Toast Toast--warning googoo">
+   <span class="Toast-icon"><svg class="octicon octicon-alert octicon octicon-alert octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>
+   <span class="Toast-content">Danger ahead</span>
+</div>
+
+</p>
+
+<p>
+<div class="Toast">
+   <span class="Toast-icon"><svg class="octicon octicon-info octicon octicon-info" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>
+   <span class="Toast-content">This is info box</span>
+</div>
+
+</p>
+
+<p>
+<div class="Toast">
+   <span class="Toast-icon"><svg class="octicon octicon-info octicon octicon-info octicon octicon-info" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>
+   <span class="Toast-content">This is for your information</span>
+</div>
+
+</p>
+
+<p>
+<div class="flash flash-error">
+    <svg class="octicon octicon-alert octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <strong>Warning: </strong>You have been warned
+</div>
+</p>
+
+<p>
+<div class="flash flash-warn">
+    <svg class="octicon octicon-zap octicon octicon-zap" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 7H6l3-7-9 9h4l-3 7 9-9z"></path></svg>
+    <strong>Important: </strong>This is important
+</div>
+</p>
+
+<p>
+<div class="flash flash-success">
+    <svg class="octicon octicon-checklist octicon octicon-checklist" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 8.5l-6 6-3-3L8.5 10l1.5 1.5L14.5 7 16 8.5zM5.7 12.2l.8.8H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h7c.55 0 1 .45 1 1v6.5l-.8-.8c-.39-.39-1.03-.39-1.42 0L5.7 10.8a.996.996 0 000 1.41v-.01zM4 4h5V3H4v1zm0 2h5V5H4v1zm0 2h3V7H4v1zM3 9H2v1h1V9zm0-2H2v1h1V7zm0-2H2v1h1V5zm0-2H2v1h1V3z"></path></svg>
+    <strong>Tip: </strong>You are going to get lucky with emacs
+</div>
+</p>
+
+<p>
+<div class="flash">
+    <svg class="octicon octicon-info octicon octicon-info octicon octicon-info" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg>
+    <strong>Note: </strong>This is a note
+</div>
+</p>
+
+<p>
+<b>I am currently in process of fixing doclink functionality inside note box</b>
+<div class="flash">
+    <svg class="octicon octicon-info octicon octicon-info octicon octicon-info octicon octicon-info" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg>
+    <strong>Note: </strong>A doc link to [an example website: fast.ai](https://www.fast.ai/) don't work yet.
+</div>
+</p>
+</div>
+</li>
+</ol>
+</div>
+
+
+<div id="outline-container-org22589b9" class="outline-4">
+<h4 id="org22589b9"><span class="section-number-4">2.2.5</span> <b>Document Embedding</b></h4>
+<div class="outline-text-4" id="text-2-2-5">
+<p>
+For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire article. 
+</p>
+
+<p>
+In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published <a href="http:/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html">in here</a>
+</p>
+<pre class="example">
+#+INCLUDE: "2020-04-29-Awesome-Org-Mode-Links.org::FastPages link" :only-contents t 
+</pre>
+</div>
+</div>
 </div>
 </div>
 
