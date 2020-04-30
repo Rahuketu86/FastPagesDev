@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-04-30T10:55:53-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Awesome Org Mode links</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html" rel="alternate" type="text/html" title="Awesome Org Mode links" /><published>2020-04-29T00:00:00-05:00</published><updated>2020-04-29T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html">&lt;div id=&quot;outline-container-org1258008&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org1258008&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-04-30T11:09:43-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Awesome Org Mode links</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html" rel="alternate" type="text/html" title="Awesome Org Mode links" /><published>2020-04-29T00:00:00-05:00</published><updated>2020-04-29T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html">&lt;div id=&quot;outline-container-orge7a0b0b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge7a0b0b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.
@@ -21,8 +21,8 @@ Above notes will become clear towards the end of this post. As a reference I wil
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org7a49e7b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org7a49e7b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; FastPages link&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0403d58&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0403d58&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; FastPages link&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Lot of bells and whistle related to boxes and link are enabled using org mode link functionality
@@ -34,8 +34,8 @@ Lot of bells and whistle related to boxes and link are enabled using org mode li
 &lt;/ul&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orga4862a3&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orga4862a3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Youtube Video Link&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orge4e3ab2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orge4e3ab2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Youtube Video Link&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;p&gt;
 You can embed individual video or even playlist
@@ -66,8 +66,8 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org9c6bed4&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org9c6bed4&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Twitter Card Link&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org1bb78d8&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org1bb78d8&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Twitter Card Link&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
@@ -84,8 +84,8 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org8f8e5c9&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org8f8e5c9&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Remote Image Link&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org741c3d9&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org741c3d9&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Remote Image Link&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
@@ -119,8 +119,8 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org4e4472e&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org4e4472e&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.4&lt;/span&gt; Local Images&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org2da3b13&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org2da3b13&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.4&lt;/span&gt; Local Images&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-4&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:/images/Emacs.png][Emacs is the king]]
@@ -152,8 +152,8 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org1054956&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org1054956&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.5&lt;/span&gt; Boxes and Stuff&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org93572a0&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org93572a0&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.5&lt;/span&gt; Boxes and Stuff&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-5&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[alert:This is an alert box]]
@@ -245,8 +245,8 @@ This has been awesome so far.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.</summary></entry><entry><title type="html">Blogging with Org mode and FastPages</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html" rel="alternate" type="text/html" title="Blogging with Org mode and FastPages" /><published>2020-04-27T00:00:00-05:00</published><updated>2020-04-27T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html">&lt;div id=&quot;outline-container-orgab960cf&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgab960cf&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.</summary></entry><entry><title type="html">Blogging with Org mode and FastPages</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html" rel="alternate" type="text/html" title="Blogging with Org mode and FastPages" /><published>2020-04-27T00:00:00-05:00</published><updated>2020-04-27T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html">&lt;div id=&quot;outline-container-orgd4fc58e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd4fc58e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 Jeremy and Rachel, esteemed founders of fastai, quote &lt;i&gt;Blogging is like Resume, only better&lt;/i&gt; in this &lt;a href=&quot;https://www.fast.ai/2019/05/13/blogging-advice/&quot;&gt;post&lt;/a&gt;. Blogging really is one of the best medium to learn while doing something, communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses 3 main themes.
@@ -272,16 +272,16 @@ My objective in this post is to showcase some of the minor changes which I have 
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orga63c65b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga63c65b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; EMACS ORG-MODE: WHAT? WHY? HOW?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orga36610b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orga36610b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; EMACS ORG-MODE: WHAT? WHY? HOW?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 &lt;i&gt;BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS&lt;/i&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgf8e630f&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgf8e630f&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The What?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org31dc992&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org31dc992&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The What?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;p&gt;
 So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. But combination with emacs elisp system makes it insanely powerful. Instead of markup it is really a system of text editing which is highly extensible and infinetly programmable. With various open source plugins' it can be used like a notebook or frontend for latex report creation or even online presentations. 
@@ -290,16 +290,16 @@ So what is org-mode? At the very basic level org mode or org format is a text ma
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-orgbba1f4f&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgbba1f4f&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; The Why?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org4b950a5&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org4b950a5&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; The Why?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;p&gt;
 Here are a list of example of things that you can do with it. 
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgacb88e2&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;orgacb88e2&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.1&lt;/span&gt; &lt;b&gt;Blogging&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org0feecff&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org0feecff&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.1&lt;/span&gt; &lt;b&gt;Blogging&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-1&quot;&gt;
 &lt;p&gt;
 You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
@@ -307,8 +307,8 @@ You can write a blog post like this. Since Emacs is insanely powerful for text e
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org5563cd9&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org5563cd9&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.2&lt;/span&gt; &lt;b&gt;Literate Programming&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org2f8433b&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org2f8433b&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.2&lt;/span&gt; &lt;b&gt;Literate Programming&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-2&quot;&gt;
 &lt;p&gt;
 You can do literate programming just like jupyter notebooks, create latex reports, even write full fledged books.
@@ -316,8 +316,8 @@ You can do literate programming just like jupyter notebooks, create latex report
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org5f31286&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org5f31286&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.3&lt;/span&gt; &lt;b&gt;GTD, Task Manager, Todo&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org1126cd8&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org1126cd8&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.3&lt;/span&gt; &lt;b&gt;GTD, Task Manager, Todo&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-3&quot;&gt;
 &lt;p&gt;
 You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist
@@ -325,8 +325,8 @@ You can use it as task manager, do project management, create to do list. Follow
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgfa66417&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;orgfa66417&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.4&lt;/span&gt; &lt;b&gt;FastPages Functionality&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org4cded3f&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org4cded3f&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.4&lt;/span&gt; &lt;b&gt;FastPages Functionality&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-4&quot;&gt;
 &lt;p&gt;
 Lot of bells and whistle related to boxes and link are enabled using org mode link functionality
@@ -339,7 +339,7 @@ Lot of bells and whistle related to boxes and link are enabled using org mode li
 &lt;/div&gt;
 
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;org482ff7e&quot;&gt;&lt;/a&gt;Youtube Video Link&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgae4370a&quot;&gt;&lt;/a&gt;Youtube Video Link&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-4-1&quot;&gt;
 &lt;p&gt;
 You can embed individual video or even playlist
@@ -370,7 +370,7 @@ You can embed individual video or even playlist
 &lt;/li&gt;
 
 
-&lt;li&gt;&lt;a id=&quot;org5ced2f1&quot;&gt;&lt;/a&gt;Twitter Card Link&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgd9c1424&quot;&gt;&lt;/a&gt;Twitter Card Link&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-4-2&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
@@ -387,7 +387,7 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;orge472c8b&quot;&gt;&lt;/a&gt;Remote Image Link&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgd632a10&quot;&gt;&lt;/a&gt;Remote Image Link&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-4-3&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
@@ -421,7 +421,7 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;orgff07f36&quot;&gt;&lt;/a&gt;Local Images&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orga18afb4&quot;&gt;&lt;/a&gt;Local Images&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-4-4&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:/images/Emacs.png][Emacs is the king]]
@@ -453,7 +453,7 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org276b77a&quot;&gt;&lt;/a&gt;Boxes and Stuff&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org3228896&quot;&gt;&lt;/a&gt;Boxes and Stuff&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-4-5&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[alert:This is an alert box]]
@@ -549,15 +549,15 @@ This has been awesome so far.
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org22589b9&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org22589b9&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.5&lt;/span&gt; &lt;b&gt;Document Embedding&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org7b0e7f1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org7b0e7f1&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.5&lt;/span&gt; &lt;b&gt;Document Embedding&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-5&quot;&gt;
 &lt;p&gt;
 For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire article. 
 &lt;/p&gt;
 
 &lt;p&gt;
-In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published &lt;a href=&quot;http:/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html&quot;&gt;in here&lt;/a&gt;
+In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published &lt;a href=&quot;https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html&quot;&gt;in here&lt;/a&gt;
 &lt;/p&gt;
 &lt;pre class=&quot;example&quot;&gt;
 #+INCLUDE: &quot;2020-04-29-Awesome-Org-Mode-Links.org::FastPages link&quot; :only-contents t 
@@ -571,32 +571,32 @@ In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an exam
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org4436e19&quot;&gt;1. Emacs init.el&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orga69dd6d&quot;&gt;2. Emacs Customization Group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgf3746c5&quot;&gt;3. Emacs Repositories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org95976bd&quot;&gt;4. Personal Information&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org8d946fc&quot;&gt;5. Emacs : Add Info directory&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org2651168&quot;&gt;6. Emacs: Backups&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgb507886&quot;&gt;7. Emacs: SaveHist&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org8bd0736&quot;&gt;8. Emacs Additional Infopath&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orga753753&quot;&gt;9. Utility Functions&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org295d44c&quot;&gt;1. Emacs init.el&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org34afa30&quot;&gt;2. Emacs Customization Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgc503e6c&quot;&gt;3. Emacs Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgb5cd505&quot;&gt;4. Personal Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org1236e74&quot;&gt;5. Emacs : Add Info directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgcfc42a3&quot;&gt;6. Emacs: Backups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org3946daf&quot;&gt;7. Emacs: SaveHist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgcb6b243&quot;&gt;8. Emacs Additional Infopath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgd8adfa7&quot;&gt;9. Utility Functions&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgd4ee76e&quot;&gt;9.1. Function to open this configuration file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgeb5731d&quot;&gt;9.1. Function to open this configuration file&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org6752c1f&quot;&gt;10. Splash Screen and bars&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org60f84d2&quot;&gt;11. Configure Emacs for use-package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org27e7505&quot;&gt;12. Improve performance on Windows&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org5cc91cb&quot;&gt;13. Emacs Custom Theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgf0bdf82&quot;&gt;14. Setup Ido and smex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org3442e83&quot;&gt;15. Setup Guru Mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org446de62&quot;&gt;16. Setup Magit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org6091176&quot;&gt;17. Setup Company Mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org786abfa&quot;&gt;18. Org-Mode Settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org29258b5&quot;&gt;19. Nikola Blog Settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgcbcdb71&quot;&gt;20. Games&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org9ffeddb&quot;&gt;10. Splash Screen and bars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org8584b53&quot;&gt;11. Configure Emacs for use-package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgba9d0ec&quot;&gt;12. Improve performance on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org1e44e1f&quot;&gt;13. Emacs Custom Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5bc9c29&quot;&gt;14. Setup Ido and smex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgc513278&quot;&gt;15. Setup Guru Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org40c6245&quot;&gt;16. Setup Magit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org1513224&quot;&gt;17. Setup Company Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org35e4929&quot;&gt;18. Org-Mode Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org797ff7f&quot;&gt;19. Nikola Blog Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org4debb1f&quot;&gt;20. Games&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgc9e67ed&quot;&gt;20.1. Chess&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org4baca18&quot;&gt;20.1. Chess&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -607,8 +607,8 @@ In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an exam
 Collorize
 This post contains sample configuration for my emacs in an org file
 &lt;/p&gt;
-&lt;div id=&quot;outline-container-org4436e19&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org4436e19&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Emacs init.el&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org295d44c&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org295d44c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Emacs init.el&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 (package-initialize)
@@ -621,8 +621,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orga69dd6d&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga69dd6d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Emacs Customization Group&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org34afa30&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org34afa30&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Emacs Customization Group&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; custom-file
@@ -633,8 +633,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgf3746c5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf3746c5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Emacs Repositories&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc503e6c&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc503e6c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Emacs Repositories&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;package&lt;/span&gt;)
@@ -659,8 +659,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org95976bd&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org95976bd&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal Information&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgb5cd505&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgb5cd505&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal Information&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; user-full-name &lt;span class=&quot;org-string&quot;&gt;&quot;Rahul Saraf&quot;&lt;/span&gt;
@@ -669,8 +669,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org8d946fc&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org8d946fc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Emacs : Add Info directory&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org1236e74&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1236e74&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Emacs : Add Info directory&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; Info-default-directory-list
@@ -685,8 +685,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org2651168&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org2651168&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Emacs: Backups&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgcfc42a3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgcfc42a3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Emacs: Backups&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; backup-directory-alist '((&lt;span class=&quot;org-string&quot;&gt;&quot;.&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;~/.emacs.d/backups&quot;&lt;/span&gt;)))
@@ -697,8 +697,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgb507886&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb507886&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Emacs: SaveHist&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org3946daf&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3946daf&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Emacs: SaveHist&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; savehist-file &lt;span class=&quot;org-string&quot;&gt;&quot;~/.emacs.d/savehist&quot;&lt;/span&gt;)
@@ -714,8 +714,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org8bd0736&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org8bd0736&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; Emacs Additional Infopath&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgcb6b243&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgcb6b243&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; Emacs Additional Infopath&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-8&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(add-to-list 'Info-default-directory-list &lt;span class=&quot;org-string&quot;&gt;&quot;~/.emacs.d/info&quot;&lt;/span&gt;)
@@ -723,12 +723,12 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orga753753&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga753753&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;9&lt;/span&gt; Utility Functions&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgd8adfa7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd8adfa7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;9&lt;/span&gt; Utility Functions&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-9&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgd4ee76e&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgd4ee76e&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;9.1&lt;/span&gt; Function to open this configuration file&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgeb5731d&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgeb5731d&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;9.1&lt;/span&gt; Function to open this configuration file&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-9-1&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;
@@ -746,8 +746,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org6752c1f&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org6752c1f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;10&lt;/span&gt; Splash Screen and bars&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org9ffeddb&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9ffeddb&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;10&lt;/span&gt; Splash Screen and bars&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-10&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; inhibit-splash-screen t
@@ -763,8 +763,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org60f84d2&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org60f84d2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;11&lt;/span&gt; Configure Emacs for use-package&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org8584b53&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org8584b53&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;11&lt;/span&gt; Configure Emacs for use-package&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-11&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt; (&lt;span class=&quot;org-keyword&quot;&gt;unless&lt;/span&gt; (package-installed-p 'use-package)
@@ -783,8 +783,8 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org27e7505&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org27e7505&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;12&lt;/span&gt; Improve performance on Windows&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgba9d0ec&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgba9d0ec&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;12&lt;/span&gt; Improve performance on Windows&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-12&quot;&gt;
 &lt;p&gt;
 Improving File Saving Performance on windows.
@@ -796,8 +796,8 @@ Improving File Saving Performance on windows.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org5cc91cb&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org5cc91cb&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;13&lt;/span&gt; Emacs Custom Theme&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org1e44e1f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1e44e1f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;13&lt;/span&gt; Emacs Custom Theme&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-13&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;monokai-theme&lt;/span&gt;
@@ -808,8 +808,8 @@ Improving File Saving Performance on windows.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgf0bdf82&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf0bdf82&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;14&lt;/span&gt; Setup Ido and smex&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org5bc9c29&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5bc9c29&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;14&lt;/span&gt; Setup Ido and smex&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-14&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Activate ido&lt;/span&gt;
@@ -825,8 +825,8 @@ Improving File Saving Performance on windows.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org3442e83&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org3442e83&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;15&lt;/span&gt; Setup Guru Mode&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc513278&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc513278&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;15&lt;/span&gt; Setup Guru Mode&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-15&quot;&gt;
 &lt;p&gt;
 Guru mode works by disabling common key bindings and pushing for
@@ -847,8 +847,8 @@ other so that it plays nice with ido-mode.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org446de62&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org446de62&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;16&lt;/span&gt; Setup Magit&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org40c6245&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org40c6245&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;16&lt;/span&gt; Setup Magit&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-16&quot;&gt;
 &lt;p&gt;
 Magit is a git porcelain. With this we can stay within emacs for
@@ -863,8 +863,8 @@ configuration modifications and commiting to git.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org6091176&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org6091176&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;17&lt;/span&gt; Setup Company Mode&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org1513224&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org1513224&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;17&lt;/span&gt; Setup Company Mode&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-17&quot;&gt;
 &lt;p&gt;
 Company mode is used for autocompletion in Emacs.
@@ -883,8 +883,8 @@ Company mode is used for autocompletion in Emacs.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org786abfa&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org786abfa&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;18&lt;/span&gt; Org-Mode Settings&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org35e4929&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org35e4929&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;18&lt;/span&gt; Org-Mode Settings&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-18&quot;&gt;
 &lt;p&gt;
 Global settings for all the org-mode buffers.
@@ -919,8 +919,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org29258b5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org29258b5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;19&lt;/span&gt; Nikola Blog Settings&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org797ff7f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org797ff7f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;19&lt;/span&gt; Nikola Blog Settings&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-19&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;htmlize&lt;/span&gt;
@@ -1048,12 +1048,12 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgcbcdb71&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgcbcdb71&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;20&lt;/span&gt; Games&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org4debb1f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4debb1f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;20&lt;/span&gt; Games&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-20&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgc9e67ed&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgc9e67ed&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;20.1&lt;/span&gt; Chess&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org4baca18&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org4baca18&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;20.1&lt;/span&gt; Chess&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-20-1&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
 &lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;chess&lt;/span&gt;
