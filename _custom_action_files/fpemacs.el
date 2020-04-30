@@ -36,7 +36,7 @@
 
 (use-package s
     :ensure t)
-    
+
 (require 'org)
 (require 'ox-publish)
 (require 'ox-html)
@@ -185,6 +185,13 @@
 	       (jekyll-include-box "note.html" "content" (or desc path)))))
    :help-echo "This links helps in exporting link to jekyll note template")
 
+    (org-link-set-parameters
+    "iframe"
+    :export (lambda (path desc backend)
+        (cond
+            ((eq 'html backend)
+            (embed-iframe path ))))
+    :help-echo "This links help in embedding iframe and revealjs presentation")
 
 
 (provide 'fpemacs)

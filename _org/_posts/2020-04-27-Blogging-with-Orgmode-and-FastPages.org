@@ -12,28 +12,28 @@ description: Tutorial to setup Fastpages with org mode
 
 * Introduction
 
-  Jeremy and Rachel, esteemed founders of fastai, quote /Blogging is like Resume, only better/ in this [[https://www.fast.ai/2019/05/13/blogging-advice/][post]]. Blogging really is one of the best medium to learn while doing something, communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses 3 main themes.
+  Jeremy and Rachel, esteemed founders of fastai, quote /Blogging is like Resume, only better/ in this [[https://www.fast.ai/2019/05/13/blogging-advice/][post]]. Blogging really is one of the best medium to learn while doing. It helps to communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses provides three main motivations:
 
-   1. Communication and Writing Skills
-   2. Showcase of Technical Expertise
-   3. Medium of learning and teachning 
+   1. It helps in improving communication and writing skills.
+   2. It provide medium to showcase technical expertise in programming, data science and other domains.
+   3. It is a great medium for self learning and teaching.
 
-With nbdev, fastai library and video courses; Fastai team has contributed some of the best material and tools for learning data science and programming in general. The top down learning style , with focus on learning the big picture by doing is an amazingly useful and productive technique especially for someone who is working full time. 
+With nbdev, fastai library and video courses; Fastai team has contributed some of the best material and tools for learning data science specificaaly and programming in general. The top down learning style , with focus on learning the big picture by execution and programming, is an amazingly useful and productive technique especially for someone who is working full time. 
 
 Fastpages is the recent addition in the same tradition of tools made available by FastAI team to new and practicing data scientist to facilitate there learning journey. It capitalizes on nbdev codebases, a python literate programming tool and github actions to enable blogging by jupyter notebook and markdown files.
 
-My objective in this post is to showcase some of the minor changes which I have made which can enable me to use entire toolchain of fastpages to blog with emacs org mode along with notebook, markdown or word format. I also want to make a case for how powerful org mode really is ; and why it belongs in a Data Scientist toolbox alongwith the list of tools mentioned above.
+My objective in this post is to showcase some of the minor changes which I have made which enables me to use entire toolchain of fastpages; to blog with emacs org mode along with notebook, markdown or word format. I also intend to demonstrate how powerful org mode really is ; and why it belongs in a Data Scientist toolbox alongwith the list of tools mentioned above.
 
 * EMACS ORG-MODE: WHAT? WHY? HOW?
 
 /BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS/
 
 ** The What?
-So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. But combination with emacs elisp system makes it insanely powerful. Instead of markup it is really a system of text editing which is highly extensible and infinetly programmable. With various open source plugins' it can be used like a notebook or frontend for latex report creation or even online presentations. 
+So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. Combination with emacs elisp system makes it insanely powerful. Instead of yet another markup syntax; it becomes a system of text editing which is highly extensible and infinitly programmable. With various open source plugins' it can be used like a literate programming tool like notebooks or frontend for latex report creation or even online presentations. 
 
 
 ** The Why?
-Here are a list of example of things that you can do with it. 
+So why should you be interested in Org Mode .Here is a brief  list of things that you can do with it. 
 
 *** *Blogging* 
 You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
@@ -48,11 +48,10 @@ You can use it as task manager, do project management, create to do list. Follow
  
 #+INCLUDE: "2020-04-29-Awesome-Org-Mode-Links.org::FastPages link" :only-contents t 
 
-
 *** *Document Embedding*
-For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire article. 
+For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire topic you want to present in your article.
 
-In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published [[https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html][in here]]
+In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published [[https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html][in here]]. I have just imported relevant portions for this post
 #+begin_example
 #+INCLUDE: "2020-04-29-Awesome-Org-Mode-Links.org::FastPages link" :only-contents t 
 #+end_example
