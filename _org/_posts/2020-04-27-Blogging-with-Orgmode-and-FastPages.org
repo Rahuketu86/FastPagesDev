@@ -24,7 +24,7 @@ Fastpages is the recent addition in the same tradition of tools made available b
 
 My objective in this post is to showcase some of the minor changes which I have made which can enable me to use entire toolchain of fastpages to blog with emacs org mode along with notebook, markdown or word format. I also want to make a case for how powerful org mode really is ; and why it belongs IN A DATA SCIENTIST TOOLBOX; ALONGSIDE OTHER TOOLS MENTIONED ABOVE.
 
-* COMMENT EMACS ORG-MODE: WHAT? WHY? HOW?
+* EMACS ORG-MODE: WHAT? WHY? HOW?
 
 /BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS/
 
@@ -40,17 +40,18 @@ Here are a list of example of things that you can do with it.
    - *GTD, Task Manager, Todo* - You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist
 
    - *Youtube Playlist Embed* - This is a nice list of videos for org mode introduction.
+   
    #+BEGIN_EXPORT html
    <div style="text-align: center;">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
    </div>
    #+END_EXPORT
 
-   - *Youtube Video Embed*- Similar to markdown approach
+   - *Youtube Video Embed*- Similar to markdown approach. What you need to copy is the share link from youtube.
    
     #+begin_export html
 
-    {% include youtube.html content='<a href="https://youtu.be/XfoYk_Z5AkI">https://youtu.be/XfoYk_Z5AkI</a>' %}
+    {% include youtube.html content='<a href="https://youtu.be/oJTwQvgfgMM">https://youtu.be/oJTwQvgfgMM</a>' %}
 
     #+end_export
 
@@ -62,4 +63,14 @@ Here are a list of example of things that you can do with it.
 
     #+end_export
 
-   - You can even convert an org file to a reveal presentation and integrate with FastPages.
+   - *Revealjs Presentation*
+      
+    You can easily embed a reveal presentation and integrate with fastpages. This is also possible in markdown.
+
+    #+begin_export html
+    <div style="text-align:center;">
+       <iframe width="560" height="315" src="https://revealjs.com/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    #+end_export
+  
+    How about creating and simultaneously including a presentation both in org mode? Yup you can do that as well. 

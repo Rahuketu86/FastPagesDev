@@ -1,62 +1,63 @@
-(require 'package)
-(package-initialize)
-(unless package-archive-contents
-  (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
-  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-  (package-refresh-contents))
-(dolist (pkg '(org-plus-contrib htmlize s))
-  (unless (package-installed-p pkg)
-    (package-install pkg)))
+#+options: toc:nil
+#+begin_export html
+---
+layout: post
+categories: [orgmode]
+title: Awesome Org Mode links
+description: Custom links for Fastpages Functionality
+---
+#+end_export
 
-(require 'org)
-(require 'ox-rss)
-(require 'ox-publish)
-(require 'ox-html)
-(setq org-html-htmlize-output-type 'css)
-(setq org-publish-project-alist
-	'(
+#+toc: headline 3
 
-    ("org-post-fastpages"
-	    ;; Path to your org files.
-	    :base-directory "./_org/_posts"
-	    :base-extension "org"
+* Introduction 
 
-	    ;; Path to your Jekyll project.
-	    :publishing-directory "./_posts/"
-	    :recursive t
-	    :publishing-function org-html-publish-to-html
-	    :html-extension "md"
-	    :body-only t ;; Only export section between <body> </body>
-      )
+In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.
+
+This will be useful for following :-
+
+- Define Links which can help avoid writing raw html and include directives
+- Define different backends for different rendering targets
+- Allow me to use org mode navigation 
+
+Above notes will become clear towards the end of this post. As a reference I will be following the tutorial from [[http://kitchingroup.cheme.cmu.edu/blog/2016/11/04/New-link-features-in-org-9/][this link]].
+
+* COMMENT Basic syntax for link
+
+Lets start by defining a "red:link"
+#+begin_src emacs-lisp :results silent
+  (org-link-set-parameters
+   "red"
+   :follow(lambda (path)(message "You clicked me"))
+   :export(lambda (path desc backend)
+	    (cond
+	     ((eq 'html backend)
+	      (format "<font color=\"red\">%s</font>"
+		      (or desc path)))))
+   :face '(:foreground "red")
+   :help-echo "Click me for a message")
+#+end_src
+
+Will try this later
+
+#+begin_src emacs-lisp :results silent
+  (org-link-set-parameters
+   "red"
+   :face '(:foreground "red" :underline t))
+#+end_src
+
+This is underlined link. I will have to include it later
 
 
-      ("org-static-fastpages"
-	    :base-directory "./_org/assets"
-	    :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-	    :publishing-directory "./assets/"
-	    :recursive t
-	    :publishing-function org-publish-attachment
-	    )
+* FastPages link 
 
-      ("org-images-fastpages"
-	    :base-directory "./_org/images"
-	    :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-	    :publishing-directory "./images/"
-	    :recursive t
-	    :publishing-function org-publish-attachment
-	    )
-      ("fastpages" :components ("org-post-fastpages" "org-static-fastpages" "org-images-fastpages"))
+The idea is simple 
 
-  ))
+- Links are prepended by a directive
+- When doing html export link get converted into jekyll include statement already defined in the code
+- When exporting to other backends it follows the same structure as normal link for that structure
 
-(defun fastpages-publish-all ()
-  "Publish the blog to HTML."
-  (interactive)
-  (org-publish-all))
-
-  
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
+#+begin_src emacs-lisp :results silent :exports (when (eq org-export-current-backend 'html) "none")
   (defun jekyll-include (inc-tmpl url)
     (s-lex-format "{% include ${inc-tmpl} content='<a href=\"${url}\">${url}</a>' %}"))
 
@@ -240,12 +241,93 @@
 	      ((eq 'html backend)
 	       (jekyll-include-box "note.html" "content" (or desc path)))))
    :help-echo "This links helps in exporting link to jekyll note template")
+#+end_src
+
+** Youtube Video Link
+
+You can embed individual video or even playlist
+
+#+begin_example
+[[yt:https://youtu.be/5haX95nk02E][New Link Feature Org Mode]]
+#+end_example
+
+[[yt:https://youtu.be/5haX95nk02E][New Link Feature Org Mode]]
+
+#+begin_example
+
+[[yt:https://www.youtube.com/playlist?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr][The Playlist for Org Mode]]
+#+end_example
+[[yt:https://www.youtube.com/playlist?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr][The Playlist for Org Mode]]
 
 
+** Twitter Card Link
 
+#+begin_example
+[[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
+#+end_example
+[[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
 
+** Remote Image Link
+#+begin_example
+[[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
+#+end_example
 
-(provide 'publish)
+[[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
 
+#+begin_example
+[[img:https://upload.wikimedia.org/wikipedia/commons/7/71/ChessPawnSpecialMoves.gif]]
+#+end_example
 
+[[img:https://upload.wikimedia.org/wikipedia/commons/7/71/ChessPawnSpecialMoves.gif]]
 
+** Local Images
+
+For local images always assume root to be _org [This structure is replica of blog folder structure]. Images will always start with `/images` or `/assets`
+#+begin_example
+[[img:/images/Emacs.png][Emacs is the king]]
+#+end_example
+
+[[img:/images/Emacs.png][Emacs is the king]]
+
+This has been awesome so far.
+
+** Boxes and Stuff
+#+begin_example
+alert:This is an alert box]]
+
+[[alert:box][Danger ahead]]
+
+[[info:This is info box]]
+
+[[info:box][This is for your information]]
+
+[[warning:box][You have been warned]]
+
+[[important:box][This is important]]
+
+[[tip:box][You are going to get lucky with emacs]]
+
+[[note:box][This is a note]]
+
+*I am currently in process of fixing doclink functionality inside note box*
+[[note:box][A doc link to [an example website: fast.ai](https://www.fast.ai/) don't work yet.]]
+
+#+end_example
+[[alert:This is an alert box]]
+
+[[alert:box][Danger ahead]]
+
+[[info:This is info box]]
+
+[[info:box][This is for your information]]
+
+[[warning:box][You have been warned]]
+
+[[important:box][This is important]]
+
+[[tip:box][You are going to get lucky with emacs]]
+
+[[note:box][This is a note]]
+
+*I am currently in process of fixing doclink functionality inside note box*
+[[note:box][A doc link to [an example website: fast.ai](https://www.fast.ai/) don't work yet.]]
