@@ -1,15 +1,43 @@
 (require 'package)
+;;;(add-to-list 'package-archives
+;;;'             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives
+                '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(add-to-list 'package-archives
+                '("melpa" . "http://melpa.org/packages/")
+                t)
+
+(add-to-list 'package-archives 
+                '("org" . "http://orgmode.org/elpa/")
+                t)
+(when (< emacs-major-version 24)
+    ;; For important compatibility libraries like cl-lib
+    (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 (package-initialize)
-(unless package-archive-contents
-  (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
-  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-  (package-refresh-contents))
-(dolist (pkg '(org-plus-contrib htmlize))
+
+
+
+(unless (package-installed-p 'use-package)
+(package-refresh-contents)
+(package-install 'use-package))
+;;  (setq use-package-verbose t)
+;;  (setq use-package-always-ensure t)
+;; (eval-when-compile
+;; (require 'use-package))
+;; (use-package auto-compile
+;; :config (auto-compile-on-load-mode))
+;; (require 'diminish)
+;;  ;;
+(require 'bind-key)
+
+(dolist (pkg '(org-plus-contrib htmlize s))
   (unless (package-installed-p pkg)
     (package-install pkg)))
 
+(use-package s
+    :ensure t)
+    
 (require 'org)
-(require 's)
 (require 'ox-publish)
 (require 'ox-html)
 
