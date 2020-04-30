@@ -51,13 +51,12 @@ This is underlined link. I will have to include it later
 
 * FastPages link 
 
-The idea is simple 
-
+Lot of bells and whistle related to boxes and link are enabled using org mode link functionality
 - Links are prepended by a directive
 - When doing html export link get converted into jekyll include statement already defined in the code
 - When exporting to other backends it follows the same structure as normal link for that structure
 
-#+begin_src emacs-lisp :results silent :exports (when (eq org-export-current-backend 'html) "none")
+ #+begin_src emacs-lisp :results silent :exports (when (eq org-export-current-backend 'html) "none")
   (defun jekyll-include (inc-tmpl url)
     (s-lex-format "{% include ${inc-tmpl} content='<a href=\"${url}\">${url}</a>' %}"))
 
