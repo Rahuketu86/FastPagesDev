@@ -209,14 +209,14 @@ Org mode on emacs is a really powerful tool for text processing, writing and lit
 Now even though lot of functionality is enabled in orgmode bridge to fastpages, which mirrors or sometimes extend notebook version there are a few pending issues 
 
 ** Outstanding Tasks
-*** TODO Fix links inside boxes in org mode
-*** TODO Define a specific layout for org files which can include some common header files.
-*** TODO Define a mechanism for code highlighting 
+**** TODO Fix links inside boxes in org mode
+**** TODO Define a specific layout for org files which can include some common header files.
+**** TODO Define a mechanism for code highlighting 
 [[tip:box][It can be done using custom css like org.css. But thing approach need some customization to match with default styles]]
 [[tip:box][Another approach is to use highlight.js and minor customization to read code blocks. This may be more reliable way to approach this]]
-*** TODO Handle internal links and html export more robustly
-*** TODO Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post
-*** TODO Create a demo for exporting to beamer and intergrating with blog post
+**** TODO Handle internal links and html export more robustly
+**** TODO Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post
+**** TODO Create a demo for exporting to beamer and intergrating with blog post
 [[tip:box][Some custom function to streamline above might need to be included in fpemacs.el]]
 
 
