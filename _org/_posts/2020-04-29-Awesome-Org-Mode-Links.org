@@ -281,7 +281,7 @@ You can embed individual video or even playlist
 
 ** Local Images
 
-For local images always assume root to be _org [This structure is replica of blog folder structure]. Images will always start with `/images` or `/assets`
+For local images always assume root to be _org [The structure of _org directory should be replica of blog folder structure]. Images will always start with `/images` or `/assets`
 #+begin_example
 [[img:/images/Emacs.png][Emacs is the king]]
 #+end_example
@@ -292,7 +292,7 @@ This has been awesome so far.
 
 ** Boxes and Stuff
 #+begin_example
-alert:This is an alert box]]
+[[alert:This is an alert box]]
 
 [[alert:box][Danger ahead]]
 
