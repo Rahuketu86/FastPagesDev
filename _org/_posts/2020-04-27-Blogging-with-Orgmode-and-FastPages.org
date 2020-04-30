@@ -12,7 +12,7 @@ description: Tutorial to setup Fastpages with org mode
 
 * Introduction
 
-Jeremy and Rachel, esteemed founders of fastai, quote /Blogging is like Resume, only better/ in this [[https://www.fast.ai/2019/05/13/blogging-advice/][post]]. Blogging really is one of the best medium to learn while doing something, communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses 3 main themes.
+  Jeremy and Rachel, esteemed founders of fastai, quote /Blogging is like Resume, only better/ in this [[https://www.fast.ai/2019/05/13/blogging-advice/][post]]. Blogging really is one of the best medium to learn while doing something, communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses 3 main themes.
 
    1. Communication and Writing Skills
    2. Showcase of Technical Expertise
@@ -22,55 +22,37 @@ With nbdev, fastai library and video courses; Fastai team has contributed some o
 
 Fastpages is the recent addition in the same tradition of tools made available by FastAI team to new and practicing data scientist to facilitate there learning journey. It capitalizes on nbdev codebases, a python literate programming tool and github actions to enable blogging by jupyter notebook and markdown files.
 
-My objective in this post is to showcase some of the minor changes which I have made which can enable me to use entire toolchain of fastpages to blog with emacs org mode along with notebook, markdown or word format. I also want to make a case for how powerful org mode really is ; and why it belongs IN A DATA SCIENTIST TOOLBOX; ALONGSIDE OTHER TOOLS MENTIONED ABOVE.
+My objective in this post is to showcase some of the minor changes which I have made which can enable me to use entire toolchain of fastpages to blog with emacs org mode along with notebook, markdown or word format. I also want to make a case for how powerful org mode really is ; and why it belongs in a Data Scientist toolbox alongwith the list of tools mentioned above.
 
 * EMACS ORG-MODE: WHAT? WHY? HOW?
 
 /BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS/
 
-
+** The What?
 So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. But combination with emacs elisp system makes it insanely powerful. Instead of markup it is really a system of text editing which is highly extensible and infinetly programmable. With various open source plugins' it can be used like a notebook or frontend for latex report creation or even online presentations. 
 
+
+** The Why?
 Here are a list of example of things that you can do with it. 
 
-   - *Blogging* - You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
+*** *Blogging* 
+You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
 
-   - *Literate Programming* - You can do literate programming just like jupyter notebooks, create latex reports, even write full fledged books.
+***  *Literate Programming*
+You can do literate programming just like jupyter notebooks, create latex reports, even write full fledged books.
 
-   - *GTD, Task Manager, Todo* - You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist
+***  *GTD, Task Manager, Todo* 
+You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist
 
-   - *Youtube Playlist Embed* - This is a nice list of videos for org mode introduction.
-   
-   #+BEGIN_EXPORT html
-   <div style="text-align: center;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   </div>
-   #+END_EXPORT
+*** *FastPages Functionality*
+ 
+#+INCLUDE: "2020-04-29-Awesome-Org-Mode-Links.org::FastPages link" :only-contents t 
 
-   - *Youtube Video Embed*- Similar to markdown approach. What you need to copy is the share link from youtube.
-   
-    #+begin_export html
 
-    {% include youtube.html content='<a href="https://youtu.be/oJTwQvgfgMM">https://youtu.be/oJTwQvgfgMM</a>' %}
+*** *Document Embedding*
+For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire article. 
 
-    #+end_export
-
-   - Similar to markdown fastpages, you can invoke twitter liquid template to export twitter card
-    
-    #+begin_export html
-
-    {% include twitter.html content="https://twitter.com/jakevdp/status/1204765621767901185?s=20" %}
-
-    #+end_export
-
-   - *Revealjs Presentation*
-      
-    You can easily embed a reveal presentation and integrate with fastpages. This is also possible in markdown.
-
-    #+begin_export html
-    <div style="text-align:center;">
-       <iframe width="560" height="315" src="https://revealjs.com/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-    #+end_export
-  
-    How about creating and simultaneously including a presentation both in org mode? Yup you can do that as well. 
+In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published [[http:/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html][in here]]
+#+begin_example
+#+INCLUDE: "2020-04-29-Awesome-Org-Mode-Links.org::FastPages link" :only-contents t 
+#+end_example

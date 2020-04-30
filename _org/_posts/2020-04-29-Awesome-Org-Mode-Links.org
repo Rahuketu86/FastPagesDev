@@ -5,6 +5,7 @@ layout: post
 categories: [orgmode]
 title: Awesome Org Mode links
 description: Custom links for Fastpages Functionality
+hidden: true
 ---
 #+end_export
 
@@ -281,12 +282,18 @@ You can embed individual video or even playlist
 
 ** Local Images
 
-For local images always assume root to be _org [The structure of _org directory should be replica of blog folder structure]. Images will always start with `/images` or `/assets`
+
 #+begin_example
 [[img:/images/Emacs.png][Emacs is the king]]
 #+end_example
 
 [[img:/images/Emacs.png][Emacs is the king]]
+
+
+For local images always assume root to be _org [The structure of _org directory should be replica of blog folder structure]. Images will always start with `/images` or `/assets`.
+
+[[img:/images/org_fastpages_structure.png][Structure of _org directory in fastpages]]
+
 
 This has been awesome so far.
 
