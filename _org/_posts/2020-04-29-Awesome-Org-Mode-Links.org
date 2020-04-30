@@ -326,8 +326,6 @@ This has been awesome so far.
 *I am currently in process of fixing doclink functionality inside note box*
 [[note:box][A doc link to [an example website: fast.ai](https://www.fast.ai/) don't work yet.]]
 
-[[iframe:https://revealjs.com][Reveal JS Presentation]]
-
 #+end_example
 [[alert:This is an alert box]]
 
@@ -349,6 +347,10 @@ This has been awesome so far.
 [[note:box][A doc link to [an example website: fast.ai](https://www.fast.ai/) don't work yet.]]
 
 ** IFrames and Revealjs Presentation
+
+#+begin_example
+[[iframe:https://revealjs.com][Reveal JS Presentation]]
+#+end_example
 
 You can embed websites as iframes. This is particularily useful for embedding revealjs presentation like this.
 [[iframe:https://revealjs.com][Reveal JS Presentation]]
