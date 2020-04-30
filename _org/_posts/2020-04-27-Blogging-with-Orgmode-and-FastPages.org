@@ -6,6 +6,7 @@ categories: [orgmode]
 title: Blogging with Org mode and FastPages
 description: Tutorial to setup Fastpages with org mode
 comments: true
+toc: true
 ---
 #+END_EXPORT
 
