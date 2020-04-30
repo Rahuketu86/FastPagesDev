@@ -52,7 +52,7 @@ You can use it as task manager, do project management, create to do list. Follow
 *** *Document Embedding*
 For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire article. 
 
-In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published [[http:/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html][in here]]
+In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published [[https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html][in here]]
 #+begin_example
 #+INCLUDE: "2020-04-29-Awesome-Org-Mode-Links.org::FastPages link" :only-contents t 
 #+end_example
