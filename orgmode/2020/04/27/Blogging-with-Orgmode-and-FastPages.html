@@ -91,7 +91,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      16 min read
+      17 min read
     
 </span></p>
 
@@ -108,38 +108,38 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#orgaf1c95c">1 Introduction</a></li>
-<li class="toc-entry toc-h2"><a href="#org1902054">2 EMACS ORG-MODE: WHAT? WHY? HOW?</a>
+<li class="toc-entry toc-h2"><a href="#org11fd3d7">1 Introduction</a></li>
+<li class="toc-entry toc-h2"><a href="#orgb71376e">2 EMACS ORG-MODE: WHAT? WHY? HOW?</a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#org2fc066f">2.1 The What?</a></li>
-<li class="toc-entry toc-h3"><a href="#orgd59d1ae">2.2 The Why?</a>
+<li class="toc-entry toc-h3"><a href="#orga6d5987">2.1 The What?</a></li>
+<li class="toc-entry toc-h3"><a href="#org0a4e7e0">2.2 The Why?</a>
 <ul>
-<li class="toc-entry toc-h4"><a href="#org41fe4e3">2.2.1 Blogging</a></li>
-<li class="toc-entry toc-h4"><a href="#orgc067e37">2.2.2 Literate Programming</a></li>
-<li class="toc-entry toc-h4"><a href="#org57e531a">2.2.3 GTD, Task Manager, Todo</a></li>
-<li class="toc-entry toc-h4"><a href="#org97a7212">2.2.4 FastPages Functionality</a></li>
-<li class="toc-entry toc-h4"><a href="#orgc718422">2.2.5 Document Embedding</a></li>
-<li class="toc-entry toc-h4"><a href="#orgfa6c602">2.2.6 Are you excited?</a></li>
+<li class="toc-entry toc-h4"><a href="#org10d68a0">2.2.1 Blogging</a></li>
+<li class="toc-entry toc-h4"><a href="#orgf316ce6">2.2.2 FastPages Functionality</a></li>
+<li class="toc-entry toc-h4"><a href="#orgca77e29">2.2.3 Document Embedding</a></li>
+<li class="toc-entry toc-h4"><a href="#org407c8e8">2.2.4 Literate Programming</a></li>
+<li class="toc-entry toc-h4"><a href="#org5ab839b">2.2.5 GTD, Task Manager, Todo</a></li>
+<li class="toc-entry toc-h4"><a href="#orgc939dc8">2.2.6 Are you excited?</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h3"><a href="#org0d3d712">2.3 The How?</a>
+<li class="toc-entry toc-h3"><a href="#orga17d406">2.3 The How?</a>
 <ul>
-<li class="toc-entry toc-h4"><a href="#org4185979">2.3.1 Design of fastpages</a></li>
-<li class="toc-entry toc-h4"><a href="#org91009e3">2.3.2 General Idea for extension</a></li>
-<li class="toc-entry toc-h4"><a href="#org0ea5cb3">2.3.3 Org Mode Blogging</a></li>
+<li class="toc-entry toc-h4"><a href="#org6aaedf3">2.3.1 Design of fastpages</a></li>
+<li class="toc-entry toc-h4"><a href="#orgba708a1">2.3.2 General Idea for extension</a></li>
+<li class="toc-entry toc-h4"><a href="#orgd25f455">2.3.3 Org Mode Blogging</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#orgc3124de">3 Conclusion and way forward</a>
+<li class="toc-entry toc-h2"><a href="#org471d438">3 Conclusion and way forward</a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#org567aa24">3.1 Org Mode Bridge and Other systems</a></li>
-<li class="toc-entry toc-h3"><a href="#orgb36d157">3.2 Outstanding Tasks</a></li>
+<li class="toc-entry toc-h3"><a href="#org5ebad6f">3.1 Org Mode Bridge and Other systems</a></li>
+<li class="toc-entry toc-h3"><a href="#orge26ea93">3.2 Outstanding Tasks</a></li>
 </ul>
 </li>
-</ul><div id="outline-container-orgaf1c95c" class="outline-2">
-<h2 id="orgaf1c95c">
-<a class="anchor" href="#orgaf1c95c" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">1</span> Introduction</h2>
+</ul><div id="outline-container-org11fd3d7" class="outline-2">
+<h2 id="org11fd3d7">
+<a class="anchor" href="#org11fd3d7" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Jeremy and Rachel, esteemed founders of fastai, quote <i>Blogging is like Resume, only better</i> in this <a href="https://www.fast.ai/2019/05/13/blogging-advice/">post</a>. Blogging really is one of the best medium to learn while doing. It helps to communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses provides three main motivations:
@@ -160,43 +160,43 @@ Fastpages is the recent addition in the same tradition of tools made available b
 </p>
 
 <p>
-My objective in this post is to showcase some of the minor changes which I have made which enables me to use entire toolchain of fastpages; to blog with emacs org mode along with notebook, markdown or word format. I also intend to demonstrate how powerful org mode really is ; and why it belongs in a Data Scientist toolbox alongwith the list of tools mentioned above.
+My objective in this post is to showcase some of the minor changes which I have made which enables me to use entire toolchain of fastpages; to <b>blog with emacs org mode along with notebook</b>, markdown or word format. I also intend to demonstrate how powerful org mode really is ; and why it belongs in a Data Scientist toolbox alongwith the list of tools mentioned above.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org1902054" class="outline-2">
-<h2 id="org1902054">
-<a class="anchor" href="#org1902054" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">2</span> EMACS ORG-MODE: WHAT? WHY? HOW?</h2>
+<div id="outline-container-orgb71376e" class="outline-2">
+<h2 id="orgb71376e">
+<a class="anchor" href="#orgb71376e" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">2</span> EMACS ORG-MODE: WHAT? WHY? HOW?</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 <i>BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS</i>
 </p>
 </div>
 
-<div id="outline-container-org2fc066f" class="outline-3">
-<h3 id="org2fc066f">
-<a class="anchor" href="#org2fc066f" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.1</span> The What?</h3>
+<div id="outline-container-orga6d5987" class="outline-3">
+<h3 id="orga6d5987">
+<a class="anchor" href="#orga6d5987" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.1</span> The What?</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
-So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. Combination with emacs elisp system makes it insanely powerful. Instead of yet another markup syntax; it becomes a system of text editing which is highly extensible and infinitly programmable. With various open source plugins' it can be used like a literate programming tool like notebooks or frontend for latex report creation or even online presentations. 
+So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. Combination with emacs elisp system makes it insanely powerful. Instead of yet another markup syntax; it becomes a system of text editing which is highly extensible and infinitely programmable. With various open source plugins' it can be used like a literate programming tool like notebooks or frontend for latex report creation or even online presentations. 
 </p>
 </div>
 </div>
 
 
-<div id="outline-container-orgd59d1ae" class="outline-3">
-<h3 id="orgd59d1ae">
-<a class="anchor" href="#orgd59d1ae" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.2</span> The Why?</h3>
+<div id="outline-container-org0a4e7e0" class="outline-3">
+<h3 id="org0a4e7e0">
+<a class="anchor" href="#org0a4e7e0" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.2</span> The Why?</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 So why should you be interested in Org Mode .Here is a brief  list of things that you can do with it. 
 </p>
 </div>
 
-<div id="outline-container-org41fe4e3" class="outline-4">
-<h4 id="org41fe4e3">
-<a class="anchor" href="#org41fe4e3" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.1</span> <b>Blogging</b>
+<div id="outline-container-org10d68a0" class="outline-4">
+<h4 id="org10d68a0">
+<a class="anchor" href="#org10d68a0" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.1</span> <b>Blogging</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-1">
 <p>
@@ -205,33 +205,11 @@ You can write a blog post like this. Since Emacs is insanely powerful for text e
 </div>
 </div>
 
-<div id="outline-container-orgc067e37" class="outline-4">
-<h4 id="orgc067e37">
-<a class="anchor" href="#orgc067e37" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.2</span> <b>Literate Programming</b>
+<div id="outline-container-orgf316ce6" class="outline-4">
+<h4 id="orgf316ce6">
+<a class="anchor" href="#orgf316ce6" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.2</span> <b>FastPages Functionality</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-2">
-<p>
-You can do literate programming just like jupyter notebooks, create latex reports, even write full fledged books.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org57e531a" class="outline-4">
-<h4 id="org57e531a">
-<a class="anchor" href="#org57e531a" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.3</span> <b>GTD, Task Manager, Todo</b>
-</h4>
-<div class="outline-text-4" id="text-2-2-3">
-<p>
-You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things. A good set of references are in following playlist
-</p>
-</div>
-</div>
-
-<div id="outline-container-org97a7212" class="outline-4">
-<h4 id="org97a7212">
-<a class="anchor" href="#org97a7212" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.4</span> <b>FastPages Functionality</b>
-</h4>
-<div class="outline-text-4" id="text-2-2-4">
 <p>
 Lot of bells and whistle related to boxes and link are enabled using org mode link functionality
 </p>
@@ -244,8 +222,8 @@ Lot of bells and whistle related to boxes and link are enabled using org mode li
 
 <ol class="org-ol">
 <li>
-<a id="orgaecb232"></a>Youtube Video Link<br>
-<div class="outline-text-5" id="text-2-2-4-1">
+<a id="org80d1d07"></a>Youtube Video Link<br>
+<div class="outline-text-5" id="text-2-2-2-1">
 <p>
 You can embed individual video or even playlist
 </p>
@@ -278,8 +256,8 @@ You can embed individual video or even playlist
 
 
 <li>
-<a id="orgfb267d1"></a>Twitter Card Link<br>
-<div class="outline-text-5" id="text-2-2-4-2">
+<a id="orgcf4c8fe"></a>Twitter Card Link<br>
+<div class="outline-text-5" id="text-2-2-2-2">
 <pre class="example">
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
 </pre>
@@ -300,8 +278,8 @@ You can embed individual video or even playlist
 </li>
 
 <li>
-<a id="orga79997e"></a>Remote Image Link<br>
-<div class="outline-text-5" id="text-2-2-4-3">
+<a id="org4ef19d1"></a>Remote Image Link<br>
+<div class="outline-text-5" id="text-2-2-2-3">
 <pre class="example">
 [[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
 </pre>
@@ -335,8 +313,8 @@ You can embed individual video or even playlist
 </li>
 
 <li>
-<a id="org7f12340"></a>Local Images<br>
-<div class="outline-text-5" id="text-2-2-4-4">
+<a id="org390ae84"></a>Local Images<br>
+<div class="outline-text-5" id="text-2-2-2-4">
 <pre class="example">
 [[img:/images/Emacs.png][Emacs is the king]]
 </pre>
@@ -356,8 +334,8 @@ This has been awesome so far.
 </li>
 
 <li>
-<a id="orgfb81175"></a>Boxes and Stuff<br>
-<div class="outline-text-5" id="text-2-2-4-5">
+<a id="orgb361cfa"></a>Boxes and Stuff<br>
+<div class="outline-text-5" id="text-2-2-2-5">
 <pre class="example">
 [[alert:This is an alert box]]
 
@@ -459,8 +437,8 @@ This has been awesome so far.
 </li>
 
 <li>
-<a id="org3128129"></a>IFrames and Revealjs Presentation<br>
-<div class="outline-text-5" id="text-2-2-4-6">
+<a id="orga3945b4"></a>IFrames and Revealjs Presentation<br>
+<div class="outline-text-5" id="text-2-2-2-6">
 <pre class="example">
 [[iframe:https://revealjs.com][Reveal JS Presentation]]
 </pre>
@@ -481,11 +459,11 @@ Infact it is also possible to create revealjs presentation directly from org mod
 </ol>
 </div>
 
-<div id="outline-container-orgc718422" class="outline-4">
-<h4 id="orgc718422">
-<a class="anchor" href="#orgc718422" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.5</span> <b>Document Embedding</b>
+<div id="outline-container-orgca77e29" class="outline-4">
+<h4 id="orgca77e29">
+<a class="anchor" href="#orgca77e29" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.3</span> <b>Document Embedding</b>
 </h4>
-<div class="outline-text-4" id="text-2-2-5">
+<div class="outline-text-4" id="text-2-2-3">
 <p>
 For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire topic you want to present in your article.
 </p>
@@ -493,6 +471,7 @@ For a longish article, sometimes you would like to split it in different files a
 <p>
 In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published <a href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html">in here</a>. I have just imported relevant portions for this post
 </p>
+
 <pre class="example">
 #+INCLUDE: "2020-04-29-Awesome-Org-Mode-Links.org::FastPages link" :only-contents t 
 </pre>
@@ -500,9 +479,51 @@ In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an exam
 </div>
 
 
-<div id="outline-container-orgfa6c602" class="outline-4">
-<h4 id="orgfa6c602">
-<a class="anchor" href="#orgfa6c602" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.6</span> <b>Are you excited?</b>
+<div id="outline-container-org407c8e8" class="outline-4">
+<h4 id="org407c8e8">
+<a class="anchor" href="#org407c8e8" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.4</span> <b>Literate Programming</b>
+</h4>
+<div class="outline-text-4" id="text-2-2-4">
+<p>
+You can do literate programming just like jupyter notebooks, create technical reports, even write full fledged books. Org mode also supports various export backends which means same document can be converted to a html blog, a latex report, beamer or revealjs presentations. Here are a few good links to explore
+</p>
+
+<ul class="org-ul">
+<li>A Multi-Language Computing Environment for Literate programming and Reproducible Research <a href="https://www.researchgate.net/publication/231337373_A_Multi-Language_Computing_Environment_for_Literate_Programming_and_Reproducible_Research">here</a>
+</li>
+
+<li>Org Mode Recipes</li>
+</ul>
+<p>
+ </p>
+<div style="text-align: center;">
+	<iframe width="560" height="315" src="https://necromuralist.github.io/posts/bokeh-org-mode/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+     </div>
+
+
+<ul class="org-ul">
+<li>Literate programming in python with org-mode and noweb <a href="http://kitchingroup.cheme.cmu.edu/blog/2014/03/27/Literate-programming-in-python-with-org-mode-and-noweb/">here</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-org5ab839b" class="outline-4">
+<h4 id="org5ab839b">
+<a class="anchor" href="#org5ab839b" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.5</span> <b>GTD, Task Manager, Todo</b>
+</h4>
+<div class="outline-text-4" id="text-2-2-5">
+<p>
+You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things as described <a href="https://orgmode.org/worg/org-gtd-etc.html">here</a>
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgc939dc8" class="outline-4">
+<h4 id="orgc939dc8">
+<a class="anchor" href="#orgc939dc8" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.6</span> <b>Are you excited?</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-6">
 <p>
@@ -512,18 +533,18 @@ What I have done is just touch upon the surface of what is possible with org mod
 </div>
 </div>
 
-<div id="outline-container-org0d3d712" class="outline-3">
-<h3 id="org0d3d712">
-<a class="anchor" href="#org0d3d712" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.3</span> The How?</h3>
+<div id="outline-container-orga17d406" class="outline-3">
+<h3 id="orga17d406">
+<a class="anchor" href="#orga17d406" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.3</span> The How?</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 I have already shown earlier what org mode can do and how it can enhance your writing workflow. Now I will describe how you can do it yourself. Before I go into specifics let me share a bit on general design of fastpages and describe how it can be extended. 
 </p>
 </div>
 
-<div id="outline-container-org4185979" class="outline-4">
-<h4 id="org4185979">
-<a class="anchor" href="#org4185979" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.1</span> <b>Design of fastpages</b>
+<div id="outline-container-org6aaedf3" class="outline-4">
+<h4 id="org6aaedf3">
+<a class="anchor" href="#org6aaedf3" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.1</span> <b>Design of fastpages</b>
 </h4>
 <div class="outline-text-4" id="text-2-3-1">
 <p>
@@ -533,7 +554,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 
 <ol class="org-ol">
 <li>
-<a id="orgeafc755"></a>Markdown Blogging<br>
+<a id="org08eb57b"></a>Markdown Blogging<br>
 <div class="outline-text-5" id="text-2-3-1-1">
 <ul class="org-ul">
 <li>Markdown is the native format for Jekyll Blogging Engine. Jekyll uses an enhanced version of Markdown called Kramdown which comes with addtional functionality for source code coloring links etc…</li>
@@ -553,7 +574,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 </li>
 
 <li>
-<a id="org2e9db58"></a>Notebook Blogging<br>
+<a id="org9954a38"></a>Notebook Blogging<br>
 <div class="outline-text-5" id="text-2-3-1-2">
 <ul class="org-ul">
 <li>Notebook blogging is really what makes fastpages special for data scientist.I should rather specify and say python notebook blogging is what is possible natively in fastpages.  Notebook blogging is enabled by a python package called "nbdev" another tool from FastAI.</li>
@@ -562,7 +583,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 <ul class="org-ul">
 <li>You need to specify front matter in first cell of notebook</li>
 <li>Import / Export/ Hide / Show/ Collapsible hide etc… are directive implemented as comments which need to appear on top of cell to indicate inclusion or exclution from html export</li>
-<li>In reality notebooks from _notebook folder are converted to html[not markdown] and exported to _posts folder with a fake (.md) extension as an initial preprocessing step</li>
+<li>In reality notebooks from _notebooks folder are converted to html[not markdown] and exported to _posts folder with a fake (.md) extension as an initial preprocessing step</li>
 <li>From _post folder Jekyll machinery takes over to convert them into rendered site alongwith markkdown posts</li>
 <li>Fastpages provides various shims(utlities/methods) to convert some notebook specific directives for links, youtube or boxes to liquid include templates. These are then converted by Jekyll to final version of site.</li>
 </ul>
@@ -573,14 +594,14 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 
 
 <li>
-<a id="org80cd7ea"></a>Word Blogging<br>
+<a id="org2c192ad"></a>Word Blogging<br>
 <div class="outline-text-5" id="text-2-3-1-3">
 <ul class="org-ul">
 <li>Word blogging structure is a similar
 <ul class="org-ul">
 <li>It uses pandoc for "docx" to "html" conversion. Which is copied to _posts folder with (.md) extension</li>
 <li>Some shim methods are provided by FastPages to handle jekyll _includes and _layout nicely</li>
-<li>For Words there is only one place to specify "Front Matter". It is _action<sub>files</sub>/word<sub>front</sub><sub>matter.txt</sub> file</li>
+<li>For Words there is only one place to specify "Front Matter". It is <b>_action<sub>files</sub>/word<sub>front</sub><sub>matter.txt</sub></b> file</li>
 </ul>
 </li>
 </ul>
@@ -588,16 +609,19 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 </li>
 
 <li>
-<a id="orge896fe8"></a>Automation via Github Actions<br>
+<a id="org2c683bf"></a>Automation via Github Actions<br>
 <div class="outline-text-5" id="text-2-3-1-4">
 <ul class="org-ul">
 <li>All processing automation are handled by Github Actions
 <ul class="org-ul">
 <li>Checkout code to some machine</li>
-<li>Cleaning up old _site/ html</li>
-<li>Convert files in _notebooks and _word to _posts</li>
-<li>Building the site using Jekyll into _site</li>
-<li>Copying / Commiting the _site folder to gh<sub>pages</sub> etc..</li>
+<li>Cleaning up old <i>_site or html</i>
+</li>
+<li>Convert files in <i>_notebooks</i> and <i>_word</i> to <i>_posts</i>
+</li>
+<li>Building the site using Jekyll into <i>_site</i>
+</li>
+<li>Copying / Commiting the <i>_site</i> folder to <i>gh<sub>pages</sub></i> etc..</li>
 </ul>
 </li>
 
@@ -610,20 +634,23 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 </ol>
 </div>
 
-<div id="outline-container-org91009e3" class="outline-4">
-<h4 id="org91009e3">
-<a class="anchor" href="#org91009e3" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.2</span> <b>General Idea for extension</b>
+<div id="outline-container-orgba708a1" class="outline-4">
+<h4 id="orgba708a1">
+<a class="anchor" href="#orgba708a1" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.2</span> <b>General Idea for extension</b>
 </h4>
 <div class="outline-text-4" id="text-2-3-2">
 <p>
 So based on the intuition above we basically need to figure out 3 pieces
 </p>
 <ul class="org-ul">
-<li>Way to convert custom format to html( with fake .md extension) or actual kramdown style markdown. It needs to have a way to insert/ send YAML FrontMatter to exported files</li>
-<li>Some customization scripts to handled Jekyll _include template nicely to manage look and feel</li>
-<li>Automation Code
+<li>
+<b>HTML/Markdown Converter</b> :Way to convert custom format to html( with fake .md extension) or actual kramdown style markdown. It needs to have a way to insert/ send YAML FrontMatter to exported files</li>
+<li>
+<b>Shims for Jekyll</b>: Some customization scripts to handled Jekyll _include template nicely to manage look and feel</li>
+<li>
+<b>Automation Code</b>
 <ul class="org-ul">
-<li>Github Action [ Include an addtional conversion step in ci.yml or integrate with existing action files possibly in _action<sub>files</sub>/action<sub>entrypoint.sh</sub>]</li>
+<li>Github Action [ Include an addtional conversion step in ci.yml or integrate with existing action files possibly in <i>_action<sub>files</sub>/action<sub>entrypoint.sh</sub></i> ]</li>
 <li>Update Docker Compose and Makefile</li>
 </ul>
 </li>
@@ -632,9 +659,9 @@ So based on the intuition above we basically need to figure out 3 pieces
 </div>
 
 
-<div id="outline-container-org0ea5cb3" class="outline-4">
-<h4 id="org0ea5cb3">
-<a class="anchor" href="#org0ea5cb3" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.3</span> <b>Org Mode Blogging</b>
+<div id="outline-container-orgd25f455" class="outline-4">
+<h4 id="orgd25f455">
+<a class="anchor" href="#orgd25f455" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.3</span> <b>Org Mode Blogging</b>
 </h4>
 <div class="outline-text-4" id="text-2-3-3">
 <p>
@@ -644,7 +671,7 @@ So with the ideas above , I managed to create some extensions and tricks to enab
 
 <ol class="org-ol">
 <li>
-<a id="org0d3d2fa"></a>Org File Customization<br>
+<a id="org14a7c03"></a>Org File Customization<br>
 <div class="outline-text-5" id="text-2-3-3-1">
 <p>
 A small customization is required to export frontmatter from org file.
@@ -671,19 +698,27 @@ comments: true
 </pre>
 
 <ul class="org-ul">
-<li>Here first line disabling is for disabling toc specfic to org mode</li>
 <li>I use org mode specific publishing framework which comes alongwith Emacs.</li>
-<li>Then comes section for YAML front matter. Wrapping it in html export block allows this to be the first section on the file.</li>
 <li>In my export configuration, which I will talk about later, I have some settings which only export body of converted html document.</li>
+<li>Here first line is for disabling toc specfic to org mode. Default org mode TOC is added on top of body before content which interferes with YAML Frontmatter</li>
 <li>You can't include #+TITLE directive in org mode , as it is rendered before everything , and thus interfere's with Front Matter.</li>
+<li>Then comes section for YAML front matter. Wrapping it in html export block allows this to be the first section on the file.</li>
 <li>Things below OPTIONAL FROM HERE line need not be included. [ In fact I am still looking forward to customize css so that we can colorize source code similar to notebooks and markdown]</li>
+</ul>
+<p>
+ </p>
+<div style="text-align: center;">
+	<iframe width="560" height="315" src="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+     </div>
+
+<ul class="org-ul">
 <li>With these simple rules, you can easily write a blog post with all the functionality of org mode.</li>
 </ul>
 </div>
 </li>
 
 <li>
-<a id="orge18c505"></a>FastPages Customization<br>
+<a id="org65d861b"></a>FastPages Customization<br>
 <div class="outline-text-5" id="text-2-3-3-2">
 <p>
 I have done minimal non invasive customization to enable automation for org mode in fast pages. 
@@ -701,10 +736,10 @@ I have done minimal non invasive customization to enable automation for org mode
 
 <ol class="org-ol">
 <li>
-<a id="org6a6d5ee"></a>Folder Structure<br>
+<a id="org1a8357b"></a>Folder Structure<br>
 <div class="outline-text-6" id="text-2-3-3-2-1">
 <p>
-We need to create a _org folder . Inside _org folder , it should mirror structure of top level directories as follows
+We need to create a <i>_org</i> folder . Inside <i>_org</i> folder , it should mirror structure of top level directories as follows
 </p>
 
 <p>
@@ -726,14 +761,14 @@ We need to create a _org folder . Inside _org folder , it should mirror structur
 
 
 <li>
-<a id="orgc773016"></a>Github Action Customization<br>
+<a id="org0283b06"></a>Github Action Customization<br>
 <div class="outline-text-6" id="text-2-3-3-2-2">
 <ul class="org-ul">
 <li>I have created some custom actions, which I save in <i>_custom<sub>actions</sub><sub>files</sub></i> directory at top level. It has got 3 files
 <ul class="org-ul">
 <li>
 <p>
-publish.el - Emacs script to control publishing from _org//<sub>posts</sub> to _posts folder and converting org to html.
+publish.el - Emacs script to control publishing from <i>_org/<sub>posts</sub></i> to <i>_posts</i> folder and converting org to html.
 </p>
 
 <div class="org-src-container">
@@ -889,7 +924,7 @@ jobs:
 
 
 <li>
-<a id="orgd3946e6"></a>Finally for local viewing<br>
+<a id="orgc1a4782"></a>Finally for local viewing<br>
 <div class="outline-text-6" id="text-2-3-3-2-3">
 <ul class="org-ul">
 <li>
@@ -1020,17 +1055,17 @@ restart-jekyll: .FORCE
 </div>
 </div>
 
-<div id="outline-container-orgc3124de" class="outline-2">
-<h2 id="orgc3124de">
-<a class="anchor" href="#orgc3124de" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">3</span> Conclusion and way forward</h2>
+<div id="outline-container-org471d438" class="outline-2">
+<h2 id="org471d438">
+<a class="anchor" href="#org471d438" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">3</span> Conclusion and way forward</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org567aa24" class="outline-3">
-<h3 id="org567aa24">
-<a class="anchor" href="#org567aa24" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.1</span> Org Mode Bridge and Other systems</h3>
+<div id="outline-container-org5ebad6f" class="outline-3">
+<h3 id="org5ebad6f">
+<a class="anchor" href="#org5ebad6f" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.1</span> Org Mode Bridge and Other systems</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
-Org mode on emacs is a really powerful tool for text processing, writing and literate programming. With all the development done on this repository now it is fairly easy to get started with org mode on fastpages. In future similar techniques can be adopted to create exporter for Rmarkdown or literate-julia or any other target. In view of author, it is important to use the language native to programming system to build these extensions. So for Rmarkdown , it would be useful to leverage existing infrastructure in "knitr" and "bookdown/ blogdown" packages rather than building things from scratch or extending nbdev. This is less burdensome to maintain and enables a writing flow where we don't have to go back and forth from existing system. 
+Org mode on emacs is a really powerful tool for text processing, writing and literate programming. With all the development done on this repository; it is now fairly easy to get started with org mode on fastpages. In future similar techniques can be adopted to create exporter for Rmarkdown or literate-julia or any other target. In view of author, it is important to use the language native to programming system to build these extensions. So for Rmarkdown , it would be useful to leverage existing infrastructure in "knitr" and "bookdown/ blogdown" packages rather than building things from scratch or extending nbdev. This is less burdensome to maintain and enables a writing flow where we don't have to go back and forth from existing system. 
 </p>
 
 <p>
@@ -1039,20 +1074,20 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 </div>
 </div>
 
-<div id="outline-container-orgb36d157" class="outline-3">
-<h3 id="orgb36d157">
-<a class="anchor" href="#orgb36d157" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.2</span> Outstanding Tasks</h3>
+<div id="outline-container-orge26ea93" class="outline-3">
+<h3 id="orge26ea93">
+<a class="anchor" href="#orge26ea93" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.2</span> Outstanding Tasks</h3>
 <div class="outline-text-3" id="text-3-2">
 </div>
 <ol class="org-ol">
 <li>
-<a id="orgb1818c3"></a><span class="todo TODO">TODO</span> Fix links inside boxes in org mode<br>
+<a id="orgb51015f"></a><span class="todo TODO">TODO</span> Fix links inside boxes in org mode<br>
 </li>
 <li>
-<a id="org5b41a4f"></a><span class="todo TODO">TODO</span> Define a specific layout for org files which can include some common header files.<br>
+<a id="org5db2a2d"></a><span class="todo TODO">TODO</span> Define a specific layout for org files which can include some common header files.<br>
 </li>
 <li>
-<a id="org4c43e62"></a><span class="todo TODO">TODO</span> Define a mechanism for code highlighting<br>
+<a id="orge9c053d"></a><span class="todo TODO">TODO</span> Define a mechanism for code highlighting<br>
 <div class="outline-text-5" id="text-3-2-0-3">
 <p>
 </p>
@@ -1068,13 +1103,13 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 </div>
 </li>
 <li>
-<a id="org8411ef0"></a><span class="todo TODO">TODO</span> Handle internal links and html export more robustly<br>
+<a id="org96eab4d"></a><span class="todo TODO">TODO</span> Handle internal links and html export more robustly<br>
 </li>
 <li>
-<a id="org1c514de"></a><span class="todo TODO">TODO</span> Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post<br>
+<a id="org66ec275"></a><span class="todo TODO">TODO</span> Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post<br>
 </li>
 <li>
-<a id="orgc838b99"></a><span class="todo TODO">TODO</span> Create a demo for exporting to beamer and intergrating with blog post<br>
+<a id="org9e5cbc2"></a><span class="todo TODO">TODO</span> Create a demo for exporting to beamer and intergrating with blog post<br>
 <div class="outline-text-5" id="text-3-2-0-6">
 <p>
 </p>
