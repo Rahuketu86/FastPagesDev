@@ -47,7 +47,7 @@ You can write a blog post like this. Since Emacs is insanely powerful for text e
 *** *Document Embedding*
 For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire topic you want to present in your article.
 
-In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published [[https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html][in here]]. I have just imported relevant portions for this post
+In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an example above section on Fastpages functionality is actually part of a different blog published [[https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html][in here]]. I have just imported relevant portions for this post. Code/ configuration files in the bottom section are embedded using the same technique.
 
 #+begin_example
 #+INCLUDE: "2020-04-29-Awesome-Org-Mode-Links.org::FastPages link" :only-contents t 
