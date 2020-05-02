@@ -226,7 +226,7 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 **** DONE Define a mechanism for code highlighting 
 - +It can be done using custom css like org.css. But thing approach need some customization to match with default styles+
 - +Another approach is to use highlight.js and minor customization to read code blocks. This may be more reliable way to approach this+
-- [[note:box][Best Solution was to define a derived export backend and wrap source block in highlighting liquid template. It is now implemented in fpemacs.el]] 
+[[note:box][Best Solution was to define a derived export backend and wrap source block in highlighting liquid template. It is now implemented in fpemacs.el]] 
 **** TODO Handle internal links and html export more robustly
 **** TODO Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post
 **** TODO Create a demo for exporting to beamer and intergrating with blog post
