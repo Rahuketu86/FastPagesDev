@@ -91,7 +91,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      17 min read
+      21 min read
     
 </span></p>
 
@@ -108,38 +108,38 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#orgce9d79c">1 Introduction</a></li>
-<li class="toc-entry toc-h2"><a href="#org6992c4a">2 EMACS ORG-MODE: WHAT? WHY? HOW?</a>
+<li class="toc-entry toc-h2"><a href="#orgc2c3818">1 Introduction</a></li>
+<li class="toc-entry toc-h2"><a href="#org287a349">2 EMACS ORG-MODE: WHAT? WHY? HOW?</a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#orgd295053">2.1 The What?</a></li>
-<li class="toc-entry toc-h3"><a href="#orgb9ed372">2.2 The Why?</a>
+<li class="toc-entry toc-h3"><a href="#orgcca34ce">2.1 The What?</a></li>
+<li class="toc-entry toc-h3"><a href="#org2a66a89">2.2 The Why?</a>
 <ul>
-<li class="toc-entry toc-h4"><a href="#orgae36479">2.2.1 Blogging</a></li>
-<li class="toc-entry toc-h4"><a href="#org2e32a02">2.2.2 FastPages Functionality</a></li>
-<li class="toc-entry toc-h4"><a href="#org2257772">2.2.3 Document Embedding</a></li>
-<li class="toc-entry toc-h4"><a href="#org8928b0f">2.2.4 Literate Programming</a></li>
-<li class="toc-entry toc-h4"><a href="#org018a10d">2.2.5 GTD, Task Manager, Todo</a></li>
-<li class="toc-entry toc-h4"><a href="#orga4abac9">2.2.6 Are you excited?</a></li>
+<li class="toc-entry toc-h4"><a href="#org4b8c808">2.2.1 Blogging</a></li>
+<li class="toc-entry toc-h4"><a href="#org49e69ab">2.2.2 FastPages Functionality</a></li>
+<li class="toc-entry toc-h4"><a href="#orgd7eaef1">2.2.3 Document Embedding</a></li>
+<li class="toc-entry toc-h4"><a href="#orgc7eb206">2.2.4 Literate Programming</a></li>
+<li class="toc-entry toc-h4"><a href="#orge7805a4">2.2.5 GTD, Task Manager, Todo</a></li>
+<li class="toc-entry toc-h4"><a href="#org5cae871">2.2.6 Are you excited?</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h3"><a href="#orge4fbbfc">2.3 The How?</a>
+<li class="toc-entry toc-h3"><a href="#orgcb273f2">2.3 The How?</a>
 <ul>
-<li class="toc-entry toc-h4"><a href="#orgbab3eeb">2.3.1 Design of fastpages</a></li>
-<li class="toc-entry toc-h4"><a href="#orgac33900">2.3.2 General Idea for extension</a></li>
-<li class="toc-entry toc-h4"><a href="#orgbdf0c21">2.3.3 Org Mode Blogging</a></li>
+<li class="toc-entry toc-h4"><a href="#org63f3a96">2.3.1 Design of fastpages</a></li>
+<li class="toc-entry toc-h4"><a href="#orgb3f22a4">2.3.2 General Idea for extension</a></li>
+<li class="toc-entry toc-h4"><a href="#orgfefbce6">2.3.3 Org Mode Blogging</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#orgd393954">3 Conclusion and way forward</a>
+<li class="toc-entry toc-h2"><a href="#orgc597710">3 Conclusion and way forward</a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#orgd518ebe">3.1 Org Mode Bridge and Other systems</a></li>
-<li class="toc-entry toc-h3"><a href="#org40d9790">3.2 Outstanding Tasks</a></li>
+<li class="toc-entry toc-h3"><a href="#org3c2a0bf">3.1 Org Mode Bridge and Other systems</a></li>
+<li class="toc-entry toc-h3"><a href="#org5defffd">3.2 Outstanding Tasks</a></li>
 </ul>
 </li>
-</ul><div id="outline-container-orgce9d79c" class="outline-2">
-<h2 id="orgce9d79c">
-<a class="anchor" href="#orgce9d79c" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">1</span> Introduction</h2>
+</ul><div id="outline-container-orgc2c3818" class="outline-2">
+<h2 id="orgc2c3818">
+<a class="anchor" href="#orgc2c3818" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Jeremy and Rachel, esteemed founders of fastai, quote <i>Blogging is like Resume, only better</i> in this <a href="https://www.fast.ai/2019/05/13/blogging-advice/">post</a>. Blogging really is one of the best medium to learn while doing. It helps to communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses provides three main motivations:
@@ -165,18 +165,18 @@ My objective in this post is to showcase some of the minor changes which I have 
 </div>
 </div>
 
-<div id="outline-container-org6992c4a" class="outline-2">
-<h2 id="org6992c4a">
-<a class="anchor" href="#org6992c4a" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">2</span> EMACS ORG-MODE: WHAT? WHY? HOW?</h2>
+<div id="outline-container-org287a349" class="outline-2">
+<h2 id="org287a349">
+<a class="anchor" href="#org287a349" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">2</span> EMACS ORG-MODE: WHAT? WHY? HOW?</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 <i>BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS</i>
 </p>
 </div>
 
-<div id="outline-container-orgd295053" class="outline-3">
-<h3 id="orgd295053">
-<a class="anchor" href="#orgd295053" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.1</span> The What?</h3>
+<div id="outline-container-orgcca34ce" class="outline-3">
+<h3 id="orgcca34ce">
+<a class="anchor" href="#orgcca34ce" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.1</span> The What?</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. Combination with emacs elisp system makes it insanely powerful. Instead of yet another markup syntax; it becomes a system of text editing which is highly extensible and infinitely programmable. With various open source plugins' it can be used like a literate programming tool like notebooks or frontend for latex report creation or even online presentations. 
@@ -185,18 +185,18 @@ So what is org-mode? At the very basic level org mode or org format is a text ma
 </div>
 
 
-<div id="outline-container-orgb9ed372" class="outline-3">
-<h3 id="orgb9ed372">
-<a class="anchor" href="#orgb9ed372" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.2</span> The Why?</h3>
+<div id="outline-container-org2a66a89" class="outline-3">
+<h3 id="org2a66a89">
+<a class="anchor" href="#org2a66a89" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.2</span> The Why?</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 So why should you be interested in Org Mode .Here is a brief  list of things that you can do with it. 
 </p>
 </div>
 
-<div id="outline-container-orgae36479" class="outline-4">
-<h4 id="orgae36479">
-<a class="anchor" href="#orgae36479" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.1</span> <b>Blogging</b>
+<div id="outline-container-org4b8c808" class="outline-4">
+<h4 id="org4b8c808">
+<a class="anchor" href="#org4b8c808" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.1</span> <b>Blogging</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-1">
 <p>
@@ -205,9 +205,9 @@ You can write a blog post like this. Since Emacs is insanely powerful for text e
 </div>
 </div>
 
-<div id="outline-container-org2e32a02" class="outline-4">
-<h4 id="org2e32a02">
-<a class="anchor" href="#org2e32a02" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.2</span> <b>FastPages Functionality</b>
+<div id="outline-container-org49e69ab" class="outline-4">
+<h4 id="org49e69ab">
+<a class="anchor" href="#org49e69ab" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.2</span> <b>FastPages Functionality</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-2">
 <p>
@@ -222,7 +222,7 @@ Lot of bells and whistle related to boxes and link are enabled using org mode li
 
 <ol class="org-ol">
 <li>
-<a id="orga29a77d"></a>Youtube Video Link<br>
+<a id="orgb22d3d7"></a>Youtube Video Link<br>
 <div class="outline-text-5" id="text-2-2-2-1">
 <p>
 You can embed individual video or even playlist
@@ -256,7 +256,7 @@ You can embed individual video or even playlist
 
 
 <li>
-<a id="org520d0c8"></a>Twitter Card Link<br>
+<a id="orga40a01b"></a>Twitter Card Link<br>
 <div class="outline-text-5" id="text-2-2-2-2">
 <pre class="example">
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
@@ -278,7 +278,7 @@ You can embed individual video or even playlist
 </li>
 
 <li>
-<a id="org0500179"></a>Remote Image Link<br>
+<a id="org5fd9f34"></a>Remote Image Link<br>
 <div class="outline-text-5" id="text-2-2-2-3">
 <pre class="example">
 [[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
@@ -313,7 +313,7 @@ You can embed individual video or even playlist
 </li>
 
 <li>
-<a id="org0c2df0b"></a>Local Images<br>
+<a id="orgfb78874"></a>Local Images<br>
 <div class="outline-text-5" id="text-2-2-2-4">
 <pre class="example">
 [[img:/images/Emacs.png][Emacs is the king]]
@@ -334,7 +334,7 @@ This has been awesome so far.
 </li>
 
 <li>
-<a id="org56aa924"></a>Boxes and Stuff<br>
+<a id="orgf212bab"></a>Boxes and Stuff<br>
 <div class="outline-text-5" id="text-2-2-2-5">
 <pre class="example">
 [[alert:This is an alert box]]
@@ -437,7 +437,7 @@ This has been awesome so far.
 </li>
 
 <li>
-<a id="org9005bd4"></a>IFrames and Revealjs Presentation<br>
+<a id="orgab9704c"></a>IFrames and Revealjs Presentation<br>
 <div class="outline-text-5" id="text-2-2-2-6">
 <pre class="example">
 [[iframe:https://revealjs.com][Reveal JS Presentation]]
@@ -459,9 +459,9 @@ Infact it is also possible to create revealjs presentation directly from org mod
 </ol>
 </div>
 
-<div id="outline-container-org2257772" class="outline-4">
-<h4 id="org2257772">
-<a class="anchor" href="#org2257772" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.3</span> <b>Document Embedding</b>
+<div id="outline-container-orgd7eaef1" class="outline-4">
+<h4 id="orgd7eaef1">
+<a class="anchor" href="#orgd7eaef1" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.3</span> <b>Document Embedding</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-3">
 <p>
@@ -479,9 +479,9 @@ In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an exam
 </div>
 
 
-<div id="outline-container-org8928b0f" class="outline-4">
-<h4 id="org8928b0f">
-<a class="anchor" href="#org8928b0f" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.4</span> <b>Literate Programming</b>
+<div id="outline-container-orgc7eb206" class="outline-4">
+<h4 id="orgc7eb206">
+<a class="anchor" href="#orgc7eb206" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.4</span> <b>Literate Programming</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-4">
 <p>
@@ -509,9 +509,9 @@ You can do literate programming just like jupyter notebooks, create technical re
 </div>
 
 
-<div id="outline-container-org018a10d" class="outline-4">
-<h4 id="org018a10d">
-<a class="anchor" href="#org018a10d" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.5</span> <b>GTD, Task Manager, Todo</b>
+<div id="outline-container-orge7805a4" class="outline-4">
+<h4 id="orge7805a4">
+<a class="anchor" href="#orge7805a4" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.5</span> <b>GTD, Task Manager, Todo</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-5">
 <p>
@@ -521,9 +521,9 @@ You can use it as task manager, do project management, create to do list. Follow
 </div>
 
 
-<div id="outline-container-orga4abac9" class="outline-4">
-<h4 id="orga4abac9">
-<a class="anchor" href="#orga4abac9" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.6</span> <b>Are you excited?</b>
+<div id="outline-container-org5cae871" class="outline-4">
+<h4 id="org5cae871">
+<a class="anchor" href="#org5cae871" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.6</span> <b>Are you excited?</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-6">
 <p>
@@ -533,18 +533,18 @@ What I have done is just touch upon the surface of what is possible with org mod
 </div>
 </div>
 
-<div id="outline-container-orge4fbbfc" class="outline-3">
-<h3 id="orge4fbbfc">
-<a class="anchor" href="#orge4fbbfc" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.3</span> The How?</h3>
+<div id="outline-container-orgcb273f2" class="outline-3">
+<h3 id="orgcb273f2">
+<a class="anchor" href="#orgcb273f2" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.3</span> The How?</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 I have already shown earlier what org mode can do and how it can enhance your writing workflow. Now I will describe how you can do it yourself. Before I go into specifics let me share a bit on general design of fastpages and describe how it can be extended. 
 </p>
 </div>
 
-<div id="outline-container-orgbab3eeb" class="outline-4">
-<h4 id="orgbab3eeb">
-<a class="anchor" href="#orgbab3eeb" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.1</span> <b>Design of fastpages</b>
+<div id="outline-container-org63f3a96" class="outline-4">
+<h4 id="org63f3a96">
+<a class="anchor" href="#org63f3a96" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.1</span> <b>Design of fastpages</b>
 </h4>
 <div class="outline-text-4" id="text-2-3-1">
 <p>
@@ -554,7 +554,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 
 <ol class="org-ol">
 <li>
-<a id="orge1d2ffa"></a>Markdown Blogging<br>
+<a id="org488bd4a"></a>Markdown Blogging<br>
 <div class="outline-text-5" id="text-2-3-1-1">
 <ul class="org-ul">
 <li>Markdown is the native format for Jekyll Blogging Engine. Jekyll uses an enhanced version of Markdown called Kramdown which comes with addtional functionality for source code coloring links etc…</li>
@@ -574,7 +574,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 </li>
 
 <li>
-<a id="orgc71b709"></a>Notebook Blogging<br>
+<a id="org59f3539"></a>Notebook Blogging<br>
 <div class="outline-text-5" id="text-2-3-1-2">
 <ul class="org-ul">
 <li>Notebook blogging is really what makes fastpages special for data scientist.I should rather specify and say python notebook blogging is what is possible natively in fastpages.  Notebook blogging is enabled by a python package called "nbdev" another tool from FastAI.</li>
@@ -594,7 +594,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 
 
 <li>
-<a id="org365757e"></a>Word Blogging<br>
+<a id="org9db4c9e"></a>Word Blogging<br>
 <div class="outline-text-5" id="text-2-3-1-3">
 <ul class="org-ul">
 <li>Word blogging structure is a similar
@@ -609,7 +609,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 </li>
 
 <li>
-<a id="orgce3ab79"></a>Automation via Github Actions<br>
+<a id="org4658a39"></a>Automation via Github Actions<br>
 <div class="outline-text-5" id="text-2-3-1-4">
 <ul class="org-ul">
 <li>All processing automation are handled by Github Actions
@@ -634,9 +634,9 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 </ol>
 </div>
 
-<div id="outline-container-orgac33900" class="outline-4">
-<h4 id="orgac33900">
-<a class="anchor" href="#orgac33900" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.2</span> <b>General Idea for extension</b>
+<div id="outline-container-orgb3f22a4" class="outline-4">
+<h4 id="orgb3f22a4">
+<a class="anchor" href="#orgb3f22a4" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.2</span> <b>General Idea for extension</b>
 </h4>
 <div class="outline-text-4" id="text-2-3-2">
 <p>
@@ -659,9 +659,9 @@ So based on the intuition above we basically need to figure out 3 pieces
 </div>
 
 
-<div id="outline-container-orgbdf0c21" class="outline-4">
-<h4 id="orgbdf0c21">
-<a class="anchor" href="#orgbdf0c21" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.3</span> <b>Org Mode Blogging</b>
+<div id="outline-container-orgfefbce6" class="outline-4">
+<h4 id="orgfefbce6">
+<a class="anchor" href="#orgfefbce6" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.3</span> <b>Org Mode Blogging</b>
 </h4>
 <div class="outline-text-4" id="text-2-3-3">
 <p>
@@ -671,7 +671,7 @@ So with the ideas above , I managed to create some extensions and tricks to enab
 
 <ol class="org-ol">
 <li>
-<a id="orgcd37a9e"></a>Org File Customization<br>
+<a id="org38c1c69"></a>Org File Customization<br>
 <div class="outline-text-5" id="text-2-3-3-1">
 <p>
 A small customization is required to export frontmatter from org file.
@@ -686,13 +686,14 @@ categories: [orgmode]
 title: Blogging with Org mode and FastPages
 description: Tutorial to setup Fastpages with org mode
 comments: true
+use_math: false
 ---
 #+END_EXPORT
 
 
 # COMMENT ------------------OPTIONAL FROM HERE------------------------------
 
-&lt;link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/&gt;
+
 #+TOC: headline 3
 
 </pre>
@@ -703,7 +704,8 @@ comments: true
 <li>Here first line is for disabling toc specfic to org mode. Default org mode TOC is added on top of body before content which interferes with YAML Frontmatter</li>
 <li>You can't include #+TITLE directive in org mode , as it is rendered before everything , and thus interfere's with Front Matter.</li>
 <li>Then comes section for YAML front matter. Wrapping it in html export block allows this to be the first section on the file.</li>
-<li>Things below OPTIONAL FROM HERE line need not be included. [ In fact I am still looking forward to customize css so that we can colorize source code similar to notebooks and markdown]</li>
+<li>Things below OPTIONAL FROM HERE line need not be included. <del>In fact I am still looking forward to customize css so that we can colorize source code similar to notebooks and markdown</del>
+</li>
 </ul>
 <p>
  </p>
@@ -718,7 +720,7 @@ comments: true
 </li>
 
 <li>
-<a id="orgfa09670"></a>FastPages Customization<br>
+<a id="org025e31f"></a>FastPages Customization<br>
 <div class="outline-text-5" id="text-2-3-3-2">
 <p>
 I have done minimal non invasive customization to enable automation for org mode in fast pages. 
@@ -736,7 +738,7 @@ I have done minimal non invasive customization to enable automation for org mode
 
 <ol class="org-ol">
 <li>
-<a id="org7ac4831"></a>Folder Structure<br>
+<a id="org00d703e"></a>Folder Structure<br>
 <div class="outline-text-6" id="text-2-3-3-2-1">
 <p>
 We need to create a <i>_org</i> folder . Inside <i>_org</i> folder , it should mirror structure of top level directories as follows
@@ -761,7 +763,7 @@ We need to create a <i>_org</i> folder . Inside <i>_org</i> folder , it should m
 
 
 <li>
-<a id="org96838d9"></a>Github Action Customization<br>
+<a id="org50c4a0c"></a>Github Action Customization<br>
 <div class="outline-text-6" id="text-2-3-3-2-2">
 <ul class="org-ul">
 <li>I have created some custom actions, which I save in <i>_custom<sub>actions</sub><sub>files</sub></i> directory at top level. It has got 3 files
@@ -771,7 +773,13 @@ We need to create a <i>_org</i> folder . Inside <i>_org</i> folder , it should m
 publish.el - Emacs script to control publishing from <i>_org/<sub>posts</sub></i> to <i>_posts</i> folder and converting org to html.
 </p>
 
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           </p>
+<div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">require</span> <span class="ss">'package</span><span class="p">)</span>
 <span class="p">(</span><span class="nv">package-initialize</span><span class="p">)</span>
@@ -836,29 +844,278 @@ publish.el - Emacs script to control publishing from <i>_org/<sub>posts</sub></i
 <span class="p">(</span><span class="nb">provide</span> <span class="ss">'publish</span><span class="p">)</span></code></pre></figure>
 
 </div>
-</li>
-
-<li>fpemacs.el - Helper functions to enable links functionality translating to html/ jekyll includes. This is really the fastpages shim version of emacs. We can even call it fastpages-emacs library. All the changes should go here
-<div class="flash flash-error">
-    <svg class="octicon octicon-alert octicon octicon-alert octicon octicon-alert" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
-    <strong>Warning: </strong>This files contains include template in code and can't be rendered for now
+          </div>
+        
+    </details>
 </div>
 </li>
 
 <li>
 <p>
-custom.sh - Used to run emacs in batch mode with above files 
+fpemacs.el - Helper functions to enable links functionality translating to html/ jekyll includes. This is really the fastpages shim version of emacs. We can even call it fastpages-emacs library. All the changes should go here
 </p>
+<div class="flash flash-error">
+    <svg class="octicon octicon-alert octicon octicon-alert octicon octicon-alert" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <strong>Warning: </strong>This files contains include template in code and can't be rendered fully. Some lines are skipped.
+</div>
 
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           </p>
+<div class="input">
+                <div class="org-src-container">
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/sh</span>
+<figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">jekyll-include-local-img</span> <span class="p">(</span><span class="nv">url</span> <span class="nv">caption</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">n_url</span> <span class="p">(</span><span class="nv">s-lex-format</span> <span class="s">"/FastPagesDev${url}"</span><span class="p">)))</span>
+    <span class="p">(</span><span class="k">if</span> <span class="nv">caption</span>
+	  <span class="p">(</span><span class="nv">s-lex-format</span> <span class="s">"&amp;lt;figure&amp;gt;
+    &amp;lt;img src=\"${n_url}\"
+	   alt=\"${caption}\"&amp;gt;
+    &amp;lt;figcaption&amp;gt;${caption}&amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;"</span><span class="p">)</span>
+	<span class="p">(</span><span class="nv">s-lex-format</span> <span class="s">"&amp;lt;figure&amp;gt;
+    &amp;lt;img src=\"${n_url}\" &amp;gt;
+&amp;lt;/figure&amp;gt;"</span><span class="p">))))</span>
 
-<span class="nb">echo</span> <span class="s2">"Inside custom converter code"</span>
-<span class="c"># emacs --batch --no-init-file --load ./_custom_action_files/publish.el --funcall toggle-debug-on-error --funcall fastpages-publish-all</span>
-<span class="nb">rm</span> <span class="nt">-rf</span> /root/.org-timestamps
-emacs <span class="nt">--batch</span> <span class="nt">--no-init-file</span> <span class="nt">--load</span> ./_custom_action_files/fpemacs.el <span class="nt">--load</span> ./_custom_action_files/publish.el <span class="nt">--funcall</span> toggle-debug-on-error <span class="nt">--funcall</span> fastpages-publish-all</code></pre></figure>
 
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">embed-img</span> <span class="p">(</span><span class="nv">url</span> <span class="nv">caption</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">cond</span> <span class="p">((</span><span class="nv">s-starts-with?</span> <span class="s">"/images"</span> <span class="nv">url</span><span class="p">)</span> <span class="p">(</span><span class="nv">jekyll-include-local-img</span> <span class="nv">url</span> <span class="nv">caption</span><span class="p">))</span>
+	  <span class="p">((</span><span class="nv">s-starts-with?</span> <span class="s">"/assets"</span> <span class="nv">url</span><span class="p">)</span> <span class="p">(</span><span class="nv">jekyll-include-local-img</span> <span class="nv">url</span> <span class="nv">caption</span><span class="p">))</span>
+	  <span class="p">(</span><span class="no">t</span> <span class="p">(</span><span class="nv">jekyll-include-remote-img</span> <span class="nv">url</span> <span class="nv">caption</span><span class="p">))))</span>
+
+<span class="c1">;;(jekyll-include-img "/images/Emacs.png" "Emacs")</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">embed-iframe</span> <span class="p">(</span><span class="nv">url</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">s-lex-format</span> <span class="s">" &amp;lt;div style=\"text-align: center;\"&amp;gt;
+	&amp;lt;iframe width=\"560\" height=\"315\" src=\"${url}\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+   &amp;lt;/div&amp;gt;"</span><span class="p">))</span>
+
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">get-yt-code</span> <span class="p">(</span><span class="nv">url</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">car</span> <span class="p">(</span><span class="nv">s-split</span> <span class="s">"&amp;amp;list="</span> <span class="p">(</span><span class="nv">s-chop-prefixes</span> <span class="o">'</span><span class="p">(</span><span class="s">"https://www.youtube.com/watch?v="</span> <span class="s">"https://www.youtube.com/playlist?list="</span> <span class="s">"https://youtu.be/"</span><span class="p">)</span> <span class="nv">url</span><span class="p">))))</span>
+
+<span class="c1">;;(get-yt-code "https://www.youtube.com/watch?v=SmH3BPpl0TI")</span>
+<span class="c1">;;(get-yt-code "https://www.youtube.com/playlist?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr")</span>
+<span class="c1">;;(get-yt-code "https://www.youtube.com/watch?v=SzA2YODtgK4&amp;amp;list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr")</span>
+<span class="c1">;;(get-yt-code "https://youtu.be/VawlmG9tsXI")</span>
+
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">embed-yt</span><span class="p">(</span><span class="nv">url</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nv">s-starts-with?</span> <span class="s">"https://www.youtube.com/playlist?list="</span> <span class="nv">url</span><span class="p">)</span>
+	<span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">code</span> <span class="p">(</span><span class="nv">get-yt-code</span> <span class="nv">url</span><span class="p">))</span>
+	      <span class="p">(</span><span class="nv">embed-base</span> <span class="s">"https://www.youtube.com/embed/videoseries?list="</span><span class="p">))</span>
+	  <span class="p">(</span><span class="nv">embed-iframe</span> <span class="p">(</span><span class="nv">concat</span> <span class="nv">embed-base</span> <span class="nv">code</span><span class="p">)))</span>
+    <span class="p">(</span><span class="nv">jekyll-include</span> <span class="s">"youtube.html"</span> <span class="p">(</span><span class="nv">concat</span> <span class="s">"https://youtu.be/"</span> <span class="p">(</span><span class="nv">get-yt-code</span> <span class="nv">url</span><span class="p">)))))</span>
+
+<span class="c1">;;(embed-yt "https://www.youtube.com/watch?v=SmH3BPpl0TI")</span>
+<span class="c1">;;(embed-yt "https://www.youtube.com/playlist?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr")</span>
+<span class="c1">;;(embed-yt "https://youtu.be/VawlmG9tsXI")</span>
+
+<span class="p">(</span><span class="nv">org-link-set-parameters</span>
+ <span class="s">"yt"</span>
+ <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+	     <span class="p">(</span><span class="nb">cond</span>
+	      <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	       <span class="p">(</span><span class="nv">embed-yt</span> <span class="nv">path</span> <span class="p">))))</span>
+ <span class="ss">:help-echo</span> <span class="s">"This links helps in exporting link to jekyll youtube liquid template"</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nv">org-link-set-parameters</span>
+ <span class="s">"twitter"</span>
+ <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+	     <span class="p">(</span><span class="nb">cond</span>
+	      <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	       <span class="p">(</span><span class="nv">jekyll-include</span> <span class="s">"twitter.html"</span> <span class="nv">path</span> <span class="p">))))</span>
+ <span class="ss">:help-echo</span> <span class="s">"This links helps in exporting link to jekyll liquid twitter template"</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nv">org-link-set-parameters</span>
+ <span class="s">"img"</span>
+ <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+	     <span class="p">(</span><span class="nb">cond</span>
+	      <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	       <span class="p">(</span><span class="nv">embed-img</span>  <span class="nv">path</span> <span class="nv">desc</span><span class="p">))))</span>
+ <span class="ss">:help-echo</span> <span class="s">"This links helps in exporting link to jekyll liquid image template"</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nv">org-link-set-parameters</span>
+ <span class="s">"alert"</span>
+ <span class="ss">:face</span> <span class="o">'</span><span class="p">(</span><span class="ss">:foreground</span> <span class="s">"red"</span> <span class="ss">:underline</span> <span class="no">t</span><span class="p">)</span>
+ <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+	     <span class="p">(</span><span class="nb">cond</span>
+	      <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	       <span class="p">(</span><span class="nv">jekyll-include-box</span> <span class="s">"alert.html"</span> <span class="s">"text"</span> <span class="p">(</span><span class="nb">or</span> <span class="nv">desc</span> <span class="nv">path</span><span class="p">)))))</span>
+ <span class="ss">:help-echo</span> <span class="s">"This links helps in exporting link to jekyll alert template"</span><span class="p">)</span>
+
+
+<span class="p">(</span><span class="nv">org-link-set-parameters</span>
+ <span class="s">"info"</span>
+ <span class="ss">:face</span> <span class="o">'</span><span class="p">(</span><span class="ss">:foreground</span> <span class="s">"blue"</span> <span class="ss">:underline</span> <span class="no">t</span><span class="p">)</span>
+ <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+	     <span class="p">(</span><span class="nb">cond</span>
+	      <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	       <span class="p">(</span><span class="nv">jekyll-include-box</span> <span class="s">"info.html"</span> <span class="s">"text"</span> <span class="p">(</span><span class="nb">or</span> <span class="nv">desc</span> <span class="nv">path</span><span class="p">)))))</span>
+ <span class="ss">:help-echo</span> <span class="s">"This links helps in exporting link to jekyll info template"</span><span class="p">)</span>
+
+
+<span class="p">(</span><span class="nv">org-link-set-parameters</span>
+ <span class="s">"warning"</span>
+ <span class="ss">:face</span> <span class="o">'</span><span class="p">(</span><span class="ss">:foreground</span> <span class="s">"pink"</span><span class="p">)</span>
+ <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+	     <span class="p">(</span><span class="nb">cond</span>
+	      <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	       <span class="p">(</span><span class="nv">jekyll-include-box</span> <span class="s">"warning.html"</span> <span class="s">"content"</span> <span class="p">(</span><span class="nb">or</span> <span class="nv">desc</span> <span class="nv">path</span><span class="p">)))))</span>
+ <span class="ss">:help-echo</span> <span class="s">"This links helps in exporting link to jekyll warning template"</span><span class="p">)</span>
+
+
+<span class="p">(</span><span class="nv">org-link-set-parameters</span>
+ <span class="s">"important"</span>
+ <span class="ss">:face</span> <span class="o">'</span><span class="p">(</span><span class="ss">:foreground</span> <span class="s">"yellow"</span><span class="p">)</span>
+ <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+	     <span class="p">(</span><span class="nb">cond</span>
+	      <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	       <span class="p">(</span><span class="nv">jekyll-include-box</span> <span class="s">"important.html"</span> <span class="s">"content"</span> <span class="p">(</span><span class="nb">or</span> <span class="nv">desc</span> <span class="nv">path</span><span class="p">)))))</span>
+ <span class="ss">:help-echo</span> <span class="s">"This links helps in exporting link to jekyll important template"</span><span class="p">)</span>
+
+<span class="p">(</span><span class="nv">org-link-set-parameters</span>
+ <span class="s">"tip"</span>
+ <span class="ss">:face</span> <span class="o">'</span><span class="p">(</span><span class="ss">:foreground</span> <span class="s">"green"</span><span class="p">)</span>
+ <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+	     <span class="p">(</span><span class="nb">cond</span>
+	      <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	       <span class="p">(</span><span class="nv">jekyll-include-box</span> <span class="s">"tip.html"</span> <span class="s">"content"</span> <span class="p">(</span><span class="nb">or</span> <span class="nv">desc</span> <span class="nv">path</span><span class="p">)))))</span>
+ <span class="ss">:help-echo</span> <span class="s">"This links helps in exporting link to jekyll tip template"</span><span class="p">)</span>
+
+
+<span class="p">(</span><span class="nv">org-link-set-parameters</span>
+ <span class="s">"note"</span>
+ <span class="ss">:face</span> <span class="o">'</span><span class="p">(</span><span class="ss">:foreground</span> <span class="s">"light blue"</span><span class="p">)</span>
+ <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+	     <span class="p">(</span><span class="nb">cond</span>
+	      <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	       <span class="p">(</span><span class="nv">jekyll-include-box</span> <span class="s">"note.html"</span> <span class="s">"content"</span> <span class="p">(</span><span class="nb">or</span> <span class="nv">desc</span> <span class="nv">path</span><span class="p">)))))</span>
+ <span class="ss">:help-echo</span> <span class="s">"This links helps in exporting link to jekyll note template"</span><span class="p">)</span>
+
+  <span class="p">(</span><span class="nv">org-link-set-parameters</span>
+  <span class="s">"iframe"</span>
+  <span class="ss">:export</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">(</span><span class="nv">path</span> <span class="nv">desc</span> <span class="nv">backend</span><span class="p">)</span>
+      <span class="p">(</span><span class="nb">cond</span>
+	  <span class="p">((</span><span class="nb">eq</span> <span class="ss">'html</span> <span class="nv">backend</span><span class="p">)</span>
+	  <span class="p">(</span><span class="nv">embed-iframe</span> <span class="nv">path</span> <span class="p">))))</span>
+  <span class="ss">:help-echo</span> <span class="s">"This links help in embedding iframe and revealjs presentation"</span><span class="p">)</span>
+
+
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-html-htmlize-output-type</span> <span class="no">nil</span><span class="p">)</span>
+
+<span class="c1">;; Define A new backend for fastpages html export</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">org-fp-code-folding</span> <span class="p">(</span><span class="k">block</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">s-lex-format</span> <span class="s">"&amp;lt;div class=\"cell border-box-sizing code_cell rendered\"&amp;gt;
+    &amp;lt;details class=\"description\"&amp;gt;
+      &amp;lt;summary class=\"btn btn-sm\" data-open=\"Hide Code\" data-close=\"Show Code\"&amp;gt;&amp;lt;/summary&amp;gt;
+	&amp;lt;p&amp;gt;
+	   &amp;lt;div class=\"input\"&amp;gt;
+		${block}
+	  &amp;lt;/div&amp;gt;
+	&amp;lt;/p&amp;gt;
+    &amp;lt;/details&amp;gt;
+&amp;lt;/div&amp;gt;"</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">org-fp-html-src-block</span> <span class="p">(</span><span class="nv">src-block</span> <span class="nv">contents</span> <span class="nv">info</span><span class="p">)</span>
+  <span class="s">"Transcode a SRC-BLOCK element from Org to HTML.
+CONTENTS holds the contents of the item.  INFO is a plist holding
+contextual information."</span>
+  <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nv">org-export-read-attribute</span> <span class="ss">:attr_html</span> <span class="nv">src-block</span> <span class="ss">:textarea</span><span class="p">)</span>
+	<span class="p">(</span><span class="nv">org-html--textarea-block</span> <span class="nv">src-block</span><span class="p">)</span>
+    <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">lang</span> <span class="p">(</span><span class="nv">org-element-property</span> <span class="ss">:language</span> <span class="nv">src-block</span><span class="p">))</span>
+	    <span class="p">(</span><span class="nv">caption</span> <span class="p">(</span><span class="nv">org-export-get-caption</span> <span class="nv">src-block</span><span class="p">))</span>
+	    <span class="p">(</span><span class="nv">code</span> <span class="p">(</span><span class="nv">org-html-format-code</span> <span class="nv">src-block</span> <span class="nv">info</span><span class="p">))</span>
+	    <span class="p">(</span><span class="nv">label</span> <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">lbl</span> <span class="p">(</span><span class="nb">and</span> <span class="p">(</span><span class="nv">org-element-property</span> <span class="ss">:name</span> <span class="nv">src-block</span><span class="p">)</span>
+				   <span class="p">(</span><span class="nv">org-export-get-reference</span> <span class="nv">src-block</span> <span class="nv">info</span><span class="p">))))</span>
+		     <span class="p">(</span><span class="k">if</span> <span class="nv">lbl</span> <span class="p">(</span><span class="nb">format</span> <span class="s">" id=\"%s\""</span> <span class="nv">lbl</span><span class="p">)</span> <span class="s">""</span><span class="p">))))</span>
+	<span class="p">(</span><span class="nv">org-fp-code-folding</span>
+	<span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">not</span> <span class="nv">lang</span><span class="p">)</span> <span class="p">(</span><span class="nb">format</span> <span class="s">"&amp;lt;pre class=\"example\"%s&amp;gt;\n%s&amp;lt;/pre&amp;gt;"</span> <span class="nv">label</span> <span class="nv">code</span><span class="p">)</span>
+	  <span class="p">(</span><span class="nb">format</span>
+	   <span class="s">"&amp;lt;div class=\"org-src-container\"&amp;gt;\n%s%s\n&amp;lt;/div&amp;gt;"</span>
+	   <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">not</span> <span class="nv">caption</span><span class="p">)</span> <span class="s">""</span>
+	     <span class="p">(</span><span class="nb">format</span> <span class="s">"&amp;lt;label class=\"org-src-name\"&amp;gt;%s&amp;lt;/label&amp;gt;"</span>
+		     <span class="p">(</span><span class="nv">org-export-data</span> <span class="nv">caption</span> <span class="nv">info</span><span class="p">)))</span>
+	   <span class="p">(</span><span class="nv">jekyll-highlight</span> <span class="nv">lang</span> <span class="nv">code</span><span class="p">)))))))</span>
+
+<span class="c1">;;	 (format "\n&amp;lt;pre class=\"src src-%s\"%s&amp;gt;%s&amp;lt;/pre&amp;gt;" lang label code))))))</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">org-fp-inline-src-block</span> <span class="p">(</span><span class="nv">inline-src-block</span> <span class="nv">_contents</span> <span class="nv">info</span><span class="p">)</span>
+  <span class="s">"Transcode an INLINE-SRC-BLOCK element from Org to HTML.
+  CONTENTS holds the contents of the item.  INFO is a plist holding
+  contextual information."</span>
+  <span class="p">(</span><span class="k">let*</span> <span class="p">((</span><span class="nv">lang</span> <span class="p">(</span><span class="nv">org-element-property</span> <span class="ss">:language</span> <span class="nv">inline-src-block</span><span class="p">))</span>
+	   <span class="p">(</span><span class="nv">code</span> <span class="p">(</span><span class="nv">org-html-fontify-code</span>
+		  <span class="p">(</span><span class="nv">org-element-property</span> <span class="ss">:value</span> <span class="nv">inline-src-block</span><span class="p">)</span>
+		  <span class="nv">lang</span><span class="p">))</span>
+	   <span class="p">(</span><span class="nv">label</span>
+	    <span class="p">(</span><span class="k">let</span> <span class="p">((</span><span class="nv">lbl</span> <span class="p">(</span><span class="nb">and</span> <span class="p">(</span><span class="nv">org-element-property</span> <span class="ss">:name</span> <span class="nv">inline-src-block</span><span class="p">)</span>
+			    <span class="p">(</span><span class="nv">org-export-get-reference</span> <span class="nv">inline-src-block</span> <span class="nv">info</span><span class="p">))))</span>
+	      <span class="p">(</span><span class="k">if</span> <span class="p">(</span><span class="nb">not</span> <span class="nv">lbl</span><span class="p">)</span> <span class="s">""</span> <span class="p">(</span><span class="nb">format</span> <span class="s">" id=\"%s\""</span> <span class="nv">lbl</span><span class="p">)))))</span>
+    <span class="p">(</span><span class="nv">jekyll-highlight</span> <span class="nv">lang</span> <span class="nv">code</span><span class="p">)))</span>
+
+
+
+<span class="p">(</span><span class="nv">org-export-define-derived-backend</span> <span class="ss">'fastpages</span> <span class="ss">'html</span>
+  <span class="ss">:menu-entry</span>
+  <span class="o">'</span><span class="p">(</span><span class="nv">?f</span> <span class="s">"FastPages Export Backend"</span>
+	 <span class="p">((</span><span class="nv">?A</span> <span class="s">"As HTML Buffer (Fastpages)"</span> <span class="nv">org-fp-export-as-html</span><span class="p">)</span>
+	  <span class="p">(</span><span class="nv">?a</span> <span class="s">"As HTML file (Fastpages)"</span> <span class="nv">org-fp-export-to-html</span><span class="p">)))</span>
+  <span class="ss">:translate-alist</span> <span class="o">'</span><span class="p">((</span><span class="nv">inline-src-block</span> <span class="o">.</span> <span class="nv">org-fp-inline-src-block</span><span class="p">)</span>
+		       <span class="p">(</span><span class="nv">src-block</span> <span class="o">.</span> <span class="nv">org-fp-html-src-block</span><span class="p">)))</span>
+
+
+
+<span class="c1">;;;###autoload</span>
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">org-fp-export-as-html</span>
+  <span class="p">(</span><span class="nv">&amp;amp</span><span class="c1">;optional async subtreep visible-only body-only ext-plist)</span>
+
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">org-export-to-buffer</span> <span class="ss">'fastpages</span> <span class="s">"*Org FP HTML Export*"</span>
+    <span class="nv">async</span> <span class="nv">subtreep</span> <span class="nv">visible-only</span> <span class="nv">body-only</span> <span class="nv">ext-plist</span>
+    <span class="p">(</span><span class="k">lambda</span> <span class="p">()</span> <span class="p">(</span><span class="nv">set-auto-mode</span> <span class="no">t</span><span class="p">))))</span>
+
+<span class="c1">;;;###autoload</span>
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">org-fp-convert-region-to-html</span> <span class="p">()</span>
+
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">org-export-replace-region-by</span> <span class="ss">'fastpages</span><span class="p">))</span>
+
+<span class="c1">;;;###autoload</span>
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">org-fp-export-to-html</span>
+  <span class="p">(</span><span class="nv">&amp;amp</span><span class="c1">;optional async subtreep visible-only body-only ext-plist)</span>
+
+
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="k">let*</span> <span class="p">((</span><span class="nv">extension</span> <span class="p">(</span><span class="nv">concat</span>
+		       <span class="p">(</span><span class="nb">when</span> <span class="p">(</span><span class="nv">&amp;gt</span><span class="c1">; (length org-html-extension) 0) ".")</span>
+		       <span class="p">(</span><span class="nb">or</span> <span class="p">(</span><span class="nv">plist-get</span> <span class="nv">ext-plist</span> <span class="ss">:html-extension</span><span class="p">)</span>
+			   <span class="nv">org-html-extension</span>
+			   <span class="s">"html"</span><span class="p">)))</span>
+	   <span class="p">(</span><span class="nv">file</span> <span class="p">(</span><span class="nv">org-export-output-file-name</span> <span class="nv">extension</span> <span class="nv">subtreep</span><span class="p">))</span>
+	   <span class="p">(</span><span class="nv">org-export-coding-system</span> <span class="nv">org-html-coding-system</span><span class="p">))</span>
+    <span class="p">(</span><span class="nv">org-export-to-file</span> <span class="ss">'fastpages</span> <span class="nv">file</span>
+	<span class="nv">async</span> <span class="nv">subtreep</span> <span class="nv">visible-only</span> <span class="nv">body-only</span> <span class="nv">ext-plist</span><span class="p">)))</span>
+
+<span class="c1">;;;###autoload</span>
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">org-fp-publish-to-html</span> <span class="p">(</span><span class="nv">plist</span> <span class="nv">filename</span> <span class="nv">pub-dir</span><span class="p">)</span>
+
+  <span class="p">(</span><span class="nv">org-publish-org-to</span> <span class="ss">'fastpages</span> <span class="nv">filename</span>
+			<span class="p">(</span><span class="nv">concat</span> <span class="p">(</span><span class="nb">when</span> <span class="p">(</span><span class="nv">&amp;gt</span><span class="c1">; (length org-html-extension) 0) ".")</span>
+				<span class="p">(</span><span class="nb">or</span> <span class="p">(</span><span class="nv">plist-get</span> <span class="nv">plist</span> <span class="ss">:html-extension</span><span class="p">)</span>
+				    <span class="nv">org-html-extension</span>
+				    <span class="s">"html"</span><span class="p">))</span>
+			<span class="nv">plist</span> <span class="nv">pub-dir</span><span class="p">))</span>
+
+<span class="p">(</span><span class="nb">provide</span> <span class="ss">'fpemacs</span><span class="p">)</span></code></pre></figure>
+
+</div>
+          </div>
+        
+    </details>
 </div>
 </li>
 </ul>
@@ -869,9 +1126,42 @@ emacs <span class="nt">--batch</span> <span class="nt">--no-init-file</span> <sp
 <ul class="org-ul">
 <li>
 <p>
+custom.sh - Used to run emacs in batch mode with above files 
+</p>
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           </p>
+<div class="input">
+                <div class="org-src-container">
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/sh</span>
+
+<span class="nb">echo</span> <span class="s2">"Inside custom converter code"</span>
+<span class="c"># emacs --batch --no-init-file --load ./_custom_action_files/publish.el --funcall toggle-debug-on-error --funcall fastpages-publish-all</span>
+<span class="nb">rm</span> <span class="nt">-rf</span> /root/.org-timestamps
+emacs <span class="nt">--batch</span> <span class="nt">--no-init-file</span> <span class="nt">--load</span> ./_custom_action_files/fpemacs.el <span class="nt">--load</span> ./_custom_action_files/publish.el <span class="nt">--funcall</span> toggle-debug-on-error <span class="nt">--funcall</span> fastpages-publish-all</code></pre></figure>
+
+</div>
+          </div>
+        
+    </details>
+</div>
+</li>
+</ul>
+<ul class="org-ul">
+<li>
+<p>
 Additionally I have defined a public docker image encapsulating emacs and other dependencies for add on which is available from dockerhub as rahuketu86/fastpages-emacs. I add an addtional step to <b>convert org files</b> in my ci.yaml to enable this conversion automatically on git push. My modified ci now looks as follows
 </p>
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           </p>
+<div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">name</span><span class="pi">:</span> <span class="s">CI</span>
 <span class="na">on</span><span class="pi">:</span>
@@ -926,6 +1216,10 @@ Additionally I have defined a public docker image encapsulating emacs and other 
 <span class="err">	</span><span class="s">publish_dir: ./_site</span></code></pre></figure>
 
 </div>
+          </div>
+        
+    </details>
+</div>
 </li>
 </ul>
 </div>
@@ -933,14 +1227,20 @@ Additionally I have defined a public docker image encapsulating emacs and other 
 
 
 <li>
-<a id="orga44e984"></a>Finally for local viewing<br>
+<a id="org797bb2a"></a>Finally for local viewing<br>
 <div class="outline-text-6" id="text-2-3-3-2-3">
 <ul class="org-ul">
 <li>
 <p>
 I had to update docker-compose.yml to include an orgconverter service to use my rahuketu86/fastpages-emacs
 </p>
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           </p>
+<div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">version</span><span class="pi">:</span> <span class="s2">"</span><span class="s">3"</span>
 <span class="na">services</span><span class="pi">:</span>
@@ -990,13 +1290,23 @@ I had to update docker-compose.yml to include an orgconverter service to use my 
      <span class="s">&amp;amp;&amp;amp; jekyll serve --trace --strict_front_matter"</span></code></pre></figure>
 
 </div>
+          </div>
+        
+    </details>
+</div>
 </li>
 
 <li>
 <p>
 Update Makefile to add a single line in convert  <span class="underline">[# convert word &amp; nb without Jekyll services]</span> to run orgconverter alongwith nbdev converter
 </p>
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           </p>
+<div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">help</span><span class="pi">:</span>
 <span class="err">	</span><span class="s">cat Makefile</span>
@@ -1055,6 +1365,10 @@ Update Makefile to add a single line in convert  <span class="underline">[# conv
 <span class="s">.FORCE</span><span class="pi">:</span></code></pre></figure>
 
 </div>
+          </div>
+        
+    </details>
+</div>
 </li>
 </ul>
 </div>
@@ -1066,14 +1380,14 @@ Update Makefile to add a single line in convert  <span class="underline">[# conv
 </div>
 </div>
 
-<div id="outline-container-orgd393954" class="outline-2">
-<h2 id="orgd393954">
-<a class="anchor" href="#orgd393954" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">3</span> Conclusion and way forward</h2>
+<div id="outline-container-orgc597710" class="outline-2">
+<h2 id="orgc597710">
+<a class="anchor" href="#orgc597710" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">3</span> Conclusion and way forward</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orgd518ebe" class="outline-3">
-<h3 id="orgd518ebe">
-<a class="anchor" href="#orgd518ebe" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.1</span> Org Mode Bridge and Other systems</h3>
+<div id="outline-container-org3c2a0bf" class="outline-3">
+<h3 id="org3c2a0bf">
+<a class="anchor" href="#org3c2a0bf" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.1</span> Org Mode Bridge and Other systems</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 Org mode on emacs is a really powerful tool for text processing, writing and literate programming. With all the development done on this repository; it is now fairly easy to get started with org mode on fastpages. In future similar techniques can be adopted to create exporter for Rmarkdown or literate-julia or any other target. In view of author, it is important to use the language native to programming system to build these extensions. So for Rmarkdown , it would be useful to leverage existing infrastructure in "knitr" and "bookdown/ blogdown" packages rather than building things from scratch or extending nbdev. This is less burdensome to maintain and enables a writing flow where we don't have to go back and forth from existing system. 
@@ -1085,21 +1399,24 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 </div>
 </div>
 
-<div id="outline-container-org40d9790" class="outline-3">
-<h3 id="org40d9790">
-<a class="anchor" href="#org40d9790" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.2</span> Outstanding Tasks</h3>
+<div id="outline-container-org5defffd" class="outline-3">
+<h3 id="org5defffd">
+<a class="anchor" href="#org5defffd" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.2</span> Outstanding Tasks</h3>
 <div class="outline-text-3" id="text-3-2">
 </div>
 <ol class="org-ol">
 <li>
-<a id="org8dd6422"></a><span class="todo TODO">TODO</span> Fix links inside boxes in org mode<br>
+<a id="org7cf0636"></a><span class="todo TODO">TODO</span> Fix links inside boxes in org mode<br>
 </li>
 <li>
-<a id="orgfaefede"></a><span class="todo TODO">TODO</span> Define a specific layout for org files which can include some common header files.<br>
+<a id="org3fe9e51"></a><span class="todo TODO">TODO</span> Provide more controls on code folding , currently implemented on every block.<br>
 </li>
 <li>
-<a id="orgcb29f12"></a><span class="done DONE">DONE</span> Define a mechanism for code highlighting<br>
-<div class="outline-text-5" id="text-3-2-0-3">
+<a id="orgf291d3c"></a><span class="todo TODO">TODO</span> Define a specific layout for org files which can include some common header files.<br>
+</li>
+<li>
+<a id="org6a63861"></a><span class="done DONE">DONE</span> Define a mechanism for code highlighting<br>
+<div class="outline-text-5" id="text-3-2-0-4">
 <ul class="org-ul">
 <li><del>It can be done using custom css like org.css. But thing approach need some customization to match with default styles</del></li>
 <li><del>Another approach is to use highlight.js and minor customization to read code blocks. This may be more reliable way to approach this</del></li>
@@ -1114,14 +1431,14 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 </div>
 </li>
 <li>
-<a id="org9096e6d"></a><span class="todo TODO">TODO</span> Handle internal links and html export more robustly<br>
+<a id="orgb6ae2ba"></a><span class="todo TODO">TODO</span> Handle internal links and html export more robustly<br>
 </li>
 <li>
-<a id="orgba99459"></a><span class="todo TODO">TODO</span> Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post<br>
+<a id="orga30c3eb"></a><span class="todo TODO">TODO</span> Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post<br>
 </li>
 <li>
-<a id="org7d014a4"></a><span class="todo TODO">TODO</span> Create a demo for exporting to beamer and intergrating with blog post<br>
-<div class="outline-text-5" id="text-3-2-0-6">
+<a id="org42802a1"></a><span class="todo TODO">TODO</span> Create a demo for exporting to beamer and intergrating with blog post<br>
+<div class="outline-text-5" id="text-3-2-0-7">
 <p>
 </p>
 <div class="flash flash-success">

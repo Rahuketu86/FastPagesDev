@@ -111,32 +111,32 @@ window.onload = wrap_img;
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgdba7086">1. Emacs init.el</a></li>
-<li><a href="#orgdfbc985">2. Emacs Customization Group</a></li>
-<li><a href="#orgc34c2a1">3. Emacs Repositories</a></li>
-<li><a href="#org478b0e6">4. Personal Information</a></li>
-<li><a href="#orgb6a8177">5. Emacs : Add Info directory</a></li>
-<li><a href="#org68c0b68">6. Emacs: Backups</a></li>
-<li><a href="#org7b10745">7. Emacs: SaveHist</a></li>
-<li><a href="#orga95e7f2">8. Emacs Additional Infopath</a></li>
-<li><a href="#org93f1477">9. Utility Functions</a>
+<li><a href="#orgcb15b8d">1. Emacs init.el</a></li>
+<li><a href="#org669b928">2. Emacs Customization Group</a></li>
+<li><a href="#org31e5e91">3. Emacs Repositories</a></li>
+<li><a href="#orgba7e385">4. Personal Information</a></li>
+<li><a href="#org10ce0ac">5. Emacs : Add Info directory</a></li>
+<li><a href="#org5102d80">6. Emacs: Backups</a></li>
+<li><a href="#orge764452">7. Emacs: SaveHist</a></li>
+<li><a href="#orgc7e840a">8. Emacs Additional Infopath</a></li>
+<li><a href="#org2114bba">9. Utility Functions</a>
 <ul>
-<li><a href="#org72087ac">9.1. Function to open this configuration file</a></li>
+<li><a href="#org7b733ed">9.1. Function to open this configuration file</a></li>
 </ul>
 </li>
-<li><a href="#orgd9245a0">10. Splash Screen and bars</a></li>
-<li><a href="#org12ce2b3">11. Configure Emacs for use-package</a></li>
-<li><a href="#org6052aff">12. Improve performance on Windows</a></li>
-<li><a href="#org04d802d">13. Emacs Custom Theme</a></li>
-<li><a href="#orgdb18339">14. Setup Ido and smex</a></li>
-<li><a href="#org955c93a">15. Setup Guru Mode</a></li>
-<li><a href="#org7aa3bb2">16. Setup Magit</a></li>
-<li><a href="#org5ee9159">17. Setup Company Mode</a></li>
-<li><a href="#org554362a">18. Org-Mode Settings</a></li>
-<li><a href="#orge2fa03e">19. Nikola Blog Settings</a></li>
-<li><a href="#orgcd5ca4c">20. Games</a>
+<li><a href="#org50c260e">10. Splash Screen and bars</a></li>
+<li><a href="#org6789a4e">11. Configure Emacs for use-package</a></li>
+<li><a href="#org18e748d">12. Improve performance on Windows</a></li>
+<li><a href="#org0549dc7">13. Emacs Custom Theme</a></li>
+<li><a href="#org7d84799">14. Setup Ido and smex</a></li>
+<li><a href="#orgda76938">15. Setup Guru Mode</a></li>
+<li><a href="#org79abdb3">16. Setup Magit</a></li>
+<li><a href="#org5468815">17. Setup Company Mode</a></li>
+<li><a href="#org569577a">18. Org-Mode Settings</a></li>
+<li><a href="#org33b20e3">19. Nikola Blog Settings</a></li>
+<li><a href="#orgd99adee">20. Games</a>
 <ul>
-<li><a href="#org6c48f91">20.1. Chess</a></li>
+<li><a href="#org9532444">20.1. Chess</a></li>
 </ul>
 </li>
 </ul>
@@ -146,37 +146,51 @@ window.onload = wrap_img;
 <p>
 This post contains sample configuration for my emacs in an org file
 </p>
-<div id="outline-container-orgdba7086" class="outline-2">
-<h2 id="orgdba7086"><span class="section-number-2">1</span> Emacs init.el</h2>
+<div id="outline-container-orgcb15b8d" class="outline-2">
+<h2 id="orgcb15b8d"><span class="section-number-2">1</span> Emacs init.el</h2>
 <div class="outline-text-2" id="text-1">
-<pre class="example">
-(package-initialize)
 
-(require 'org)
-(org-babel-load-file
-      (expand-file-name "configuration.org"
-                         user-emacs-directory))
-</pre>
+<figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp">  <span class="p">(</span><span class="nv">package-initialize</span><span class="p">)</span>
+
+  <span class="p">(</span><span class="nb">require</span> <span class="ss">'org</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">org-babel-load-file</span>
+	<span class="p">(</span><span class="nv">expand-file-name</span> <span class="s">"configuration.org"</span>
+			   <span class="nv">user-emacs-directory</span><span class="p">))</span></code></pre></figure>
+
 </div>
 </div>
 
-<div id="outline-container-orgdfbc985" class="outline-2">
-<h2 id="orgdfbc985"><span class="section-number-2">2</span> Emacs Customization Group</h2>
+<div id="outline-container-org669b928" class="outline-2">
+<h2 id="org669b928"><span class="section-number-2">2</span> Emacs Customization Group</h2>
 <div class="outline-text-2" id="text-2">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="k">setq</span> <span class="nv">custom-file</span>
       <span class="p">(</span><span class="nv">expand-file-name</span> <span class="s">"custom.el"</span>
 			<span class="nv">user-emacs-directory</span><span class="p">))</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 </div>
 </div>
 
-<div id="outline-container-orgc34c2a1" class="outline-2">
-<h2 id="orgc34c2a1"><span class="section-number-2">3</span> Emacs Repositories</h2>
+<div id="outline-container-org31e5e91" class="outline-2">
+<h2 id="org31e5e91"><span class="section-number-2">3</span> Emacs Repositories</h2>
 <div class="outline-text-2" id="text-3">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">require</span> <span class="ss">'package</span><span class="p">)</span>
 <span class="c1">;;;(add-to-list 'package-archives</span>
@@ -196,24 +210,42 @@ This post contains sample configuration for my emacs in an org file
 <span class="p">(</span><span class="nv">package-initialize</span><span class="p">)</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org478b0e6" class="outline-2">
-<h2 id="org478b0e6"><span class="section-number-2">4</span> Personal Information</h2>
+<div id="outline-container-orgba7e385" class="outline-2">
+<h2 id="orgba7e385"><span class="section-number-2">4</span> Personal Information</h2>
 <div class="outline-text-2" id="text-4">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="k">setq</span> <span class="nv">user-full-name</span> <span class="s">"Rahul Saraf"</span>
      <span class="nv">user-mail-address</span> <span class="s">"rahuketu86@gmail.com"</span><span class="p">)</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
 </div>
 </div>
-<div id="outline-container-orgb6a8177" class="outline-2">
-<h2 id="orgb6a8177"><span class="section-number-2">5</span> Emacs : Add Info directory</h2>
+</div>
+<div id="outline-container-org10ce0ac" class="outline-2">
+<h2 id="org10ce0ac"><span class="section-number-2">5</span> Emacs : Add Info directory</h2>
 <div class="outline-text-2" id="text-5">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="k">setq</span> <span class="nv">Info-default-directory-list</span>
       <span class="p">(</span><span class="nb">append</span>
@@ -225,12 +257,21 @@ This post contains sample configuration for my emacs in an org file
     <span class="p">))</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
 </div>
 </div>
-<div id="outline-container-org68c0b68" class="outline-2">
-<h2 id="org68c0b68"><span class="section-number-2">6</span> Emacs: Backups</h2>
+</div>
+<div id="outline-container-org5102d80" class="outline-2">
+<h2 id="org5102d80"><span class="section-number-2">6</span> Emacs: Backups</h2>
 <div class="outline-text-2" id="text-6">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="k">setq</span> <span class="nv">backup-directory-alist</span> <span class="o">'</span><span class="p">((</span><span class="s">"."</span> <span class="o">.</span> <span class="s">"~/.emacs.d/backups"</span><span class="p">)))</span>
 <span class="p">(</span><span class="k">setq</span> <span class="nv">delete-old-versions</span> <span class="mi">-1</span><span class="p">)</span>
@@ -238,12 +279,21 @@ This post contains sample configuration for my emacs in an org file
 <span class="p">(</span><span class="k">setq</span> <span class="nv">vc-make-backup-files</span> <span class="no">t</span><span class="p">)</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
 </div>
 </div>
-<div id="outline-container-org7b10745" class="outline-2">
-<h2 id="org7b10745"><span class="section-number-2">7</span> Emacs: SaveHist</h2>
+</div>
+<div id="outline-container-orge764452" class="outline-2">
+<h2 id="orge764452"><span class="section-number-2">7</span> Emacs: SaveHist</h2>
 <div class="outline-text-2" id="text-7">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="k">setq</span> <span class="nv">savehist-file</span> <span class="s">"~/.emacs.d/savehist"</span><span class="p">)</span>
 <span class="p">(</span><span class="nv">savehist-mode</span> <span class="mi">1</span><span class="p">)</span>
@@ -256,26 +306,44 @@ This post contains sample configuration for my emacs in an org file
       <span class="nv">regexp-search-ring</span><span class="p">))</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
 </div>
 </div>
-<div id="outline-container-orga95e7f2" class="outline-2">
-<h2 id="orga95e7f2"><span class="section-number-2">8</span> Emacs Additional Infopath</h2>
+</div>
+<div id="outline-container-orgc7e840a" class="outline-2">
+<h2 id="orgc7e840a"><span class="section-number-2">8</span> Emacs Additional Infopath</h2>
 <div class="outline-text-2" id="text-8">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">'Info-default-directory-list</span> <span class="s">"~/.emacs.d/info"</span><span class="p">)</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
 </div>
 </div>
-<div id="outline-container-org93f1477" class="outline-2">
-<h2 id="org93f1477"><span class="section-number-2">9</span> Utility Functions</h2>
+</div>
+<div id="outline-container-org2114bba" class="outline-2">
+<h2 id="org2114bba"><span class="section-number-2">9</span> Utility Functions</h2>
 <div class="outline-text-2" id="text-9">
 </div>
-<div id="outline-container-org72087ac" class="outline-3">
-<h3 id="org72087ac"><span class="section-number-3">9.1</span> Function to open this configuration file</h3>
+<div id="outline-container-org7b733ed" class="outline-3">
+<h3 id="org7b733ed"><span class="section-number-3">9.1</span> Function to open this configuration file</h3>
 <div class="outline-text-3" id="text-9-1">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defvar</span> <span class="nv">config-file-name</span> <span class="s">"configuration.org"</span><span class="p">)</span>
 
@@ -287,14 +355,23 @@ This post contains sample configuration for my emacs in an org file
 			       <span class="nv">user-emacs-directory</span><span class="p">)))</span>  </code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgd9245a0" class="outline-2">
-<h2 id="orgd9245a0"><span class="section-number-2">10</span> Splash Screen and bars</h2>
+<div id="outline-container-org50c260e" class="outline-2">
+<h2 id="org50c260e"><span class="section-number-2">10</span> Splash Screen and bars</h2>
 <div class="outline-text-2" id="text-10">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="k">setq</span> <span class="nv">inhibit-splash-screen</span> <span class="no">t</span>
       <span class="c1">;;      initial-scratch-message nil</span>
@@ -306,13 +383,22 @@ This post contains sample configuration for my emacs in an org file
 <span class="c1">;; (menu-bar-mode -1)</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org12ce2b3" class="outline-2">
-<h2 id="org12ce2b3"><span class="section-number-2">11</span> Configure Emacs for use-package</h2>
+<div id="outline-container-org6789a4e" class="outline-2">
+<h2 id="org6789a4e"><span class="section-number-2">11</span> Configure Emacs for use-package</h2>
 <div class="outline-text-2" id="text-11">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"> <span class="p">(</span><span class="nb">unless</span> <span class="p">(</span><span class="nv">package-installed-p</span> <span class="ss">'use-package</span><span class="p">)</span>
  <span class="p">(</span><span class="nv">package-refresh-contents</span><span class="p">)</span>
@@ -328,39 +414,66 @@ This post contains sample configuration for my emacs in an org file
 <span class="p">(</span><span class="nb">require</span> <span class="ss">'bind-key</span><span class="p">)</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
 </div>
 </div>
-<div id="outline-container-org6052aff" class="outline-2">
-<h2 id="org6052aff"><span class="section-number-2">12</span> Improve performance on Windows</h2>
+</div>
+<div id="outline-container-org18e748d" class="outline-2">
+<h2 id="org18e748d"><span class="section-number-2">12</span> Improve performance on Windows</h2>
 <div class="outline-text-2" id="text-12">
 <p>
 Improving File Saving Performance on windows.
 </p>
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="k">setq</span> <span class="nv">w32-get-true-file-attributes</span> <span class="no">nil</span><span class="p">)</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org04d802d" class="outline-2">
-<h2 id="org04d802d"><span class="section-number-2">13</span> Emacs Custom Theme</h2>
+<div id="outline-container-org0549dc7" class="outline-2">
+<h2 id="org0549dc7"><span class="section-number-2">13</span> Emacs Custom Theme</h2>
 <div class="outline-text-2" id="text-13">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">monokai-theme</span>
   <span class="ss">:ensure</span> <span class="no">t</span>
   <span class="ss">:init</span> <span class="p">(</span><span class="nv">load-theme</span> <span class="ss">'monokai</span> <span class="no">t</span><span class="p">))</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 </div>
 </div>
 
-<div id="outline-container-orgdb18339" class="outline-2">
-<h2 id="orgdb18339"><span class="section-number-2">14</span> Setup Ido and smex</h2>
+<div id="outline-container-org7d84799" class="outline-2">
+<h2 id="org7d84799"><span class="section-number-2">14</span> Setup Ido and smex</h2>
 <div class="outline-text-2" id="text-14">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="c1">;; Activate ido</span>
 <span class="p">(</span><span class="nb">require</span> <span class="ss">'ido</span><span class="p">)</span>
@@ -373,17 +486,26 @@ Improving File Saving Performance on windows.
   <span class="ss">:config</span> <span class="p">(</span><span class="nv">smex-initialize</span><span class="p">))</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
 </div>
 </div>
-<div id="outline-container-org955c93a" class="outline-2">
-<h2 id="org955c93a"><span class="section-number-2">15</span> Setup Guru Mode</h2>
+</div>
+<div id="outline-container-orgda76938" class="outline-2">
+<h2 id="orgda76938"><span class="section-number-2">15</span> Setup Guru Mode</h2>
 <div class="outline-text-2" id="text-15">
 <p>
 Guru mode works by disabling common key bindings and pushing for
 Emacs standard key bindings. Instead of global hook up Textmode and
 other so that it plays nice with ido-mode.
 </p>
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">guru-mode</span>
   <span class="ss">:ensure</span> <span class="no">t</span>
@@ -395,33 +517,51 @@ other so that it plays nice with ido-mode.
  <span class="p">)</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org7aa3bb2" class="outline-2">
-<h2 id="org7aa3bb2"><span class="section-number-2">16</span> Setup Magit</h2>
+<div id="outline-container-org79abdb3" class="outline-2">
+<h2 id="org79abdb3"><span class="section-number-2">16</span> Setup Magit</h2>
 <div class="outline-text-2" id="text-16">
 <p>
 Magit is a git porcelain. With this we can stay within emacs for
 configuration modifications and commiting to git.
 </p>
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">magit</span>
   <span class="ss">:ensure</span> <span class="no">t</span>
   <span class="ss">:bind</span> <span class="p">(</span><span class="s">"C-x g"</span> <span class="o">.</span> <span class="nv">magit-status</span><span class="p">))</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org5ee9159" class="outline-2">
-<h2 id="org5ee9159"><span class="section-number-2">17</span> Setup Company Mode</h2>
+<div id="outline-container-org5468815" class="outline-2">
+<h2 id="org5468815"><span class="section-number-2">17</span> Setup Company Mode</h2>
 <div class="outline-text-2" id="text-17">
 <p>
 Company mode is used for autocompletion in Emacs.
 </p>
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp">    <span class="p">(</span><span class="nb">use-package</span> <span class="nv">company</span>
       <span class="ss">:ensure</span> <span class="no">t</span>
@@ -434,16 +574,25 @@ Company mode is used for autocompletion in Emacs.
 	   <span class="p">)</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
 </div>
 </div>
-<div id="outline-container-org554362a" class="outline-2">
-<h2 id="org554362a"><span class="section-number-2">18</span> Org-Mode Settings</h2>
+</div>
+<div id="outline-container-org569577a" class="outline-2">
+<h2 id="org569577a"><span class="section-number-2">18</span> Org-Mode Settings</h2>
 <div class="outline-text-2" id="text-18">
 <p>
 Global settings for all the org-mode buffers.
 </p>
 
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">org-mode</span>
   <span class="ss">:init</span> <span class="p">(</span><span class="nv">remove-hook</span> <span class="ss">'org-mode-hook</span> <span class="ss">'guru-mode</span><span class="p">)</span>
@@ -455,6 +604,10 @@ Global settings for all the org-mode buffers.
    <span class="p">(</span><span class="nv">remove-hook</span> <span class="ss">'org-mode-hook</span> <span class="ss">'guru-mode</span><span class="p">))</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 
 <p>
 Additional Org Mode plugins
@@ -463,21 +616,35 @@ Additional Org Mode plugins
 <li><p>
 Org Mode with Twitter bootstrap(ox-twbs)
 </p>
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">ox-twbs</span>
   <span class="ss">:ensure</span> <span class="no">t</span>
   <span class="ss">:defer</span> <span class="no">t</span><span class="p">)</span></code></pre></figure>
 
+</div>
+          </div>
+        </p>
+    </details>
 </div></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge2fa03e" class="outline-2">
-<h2 id="orge2fa03e"><span class="section-number-2">19</span> Nikola Blog Settings</h2>
+<div id="outline-container-org33b20e3" class="outline-2">
+<h2 id="org33b20e3"><span class="section-number-2">19</span> Nikola Blog Settings</h2>
 <div class="outline-text-2" id="text-19">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">htmlize</span>
  <span class="ss">:ensure</span> <span class="no">t</span><span class="p">)</span>
@@ -600,22 +767,35 @@ specified location."</span>
     <span class="p">(</span><span class="nv">write-file</span> <span class="nv">outfile</span> <span class="no">nil</span><span class="p">)))</span></code></pre></figure>
 
 </div>
+          </div>
+        </p>
+    </details>
+</div>
 </div>
 </div>
 
-<div id="outline-container-orgcd5ca4c" class="outline-2">
-<h2 id="orgcd5ca4c"><span class="section-number-2">20</span> Games</h2>
+<div id="outline-container-orgd99adee" class="outline-2">
+<h2 id="orgd99adee"><span class="section-number-2">20</span> Games</h2>
 <div class="outline-text-2" id="text-20">
 </div>
-<div id="outline-container-org6c48f91" class="outline-3">
-<h3 id="org6c48f91"><span class="section-number-3">20.1</span> Chess</h3>
+<div id="outline-container-org9532444" class="outline-3">
+<h3 id="org9532444"><span class="section-number-3">20.1</span> Chess</h3>
 <div class="outline-text-3" id="text-20-1">
-<div class="org-src-container">
+<div class="cell border-box-sizing code_cell rendered">
+    <details class="description">
+      <summary class="btn btn-sm" data-open="Hide Code" data-close="Show Code"></summary>
+        <p>
+           <div class="input">
+                <div class="org-src-container">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">chess</span>
   <span class="ss">:ensure</span> <span class="no">t</span>
   <span class="ss">:defer</span> <span class="no">t</span><span class="p">)</span></code></pre></figure>
 
+</div>
+          </div>
+        </p>
+    </details>
 </div>
 </div>
 </div>
