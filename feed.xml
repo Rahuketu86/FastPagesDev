@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-05-01T01:56:25-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Awesome Org Mode links</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html" rel="alternate" type="text/html" title="Awesome Org Mode links" /><published>2020-04-29T00:00:00-05:00</published><updated>2020-04-29T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html">&lt;div id=&quot;outline-container-org2b1dc20&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org2b1dc20&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://rahuketu86.github.io/FastPagesDev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahuketu86.github.io/FastPagesDev/" rel="alternate" type="text/html" /><updated>2020-05-02T11:12:57-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">Awesome Org Mode links</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html" rel="alternate" type="text/html" title="Awesome Org Mode links" /><published>2020-04-29T00:00:00-05:00</published><updated>2020-04-29T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/29/Awesome-Org-Mode-Links.html">&lt;div id=&quot;outline-container-org303f403&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org303f403&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.
@@ -21,8 +21,8 @@ Above notes will become clear towards the end of this post. As a reference I wil
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org54b0fc2&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org54b0fc2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; FastPages link&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgb137b20&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgb137b20&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; FastPages link&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Lot of bells and whistle related to boxes and link are enabled using org mode link functionality
@@ -34,8 +34,8 @@ Lot of bells and whistle related to boxes and link are enabled using org mode li
 &lt;/ul&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org7535f8b&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org7535f8b&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Youtube Video Link&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orge53d4cc&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orge53d4cc&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Youtube Video Link&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;p&gt;
 You can embed individual video or even playlist
@@ -60,14 +60,14 @@ You can embed individual video or even playlist
 &lt;p&gt;
  &lt;div style=&quot;text-align: center;&quot;&gt;
 	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-     &lt;/div&gt;
+   &lt;/div&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org4666eb6&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org4666eb6&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Twitter Card Link&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org29fcbda&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org29fcbda&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Twitter Card Link&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
@@ -84,8 +84,8 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org7b0feaf&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org7b0feaf&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Remote Image Link&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org10befa9&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org10befa9&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Remote Image Link&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
@@ -119,8 +119,8 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgc0a3fbe&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgc0a3fbe&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.4&lt;/span&gt; Local Images&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgb05b319&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgb05b319&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.4&lt;/span&gt; Local Images&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-4&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:/images/Emacs.png][Emacs is the king]]
@@ -128,9 +128,9 @@ You can embed individual video or even playlist
 
 &lt;p&gt;
 &lt;figure&gt;
-      &lt;img src=&quot;/FastPagesDev/images/Emacs.png&quot; alt=&quot;Emacs is the king&quot; /&gt;
-      &lt;figcaption&gt;Emacs is the king&lt;/figcaption&gt;
-  &lt;/figure&gt;
+    &lt;img src=&quot;/FastPagesDev/images/Emacs.png&quot; alt=&quot;Emacs is the king&quot; /&gt;
+    &lt;figcaption&gt;Emacs is the king&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;/p&gt;
 
 
@@ -140,8 +140,8 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgbb135ee&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgbb135ee&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.5&lt;/span&gt; Boxes and Stuff&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org20196e2&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org20196e2&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.5&lt;/span&gt; Boxes and Stuff&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-5&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[alert:This is an alert box]]
@@ -234,8 +234,8 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgeb9c272&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgeb9c272&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.6&lt;/span&gt; IFrames and Revealjs Presentation&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org88aaca9&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org88aaca9&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.6&lt;/span&gt; IFrames and Revealjs Presentation&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-6&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[iframe:https://revealjs.com][Reveal JS Presentation]]
@@ -245,7 +245,7 @@ This has been awesome so far.
 You can embed websites as iframes. This is particularily useful for embedding revealjs presentation like this.
  &lt;div style=&quot;text-align: center;&quot;&gt;
 	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://revealjs.com&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-     &lt;/div&gt;
+   &lt;/div&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -253,8 +253,8 @@ Infact it is also possible to create revealjs presentation directly from org mod
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.</summary></entry><entry><title type="html">Blogging with Org mode and FastPages</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html" rel="alternate" type="text/html" title="Blogging with Org mode and FastPages" /><published>2020-04-27T00:00:00-05:00</published><updated>2020-04-27T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html">&lt;div id=&quot;outline-container-orgaeb9e5a&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgaeb9e5a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.</summary></entry><entry><title type="html">Blogging with Org mode and FastPages</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html" rel="alternate" type="text/html" title="Blogging with Org mode and FastPages" /><published>2020-04-27T00:00:00-05:00</published><updated>2020-04-27T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html">&lt;div id=&quot;outline-container-org3843fb6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3843fb6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 Jeremy and Rachel, esteemed founders of fastai, quote &lt;i&gt;Blogging is like Resume, only better&lt;/i&gt; in this &lt;a href=&quot;https://www.fast.ai/2019/05/13/blogging-advice/&quot;&gt;post&lt;/a&gt;. Blogging really is one of the best medium to learn while doing. It helps to communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses provides three main motivations:
@@ -280,16 +280,16 @@ My objective in this post is to showcase some of the minor changes which I have 
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org493068b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org493068b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; EMACS ORG-MODE: WHAT? WHY? HOW?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org428e45d&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org428e45d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; EMACS ORG-MODE: WHAT? WHY? HOW?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 &lt;i&gt;BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS&lt;/i&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgaad2a39&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgaad2a39&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The What?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgff712e1&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgff712e1&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The What?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;p&gt;
 So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. Combination with emacs elisp system makes it insanely powerful. Instead of yet another markup syntax; it becomes a system of text editing which is highly extensible and infinitely programmable. With various open source plugins' it can be used like a literate programming tool like notebooks or frontend for latex report creation or even online presentations. 
@@ -298,16 +298,16 @@ So what is org-mode? At the very basic level org mode or org format is a text ma
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-orgf6c8f6f&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgf6c8f6f&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; The Why?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org90c4c5d&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org90c4c5d&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; The Why?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;p&gt;
 So why should you be interested in Org Mode .Here is a brief  list of things that you can do with it. 
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org6096a8d&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org6096a8d&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.1&lt;/span&gt; &lt;b&gt;Blogging&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-orgacf5dc9&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgacf5dc9&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.1&lt;/span&gt; &lt;b&gt;Blogging&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-1&quot;&gt;
 &lt;p&gt;
 You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
@@ -315,8 +315,8 @@ You can write a blog post like this. Since Emacs is insanely powerful for text e
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgb8c3608&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;orgb8c3608&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.2&lt;/span&gt; &lt;b&gt;FastPages Functionality&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org44610e0&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org44610e0&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.2&lt;/span&gt; &lt;b&gt;FastPages Functionality&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-2&quot;&gt;
 &lt;p&gt;
 Lot of bells and whistle related to boxes and link are enabled using org mode link functionality
@@ -329,7 +329,7 @@ Lot of bells and whistle related to boxes and link are enabled using org mode li
 &lt;/div&gt;
 
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;orgaa3b006&quot;&gt;&lt;/a&gt;Youtube Video Link&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org3424648&quot;&gt;&lt;/a&gt;Youtube Video Link&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-1&quot;&gt;
 &lt;p&gt;
 You can embed individual video or even playlist
@@ -354,13 +354,13 @@ You can embed individual video or even playlist
 &lt;p&gt;
  &lt;div style=&quot;text-align: center;&quot;&gt;
 	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-     &lt;/div&gt;
+   &lt;/div&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/li&gt;
 
 
-&lt;li&gt;&lt;a id=&quot;orgdea4f15&quot;&gt;&lt;/a&gt;Twitter Card Link&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgb5c9e19&quot;&gt;&lt;/a&gt;Twitter Card Link&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-2&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
@@ -377,7 +377,7 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org1ee992e&quot;&gt;&lt;/a&gt;Remote Image Link&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgd26282c&quot;&gt;&lt;/a&gt;Remote Image Link&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-3&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
@@ -411,7 +411,7 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org99c7a27&quot;&gt;&lt;/a&gt;Local Images&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org055cc93&quot;&gt;&lt;/a&gt;Local Images&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-4&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:/images/Emacs.png][Emacs is the king]]
@@ -419,9 +419,9 @@ You can embed individual video or even playlist
 
 &lt;p&gt;
 &lt;figure&gt;
-      &lt;img src=&quot;/FastPagesDev/images/Emacs.png&quot; alt=&quot;Emacs is the king&quot; /&gt;
-      &lt;figcaption&gt;Emacs is the king&lt;/figcaption&gt;
-  &lt;/figure&gt;
+    &lt;img src=&quot;/FastPagesDev/images/Emacs.png&quot; alt=&quot;Emacs is the king&quot; /&gt;
+    &lt;figcaption&gt;Emacs is the king&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;/p&gt;
 
 
@@ -431,7 +431,7 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org3322c3c&quot;&gt;&lt;/a&gt;Boxes and Stuff&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org5bb709b&quot;&gt;&lt;/a&gt;Boxes and Stuff&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-5&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[alert:This is an alert box]]
@@ -524,7 +524,7 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org30d74dc&quot;&gt;&lt;/a&gt;IFrames and Revealjs Presentation&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org22133ae&quot;&gt;&lt;/a&gt;IFrames and Revealjs Presentation&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-6&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[iframe:https://revealjs.com][Reveal JS Presentation]]
@@ -534,7 +534,7 @@ This has been awesome so far.
 You can embed websites as iframes. This is particularily useful for embedding revealjs presentation like this.
  &lt;div style=&quot;text-align: center;&quot;&gt;
 	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://revealjs.com&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-     &lt;/div&gt;
+   &lt;/div&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -545,8 +545,8 @@ Infact it is also possible to create revealjs presentation directly from org mod
 &lt;/ol&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgc98da51&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;orgc98da51&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.3&lt;/span&gt; &lt;b&gt;Document Embedding&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org7e15f88&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org7e15f88&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.3&lt;/span&gt; &lt;b&gt;Document Embedding&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-3&quot;&gt;
 &lt;p&gt;
 For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire topic you want to present in your article.
@@ -563,8 +563,8 @@ In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an exam
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org6e34153&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org6e34153&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.4&lt;/span&gt; &lt;b&gt;Literate Programming&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-orgb4f44d8&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgb4f44d8&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.4&lt;/span&gt; &lt;b&gt;Literate Programming&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-4&quot;&gt;
 &lt;p&gt;
 You can do literate programming just like jupyter notebooks, create technical reports, even write full fledged books. Org mode also supports various export backends which means same document can be converted to a html blog, a latex report, beamer or revealjs presentations. Here are a few good links to explore
@@ -578,7 +578,7 @@ You can do literate programming just like jupyter notebooks, create technical re
 &lt;p&gt;
  &lt;div style=&quot;text-align: center;&quot;&gt;
 	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://necromuralist.github.io/posts/bokeh-org-mode/&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-     &lt;/div&gt;
+   &lt;/div&gt;
 &lt;/p&gt;
 
 &lt;ul class=&quot;org-ul&quot;&gt;
@@ -588,8 +588,8 @@ You can do literate programming just like jupyter notebooks, create technical re
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org19881d4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org19881d4&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.5&lt;/span&gt; &lt;b&gt;GTD, Task Manager, Todo&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org35661be&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org35661be&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.5&lt;/span&gt; &lt;b&gt;GTD, Task Manager, Todo&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-5&quot;&gt;
 &lt;p&gt;
 You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things as described &lt;a href=&quot;https://orgmode.org/worg/org-gtd-etc.html&quot;&gt;here&lt;/a&gt;
@@ -598,8 +598,8 @@ You can use it as task manager, do project management, create to do list. Follow
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-orga877140&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;orga877140&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.6&lt;/span&gt; &lt;b&gt;Are you excited?&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org0a49332&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org0a49332&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.6&lt;/span&gt; &lt;b&gt;Are you excited?&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-6&quot;&gt;
 &lt;p&gt;
 What I have done is just touch upon the surface of what is possible with org mode, and by extension blogging on fastpages with org mode. There are many more options and functionality available in org mode including beamer presentation, spreadsheets , agenda views etc&amp;#x2026; which are awesome but too broad to cover in this introductory blog post. However over time I will continue to post articles on some tidbits' here and there which can greatly enhance your blogging workflow. Now I hope I have motivated you enough, so time to figure out to do it yourself. 
@@ -608,16 +608,16 @@ What I have done is just touch upon the surface of what is possible with org mod
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgae40bc9&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgae40bc9&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; The How?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org1e137d3&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org1e137d3&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; The How?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;p&gt;
 I have already shown earlier what org mode can do and how it can enhance your writing workflow. Now I will describe how you can do it yourself. Before I go into specifics let me share a bit on general design of fastpages and describe how it can be extended. 
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org73f3a48&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org73f3a48&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.1&lt;/span&gt; &lt;b&gt;Design of fastpages&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org513e6ea&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org513e6ea&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.1&lt;/span&gt; &lt;b&gt;Design of fastpages&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-1&quot;&gt;
 &lt;p&gt;
 So here is brief synopsis. Fastpages is based on Jekyll. It already provides you functionality to write a blog in markdown, notebook or word document. This is how it works
@@ -625,7 +625,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/div&gt;
 
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;orgcb2309d&quot;&gt;&lt;/a&gt;Markdown Blogging&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgea714c5&quot;&gt;&lt;/a&gt;Markdown Blogging&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-1-1&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Markdown is the native format for Jekyll Blogging Engine. Jekyll uses an enhanced version of Markdown called Kramdown which comes with addtional functionality for source code coloring links etc&amp;#x2026;&lt;/li&gt;
@@ -641,7 +641,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;orgdd50f1b&quot;&gt;&lt;/a&gt;Notebook Blogging&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orga4d6f96&quot;&gt;&lt;/a&gt;Notebook Blogging&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-1-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Notebook blogging is really what makes fastpages special for data scientist.I should rather specify and say python notebook blogging is what is possible natively in fastpages.  Notebook blogging is enabled by a python package called &quot;nbdev&quot; another tool from FastAI.&lt;/li&gt;
@@ -659,7 +659,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/li&gt;
 
 
-&lt;li&gt;&lt;a id=&quot;orga799c43&quot;&gt;&lt;/a&gt;Word Blogging&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgb648e00&quot;&gt;&lt;/a&gt;Word Blogging&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-1-3&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Word blogging structure is a similar
@@ -672,7 +672,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org50d33b4&quot;&gt;&lt;/a&gt;Automation via Github Actions&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org9433c81&quot;&gt;&lt;/a&gt;Automation via Github Actions&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-1-4&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;All processing automation are handled by Github Actions
@@ -693,8 +693,8 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/ol&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgf130eac&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;orgf130eac&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.2&lt;/span&gt; &lt;b&gt;General Idea for extension&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org22247c1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org22247c1&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.2&lt;/span&gt; &lt;b&gt;General Idea for extension&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-2&quot;&gt;
 &lt;p&gt;
 So based on the intuition above we basically need to figure out 3 pieces
@@ -712,8 +712,8 @@ So based on the intuition above we basically need to figure out 3 pieces
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org20f19ec&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org20f19ec&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.3&lt;/span&gt; &lt;b&gt;Org Mode Blogging&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org3361518&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org3361518&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.3&lt;/span&gt; &lt;b&gt;Org Mode Blogging&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-3&quot;&gt;
 &lt;p&gt;
 So with the ideas above , I managed to create some extensions and tricks to enable org mode blogging. It has following parts
@@ -721,7 +721,7 @@ So with the ideas above , I managed to create some extensions and tricks to enab
 &lt;/div&gt;
 
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;orgdf2db26&quot;&gt;&lt;/a&gt;Org File Customization&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgb4acb7f&quot;&gt;&lt;/a&gt;Org File Customization&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-3-1&quot;&gt;
 &lt;p&gt;
 A small customization is required to export frontmatter from org file.
@@ -758,7 +758,7 @@ comments: true
 &lt;p&gt;
  &lt;div style=&quot;text-align: center;&quot;&gt;
 	&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-     &lt;/div&gt;
+   &lt;/div&gt;
 &lt;/p&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;With these simple rules, you can easily write a blog post with all the functionality of org mode.&lt;/li&gt;
@@ -766,7 +766,7 @@ comments: true
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;orgf9b192a&quot;&gt;&lt;/a&gt;FastPages Customization&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgfe6fc53&quot;&gt;&lt;/a&gt;FastPages Customization&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-3-2&quot;&gt;
 &lt;p&gt;
 I have done minimal non invasive customization to enable automation for org mode in fast pages. 
@@ -782,7 +782,7 @@ I have done minimal non invasive customization to enable automation for org mode
 &lt;/div&gt;
 
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;org9ea9ec2&quot;&gt;&lt;/a&gt;Folder Structure&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgea14f30&quot;&gt;&lt;/a&gt;Folder Structure&lt;br /&gt;
 &lt;div class=&quot;outline-text-6&quot; id=&quot;text-2-3-3-2-1&quot;&gt;
 &lt;p&gt;
 We need to create a &lt;i&gt;_org&lt;/i&gt; folder . Inside &lt;i&gt;_org&lt;/i&gt; folder , it should mirror structure of top level directories as follows
@@ -790,9 +790,9 @@ We need to create a &lt;i&gt;_org&lt;/i&gt; folder . Inside &lt;i&gt;_org&lt;/i&
 
 &lt;p&gt;
 &lt;figure&gt;
-      &lt;img src=&quot;/FastPagesDev/images/org_fastpages_structure.png&quot; alt=&quot;Structure of _org directory in fastpages&quot; /&gt;
-      &lt;figcaption&gt;Structure of _org directory in fastpages&lt;/figcaption&gt;
-  &lt;/figure&gt;
+    &lt;img src=&quot;/FastPagesDev/images/org_fastpages_structure.png&quot; alt=&quot;Structure of _org directory in fastpages&quot; /&gt;
+    &lt;figcaption&gt;Structure of _org directory in fastpages&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -805,7 +805,7 @@ We need to create a &lt;i&gt;_org&lt;/i&gt; folder . Inside &lt;i&gt;_org&lt;/i&
 &lt;/li&gt;
 
 
-&lt;li&gt;&lt;a id=&quot;org1a6c984&quot;&gt;&lt;/a&gt;Github Action Customization&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org7acd329&quot;&gt;&lt;/a&gt;Github Action Customization&lt;br /&gt;
 &lt;div class=&quot;outline-text-6&quot; id=&quot;text-2-3-3-2-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;I have created some custom actions, which I save in &lt;i&gt;_custom&lt;sub&gt;actions&lt;/sub&gt;&lt;sub&gt;files&lt;/sub&gt;&lt;/i&gt; directory at top level. It has got 3 files
@@ -815,65 +815,69 @@ publish.el - Emacs script to control publishing from &lt;i&gt;_org/&lt;sub&gt;po
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;package&lt;/span&gt;)
-(package-initialize)
-(&lt;span class=&quot;org-keyword&quot;&gt;unless&lt;/span&gt; package-archive-contents
-  (add-to-list 'package-archives '(&lt;span class=&quot;org-string&quot;&gt;&quot;org&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;https://orgmode.org/elpa/&quot;&lt;/span&gt;) t)
-  (add-to-list 'package-archives '(&lt;span class=&quot;org-string&quot;&gt;&quot;melpa&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;https://melpa.org/packages/&quot;&lt;/span&gt;) t)
-  (package-refresh-contents))
-(&lt;span class=&quot;org-keyword&quot;&gt;dolist&lt;/span&gt; (pkg '(org-plus-contrib htmlize))
-  (&lt;span class=&quot;org-keyword&quot;&gt;unless&lt;/span&gt; (package-installed-p pkg)
-    (package-install pkg)))
 
-(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;org&lt;/span&gt;)
-(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;ox-rss&lt;/span&gt;)
-(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;ox-publish&lt;/span&gt;)
-(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;ox-html&lt;/span&gt;)
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; org-html-htmlize-output-type 'css)
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; org-publish-project-alist
-        '(
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;package-archive-contents&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package-archives&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;org&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;https://orgmode.org/elpa/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package-archives&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;melpa&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;https://melpa.org/packages/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-refresh-contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;dolist&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;pkg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-plus-contrib&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;htmlize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-installed-p&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;pkg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-install&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;pkg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;org-post-fastpages&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Path to your org files.&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;./_org/_posts&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;org&quot;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'ox-rss&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'ox-publish&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'ox-html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'fpemacs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-            &lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Path to your Jekyll project.&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;./_posts/&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:recursive&lt;/span&gt; t
-            &lt;span class=&quot;org-builtin&quot;&gt;:publishing-function&lt;/span&gt; org-html-publish-to-html
-            &lt;span class=&quot;org-builtin&quot;&gt;:html-extension&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;md&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:body-only&lt;/span&gt; t &lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Only export section between &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt;&lt;/span&gt;
-      )
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-html-htmlize-output-type&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-publish-project-alist&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
 
-      (&lt;span class=&quot;org-string&quot;&gt;&quot;org-static-fastpages&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;./_org/assets&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;css&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;png&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;jpg&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;gif&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;pdf&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;mp3&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;ogg&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;swf&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;php&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;./assets/&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:recursive&lt;/span&gt; t
-            &lt;span class=&quot;org-builtin&quot;&gt;:publishing-function&lt;/span&gt; org-publish-attachment
-            )
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;org-post-fastpages&quot;&lt;/span&gt;
+	    &lt;span class=&quot;c1&quot;&gt;;; Path to your org files.&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;./_org/_posts&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;org&quot;&lt;/span&gt;
 
-      (&lt;span class=&quot;org-string&quot;&gt;&quot;org-images-fastpages&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;./_org/images&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;css&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;png&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;jpg&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;gif&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;pdf&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;mp3&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;ogg&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;swf&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-backslash&quot;&gt;\\&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;&lt;span class=&quot;org-regexp-grouping-construct&quot;&gt;|&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-string&quot;&gt;php&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;./images/&quot;&lt;/span&gt;
-            &lt;span class=&quot;org-builtin&quot;&gt;:recursive&lt;/span&gt; t
-            &lt;span class=&quot;org-builtin&quot;&gt;:publishing-function&lt;/span&gt; org-publish-attachment
-            )
-      (&lt;span class=&quot;org-string&quot;&gt;&quot;fastpages&quot;&lt;/span&gt; &lt;span class=&quot;org-builtin&quot;&gt;:components&lt;/span&gt; (&lt;span class=&quot;org-string&quot;&gt;&quot;org-post-fastpages&quot;&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;org-static-fastpages&quot;&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;org-images-fastpages&quot;&lt;/span&gt;))
-
-  ))
-
-(&lt;span class=&quot;org-keyword&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;org-function-name&quot;&gt;fastpages-publish-all&lt;/span&gt; ()
-  &lt;span class=&quot;org-doc&quot;&gt;&quot;Publish the blog to HTML.&quot;&lt;/span&gt;
-  (&lt;span class=&quot;org-keyword&quot;&gt;interactive&lt;/span&gt;)
-  (org-publish-all))
+	    &lt;span class=&quot;c1&quot;&gt;;; Path to your Jekyll project.&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;./_posts/&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:recursive&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:publishing-function&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-fp-publish-to-html&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:html-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;md&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:body-only&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;;; Only export section between &amp;amp;lt;body&amp;amp;gt; &amp;amp;lt;/body&amp;amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 
-(&lt;span class=&quot;org-keyword&quot;&gt;provide&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;publish&lt;/span&gt;)
-&lt;/pre&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;org-static-fastpages&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;./_org/assets&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;./assets/&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:recursive&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:publishing-function&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-publish-attachment&lt;/span&gt;
+	    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;org-images-fastpages&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:base-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;./_org/images&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:base-extension&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:publishing-directory&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;./images/&quot;&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:recursive&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+	    &lt;span class=&quot;ss&quot;&gt;:publishing-function&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-publish-attachment&lt;/span&gt;
+	    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;fastpages&quot;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:components&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;org-post-fastpages&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;org-static-fastpages&quot;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;org-images-fastpages&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fastpages-publish-all&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Publish the blog to HTML.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;interactive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-publish-all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;provide&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'publish&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;&lt;/li&gt;
 
 &lt;li&gt;fpemacs.el - Helper functions to enable links functionality translating to html/ jekyll includes. This is really the fastpages shim version of emacs. We can even call it fastpages-emacs library. All the changes should go here
@@ -887,194 +891,201 @@ custom.sh - Used to run emacs in batch mode with above files
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-bash&quot;&gt;&lt;span class=&quot;org-comment-delimiter&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;!/bin/&lt;/span&gt;&lt;span class=&quot;org-keyword&quot;&gt;sh&lt;/span&gt;
 
-&lt;span class=&quot;org-builtin&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;Inside custom converter code&quot;&lt;/span&gt;
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;# &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;emacs --batch --no-init-file --load ./_custom_action_files/publish.el --funcall toggle-debug-on-error --funcall fastpages-publish-all&lt;/span&gt;
-rm -rf /root/.org-timestamps
-emacs --batch --no-init-file --load ./_custom_action_files/fpemacs.el --load ./_custom_action_files/publish.el --funcall toggle-debug-on-error --funcall fastpages-publish-all
-&lt;/pre&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Inside custom converter code&quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# emacs --batch --no-init-file --load ./_custom_action_files/publish.el --funcall toggle-debug-on-error --funcall fastpages-publish-all&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; /root/.org-timestamps
+emacs &lt;span class=&quot;nt&quot;&gt;--batch&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--no-init-file&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--load&lt;/span&gt; ./_custom_action_files/fpemacs.el &lt;span class=&quot;nt&quot;&gt;--load&lt;/span&gt; ./_custom_action_files/publish.el &lt;span class=&quot;nt&quot;&gt;--funcall&lt;/span&gt; toggle-debug-on-error &lt;span class=&quot;nt&quot;&gt;--funcall&lt;/span&gt; fastpages-publish-all&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
+
+&lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;&lt;p&gt;
 Additionally I have defined a public docker image encapsulating emacs and other dependencies for add on which is available from dockerhub as rahuketu86/fastpages-emacs. I add an addtional step to &lt;b&gt;convert org files&lt;/b&gt; in my ci.yaml to enable this conversion automatically on git push. My modified ci now looks as follows
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-yaml&quot;&gt;name: CI
-on:
-  push:
-    branches:
-      - master # need to filter here so we only deploy when there is a push to master
-  # no filters on pull requests, so intentionally left blank
-  pull_request: 
 
-jobs:     
-  build-site:
-    if: ( github.event.commits[0].message != 'Initial commit' ) || github.run_number &amp;gt; 1
-    runs-on: ubuntu-latest
-    steps:
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;CI&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;master&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# need to filter here so we only deploy when there is a push to master&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# no filters on pull requests, so intentionally left blank&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;pull_request&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; 
 
-    - name: Copy Repository Contents
-      uses: actions/checkout@master
-      with:
-	persist-credentials: false
+&lt;span class=&quot;na&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;     
+  &lt;span class=&quot;na&quot;&gt;build-site&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;( github.event.commits[0].message != 'Initial commit' ) || github.run_number &amp;amp;gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;ubuntu-latest&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
 
-    - name: setup directories for Jekyll build
-      run: |
-	rm -rf _site
-	sudo chmod -R 777 .
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Copy Repository Contents&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;actions/checkout@master&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;persist-credentials&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
 
-    - name: convert org files
-      uses: docker://rahuketu86/fastpages-emacs
-      if: github.event.deleted == false
-      with:
-	args: ./_custom_action_files/custom.sh
+    &lt;span class=&quot;s&quot;&gt;- name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;setup directories for Jekyll build&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;rm -rf _site&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sudo chmod -R 777 .&lt;/span&gt;
 
-    - name: convert notebooks and word docs to posts
-      uses: ./_action_files
+    &lt;span class=&quot;s&quot;&gt;- name: convert org files&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;uses: docker://rahuketu86/fastpages-emacs&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;if: github.event.deleted == false&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;with:&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;args: ./_custom_action_files/custom.sh&lt;/span&gt;
 
-    - name: Jekyll build
-      uses: docker://hamelsmu/fastpages-jekyll
-      with:
-	args: bash -c &quot;gem install bundler &amp;amp;&amp;amp; jekyll build -V --strict_front_matter --trace&quot;
-      env:
-	JEKYLL_ENV: 'production'
+    &lt;span class=&quot;s&quot;&gt;- name: convert notebooks and word docs to posts&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;uses: ./_action_files&lt;/span&gt;
 
-    - name: copy CNAME file into _site if CNAME exists
-      run: |
-	sudo chmod -R 777 _site/
-	cp CNAME _site/ 2&amp;gt;/dev/null || :
+    &lt;span class=&quot;s&quot;&gt;- name: Jekyll build&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;uses: docker://hamelsmu/fastpages-jekyll&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;with:&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;args: bash -c &quot;gem install bundler &amp;amp;amp;&amp;amp;amp; jekyll build -V --strict_front_matter --trace&quot;&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;env:&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;JEKYLL_ENV: 'production'&lt;/span&gt;
 
-    - name: Deploy
-      if: github.event_name	== 'push'
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-	deploy_key: $
-	publish_dir: ./_site
-&lt;/pre&gt;
+    &lt;span class=&quot;s&quot;&gt;- name: copy CNAME file into _site if CNAME exists&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;run: |&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;sudo chmod -R 777 _site/&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;cp CNAME _site/ 2&amp;amp;gt;/dev/null || :&lt;/span&gt;
+
+    &lt;span class=&quot;s&quot;&gt;- name: Deploy&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;if: github.event_name	== 'push'&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;uses: peaceiris/actions-gh-pages@v3&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;with:&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;deploy_key: $&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;publish_dir: ./_site&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/li&gt;
 
 
-&lt;li&gt;&lt;a id=&quot;org7e74342&quot;&gt;&lt;/a&gt;Finally for local viewing&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgc1ceb4d&quot;&gt;&lt;/a&gt;Finally for local viewing&lt;br /&gt;
 &lt;div class=&quot;outline-text-6&quot; id=&quot;text-2-3-3-2-3&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;&lt;p&gt;
 I had to update docker-compose.yml to include an orgconverter service to use my rahuketu86/fastpages-emacs
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-yaml&quot;&gt;version: &quot;3&quot;
-services:
-  fastpages: &amp;amp;fastpages
-    working_dir: /data
-    environment:
-	- INPUT_BOOL_SAVE_MARKDOWN=false
-    build:
-      context: ./_action_files
-      dockerfile: ./Dockerfile
-    image: fastpages-dev
-    logging:
-      driver: json-file
-      options:
-	max-size: 50m
-    stdin_open: true
-    tty: true
-    volumes:
-      - .:/data/
 
-  orgconverter:
-    working_dir: /data
-    image: rahuketu86/fastpages-emacs
-    volumes:
-      -  .:/data/
-    command: _custom_action_files/custom.sh
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;fastpages&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;&amp;amp;amp&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;;fastpages&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;working_dir&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/data&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;INPUT_BOOL_SAVE_MARKDOWN=false&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./_action_files&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;dockerfile&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;./Dockerfile&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;fastpages-dev&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;logging&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;driver&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;json-file&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;max-size&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;50m&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;stdin_open&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;tty&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.:/data/&lt;/span&gt;
+
+  &lt;span class=&quot;na&quot;&gt;orgconverter&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;working_dir&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/data&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;rahuketu86/fastpages-emacs&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt;  &lt;span class=&quot;s&quot;&gt;.:/data/&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;_custom_action_files/custom.sh&lt;/span&gt;
 
 
-  converter:
-    &amp;lt;&amp;lt;: *fastpages
-    command: /fastpages/action_entrypoint.sh
+  &lt;span class=&quot;na&quot;&gt;converter&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;&amp;amp;lt&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;;&amp;amp;lt;&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;*fastpages&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/fastpages/action_entrypoint.sh&lt;/span&gt;
 
-  watcher:
-    &amp;lt;&amp;lt;: *fastpages
-    command: watchmedo shell-command --command /fastpages/action_entrypoint.sh --pattern *.ipynb --recursive --drop
+  &lt;span class=&quot;na&quot;&gt;watcher&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;&amp;amp;lt&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;;&amp;amp;lt;&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;*fastpages&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;watchmedo shell-command --command /fastpages/action_entrypoint.sh --pattern *.ipynb --recursive --drop&lt;/span&gt;
 
-  jekyll:
-    working_dir: /data
-    image: hamelsmu/fastpages-jekyll
-    restart: unless-stopped
-    ports:
-      - &quot;4000:4000&quot;
-    volumes:
-      - .:/data/
-    command: &amp;gt;
-     bash -c &quot;gem install bundler
-     &amp;amp;&amp;amp; jekyll serve --trace --strict_front_matter&quot;
-&lt;/pre&gt;
+  &lt;span class=&quot;na&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;working_dir&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/data&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;hamelsmu/fastpages-jekyll&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;restart&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;unless-stopped&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;ports&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;4000:4000&quot;&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.:/data/&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;&amp;amp;gt&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;;&lt;/span&gt;
+     &lt;span class=&quot;s&quot;&gt;bash -c &quot;gem install bundler&lt;/span&gt;
+     &lt;span class=&quot;s&quot;&gt;&amp;amp;amp;&amp;amp;amp; jekyll serve --trace --strict_front_matter&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;
 Update Makefile to add a single line in convert  &lt;span class=&quot;underline&quot;&gt;[# convert word &amp;amp; nb without Jekyll services]&lt;/span&gt; to run orgconverter alongwith nbdev converter
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-yaml&quot;&gt;help:
-	cat Makefile
 
-# start (or restart) the services
-server: .FORCE
-	docker-compose down --remove-orphans || true;
-	docker-compose up
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;na&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;cat Makefile&lt;/span&gt;
 
-# start (or restart) the services in detached mode
-server-detached: .FORCE
-	docker-compose down || true;
-	docker-compose up -d
+&lt;span class=&quot;c1&quot;&gt;# start (or restart) the services&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose down --remove-orphans || &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose up&lt;/span&gt;
 
-# build or rebuild the services WITHOUT cache
-build: .FORCE
-	chmod 777 Gemfile.lock
-	docker-compose stop || true; docker-compose rm || true;
-	docker build --no-cache -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .
-	docker build --no-cache -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
-	docker-compose build --force-rm --no-cache
+&lt;span class=&quot;c1&quot;&gt;# start (or restart) the services in detached mode&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;server-detached&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose down || &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose up -d&lt;/span&gt;
 
-# rebuild the services WITH cache
-quick-build: .FORCE
-	docker-compose stop || true;
-	docker build -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .
-	docker build -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
-	docker-compose build 
+&lt;span class=&quot;c1&quot;&gt;# build or rebuild the services WITHOUT cache&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;chmod 777 Gemfile.lock&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose stop || &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;; docker-compose rm || &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker build --no-cache -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker build --no-cache -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose build --force-rm --no-cache&lt;/span&gt;
 
-# convert word &amp;amp; nb without Jekyll services
-convert: .FORCE
-	docker-compose up orgconverter
-	docker-compose up converter
+&lt;span class=&quot;c1&quot;&gt;# rebuild the services WITH cache&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;quick-build&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose stop || &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker build -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker build -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose build&lt;/span&gt; 
 
-# stop all containers
-stop: .FORCE
-	docker-compose stop
-	docker ps | grep fastpages | awk '{print $1}' | xargs docker stop
+&lt;span class=&quot;c1&quot;&gt;# convert word &amp;amp;amp; nb without Jekyll services&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;convert&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose up orgconverter&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose up converter&lt;/span&gt;
 
-# remove all containers
-remove: .FORCE
-	docker-compose stop  || true; docker-compose rm || true;
+&lt;span class=&quot;c1&quot;&gt;# stop all containers&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;stop&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose stop&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker ps | grep fastpages | awk '{print $1}' | xargs docker stop&lt;/span&gt;
 
-# get shell inside the notebook converter service (Must already be running)
-bash-nb: .FORCE
-	docker-compose exec watcher /bin/bash
+&lt;span class=&quot;c1&quot;&gt;# remove all containers&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose stop  || &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;; docker-compose rm || &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;;&lt;/span&gt;
 
-# get shell inside jekyll service (Must already be running)
-bash-jekyll: .FORCE
-	docker-compose exec jekyll /bin/bash
+&lt;span class=&quot;c1&quot;&gt;# get shell inside the notebook converter service (Must already be running)&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;bash-nb&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose exec watcher /bin/bash&lt;/span&gt;
 
-# restart just the Jekyll server
-restart-jekyll: .FORCE
-	docker-compose restart jekyll
+&lt;span class=&quot;c1&quot;&gt;# get shell inside jekyll service (Must already be running)&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;bash-jekyll&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose exec jekyll /bin/bash&lt;/span&gt;
 
-.FORCE:
-&lt;/pre&gt;
+&lt;span class=&quot;c1&quot;&gt;# restart just the Jekyll server&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;restart-jekyll&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;	&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;docker-compose restart jekyll&lt;/span&gt;
+
+&lt;span class=&quot;s&quot;&gt;.FORCE&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -1086,12 +1097,12 @@ restart-jekyll: .FORCE
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org8c451c7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org8c451c7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Conclusion and way forward&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org8887f1e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org8887f1e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Conclusion and way forward&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org455f9bf&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org455f9bf&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; Org Mode Bridge and Other systems&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org42ba43e&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org42ba43e&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; Org Mode Bridge and Other systems&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;
 &lt;p&gt;
 Org mode on emacs is a really powerful tool for text processing, writing and literate programming. With all the development done on this repository; it is now fairly easy to get started with org mode on fastpages. In future similar techniques can be adopted to create exporter for Rmarkdown or literate-julia or any other target. In view of author, it is important to use the language native to programming system to build these extensions. So for Rmarkdown , it would be useful to leverage existing infrastructure in &quot;knitr&quot; and &quot;bookdown/ blogdown&quot; packages rather than building things from scratch or extending nbdev. This is less burdensome to maintain and enables a writing flow where we don't have to go back and forth from existing system. 
@@ -1103,14 +1114,14 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgf02f140&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgf02f140&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; Outstanding Tasks&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org4aa4150&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org4aa4150&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; Outstanding Tasks&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;
 &lt;/div&gt;
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;org22f839c&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Fix links inside boxes in org mode&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;org48ea7d1&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Define a specific layout for org files which can include some common header files.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;orga7c12b8&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Define a mechanism for code highlighting&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgf43bb12&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Fix links inside boxes in org mode&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;orgc8786aa&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Define a specific layout for org files which can include some common header files.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;org434f2cc&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Define a mechanism for code highlighting&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-3-2-0-3&quot;&gt;
 &lt;p&gt;
 &lt;div class=&quot;flash flash-success&quot;&gt;
@@ -1124,9 +1135,9 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;orge8fc724&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Handle internal links and html export more robustly&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;org22e3453&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;orgc07a06c&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Create a demo for exporting to beamer and intergrating with blog post&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org8a63fa9&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Handle internal links and html export more robustly&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;orgc80dc21&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;orgd9ba3c2&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Create a demo for exporting to beamer and intergrating with blog post&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-3-2-0-6&quot;&gt;
 &lt;p&gt;
 &lt;div class=&quot;flash flash-success&quot;&gt;
@@ -1143,38 +1154,36 @@ I hope you find this blog post informative to get started with org mode.Please s
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction Jeremy and Rachel, esteemed founders of fastai, quote Blogging is like Resume, only better in this post. Blogging really is one of the best medium to learn while doing. It helps to communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses provides three main motivations:</summary></entry><entry><title type="html">Emacs Conifguration is fixed</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html" rel="alternate" type="text/html" title="Emacs Conifguration is fixed" /><published>2020-04-25T00:00:00-05:00</published><updated>2020-04-25T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://gongzhitaao.org/orgcss/org.css&quot; /&gt;
-
-&lt;div id=&quot;table-of-contents&quot;&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction Jeremy and Rachel, esteemed founders of fastai, quote Blogging is like Resume, only better in this post. Blogging really is one of the best medium to learn while doing. It helps to communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses provides three main motivations:</summary></entry><entry><title type="html">Emacs Conifguration is fixed</title><link href="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html" rel="alternate" type="text/html" title="Emacs Conifguration is fixed" /><published>2020-04-25T00:00:00-05:00</published><updated>2020-04-25T00:00:00-05:00</updated><id>https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html">&lt;div id=&quot;table-of-contents&quot;&gt;
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgd9bc22a&quot;&gt;1. Emacs init.el&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org26d3aff&quot;&gt;2. Emacs Customization Group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org3ab8ee8&quot;&gt;3. Emacs Repositories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org6e64ded&quot;&gt;4. Personal Information&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgacc95dd&quot;&gt;5. Emacs : Add Info directory&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgf97ecf4&quot;&gt;6. Emacs: Backups&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org33cc47b&quot;&gt;7. Emacs: SaveHist&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org33390c5&quot;&gt;8. Emacs Additional Infopath&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org9851503&quot;&gt;9. Utility Functions&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org307ee37&quot;&gt;1. Emacs init.el&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org3b58b64&quot;&gt;2. Emacs Customization Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgdd1224b&quot;&gt;3. Emacs Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgbc461a8&quot;&gt;4. Personal Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org4a989b1&quot;&gt;5. Emacs : Add Info directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgbd6db32&quot;&gt;6. Emacs: Backups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org98d8d90&quot;&gt;7. Emacs: SaveHist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org0646237&quot;&gt;8. Emacs Additional Infopath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgd6a83a6&quot;&gt;9. Utility Functions&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org942237e&quot;&gt;9.1. Function to open this configuration file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org47b8223&quot;&gt;9.1. Function to open this configuration file&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgd897198&quot;&gt;10. Splash Screen and bars&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgb655220&quot;&gt;11. Configure Emacs for use-package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org3fe8048&quot;&gt;12. Improve performance on Windows&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orge55a2f0&quot;&gt;13. Emacs Custom Theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org32110bc&quot;&gt;14. Setup Ido and smex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgd262ed7&quot;&gt;15. Setup Guru Mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgf4c4de7&quot;&gt;16. Setup Magit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgc941de4&quot;&gt;17. Setup Company Mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orga6b64a0&quot;&gt;18. Org-Mode Settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org6cf0441&quot;&gt;19. Nikola Blog Settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org69a6bb4&quot;&gt;20. Games&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#orgde09f08&quot;&gt;10. Splash Screen and bars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org80a0d0e&quot;&gt;11. Configure Emacs for use-package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgcf29466&quot;&gt;12. Improve performance on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org7c778d5&quot;&gt;13. Emacs Custom Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org4bf2fda&quot;&gt;14. Setup Ido and smex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgf7ec851&quot;&gt;15. Setup Guru Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org3e2b5bf&quot;&gt;16. Setup Magit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org69f45d7&quot;&gt;17. Setup Company Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org843f6be&quot;&gt;18. Org-Mode Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orge6343e1&quot;&gt;19. Nikola Blog Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org37c100c&quot;&gt;20. Games&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgadfb5fb&quot;&gt;20.1. Chess&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org81531b7&quot;&gt;20.1. Chess&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1182,11 +1191,10 @@ I hope you find this blog post informative to get started with org mode.Please s
 &lt;/div&gt;
 
 &lt;p&gt;
-Collorize
 This post contains sample configuration for my emacs in an org file
 &lt;/p&gt;
-&lt;div id=&quot;outline-container-orgd9bc22a&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd9bc22a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Emacs init.el&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org307ee37&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org307ee37&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Emacs init.el&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 (package-initialize)
@@ -1199,212 +1207,223 @@ This post contains sample configuration for my emacs in an org file
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org26d3aff&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org26d3aff&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Emacs Customization Group&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org3b58b64&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3b58b64&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Emacs Customization Group&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; custom-file
-      (expand-file-name &lt;span class=&quot;org-string&quot;&gt;&quot;custom.el&quot;&lt;/span&gt;
-                        user-emacs-directory))
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;custom-file&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;expand-file-name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;custom.el&quot;&lt;/span&gt;
+			&lt;span class=&quot;nv&quot;&gt;user-emacs-directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org3ab8ee8&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org3ab8ee8&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Emacs Repositories&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgdd1224b&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgdd1224b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Emacs Repositories&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;package&lt;/span&gt;)
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;;&lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;(add-to-list 'package-archives&lt;/span&gt;
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;;&lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;'             '(&quot;marmalade&quot; . &quot;http://marmalade-repo.org/packages/&quot;) t)&lt;/span&gt;
-(add-to-list 'package-archives
-             '(&lt;span class=&quot;org-string&quot;&gt;&quot;melpa-stable&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;https://stable.melpa.org/packages/&quot;&lt;/span&gt;) t)
-(add-to-list 'package-archives
-             '(&lt;span class=&quot;org-string&quot;&gt;&quot;melpa&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;http://melpa.org/packages/&quot;&lt;/span&gt;)
-             t)
 
-    (add-to-list 'package-archives 
-                 '(&lt;span class=&quot;org-string&quot;&gt;&quot;org&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;http://orgmode.org/elpa/&quot;&lt;/span&gt;)
-                             t)
-(&lt;span class=&quot;org-keyword&quot;&gt;when&lt;/span&gt; (&amp;lt; emacs-major-version 24)
-  &lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;For important compatibility libraries like cl-lib&lt;/span&gt;
-  (add-to-list 'package-archives '(&lt;span class=&quot;org-string&quot;&gt;&quot;gnu&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;http://elpa.gnu.org/packages/&quot;&lt;/span&gt;)))
-(package-initialize)
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;;;(add-to-list 'package-archives&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;;;'             '(&quot;marmalade&quot; . &quot;http://marmalade-repo.org/packages/&quot;) t)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package-archives&lt;/span&gt;
+	     &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;melpa-stable&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;https://stable.melpa.org/packages/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package-archives&lt;/span&gt;
+	     &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;melpa&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;http://melpa.org/packages/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	     &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;/pre&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package-archives&lt;/span&gt; 
+		 &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;org&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;http://orgmode.org/elpa/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+			     &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&amp;amp;lt&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;; emacs-major-version 24)&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;;; For important compatibility libraries like cl-lib&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package-archives&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;gnu&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;http://elpa.gnu.org/packages/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org6e64ded&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org6e64ded&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal Information&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgbc461a8&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgbc461a8&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal Information&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; user-full-name &lt;span class=&quot;org-string&quot;&gt;&quot;Rahul Saraf&quot;&lt;/span&gt;
-     user-mail-address &lt;span class=&quot;org-string&quot;&gt;&quot;rahuketu86@gmail.com&quot;&lt;/span&gt;)
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;user-full-name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Rahul Saraf&quot;&lt;/span&gt;
+     &lt;span class=&quot;nv&quot;&gt;user-mail-address&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;rahuketu86@gmail.com&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgacc95dd&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgacc95dd&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Emacs : Add Info directory&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org4a989b1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4a989b1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Emacs : Add Info directory&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; Info-default-directory-list
-      (append
-              Info-default-directory-list
-              '(&lt;span class=&quot;org-string&quot;&gt;&quot;~/info&quot;&lt;/span&gt; )))
-(add-hook 'Info-mode-hook           &lt;span class=&quot;org-comment-delimiter&quot;&gt;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;After Info-mode has started&lt;/span&gt;
-    (&lt;span class=&quot;org-keyword&quot;&gt;lambda&lt;/span&gt; ()
-        (&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; Info-additional-directory-list Info-default-directory-list)
-    ))
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Info-default-directory-list&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;append&lt;/span&gt;
+	      &lt;span class=&quot;nv&quot;&gt;Info-default-directory-list&lt;/span&gt;
+	      &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;~/info&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'Info-mode-hook&lt;/span&gt;           &lt;span class=&quot;c1&quot;&gt;; After Info-mode has started&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Info-additional-directory-list&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;Info-default-directory-list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgf97ecf4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf97ecf4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Emacs: Backups&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgbd6db32&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgbd6db32&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Emacs: Backups&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; backup-directory-alist '((&lt;span class=&quot;org-string&quot;&gt;&quot;.&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;~/.emacs.d/backups&quot;&lt;/span&gt;)))
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; delete-old-versions -1)
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; version-control t)
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; vc-make-backup-files t)
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;backup-directory-alist&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;.&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/.emacs.d/backups&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;delete-old-versions&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;version-control&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;vc-make-backup-files&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org33cc47b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org33cc47b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Emacs: SaveHist&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org98d8d90&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org98d8d90&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Emacs: SaveHist&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; savehist-file &lt;span class=&quot;org-string&quot;&gt;&quot;~/.emacs.d/savehist&quot;&lt;/span&gt;)
-(savehist-mode 1)
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; history-length t)
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; history-delete-duplicates t)
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; savehist-save-minibuffer-history 1)
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; savehist-additional-variables
-    '(kill-ring
-      search-ring
-      regexp-search-ring))
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;savehist-file&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/.emacs.d/savehist&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;savehist-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;history-length&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;history-delete-duplicates&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;savehist-save-minibuffer-history&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;savehist-additional-variables&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kill-ring&lt;/span&gt;
+      &lt;span class=&quot;nv&quot;&gt;search-ring&lt;/span&gt;
+      &lt;span class=&quot;nv&quot;&gt;regexp-search-ring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org33390c5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org33390c5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; Emacs Additional Infopath&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org0646237&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org0646237&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; Emacs Additional Infopath&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-8&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(add-to-list 'Info-default-directory-list &lt;span class=&quot;org-string&quot;&gt;&quot;~/.emacs.d/info&quot;&lt;/span&gt;)
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'Info-default-directory-list&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;~/.emacs.d/info&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org9851503&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org9851503&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;9&lt;/span&gt; Utility Functions&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgd6a83a6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd6a83a6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;9&lt;/span&gt; Utility Functions&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-9&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org942237e&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org942237e&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;9.1&lt;/span&gt; Function to open this configuration file&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org47b8223&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org47b8223&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;9.1&lt;/span&gt; Function to open this configuration file&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-9-1&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;defvar&lt;/span&gt; &lt;span class=&quot;org-variable-name&quot;&gt;config-file-name&lt;/span&gt; &lt;span class=&quot;org-string&quot;&gt;&quot;configuration.org&quot;&lt;/span&gt;)
 
-(&lt;span class=&quot;org-keyword&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;org-function-name&quot;&gt;my-config&lt;/span&gt;()
-  &lt;span class=&quot;org-doc&quot;&gt;&quot;Function to open org configuration file&quot;&lt;/span&gt;
-  (&lt;span class=&quot;org-keyword&quot;&gt;interactive&lt;/span&gt;)
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defvar&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;config-file-name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;configuration.org&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-  (find-file (expand-file-name config-file-name
-                               user-emacs-directory)))  
-&lt;/pre&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;my-config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Function to open org configuration file&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;interactive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;find-file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;expand-file-name&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;config-file-name&lt;/span&gt;
+			       &lt;span class=&quot;nv&quot;&gt;user-emacs-directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgd897198&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd897198&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;10&lt;/span&gt; Splash Screen and bars&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgde09f08&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgde09f08&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;10&lt;/span&gt; Splash Screen and bars&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-10&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; inhibit-splash-screen t
-      &lt;span class=&quot;org-comment-delimiter&quot;&gt;;;      &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;initial-scratch-message nil&lt;/span&gt;
-      &lt;span class=&quot;org-comment-delimiter&quot;&gt;;;    &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;initial-major-mode 'org-mode&lt;/span&gt;
-      )
 
-(scroll-bar-mode -1)
-(tool-bar-mode -1)
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;(menu-bar-mode -1)&lt;/span&gt;
-&lt;/pre&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;inhibit-splash-screen&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;;;      initial-scratch-message nil&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;;;    initial-major-mode 'org-mode&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;scroll-bar-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tool-bar-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;; (menu-bar-mode -1)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgb655220&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb655220&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;11&lt;/span&gt; Configure Emacs for use-package&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org80a0d0e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org80a0d0e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;11&lt;/span&gt; Configure Emacs for use-package&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-11&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt; (&lt;span class=&quot;org-keyword&quot;&gt;unless&lt;/span&gt; (package-installed-p 'use-package)
- (package-refresh-contents)
- (package-install 'use-package))
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;  &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;(setq use-package-verbose t)&lt;/span&gt;
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;  &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;(setq use-package-always-ensure t)&lt;/span&gt;
- &lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;(eval-when-compile&lt;/span&gt;
- &lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;(require 'use-package))&lt;/span&gt;
- &lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;(use-package auto-compile&lt;/span&gt;
- &lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;:config (auto-compile-on-load-mode))&lt;/span&gt;
- &lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;(require 'diminish)&lt;/span&gt;
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;  &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;;;&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;bind-key&lt;/span&gt;)
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-installed-p&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'use-package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-refresh-contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-install&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'use-package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;;  (setq use-package-verbose t)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;;  (setq use-package-always-ensure t)&lt;/span&gt;
+ &lt;span class=&quot;c1&quot;&gt;;; (eval-when-compile&lt;/span&gt;
+ &lt;span class=&quot;c1&quot;&gt;;; (require 'use-package))&lt;/span&gt;
+ &lt;span class=&quot;c1&quot;&gt;;; (use-package auto-compile&lt;/span&gt;
+ &lt;span class=&quot;c1&quot;&gt;;; :config (auto-compile-on-load-mode))&lt;/span&gt;
+ &lt;span class=&quot;c1&quot;&gt;;; (require 'diminish)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;;  ;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'bind-key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org3fe8048&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org3fe8048&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;12&lt;/span&gt; Improve performance on Windows&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgcf29466&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgcf29466&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;12&lt;/span&gt; Improve performance on Windows&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-12&quot;&gt;
 &lt;p&gt;
 Improving File Saving Performance on windows.
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; w32-get-true-file-attributes nil)
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;w32-get-true-file-attributes&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orge55a2f0&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orge55a2f0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;13&lt;/span&gt; Emacs Custom Theme&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org7c778d5&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org7c778d5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;13&lt;/span&gt; Emacs Custom Theme&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-13&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;monokai-theme&lt;/span&gt;
-  &lt;span class=&quot;org-builtin&quot;&gt;:ensure&lt;/span&gt; t
-  &lt;span class=&quot;org-builtin&quot;&gt;:init&lt;/span&gt; (load-theme 'monokai t))
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;monokai-theme&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:ensure&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:init&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;load-theme&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'monokai&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org32110bc&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org32110bc&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;14&lt;/span&gt; Setup Ido and smex&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org4bf2fda&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4bf2fda&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;14&lt;/span&gt; Setup Ido and smex&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-14&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Activate ido&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;ido&lt;/span&gt;)
-(ido-mode t)
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Set up smex&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;smex&lt;/span&gt;
-  &lt;span class=&quot;org-builtin&quot;&gt;:ensure&lt;/span&gt; t
-  &lt;span class=&quot;org-builtin&quot;&gt;:bind&lt;/span&gt; ((&lt;span class=&quot;org-string&quot;&gt;&quot;M-x&quot;&lt;/span&gt; . smex))
-  &lt;span class=&quot;org-builtin&quot;&gt;:config&lt;/span&gt; (smex-initialize))
-&lt;/pre&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;c1&quot;&gt;;; Activate ido&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'ido&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ido-mode&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;;; Set up smex&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;smex&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:ensure&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:bind&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;M-x&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;smex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;smex-initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgd262ed7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd262ed7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;15&lt;/span&gt; Setup Guru Mode&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgf7ec851&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgf7ec851&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;15&lt;/span&gt; Setup Guru Mode&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-15&quot;&gt;
 &lt;p&gt;
 Guru mode works by disabling common key bindings and pushing for
@@ -1412,72 +1431,76 @@ Emacs standard key bindings. Instead of global hook up Textmode and
 other so that it plays nice with ido-mode.
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;guru-mode&lt;/span&gt;
-  &lt;span class=&quot;org-builtin&quot;&gt;:ensure&lt;/span&gt; t
-  &lt;span class=&quot;org-builtin&quot;&gt;:init&lt;/span&gt;
-  (&lt;span class=&quot;org-keyword&quot;&gt;setq-default&lt;/span&gt; major-mode 'text-mode)
-  &lt;span class=&quot;org-builtin&quot;&gt;:config&lt;/span&gt;
-  (add-hook 'prog-mode-hook 'guru-mode)
-  (add-hook 'text-mode-hook 'guru-mode)
- )
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;guru-mode&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:ensure&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:init&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;setq-default&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;major-mode&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'text-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'prog-mode-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'guru-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'text-mode-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'guru-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgf4c4de7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf4c4de7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;16&lt;/span&gt; Setup Magit&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org3e2b5bf&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3e2b5bf&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;16&lt;/span&gt; Setup Magit&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-16&quot;&gt;
 &lt;p&gt;
 Magit is a git porcelain. With this we can stay within emacs for
 configuration modifications and commiting to git.
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;magit&lt;/span&gt;
-  &lt;span class=&quot;org-builtin&quot;&gt;:ensure&lt;/span&gt; t
-  &lt;span class=&quot;org-builtin&quot;&gt;:bind&lt;/span&gt; (&lt;span class=&quot;org-string&quot;&gt;&quot;C-x g&quot;&lt;/span&gt; . magit-status))
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;magit&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:ensure&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:bind&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C-x g&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;magit-status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgc941de4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgc941de4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;17&lt;/span&gt; Setup Company Mode&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org69f45d7&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org69f45d7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;17&lt;/span&gt; Setup Company Mode&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-17&quot;&gt;
 &lt;p&gt;
 Company mode is used for autocompletion in Emacs.
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;    (&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;company&lt;/span&gt;
-      &lt;span class=&quot;org-builtin&quot;&gt;:ensure&lt;/span&gt; t
-      &lt;span class=&quot;org-builtin&quot;&gt;:defer&lt;/span&gt; t
-      &lt;span class=&quot;org-builtin&quot;&gt;:config&lt;/span&gt;
-       (global-company-mode)
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;      &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;:config&lt;/span&gt;
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;       &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;(global-company-mode))&lt;/span&gt;
-           )
-&lt;/pre&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;company&lt;/span&gt;
+      &lt;span class=&quot;ss&quot;&gt;:ensure&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+      &lt;span class=&quot;ss&quot;&gt;:defer&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+      &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-company-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;;;      :config&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;;       (global-company-mode))&lt;/span&gt;
+	   &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orga6b64a0&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga6b64a0&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;18&lt;/span&gt; Org-Mode Settings&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org843f6be&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org843f6be&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;18&lt;/span&gt; Org-Mode Settings&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-18&quot;&gt;
 &lt;p&gt;
 Global settings for all the org-mode buffers.
 &lt;/p&gt;
 
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;org-mode&lt;/span&gt;
-  &lt;span class=&quot;org-builtin&quot;&gt;:init&lt;/span&gt; (remove-hook 'org-mode-hook 'guru-mode)
-  &lt;span class=&quot;org-builtin&quot;&gt;:bind&lt;/span&gt; ((&lt;span class=&quot;org-string&quot;&gt;&quot;\C-cl&quot;&lt;/span&gt; . org-store-link)
-         (&lt;span class=&quot;org-string&quot;&gt;&quot;\C-ca&quot;&lt;/span&gt; . org-agenda)
-         (&lt;span class=&quot;org-string&quot;&gt;&quot;\C-cc&quot;&lt;/span&gt; . org-capture)
-         (&lt;span class=&quot;org-string&quot;&gt;&quot;\C-cb&quot;&lt;/span&gt; . org-iswitch))
-  &lt;span class=&quot;org-builtin&quot;&gt;:config&lt;/span&gt;
-   (remove-hook 'org-mode-hook 'guru-mode))
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-mode&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:init&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;remove-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'org-mode-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'guru-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:bind&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;\C-cl&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-store-link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;\C-ca&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-agenda&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;\C-cc&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-capture&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;\C-cb&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-iswitch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;remove-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'org-mode-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'guru-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 
 &lt;p&gt;
@@ -1488,160 +1511,162 @@ Additional Org Mode plugins
 Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/p&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;ox-twbs&lt;/span&gt;
-  &lt;span class=&quot;org-builtin&quot;&gt;:ensure&lt;/span&gt; t
-  &lt;span class=&quot;org-builtin&quot;&gt;:defer&lt;/span&gt; t)
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ox-twbs&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:ensure&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:defer&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org6cf0441&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org6cf0441&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;19&lt;/span&gt; Nikola Blog Settings&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orge6343e1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orge6343e1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;19&lt;/span&gt; Nikola Blog Settings&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-19&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;htmlize&lt;/span&gt;
- &lt;span class=&quot;org-builtin&quot;&gt;:ensure&lt;/span&gt; t)
-(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;org&lt;/span&gt;)
-(&lt;span class=&quot;org-keyword&quot;&gt;require&lt;/span&gt; '&lt;span class=&quot;org-constant&quot;&gt;ox-html&lt;/span&gt;)
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Custom configuration for the export.&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;htmlize&lt;/span&gt;
+ &lt;span class=&quot;ss&quot;&gt;:ensure&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'ox-html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Add any custom configuration that you would like to 'conf.el'.&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; nikola-use-pygments t
-      org-export-with-toc nil
-      org-export-with-section-numbers nil
-      org-startup-folded 'showeverything)
+&lt;span class=&quot;c1&quot;&gt;;;; Custom configuration for the export.&lt;/span&gt;
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Load additional configuration from conf.el&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;let&lt;/span&gt; ((conf (expand-file-name &lt;span class=&quot;org-string&quot;&gt;&quot;conf.el&quot;&lt;/span&gt; (file-name-directory load-file-name))))
-  (&lt;span class=&quot;org-keyword&quot;&gt;if&lt;/span&gt; (file-exists-p conf)
-      (load-file conf)))
+&lt;span class=&quot;c1&quot;&gt;;;; Add any custom configuration that you would like to 'conf.el'.&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;nikola-use-pygments&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+      &lt;span class=&quot;nv&quot;&gt;org-export-with-toc&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;
+      &lt;span class=&quot;nv&quot;&gt;org-export-with-section-numbers&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;
+      &lt;span class=&quot;nv&quot;&gt;org-startup-folded&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'showeverything&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Macros&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;; Load additional configuration from conf.el&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;conf&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;expand-file-name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;conf.el&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-directory&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;load-file-name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-exists-p&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;conf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;load-file&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;conf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Load Nikola macros&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; nikola-macro-templates
-      (&lt;span class=&quot;org-keyword&quot;&gt;with-current-buffer&lt;/span&gt;
-          (find-file
-           (expand-file-name &lt;span class=&quot;org-string&quot;&gt;&quot;macros.org&quot;&lt;/span&gt; (file-name-directory load-file-name)))
-        (org-macro--collect-macros)))
+&lt;span class=&quot;c1&quot;&gt;;;; Macros&lt;/span&gt;
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Code highlighting&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;org-function-name&quot;&gt;org-html-decode-plain-text&lt;/span&gt; (text)
-  &lt;span class=&quot;org-doc&quot;&gt;&quot;Convert HTML character to plain TEXT. i.e. do the inversion of&lt;/span&gt;
-&lt;span class=&quot;org-doc&quot;&gt;     `org-html-encode-plain-text`. Possible conversions are set in&lt;/span&gt;
-&lt;span class=&quot;org-doc&quot;&gt;     `&lt;/span&gt;&lt;span class=&quot;org-doc&quot;&gt;&lt;span class=&quot;org-constant&quot;&gt;org-html-protect-char-alist&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;org-doc&quot;&gt;'.&quot;&lt;/span&gt;
-  (mapc
-   (&lt;span class=&quot;org-keyword&quot;&gt;lambda&lt;/span&gt; (pair)
-     (&lt;span class=&quot;org-keyword&quot;&gt;setq&lt;/span&gt; text (replace-regexp-in-string (cdr pair) (car pair) text t t)))
-   (reverse org-html-protect-char-alist))
-  text)
+&lt;span class=&quot;c1&quot;&gt;;; Load Nikola macros&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;nikola-macro-templates&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;with-current-buffer&lt;/span&gt;
+	  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;find-file&lt;/span&gt;
+	   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;expand-file-name&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;macros.org&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;file-name-directory&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;load-file-name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-macro--collect-macros&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Use pygments highlighting for code&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;org-function-name&quot;&gt;pygmentize&lt;/span&gt; (lang code)
-  &lt;span class=&quot;org-doc&quot;&gt;&quot;Use Pygments to highlight the given code and return the output&quot;&lt;/span&gt;
-  (&lt;span class=&quot;org-keyword&quot;&gt;with-temp-buffer&lt;/span&gt;
-    (insert code)
-    (&lt;span class=&quot;org-keyword&quot;&gt;let&lt;/span&gt; ((lang (&lt;span class=&quot;org-keyword&quot;&gt;or&lt;/span&gt; (cdr (assoc lang org-pygments-language-alist)) &lt;span class=&quot;org-string&quot;&gt;&quot;text&quot;&lt;/span&gt;)))
-      (shell-command-on-region (point-min) (point-max)
-                               (format &lt;span class=&quot;org-string&quot;&gt;&quot;pygmentize -f html -l %s&quot;&lt;/span&gt; lang)
-                               (buffer-name) t))
-    (buffer-string)))
+&lt;span class=&quot;c1&quot;&gt;;;; Code highlighting&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-html-decode-plain-text&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Convert HTML character to plain TEXT. i.e. do the inversion of
+     `org-html-encode-plain-text`. Possible conversions are set in
+     `org-html-protect-char-alist'.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mapc&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;pair&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;replace-regexp-in-string&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cdr&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;pair&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;car&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;pair&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;reverse&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-html-protect-char-alist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-(&lt;span class=&quot;org-keyword&quot;&gt;defconst&lt;/span&gt; &lt;span class=&quot;org-variable-name&quot;&gt;org-pygments-language-alist&lt;/span&gt;
-  '((&lt;span class=&quot;org-string&quot;&gt;&quot;asymptote&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;asymptote&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;awk&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;awk&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;c&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;c&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;c++&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;cpp&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;cpp&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;cpp&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;clojure&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;clojure&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;css&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;css&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;d&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;d&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;emacs-lisp&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;scheme&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;F90&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;fortran&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;gnuplot&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;gnuplot&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;groovy&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;groovy&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;haskell&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;haskell&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;java&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;java&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;js&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;js&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;julia&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;julia&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;latex&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;latex&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;lisp&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;lisp&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;makefile&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;makefile&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;matlab&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;matlab&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;mscgen&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;mscgen&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;ocaml&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;ocaml&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;octave&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;octave&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;perl&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;perl&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;picolisp&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;scheme&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;python&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;python&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;r&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;r&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;ruby&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;ruby&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;sass&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;sass&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;scala&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;scala&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;scheme&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;scheme&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;sh&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;sh&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;sql&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;sql&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;sqlite&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;sqlite3&quot;&lt;/span&gt;)
-    (&lt;span class=&quot;org-string&quot;&gt;&quot;tcl&quot;&lt;/span&gt; . &lt;span class=&quot;org-string&quot;&gt;&quot;tcl&quot;&lt;/span&gt;))
-  &lt;span class=&quot;org-doc&quot;&gt;&quot;Alist between org-babel languages and Pygments lexers.&lt;/span&gt;
-&lt;span class=&quot;org-doc&quot;&gt;lang is downcased before assoc, so use lowercase to describe language available.&lt;/span&gt;
-&lt;span class=&quot;org-doc&quot;&gt;See: http://orgmode.org/worg/org-contrib/babel/languages.html and&lt;/span&gt;
-&lt;span class=&quot;org-doc&quot;&gt;http://pygments.org/docs/lexers/ for adding new languages to the mapping.&quot;&lt;/span&gt;)
+&lt;span class=&quot;c1&quot;&gt;;; Use pygments highlighting for code&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;pygmentize&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Use Pygments to highlight the given code and return the output&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;with-temp-buffer&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cdr&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;assoc&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-pygments-language-alist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;shell-command-on-region&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;point-min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;point-max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+			       &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;pygmentize -f html -l %s&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+			       &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;buffer-name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;buffer-string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Override the html export function to use pygments&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;org-function-name&quot;&gt;org-html-src-block&lt;/span&gt; (src-block contents info)
- &lt;span class=&quot;org-doc&quot;&gt;&quot;Transcode a SRC-BLOCK element from Org to HTML.&lt;/span&gt;
-&lt;span class=&quot;org-doc&quot;&gt; CONTENTS holds the contents of the item.  INFO is a plist holding&lt;/span&gt;
-&lt;span class=&quot;org-doc&quot;&gt; contextual information.&quot;&lt;/span&gt;
-   (&lt;span class=&quot;org-keyword&quot;&gt;if&lt;/span&gt; (org-export-read-attribute &lt;span class=&quot;org-builtin&quot;&gt;:attr_html&lt;/span&gt; src-block &lt;span class=&quot;org-builtin&quot;&gt;:textarea&lt;/span&gt;)
-       (org-html--textarea-block src-block)
-     (&lt;span class=&quot;org-keyword&quot;&gt;let&lt;/span&gt; ((lang (org-element-property &lt;span class=&quot;org-builtin&quot;&gt;:language&lt;/span&gt; src-block))
-      (code (org-element-property &lt;span class=&quot;org-builtin&quot;&gt;:value&lt;/span&gt; src-block))
-      (code-html (org-html-format-code src-block info)))
-       (&lt;span class=&quot;org-keyword&quot;&gt;if&lt;/span&gt; nikola-use-pygments
-      (pygmentize (downcase lang) (org-html-decode-plain-text code))
-    code-html))))
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;defconst&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-pygments-language-alist&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;asymptote&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;asymptote&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;awk&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;awk&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;c&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;c&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;c++&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cpp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cpp&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cpp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;clojure&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;clojure&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;css&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;css&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;d&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;emacs-lisp&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;scheme&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;F90&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;fortran&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;gnuplot&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;gnuplot&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;groovy&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;groovy&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;haskell&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;haskell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;java&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;java&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;js&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;js&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;julia&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;julia&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;latex&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;latex&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;lisp&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;lisp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;makefile&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;makefile&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;matlab&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;matlab&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mscgen&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;mscgen&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ocaml&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ocaml&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;octave&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;octave&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;perl&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;perl&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;picolisp&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;scheme&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;python&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;python&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;r&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;r&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ruby&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;ruby&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sass&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;sass&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;scala&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;scala&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;scheme&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;scheme&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sh&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;sh&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sql&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;sql&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sqlite&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;sqlite3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;tcl&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;tcl&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Alist between org-babel languages and Pygments lexers.
+lang is downcased before assoc, so use lowercase to describe language available.
+See: http://orgmode.org/worg/org-contrib/babel/languages.html and
+http://pygments.org/docs/lexers/ for adding new languages to the mapping.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Export images with custom link type&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;org-function-name&quot;&gt;org-custom-link-img-url-export&lt;/span&gt; (path desc format)
-  (&lt;span class=&quot;org-keyword&quot;&gt;cond&lt;/span&gt;
-   ((eq format 'html)
-    (format &lt;span class=&quot;org-string&quot;&gt;&quot;&amp;lt;img src=\&quot;%s\&quot; alt=\&quot;%s\&quot;/&amp;gt;&quot;&lt;/span&gt; path desc))))
-(org-add-link-type &lt;span class=&quot;org-string&quot;&gt;&quot;img-url&quot;&lt;/span&gt; nil 'org-custom-link-img-url-export)
+&lt;span class=&quot;c1&quot;&gt;;; Override the html export function to use pygments&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-html-src-block&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;src-block&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;contents&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;&quot;Transcode a SRC-BLOCK element from Org to HTML.
+ CONTENTS holds the contents of the item.  INFO is a plist holding
+ contextual information.&quot;&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-export-read-attribute&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:attr_html&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src-block&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:textarea&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-html--textarea-block&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src-block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;lang&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-element-property&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:language&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src-block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-element-property&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:value&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src-block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;code-html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-html-format-code&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;src-block&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;nikola-use-pygments&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;pygmentize&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;downcase&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-html-decode-plain-text&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;code-html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
 
-&lt;span class=&quot;org-comment-delimiter&quot;&gt;;; &lt;/span&gt;&lt;span class=&quot;org-comment&quot;&gt;Export function used by Nikola.&lt;/span&gt;
-(&lt;span class=&quot;org-keyword&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;org-function-name&quot;&gt;nikola-html-export&lt;/span&gt; (infile outfile)
-  &lt;span class=&quot;org-doc&quot;&gt;&quot;Export the body only of the input file and write it to&lt;/span&gt;
-&lt;span class=&quot;org-doc&quot;&gt;specified location.&quot;&lt;/span&gt;
-  (&lt;span class=&quot;org-keyword&quot;&gt;with-current-buffer&lt;/span&gt; (find-file infile)
-    (org-macro-replace-all nikola-macro-templates)
-    (org-html-export-as-html nil nil t t)
-    (write-file outfile nil)))
+&lt;span class=&quot;c1&quot;&gt;;; Export images with custom link type&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;org-custom-link-img-url-export&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;desc&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cond&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;amp;lt;img src=\&quot;%s\&quot; alt=\&quot;%s\&quot;/&amp;amp;gt;&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;desc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-add-link-type&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;img-url&quot;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'org-custom-link-img-url-export&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
-&lt;/pre&gt;
+&lt;span class=&quot;c1&quot;&gt;;; Export function used by Nikola.&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;nikola-html-export&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;infile&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;outfile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Export the body only of the input file and write it to
+specified location.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;with-current-buffer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;find-file&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;infile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-macro-replace-all&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;nikola-macro-templates&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;org-html-export-as-html&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;write-file&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;outfile&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org69a6bb4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org69a6bb4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;20&lt;/span&gt; Games&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org37c100c&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org37c100c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;20&lt;/span&gt; Games&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-20&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgadfb5fb&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgadfb5fb&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;20.1&lt;/span&gt; Chess&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org81531b7&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org81531b7&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;20.1&lt;/span&gt; Chess&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-20-1&quot;&gt;
 &lt;div class=&quot;org-src-container&quot;&gt;
-&lt;pre class=&quot;src src-emacs-lisp&quot;&gt;(&lt;span class=&quot;org-keyword&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;org-constant&quot;&gt;chess&lt;/span&gt;
-  &lt;span class=&quot;org-builtin&quot;&gt;:ensure&lt;/span&gt; t
-  &lt;span class=&quot;org-builtin&quot;&gt;:defer&lt;/span&gt; t)
-&lt;/pre&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;chess&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:ensure&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:defer&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html">&lt;!--
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Table of Contents 1. Emacs init.el 2. Emacs Customization Group 3. Emacs Repositories 4. Personal Information 5. Emacs : Add Info directory 6. Emacs: Backups 7. Emacs: SaveHist 8. Emacs Additional Infopath 9. Utility Functions 9.1. Function to open this configuration file 10. Splash Screen and bars 11. Configure Emacs for use-package 12. Improve performance on Windows 13. Emacs Custom Theme 14. Setup Ido and smex 15. Setup Guru Mode 16. Setup Magit 17. Setup Company Mode 18. Org-Mode Settings 19. Nikola Blog Settings 20. Games 20.1. Chess</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test</id><content type="html" xml:base="https://rahuketu86.github.io/FastPagesDev/jupyter/2020/02/20/test.html">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################

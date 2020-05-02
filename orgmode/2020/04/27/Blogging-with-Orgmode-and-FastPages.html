@@ -108,38 +108,38 @@ window.onload = wrap_img;
 
   <div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
-<li class="toc-entry toc-h2"><a href="#orgaeb9e5a">1 Introduction</a></li>
-<li class="toc-entry toc-h2"><a href="#org493068b">2 EMACS ORG-MODE: WHAT? WHY? HOW?</a>
+<li class="toc-entry toc-h2"><a href="#org3843fb6">1 Introduction</a></li>
+<li class="toc-entry toc-h2"><a href="#org428e45d">2 EMACS ORG-MODE: WHAT? WHY? HOW?</a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#orgaad2a39">2.1 The What?</a></li>
-<li class="toc-entry toc-h3"><a href="#orgf6c8f6f">2.2 The Why?</a>
+<li class="toc-entry toc-h3"><a href="#orgff712e1">2.1 The What?</a></li>
+<li class="toc-entry toc-h3"><a href="#org90c4c5d">2.2 The Why?</a>
 <ul>
-<li class="toc-entry toc-h4"><a href="#org6096a8d">2.2.1 Blogging</a></li>
-<li class="toc-entry toc-h4"><a href="#orgb8c3608">2.2.2 FastPages Functionality</a></li>
-<li class="toc-entry toc-h4"><a href="#orgc98da51">2.2.3 Document Embedding</a></li>
-<li class="toc-entry toc-h4"><a href="#org6e34153">2.2.4 Literate Programming</a></li>
-<li class="toc-entry toc-h4"><a href="#org19881d4">2.2.5 GTD, Task Manager, Todo</a></li>
-<li class="toc-entry toc-h4"><a href="#orga877140">2.2.6 Are you excited?</a></li>
+<li class="toc-entry toc-h4"><a href="#orgacf5dc9">2.2.1 Blogging</a></li>
+<li class="toc-entry toc-h4"><a href="#org44610e0">2.2.2 FastPages Functionality</a></li>
+<li class="toc-entry toc-h4"><a href="#org7e15f88">2.2.3 Document Embedding</a></li>
+<li class="toc-entry toc-h4"><a href="#orgb4f44d8">2.2.4 Literate Programming</a></li>
+<li class="toc-entry toc-h4"><a href="#org35661be">2.2.5 GTD, Task Manager, Todo</a></li>
+<li class="toc-entry toc-h4"><a href="#org0a49332">2.2.6 Are you excited?</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h3"><a href="#orgae40bc9">2.3 The How?</a>
+<li class="toc-entry toc-h3"><a href="#org1e137d3">2.3 The How?</a>
 <ul>
-<li class="toc-entry toc-h4"><a href="#org73f3a48">2.3.1 Design of fastpages</a></li>
-<li class="toc-entry toc-h4"><a href="#orgf130eac">2.3.2 General Idea for extension</a></li>
-<li class="toc-entry toc-h4"><a href="#org20f19ec">2.3.3 Org Mode Blogging</a></li>
+<li class="toc-entry toc-h4"><a href="#org513e6ea">2.3.1 Design of fastpages</a></li>
+<li class="toc-entry toc-h4"><a href="#org22247c1">2.3.2 General Idea for extension</a></li>
+<li class="toc-entry toc-h4"><a href="#org3361518">2.3.3 Org Mode Blogging</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#org8c451c7">3 Conclusion and way forward</a>
+<li class="toc-entry toc-h2"><a href="#org8887f1e">3 Conclusion and way forward</a>
 <ul>
-<li class="toc-entry toc-h3"><a href="#org455f9bf">3.1 Org Mode Bridge and Other systems</a></li>
-<li class="toc-entry toc-h3"><a href="#orgf02f140">3.2 Outstanding Tasks</a></li>
+<li class="toc-entry toc-h3"><a href="#org42ba43e">3.1 Org Mode Bridge and Other systems</a></li>
+<li class="toc-entry toc-h3"><a href="#org4aa4150">3.2 Outstanding Tasks</a></li>
 </ul>
 </li>
-</ul><div id="outline-container-orgaeb9e5a" class="outline-2">
-<h2 id="orgaeb9e5a">
-<a class="anchor" href="#orgaeb9e5a" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">1</span> Introduction</h2>
+</ul><div id="outline-container-org3843fb6" class="outline-2">
+<h2 id="org3843fb6">
+<a class="anchor" href="#org3843fb6" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Jeremy and Rachel, esteemed founders of fastai, quote <i>Blogging is like Resume, only better</i> in this <a href="https://www.fast.ai/2019/05/13/blogging-advice/">post</a>. Blogging really is one of the best medium to learn while doing. It helps to communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses provides three main motivations:
@@ -165,18 +165,18 @@ My objective in this post is to showcase some of the minor changes which I have 
 </div>
 </div>
 
-<div id="outline-container-org493068b" class="outline-2">
-<h2 id="org493068b">
-<a class="anchor" href="#org493068b" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">2</span> EMACS ORG-MODE: WHAT? WHY? HOW?</h2>
+<div id="outline-container-org428e45d" class="outline-2">
+<h2 id="org428e45d">
+<a class="anchor" href="#org428e45d" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">2</span> EMACS ORG-MODE: WHAT? WHY? HOW?</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 <i>BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS</i>
 </p>
 </div>
 
-<div id="outline-container-orgaad2a39" class="outline-3">
-<h3 id="orgaad2a39">
-<a class="anchor" href="#orgaad2a39" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.1</span> The What?</h3>
+<div id="outline-container-orgff712e1" class="outline-3">
+<h3 id="orgff712e1">
+<a class="anchor" href="#orgff712e1" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.1</span> The What?</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. Combination with emacs elisp system makes it insanely powerful. Instead of yet another markup syntax; it becomes a system of text editing which is highly extensible and infinitely programmable. With various open source plugins' it can be used like a literate programming tool like notebooks or frontend for latex report creation or even online presentations. 
@@ -185,18 +185,18 @@ So what is org-mode? At the very basic level org mode or org format is a text ma
 </div>
 
 
-<div id="outline-container-orgf6c8f6f" class="outline-3">
-<h3 id="orgf6c8f6f">
-<a class="anchor" href="#orgf6c8f6f" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.2</span> The Why?</h3>
+<div id="outline-container-org90c4c5d" class="outline-3">
+<h3 id="org90c4c5d">
+<a class="anchor" href="#org90c4c5d" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.2</span> The Why?</h3>
 <div class="outline-text-3" id="text-2-2">
 <p>
 So why should you be interested in Org Mode .Here is a brief  list of things that you can do with it. 
 </p>
 </div>
 
-<div id="outline-container-org6096a8d" class="outline-4">
-<h4 id="org6096a8d">
-<a class="anchor" href="#org6096a8d" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.1</span> <b>Blogging</b>
+<div id="outline-container-orgacf5dc9" class="outline-4">
+<h4 id="orgacf5dc9">
+<a class="anchor" href="#orgacf5dc9" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.1</span> <b>Blogging</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-1">
 <p>
@@ -205,9 +205,9 @@ You can write a blog post like this. Since Emacs is insanely powerful for text e
 </div>
 </div>
 
-<div id="outline-container-orgb8c3608" class="outline-4">
-<h4 id="orgb8c3608">
-<a class="anchor" href="#orgb8c3608" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.2</span> <b>FastPages Functionality</b>
+<div id="outline-container-org44610e0" class="outline-4">
+<h4 id="org44610e0">
+<a class="anchor" href="#org44610e0" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.2</span> <b>FastPages Functionality</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-2">
 <p>
@@ -222,7 +222,7 @@ Lot of bells and whistle related to boxes and link are enabled using org mode li
 
 <ol class="org-ol">
 <li>
-<a id="orgaa3b006"></a>Youtube Video Link<br>
+<a id="org3424648"></a>Youtube Video Link<br>
 <div class="outline-text-5" id="text-2-2-2-1">
 <p>
 You can embed individual video or even playlist
@@ -249,14 +249,14 @@ You can embed individual video or even playlist
  </p>
 <div style="text-align: center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxc79l2wpbJYTI5rv2os7OoKQMqxReZpr" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-     </div>
+   </div>
 
 </div>
 </li>
 
 
 <li>
-<a id="orgdea4f15"></a>Twitter Card Link<br>
+<a id="orgb5c9e19"></a>Twitter Card Link<br>
 <div class="outline-text-5" id="text-2-2-2-2">
 <pre class="example">
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
@@ -278,7 +278,7 @@ You can embed individual video or even playlist
 </li>
 
 <li>
-<a id="org1ee992e"></a>Remote Image Link<br>
+<a id="orgd26282c"></a>Remote Image Link<br>
 <div class="outline-text-5" id="text-2-2-2-3">
 <pre class="example">
 [[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
@@ -313,7 +313,7 @@ You can embed individual video or even playlist
 </li>
 
 <li>
-<a id="org99c7a27"></a>Local Images<br>
+<a id="org055cc93"></a>Local Images<br>
 <div class="outline-text-5" id="text-2-2-2-4">
 <pre class="example">
 [[img:/images/Emacs.png][Emacs is the king]]
@@ -321,9 +321,9 @@ You can embed individual video or even playlist
 
 <p>
 <figure>
-      <img src="/FastPagesDev/images/Emacs.png" alt="Emacs is the king">
-      <figcaption>Emacs is the king</figcaption>
-  </figure>
+    <img src="/FastPagesDev/images/Emacs.png" alt="Emacs is the king">
+    <figcaption>Emacs is the king</figcaption>
+</figure>
 </p>
 
 
@@ -334,7 +334,7 @@ This has been awesome so far.
 </li>
 
 <li>
-<a id="org3322c3c"></a>Boxes and Stuff<br>
+<a id="org5bb709b"></a>Boxes and Stuff<br>
 <div class="outline-text-5" id="text-2-2-2-5">
 <pre class="example">
 [[alert:This is an alert box]]
@@ -437,7 +437,7 @@ This has been awesome so far.
 </li>
 
 <li>
-<a id="org30d74dc"></a>IFrames and Revealjs Presentation<br>
+<a id="org22133ae"></a>IFrames and Revealjs Presentation<br>
 <div class="outline-text-5" id="text-2-2-2-6">
 <pre class="example">
 [[iframe:https://revealjs.com][Reveal JS Presentation]]
@@ -448,7 +448,7 @@ You can embed websites as iframes. This is particularily useful for embedding re
  </p>
 <div style="text-align: center;">
 	<iframe width="560" height="315" src="https://revealjs.com" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-     </div>
+   </div>
 
 
 <p>
@@ -459,9 +459,9 @@ Infact it is also possible to create revealjs presentation directly from org mod
 </ol>
 </div>
 
-<div id="outline-container-orgc98da51" class="outline-4">
-<h4 id="orgc98da51">
-<a class="anchor" href="#orgc98da51" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.3</span> <b>Document Embedding</b>
+<div id="outline-container-org7e15f88" class="outline-4">
+<h4 id="org7e15f88">
+<a class="anchor" href="#org7e15f88" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.3</span> <b>Document Embedding</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-3">
 <p>
@@ -479,9 +479,9 @@ In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an exam
 </div>
 
 
-<div id="outline-container-org6e34153" class="outline-4">
-<h4 id="org6e34153">
-<a class="anchor" href="#org6e34153" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.4</span> <b>Literate Programming</b>
+<div id="outline-container-orgb4f44d8" class="outline-4">
+<h4 id="orgb4f44d8">
+<a class="anchor" href="#orgb4f44d8" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.4</span> <b>Literate Programming</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-4">
 <p>
@@ -498,7 +498,7 @@ You can do literate programming just like jupyter notebooks, create technical re
  </p>
 <div style="text-align: center;">
 	<iframe width="560" height="315" src="https://necromuralist.github.io/posts/bokeh-org-mode/" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-     </div>
+   </div>
 
 
 <ul class="org-ul">
@@ -509,9 +509,9 @@ You can do literate programming just like jupyter notebooks, create technical re
 </div>
 
 
-<div id="outline-container-org19881d4" class="outline-4">
-<h4 id="org19881d4">
-<a class="anchor" href="#org19881d4" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.5</span> <b>GTD, Task Manager, Todo</b>
+<div id="outline-container-org35661be" class="outline-4">
+<h4 id="org35661be">
+<a class="anchor" href="#org35661be" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.5</span> <b>GTD, Task Manager, Todo</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-5">
 <p>
@@ -521,9 +521,9 @@ You can use it as task manager, do project management, create to do list. Follow
 </div>
 
 
-<div id="outline-container-orga877140" class="outline-4">
-<h4 id="orga877140">
-<a class="anchor" href="#orga877140" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.6</span> <b>Are you excited?</b>
+<div id="outline-container-org0a49332" class="outline-4">
+<h4 id="org0a49332">
+<a class="anchor" href="#org0a49332" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.2.6</span> <b>Are you excited?</b>
 </h4>
 <div class="outline-text-4" id="text-2-2-6">
 <p>
@@ -533,18 +533,18 @@ What I have done is just touch upon the surface of what is possible with org mod
 </div>
 </div>
 
-<div id="outline-container-orgae40bc9" class="outline-3">
-<h3 id="orgae40bc9">
-<a class="anchor" href="#orgae40bc9" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.3</span> The How?</h3>
+<div id="outline-container-org1e137d3" class="outline-3">
+<h3 id="org1e137d3">
+<a class="anchor" href="#org1e137d3" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">2.3</span> The How?</h3>
 <div class="outline-text-3" id="text-2-3">
 <p>
 I have already shown earlier what org mode can do and how it can enhance your writing workflow. Now I will describe how you can do it yourself. Before I go into specifics let me share a bit on general design of fastpages and describe how it can be extended. 
 </p>
 </div>
 
-<div id="outline-container-org73f3a48" class="outline-4">
-<h4 id="org73f3a48">
-<a class="anchor" href="#org73f3a48" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.1</span> <b>Design of fastpages</b>
+<div id="outline-container-org513e6ea" class="outline-4">
+<h4 id="org513e6ea">
+<a class="anchor" href="#org513e6ea" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.1</span> <b>Design of fastpages</b>
 </h4>
 <div class="outline-text-4" id="text-2-3-1">
 <p>
@@ -554,7 +554,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 
 <ol class="org-ol">
 <li>
-<a id="orgcb2309d"></a>Markdown Blogging<br>
+<a id="orgea714c5"></a>Markdown Blogging<br>
 <div class="outline-text-5" id="text-2-3-1-1">
 <ul class="org-ul">
 <li>Markdown is the native format for Jekyll Blogging Engine. Jekyll uses an enhanced version of Markdown called Kramdown which comes with addtional functionality for source code coloring links etc…</li>
@@ -574,7 +574,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 </li>
 
 <li>
-<a id="orgdd50f1b"></a>Notebook Blogging<br>
+<a id="orga4d6f96"></a>Notebook Blogging<br>
 <div class="outline-text-5" id="text-2-3-1-2">
 <ul class="org-ul">
 <li>Notebook blogging is really what makes fastpages special for data scientist.I should rather specify and say python notebook blogging is what is possible natively in fastpages.  Notebook blogging is enabled by a python package called "nbdev" another tool from FastAI.</li>
@@ -594,7 +594,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 
 
 <li>
-<a id="orga799c43"></a>Word Blogging<br>
+<a id="orgb648e00"></a>Word Blogging<br>
 <div class="outline-text-5" id="text-2-3-1-3">
 <ul class="org-ul">
 <li>Word blogging structure is a similar
@@ -609,7 +609,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 </li>
 
 <li>
-<a id="org50d33b4"></a>Automation via Github Actions<br>
+<a id="org9433c81"></a>Automation via Github Actions<br>
 <div class="outline-text-5" id="text-2-3-1-4">
 <ul class="org-ul">
 <li>All processing automation are handled by Github Actions
@@ -634,9 +634,9 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 </ol>
 </div>
 
-<div id="outline-container-orgf130eac" class="outline-4">
-<h4 id="orgf130eac">
-<a class="anchor" href="#orgf130eac" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.2</span> <b>General Idea for extension</b>
+<div id="outline-container-org22247c1" class="outline-4">
+<h4 id="org22247c1">
+<a class="anchor" href="#org22247c1" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.2</span> <b>General Idea for extension</b>
 </h4>
 <div class="outline-text-4" id="text-2-3-2">
 <p>
@@ -659,9 +659,9 @@ So based on the intuition above we basically need to figure out 3 pieces
 </div>
 
 
-<div id="outline-container-org20f19ec" class="outline-4">
-<h4 id="org20f19ec">
-<a class="anchor" href="#org20f19ec" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.3</span> <b>Org Mode Blogging</b>
+<div id="outline-container-org3361518" class="outline-4">
+<h4 id="org3361518">
+<a class="anchor" href="#org3361518" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-4">2.3.3</span> <b>Org Mode Blogging</b>
 </h4>
 <div class="outline-text-4" id="text-2-3-3">
 <p>
@@ -671,7 +671,7 @@ So with the ideas above , I managed to create some extensions and tricks to enab
 
 <ol class="org-ol">
 <li>
-<a id="orgdf2db26"></a>Org File Customization<br>
+<a id="orgb4acb7f"></a>Org File Customization<br>
 <div class="outline-text-5" id="text-2-3-3-1">
 <p>
 A small customization is required to export frontmatter from org file.
@@ -709,7 +709,7 @@ comments: true
  </p>
 <div style="text-align: center;">
 	<iframe width="560" height="315" src="https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-     </div>
+   </div>
 
 <ul class="org-ul">
 <li>With these simple rules, you can easily write a blog post with all the functionality of org mode.</li>
@@ -718,7 +718,7 @@ comments: true
 </li>
 
 <li>
-<a id="orgf9b192a"></a>FastPages Customization<br>
+<a id="orgfe6fc53"></a>FastPages Customization<br>
 <div class="outline-text-5" id="text-2-3-3-2">
 <p>
 I have done minimal non invasive customization to enable automation for org mode in fast pages. 
@@ -736,7 +736,7 @@ I have done minimal non invasive customization to enable automation for org mode
 
 <ol class="org-ol">
 <li>
-<a id="org9ea9ec2"></a>Folder Structure<br>
+<a id="orgea14f30"></a>Folder Structure<br>
 <div class="outline-text-6" id="text-2-3-3-2-1">
 <p>
 We need to create a <i>_org</i> folder . Inside <i>_org</i> folder , it should mirror structure of top level directories as follows
@@ -744,9 +744,9 @@ We need to create a <i>_org</i> folder . Inside <i>_org</i> folder , it should m
 
 <p>
 <figure>
-      <img src="/FastPagesDev/images/org_fastpages_structure.png" alt="Structure of _org directory in fastpages">
-      <figcaption>Structure of _org directory in fastpages</figcaption>
-  </figure>
+    <img src="/FastPagesDev/images/org_fastpages_structure.png" alt="Structure of _org directory in fastpages">
+    <figcaption>Structure of _org directory in fastpages</figcaption>
+</figure>
 </p>
 
 <p>
@@ -761,7 +761,7 @@ We need to create a <i>_org</i> folder . Inside <i>_org</i> folder , it should m
 
 
 <li>
-<a id="org1a6c984"></a>Github Action Customization<br>
+<a id="org7acd329"></a>Github Action Customization<br>
 <div class="outline-text-6" id="text-2-3-3-2-2">
 <ul class="org-ul">
 <li>I have created some custom actions, which I save in <i>_custom<sub>actions</sub><sub>files</sub></i> directory at top level. It has got 3 files
@@ -772,65 +772,69 @@ publish.el - Emacs script to control publishing from <i>_org/<sub>posts</sub></i
 </p>
 
 <div class="org-src-container">
-<pre class="src src-emacs-lisp">(<span class="org-keyword">require</span> '<span class="org-constant">package</span>)
-(package-initialize)
-(<span class="org-keyword">unless</span> package-archive-contents
-  (add-to-list 'package-archives '(<span class="org-string">"org"</span> . <span class="org-string">"https://orgmode.org/elpa/"</span>) t)
-  (add-to-list 'package-archives '(<span class="org-string">"melpa"</span> . <span class="org-string">"https://melpa.org/packages/"</span>) t)
-  (package-refresh-contents))
-(<span class="org-keyword">dolist</span> (pkg '(org-plus-contrib htmlize))
-  (<span class="org-keyword">unless</span> (package-installed-p pkg)
-    (package-install pkg)))
 
-(<span class="org-keyword">require</span> '<span class="org-constant">org</span>)
-(<span class="org-keyword">require</span> '<span class="org-constant">ox-rss</span>)
-(<span class="org-keyword">require</span> '<span class="org-constant">ox-publish</span>)
-(<span class="org-keyword">require</span> '<span class="org-constant">ox-html</span>)
-(<span class="org-keyword">setq</span> org-html-htmlize-output-type 'css)
-(<span class="org-keyword">setq</span> org-publish-project-alist
-        '(
+<figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">require</span> <span class="ss">'package</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">package-initialize</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">unless</span> <span class="nv">package-archive-contents</span>
+  <span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">'package-archives</span> <span class="o">'</span><span class="p">(</span><span class="s">"org"</span> <span class="o">.</span> <span class="s">"https://orgmode.org/elpa/"</span><span class="p">)</span> <span class="no">t</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">'package-archives</span> <span class="o">'</span><span class="p">(</span><span class="s">"melpa"</span> <span class="o">.</span> <span class="s">"https://melpa.org/packages/"</span><span class="p">)</span> <span class="no">t</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">package-refresh-contents</span><span class="p">))</span>
+<span class="p">(</span><span class="nb">dolist</span> <span class="p">(</span><span class="nv">pkg</span> <span class="o">'</span><span class="p">(</span><span class="nv">org-plus-contrib</span> <span class="nv">htmlize</span><span class="p">))</span>
+  <span class="p">(</span><span class="nb">unless</span> <span class="p">(</span><span class="nv">package-installed-p</span> <span class="nv">pkg</span><span class="p">)</span>
+    <span class="p">(</span><span class="nv">package-install</span> <span class="nv">pkg</span><span class="p">)))</span>
 
-    (<span class="org-string">"org-post-fastpages"</span>
-            <span class="org-comment-delimiter">;; </span><span class="org-comment">Path to your org files.</span>
-            <span class="org-builtin">:base-directory</span> <span class="org-string">"./_org/_posts"</span>
-            <span class="org-builtin">:base-extension</span> <span class="org-string">"org"</span>
+<span class="p">(</span><span class="nb">require</span> <span class="ss">'org</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">require</span> <span class="ss">'ox-rss</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">require</span> <span class="ss">'ox-publish</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">require</span> <span class="ss">'ox-html</span><span class="p">)</span>
+<span class="p">(</span><span class="nb">require</span> <span class="ss">'fpemacs</span><span class="p">)</span>
 
-            <span class="org-comment-delimiter">;; </span><span class="org-comment">Path to your Jekyll project.</span>
-            <span class="org-builtin">:publishing-directory</span> <span class="org-string">"./_posts/"</span>
-            <span class="org-builtin">:recursive</span> t
-            <span class="org-builtin">:publishing-function</span> org-html-publish-to-html
-            <span class="org-builtin">:html-extension</span> <span class="org-string">"md"</span>
-            <span class="org-builtin">:body-only</span> t <span class="org-comment-delimiter">;; </span><span class="org-comment">Only export section between &lt;body&gt; &lt;/body&gt;</span>
-      )
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-html-htmlize-output-type</span> <span class="no">nil</span><span class="p">)</span>
 
+<span class="p">(</span><span class="k">setq</span> <span class="nv">org-publish-project-alist</span>
+	<span class="o">'</span><span class="p">(</span>
 
-      (<span class="org-string">"org-static-fastpages"</span>
-            <span class="org-builtin">:base-directory</span> <span class="org-string">"./_org/assets"</span>
-            <span class="org-builtin">:base-extension</span> <span class="org-string">"css</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">js</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">png</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">jpg</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">gif</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">pdf</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">mp3</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">ogg</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">swf</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">php"</span>
-            <span class="org-builtin">:publishing-directory</span> <span class="org-string">"./assets/"</span>
-            <span class="org-builtin">:recursive</span> t
-            <span class="org-builtin">:publishing-function</span> org-publish-attachment
-            )
+    <span class="p">(</span><span class="s">"org-post-fastpages"</span>
+	    <span class="c1">;; Path to your org files.</span>
+	    <span class="ss">:base-directory</span> <span class="s">"./_org/_posts"</span>
+	    <span class="ss">:base-extension</span> <span class="s">"org"</span>
 
-      (<span class="org-string">"org-images-fastpages"</span>
-            <span class="org-builtin">:base-directory</span> <span class="org-string">"./_org/images"</span>
-            <span class="org-builtin">:base-extension</span> <span class="org-string">"css</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">js</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">png</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">jpg</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">gif</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">pdf</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">mp3</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">ogg</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">swf</span><span class="org-string"><span class="org-regexp-grouping-backslash">\\</span></span><span class="org-string"><span class="org-regexp-grouping-construct">|</span></span><span class="org-string">php"</span>
-            <span class="org-builtin">:publishing-directory</span> <span class="org-string">"./images/"</span>
-            <span class="org-builtin">:recursive</span> t
-            <span class="org-builtin">:publishing-function</span> org-publish-attachment
-            )
-      (<span class="org-string">"fastpages"</span> <span class="org-builtin">:components</span> (<span class="org-string">"org-post-fastpages"</span> <span class="org-string">"org-static-fastpages"</span> <span class="org-string">"org-images-fastpages"</span>))
-
-  ))
-
-(<span class="org-keyword">defun</span> <span class="org-function-name">fastpages-publish-all</span> ()
-  <span class="org-doc">"Publish the blog to HTML."</span>
-  (<span class="org-keyword">interactive</span>)
-  (org-publish-all))
+	    <span class="c1">;; Path to your Jekyll project.</span>
+	    <span class="ss">:publishing-directory</span> <span class="s">"./_posts/"</span>
+	    <span class="ss">:recursive</span> <span class="no">t</span>
+	    <span class="ss">:publishing-function</span> <span class="nv">org-fp-publish-to-html</span>
+	    <span class="ss">:html-extension</span> <span class="s">"md"</span>
+	    <span class="ss">:body-only</span> <span class="no">t</span> <span class="c1">;; Only export section between &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt;</span>
+      <span class="p">)</span>
 
 
-(<span class="org-keyword">provide</span> '<span class="org-constant">publish</span>)
-</pre>
+      <span class="p">(</span><span class="s">"org-static-fastpages"</span>
+	    <span class="ss">:base-directory</span> <span class="s">"./_org/assets"</span>
+	    <span class="ss">:base-extension</span> <span class="s">"css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"</span>
+	    <span class="ss">:publishing-directory</span> <span class="s">"./assets/"</span>
+	    <span class="ss">:recursive</span> <span class="no">t</span>
+	    <span class="ss">:publishing-function</span> <span class="nv">org-publish-attachment</span>
+	    <span class="p">)</span>
+
+      <span class="p">(</span><span class="s">"org-images-fastpages"</span>
+	    <span class="ss">:base-directory</span> <span class="s">"./_org/images"</span>
+	    <span class="ss">:base-extension</span> <span class="s">"css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"</span>
+	    <span class="ss">:publishing-directory</span> <span class="s">"./images/"</span>
+	    <span class="ss">:recursive</span> <span class="no">t</span>
+	    <span class="ss">:publishing-function</span> <span class="nv">org-publish-attachment</span>
+	    <span class="p">)</span>
+      <span class="p">(</span><span class="s">"fastpages"</span> <span class="ss">:components</span> <span class="p">(</span><span class="s">"org-post-fastpages"</span> <span class="s">"org-static-fastpages"</span> <span class="s">"org-images-fastpages"</span><span class="p">))</span>
+
+  <span class="p">))</span>
+
+<span class="p">(</span><span class="nb">defun</span> <span class="nv">fastpages-publish-all</span> <span class="p">()</span>
+  <span class="s">"Publish the blog to HTML."</span>
+  <span class="p">(</span><span class="nv">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nv">org-publish-all</span><span class="p">))</span>
+
+
+<span class="p">(</span><span class="nb">provide</span> <span class="ss">'publish</span><span class="p">)</span></code></pre></figure>
+
 </div>
 </li>
 
@@ -847,75 +851,80 @@ custom.sh - Used to run emacs in batch mode with above files
 </p>
 
 <div class="org-src-container">
-<pre class="src src-bash"><span class="org-comment-delimiter">#</span><span class="org-comment">!/bin/</span><span class="org-keyword">sh</span>
 
-<span class="org-builtin">echo</span> <span class="org-string">"Inside custom converter code"</span>
-<span class="org-comment-delimiter"># </span><span class="org-comment">emacs --batch --no-init-file --load ./_custom_action_files/publish.el --funcall toggle-debug-on-error --funcall fastpages-publish-all</span>
-rm -rf /root/.org-timestamps
-emacs --batch --no-init-file --load ./_custom_action_files/fpemacs.el --load ./_custom_action_files/publish.el --funcall toggle-debug-on-error --funcall fastpages-publish-all
-</pre>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/sh</span>
+
+<span class="nb">echo</span> <span class="s2">"Inside custom converter code"</span>
+<span class="c"># emacs --batch --no-init-file --load ./_custom_action_files/publish.el --funcall toggle-debug-on-error --funcall fastpages-publish-all</span>
+<span class="nb">rm</span> <span class="nt">-rf</span> /root/.org-timestamps
+emacs <span class="nt">--batch</span> <span class="nt">--no-init-file</span> <span class="nt">--load</span> ./_custom_action_files/fpemacs.el <span class="nt">--load</span> ./_custom_action_files/publish.el <span class="nt">--funcall</span> toggle-debug-on-error <span class="nt">--funcall</span> fastpages-publish-all</code></pre></figure>
+
 </div>
 </li>
 </ul>
 </li>
+</ul>
 
+
+<ul class="org-ul">
 <li>
 <p>
 Additionally I have defined a public docker image encapsulating emacs and other dependencies for add on which is available from dockerhub as rahuketu86/fastpages-emacs. I add an addtional step to <b>convert org files</b> in my ci.yaml to enable this conversion automatically on git push. My modified ci now looks as follows
 </p>
 <div class="org-src-container">
-<pre class="src src-yaml">name: CI
-on:
-  push:
-    branches:
-      - master # need to filter here so we only deploy when there is a push to master
-  # no filters on pull requests, so intentionally left blank
-  pull_request: 
 
-jobs:     
-  build-site:
-    if: ( github.event.commits[0].message != 'Initial commit' ) || github.run_number &gt; 1
-    runs-on: ubuntu-latest
-    steps:
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">name</span><span class="pi">:</span> <span class="s">CI</span>
+<span class="na">on</span><span class="pi">:</span>
+  <span class="na">push</span><span class="pi">:</span>
+    <span class="na">branches</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">master</span> <span class="c1"># need to filter here so we only deploy when there is a push to master</span>
+  <span class="c1"># no filters on pull requests, so intentionally left blank</span>
+  <span class="na">pull_request</span><span class="pi">:</span> 
 
-    - name: Copy Repository Contents
-      uses: actions/checkout@master
-      with:
-	persist-credentials: false
+<span class="na">jobs</span><span class="pi">:</span>     
+  <span class="na">build-site</span><span class="pi">:</span>
+    <span class="na">if</span><span class="pi">:</span> <span class="s">( github.event.commits[0].message != 'Initial commit' ) || github.run_number &amp;gt; </span><span class="m">1</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
 
-    - name: setup directories for Jekyll build
-      run: |
-	rm -rf _site
-	sudo chmod -R 777 .
+    <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Copy Repository Contents</span>
+      <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@master</span>
+      <span class="na">with</span><span class="pi">:</span>
+<span class="err">	</span><span class="na">persist-credentials</span><span class="pi">:</span> <span class="no">false</span>
 
-    - name: convert org files
-      uses: docker://rahuketu86/fastpages-emacs
-      if: github.event.deleted == false
-      with:
-	args: ./_custom_action_files/custom.sh
+    <span class="s">- name</span><span class="pi">:</span> <span class="s">setup directories for Jekyll build</span>
+      <span class="s">run</span><span class="pi">:</span> <span class="pi">|</span>
+<span class="err">	</span><span class="s">rm -rf _site</span>
+<span class="err">	</span><span class="s">sudo chmod -R 777 .</span>
 
-    - name: convert notebooks and word docs to posts
-      uses: ./_action_files
+    <span class="s">- name: convert org files</span>
+      <span class="s">uses: docker://rahuketu86/fastpages-emacs</span>
+      <span class="s">if: github.event.deleted == false</span>
+      <span class="s">with:</span>
+<span class="err">	</span><span class="s">args: ./_custom_action_files/custom.sh</span>
 
-    - name: Jekyll build
-      uses: docker://hamelsmu/fastpages-jekyll
-      with:
-	args: bash -c "gem install bundler &amp;&amp; jekyll build -V --strict_front_matter --trace"
-      env:
-	JEKYLL_ENV: 'production'
+    <span class="s">- name: convert notebooks and word docs to posts</span>
+      <span class="s">uses: ./_action_files</span>
 
-    - name: copy CNAME file into _site if CNAME exists
-      run: |
-	sudo chmod -R 777 _site/
-	cp CNAME _site/ 2&gt;/dev/null || :
+    <span class="s">- name: Jekyll build</span>
+      <span class="s">uses: docker://hamelsmu/fastpages-jekyll</span>
+      <span class="s">with:</span>
+<span class="err">	</span><span class="s">args: bash -c "gem install bundler &amp;amp;&amp;amp; jekyll build -V --strict_front_matter --trace"</span>
+      <span class="s">env:</span>
+<span class="err">	</span><span class="s">JEKYLL_ENV: 'production'</span>
 
-    - name: Deploy
-      if: github.event_name	== 'push'
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-	deploy_key: $
-	publish_dir: ./_site
-</pre>
+    <span class="s">- name: copy CNAME file into _site if CNAME exists</span>
+      <span class="s">run: |</span>
+<span class="err">	</span><span class="s">sudo chmod -R 777 _site/</span>
+<span class="err">	</span><span class="s">cp CNAME _site/ 2&amp;gt;/dev/null || :</span>
+
+    <span class="s">- name: Deploy</span>
+      <span class="s">if: github.event_name	== 'push'</span>
+      <span class="s">uses: peaceiris/actions-gh-pages@v3</span>
+      <span class="s">with:</span>
+<span class="err">	</span><span class="s">deploy_key: $</span>
+<span class="err">	</span><span class="s">publish_dir: ./_site</span></code></pre></figure>
+
 </div>
 </li>
 </ul>
@@ -924,7 +933,7 @@ jobs:
 
 
 <li>
-<a id="org7e74342"></a>Finally for local viewing<br>
+<a id="orgc1ceb4d"></a>Finally for local viewing<br>
 <div class="outline-text-6" id="text-2-3-3-2-3">
 <ul class="org-ul">
 <li>
@@ -932,53 +941,54 @@ jobs:
 I had to update docker-compose.yml to include an orgconverter service to use my rahuketu86/fastpages-emacs
 </p>
 <div class="org-src-container">
-<pre class="src src-yaml">version: "3"
-services:
-  fastpages: &amp;fastpages
-    working_dir: /data
-    environment:
-	- INPUT_BOOL_SAVE_MARKDOWN=false
-    build:
-      context: ./_action_files
-      dockerfile: ./Dockerfile
-    image: fastpages-dev
-    logging:
-      driver: json-file
-      options:
-	max-size: 50m
-    stdin_open: true
-    tty: true
-    volumes:
-      - .:/data/
 
-  orgconverter:
-    working_dir: /data
-    image: rahuketu86/fastpages-emacs
-    volumes:
-      -  .:/data/
-    command: _custom_action_files/custom.sh
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">version</span><span class="pi">:</span> <span class="s2">"</span><span class="s">3"</span>
+<span class="na">services</span><span class="pi">:</span>
+  <span class="na">fastpages</span><span class="pi">:</span> <span class="nl">&amp;amp</span><span class="s">;fastpages</span>
+    <span class="s">working_dir</span><span class="pi">:</span> <span class="s">/data</span>
+    <span class="s">environment</span><span class="pi">:</span>
+<span class="err">	</span><span class="pi">-</span> <span class="s">INPUT_BOOL_SAVE_MARKDOWN=false</span>
+    <span class="s">build</span><span class="pi">:</span>
+      <span class="na">context</span><span class="pi">:</span> <span class="s">./_action_files</span>
+      <span class="na">dockerfile</span><span class="pi">:</span> <span class="s">./Dockerfile</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">fastpages-dev</span>
+    <span class="na">logging</span><span class="pi">:</span>
+      <span class="na">driver</span><span class="pi">:</span> <span class="s">json-file</span>
+      <span class="na">options</span><span class="pi">:</span>
+<span class="err">	</span><span class="na">max-size</span><span class="pi">:</span> <span class="s">50m</span>
+    <span class="s">stdin_open</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="s">tty</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="s">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">.:/data/</span>
+
+  <span class="na">orgconverter</span><span class="pi">:</span>
+    <span class="na">working_dir</span><span class="pi">:</span> <span class="s">/data</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">rahuketu86/fastpages-emacs</span>
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span>  <span class="s">.:/data/</span>
+    <span class="na">command</span><span class="pi">:</span> <span class="s">_custom_action_files/custom.sh</span>
 
 
-  converter:
-    &lt;&lt;: *fastpages
-    command: /fastpages/action_entrypoint.sh
+  <span class="na">converter</span><span class="pi">:</span>
+    <span class="nl">&amp;lt</span><span class="s">;&amp;lt;</span><span class="pi">:</span> <span class="nv">*fastpages</span>
+    <span class="na">command</span><span class="pi">:</span> <span class="s">/fastpages/action_entrypoint.sh</span>
 
-  watcher:
-    &lt;&lt;: *fastpages
-    command: watchmedo shell-command --command /fastpages/action_entrypoint.sh --pattern *.ipynb --recursive --drop
+  <span class="na">watcher</span><span class="pi">:</span>
+    <span class="nl">&amp;lt</span><span class="s">;&amp;lt;</span><span class="pi">:</span> <span class="nv">*fastpages</span>
+    <span class="na">command</span><span class="pi">:</span> <span class="s">watchmedo shell-command --command /fastpages/action_entrypoint.sh --pattern *.ipynb --recursive --drop</span>
 
-  jekyll:
-    working_dir: /data
-    image: hamelsmu/fastpages-jekyll
-    restart: unless-stopped
-    ports:
-      - "4000:4000"
-    volumes:
-      - .:/data/
-    command: &gt;
-     bash -c "gem install bundler
-     &amp;&amp; jekyll serve --trace --strict_front_matter"
-</pre>
+  <span class="na">jekyll</span><span class="pi">:</span>
+    <span class="na">working_dir</span><span class="pi">:</span> <span class="s">/data</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">hamelsmu/fastpages-jekyll</span>
+    <span class="na">restart</span><span class="pi">:</span> <span class="s">unless-stopped</span>
+    <span class="na">ports</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">4000:4000"</span>
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">.:/data/</span>
+    <span class="na">command</span><span class="pi">:</span> <span class="nl">&amp;gt</span><span class="s">;</span>
+     <span class="s">bash -c "gem install bundler</span>
+     <span class="s">&amp;amp;&amp;amp; jekyll serve --trace --strict_front_matter"</span></code></pre></figure>
+
 </div>
 </li>
 
@@ -987,62 +997,63 @@ services:
 Update Makefile to add a single line in convert  <span class="underline">[# convert word &amp; nb without Jekyll services]</span> to run orgconverter alongwith nbdev converter
 </p>
 <div class="org-src-container">
-<pre class="src src-yaml">help:
-	cat Makefile
 
-# start (or restart) the services
-server: .FORCE
-	docker-compose down --remove-orphans || true;
-	docker-compose up
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">help</span><span class="pi">:</span>
+<span class="err">	</span><span class="s">cat Makefile</span>
 
-# start (or restart) the services in detached mode
-server-detached: .FORCE
-	docker-compose down || true;
-	docker-compose up -d
+<span class="c1"># start (or restart) the services</span>
+<span class="na">server</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">docker-compose down --remove-orphans || </span><span class="no">true</span><span class="s">;</span>
+<span class="err">	</span><span class="s">docker-compose up</span>
 
-# build or rebuild the services WITHOUT cache
-build: .FORCE
-	chmod 777 Gemfile.lock
-	docker-compose stop || true; docker-compose rm || true;
-	docker build --no-cache -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .
-	docker build --no-cache -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
-	docker-compose build --force-rm --no-cache
+<span class="c1"># start (or restart) the services in detached mode</span>
+<span class="na">server-detached</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">docker-compose down || </span><span class="no">true</span><span class="s">;</span>
+<span class="err">	</span><span class="s">docker-compose up -d</span>
 
-# rebuild the services WITH cache
-quick-build: .FORCE
-	docker-compose stop || true;
-	docker build -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .
-	docker build -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .
-	docker-compose build 
+<span class="c1"># build or rebuild the services WITHOUT cache</span>
+<span class="na">build</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">chmod 777 Gemfile.lock</span>
+<span class="err">	</span><span class="s">docker-compose stop || </span><span class="no">true</span><span class="s">; docker-compose rm || </span><span class="no">true</span><span class="s">;</span>
+<span class="err">	</span><span class="s">docker build --no-cache -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .</span>
+<span class="err">	</span><span class="s">docker build --no-cache -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .</span>
+<span class="err">	</span><span class="s">docker-compose build --force-rm --no-cache</span>
 
-# convert word &amp; nb without Jekyll services
-convert: .FORCE
-	docker-compose up orgconverter
-	docker-compose up converter
+<span class="c1"># rebuild the services WITH cache</span>
+<span class="na">quick-build</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">docker-compose stop || </span><span class="no">true</span><span class="s">;</span>
+<span class="err">	</span><span class="s">docker build -t hamelsmu/fastpages-nbdev -f _action_files/fastpages-nbdev.Dockerfile .</span>
+<span class="err">	</span><span class="s">docker build -t hamelsmu/fastpages-jekyll -f _action_files/fastpages-jekyll.Dockerfile .</span>
+<span class="err">	</span><span class="s">docker-compose build</span> 
 
-# stop all containers
-stop: .FORCE
-	docker-compose stop
-	docker ps | grep fastpages | awk '{print $1}' | xargs docker stop
+<span class="c1"># convert word &amp;amp; nb without Jekyll services</span>
+<span class="na">convert</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">docker-compose up orgconverter</span>
+<span class="err">	</span><span class="s">docker-compose up converter</span>
 
-# remove all containers
-remove: .FORCE
-	docker-compose stop  || true; docker-compose rm || true;
+<span class="c1"># stop all containers</span>
+<span class="na">stop</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">docker-compose stop</span>
+<span class="err">	</span><span class="s">docker ps | grep fastpages | awk '{print $1}' | xargs docker stop</span>
 
-# get shell inside the notebook converter service (Must already be running)
-bash-nb: .FORCE
-	docker-compose exec watcher /bin/bash
+<span class="c1"># remove all containers</span>
+<span class="na">remove</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">docker-compose stop  || </span><span class="no">true</span><span class="s">; docker-compose rm || </span><span class="no">true</span><span class="s">;</span>
 
-# get shell inside jekyll service (Must already be running)
-bash-jekyll: .FORCE
-	docker-compose exec jekyll /bin/bash
+<span class="c1"># get shell inside the notebook converter service (Must already be running)</span>
+<span class="na">bash-nb</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">docker-compose exec watcher /bin/bash</span>
 
-# restart just the Jekyll server
-restart-jekyll: .FORCE
-	docker-compose restart jekyll
+<span class="c1"># get shell inside jekyll service (Must already be running)</span>
+<span class="na">bash-jekyll</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">docker-compose exec jekyll /bin/bash</span>
 
-.FORCE:
-</pre>
+<span class="c1"># restart just the Jekyll server</span>
+<span class="na">restart-jekyll</span><span class="pi">:</span> <span class="s">.FORCE</span>
+<span class="err">	</span><span class="s">docker-compose restart jekyll</span>
+
+<span class="s">.FORCE</span><span class="pi">:</span></code></pre></figure>
+
 </div>
 </li>
 </ul>
@@ -1055,14 +1066,14 @@ restart-jekyll: .FORCE
 </div>
 </div>
 
-<div id="outline-container-org8c451c7" class="outline-2">
-<h2 id="org8c451c7">
-<a class="anchor" href="#org8c451c7" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">3</span> Conclusion and way forward</h2>
+<div id="outline-container-org8887f1e" class="outline-2">
+<h2 id="org8887f1e">
+<a class="anchor" href="#org8887f1e" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-2">3</span> Conclusion and way forward</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org455f9bf" class="outline-3">
-<h3 id="org455f9bf">
-<a class="anchor" href="#org455f9bf" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.1</span> Org Mode Bridge and Other systems</h3>
+<div id="outline-container-org42ba43e" class="outline-3">
+<h3 id="org42ba43e">
+<a class="anchor" href="#org42ba43e" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.1</span> Org Mode Bridge and Other systems</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 Org mode on emacs is a really powerful tool for text processing, writing and literate programming. With all the development done on this repository; it is now fairly easy to get started with org mode on fastpages. In future similar techniques can be adopted to create exporter for Rmarkdown or literate-julia or any other target. In view of author, it is important to use the language native to programming system to build these extensions. So for Rmarkdown , it would be useful to leverage existing infrastructure in "knitr" and "bookdown/ blogdown" packages rather than building things from scratch or extending nbdev. This is less burdensome to maintain and enables a writing flow where we don't have to go back and forth from existing system. 
@@ -1074,20 +1085,20 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 </div>
 </div>
 
-<div id="outline-container-orgf02f140" class="outline-3">
-<h3 id="orgf02f140">
-<a class="anchor" href="#orgf02f140" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.2</span> Outstanding Tasks</h3>
+<div id="outline-container-org4aa4150" class="outline-3">
+<h3 id="org4aa4150">
+<a class="anchor" href="#org4aa4150" aria-hidden="true"><span class="octicon octicon-link"></span></a><span class="section-number-3">3.2</span> Outstanding Tasks</h3>
 <div class="outline-text-3" id="text-3-2">
 </div>
 <ol class="org-ol">
 <li>
-<a id="org22f839c"></a><span class="todo TODO">TODO</span> Fix links inside boxes in org mode<br>
+<a id="orgf43bb12"></a><span class="todo TODO">TODO</span> Fix links inside boxes in org mode<br>
 </li>
 <li>
-<a id="org48ea7d1"></a><span class="todo TODO">TODO</span> Define a specific layout for org files which can include some common header files.<br>
+<a id="orgc8786aa"></a><span class="todo TODO">TODO</span> Define a specific layout for org files which can include some common header files.<br>
 </li>
 <li>
-<a id="orga7c12b8"></a><span class="todo TODO">TODO</span> Define a mechanism for code highlighting<br>
+<a id="org434f2cc"></a><span class="todo TODO">TODO</span> Define a mechanism for code highlighting<br>
 <div class="outline-text-5" id="text-3-2-0-3">
 <p>
 </p>
@@ -1103,13 +1114,13 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 </div>
 </li>
 <li>
-<a id="orge8fc724"></a><span class="todo TODO">TODO</span> Handle internal links and html export more robustly<br>
+<a id="org8a63fa9"></a><span class="todo TODO">TODO</span> Handle internal links and html export more robustly<br>
 </li>
 <li>
-<a id="org22e3453"></a><span class="todo TODO">TODO</span> Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post<br>
+<a id="orgc80dc21"></a><span class="todo TODO">TODO</span> Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post<br>
 </li>
 <li>
-<a id="orgc07a06c"></a><span class="todo TODO">TODO</span> Create a demo for exporting to beamer and intergrating with blog post<br>
+<a id="orgd9ba3c2"></a><span class="todo TODO">TODO</span> Create a demo for exporting to beamer and intergrating with blog post<br>
 <div class="outline-text-5" id="text-3-2-0-6">
 <p>
 </p>
