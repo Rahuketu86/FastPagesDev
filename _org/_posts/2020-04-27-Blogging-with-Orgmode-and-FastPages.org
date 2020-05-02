@@ -188,15 +188,18 @@ We need to create a /_org/ folder . Inside /_org/ folder , it should mirror stru
 
 - I have created some custom actions, which I save in /_custom_actions_files/ directory at top level. It has got 3 files
   - publish.el - Emacs script to control publishing from /_org/_posts/ to /_posts/ folder and converting org to html.
-{% comment %}   
+
     #+INCLUDE: "../../_custom_action_files/publish.el" src emacs-lisp
-{% endcomment %}
+
   - fpemacs.el - Helper functions to enable links functionality translating to html/ jekyll includes. This is really the fastpages shim version of emacs. We can even call it fastpages-emacs library. All the changes should go here
     [[warning:box][This files contains include template in code and can't be rendered for now]]
 
   - custom.sh - Used to run emacs in batch mode with above files 
 
+    #+begin_example
     #+INCLUDE: "../../_custom_action_files/custom.sh" src bash
+    #+end_example
+    
   
 - Additionally I have defined a public docker image encapsulating emacs and other dependencies for add on which is available from dockerhub as rahuketu86/fastpages-emacs. I add an addtional step to *convert org files* in my ci.yaml to enable this conversion automatically on git push. My modified ci now looks as follows
     #+INCLUDE: "../../.github/workflows/ci.yaml" src yaml
