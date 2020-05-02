@@ -13,14 +13,16 @@ title: Emacs Conifguration is fixed
 
 This post contains sample configuration for my emacs in an org file
 * Emacs init.el
-  #+BEGIN_EXAMPLE
+  #+begin_export html
+  {% highlight emacs-lisp %}
     (package-initialize)
 
     (require 'org)
     (org-babel-load-file
-          (expand-file-name "configuration.org"
-                             user-emacs-directory))
-  #+END_EXAMPLE
+	  (expand-file-name "configuration.org"
+			     user-emacs-directory))
+  {% endhighlight %}
+  #+end_export
 
 * Emacs Customization Group
   #+BEGIN_SRC emacs-lisp

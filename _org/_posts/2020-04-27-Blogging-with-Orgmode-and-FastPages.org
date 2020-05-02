@@ -149,13 +149,14 @@ categories: [orgmode]
 title: Blogging with Org mode and FastPages
 description: Tutorial to setup Fastpages with org mode
 comments: true
+use_math: false
 ---
 #+END_EXPORT
 
 
 # COMMENT ------------------OPTIONAL FROM HERE------------------------------
 
-<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+
 #+TOC: headline 3
 
 #+end_example
@@ -165,8 +166,8 @@ comments: true
 - Here first line is for disabling toc specfic to org mode. Default org mode TOC is added on top of body before content which interferes with YAML Frontmatter
 - You can't include #+TITLE directive in org mode , as it is rendered before everything , and thus interfere's with Front Matter.
 - Then comes section for YAML front matter. Wrapping it in html export block allows this to be the first section on the file.
-- Things below OPTIONAL FROM HERE line need not be included. [ In fact I am still looking forward to customize css so that we can colorize source code similar to notebooks and markdown]
-[[iframe:https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html][Org mode post with css included]]
+- Things below OPTIONAL FROM HERE line need not be included. +In fact I am still looking forward to customize css so that we can colorize source code similar to notebooks and markdown+
+[[iframe:https://rahuketu86.github.io/FastPagesDev/orgmode/2020/04/25/Emacs-Configuration.html][Emacs config with source native source code highlighting]]
 - With these simple rules, you can easily write a blog post with all the functionality of org mode.
 
 **** FastPages Customization
@@ -192,12 +193,12 @@ We need to create a /_org/ folder . Inside /_org/ folder , it should mirror stru
     #+INCLUDE: "../../_custom_action_files/publish.el" src emacs-lisp
 
   - fpemacs.el - Helper functions to enable links functionality translating to html/ jekyll includes. This is really the fastpages shim version of emacs. We can even call it fastpages-emacs library. All the changes should go here
-    [[warning:box][This files contains include template in code and can't be rendered for now]]
+    [[warning:box][This files contains include template in code and can't be rendered fully. Some lines are skipped.]]
+    #+INCLUDE: "../../_custom_action_files/fpemacs.el" :lines "72-"’ src emacs-lisp
+
 
   - custom.sh - Used to run emacs in batch mode with above files 
-
     #+INCLUDE: "../../_custom_action_files/custom.sh" src bash
-    
   
 - Additionally I have defined a public docker image encapsulating emacs and other dependencies for add on which is available from dockerhub as rahuketu86/fastpages-emacs. I add an addtional step to *convert org files* in my ci.yaml to enable this conversion automatically on git push. My modified ci now looks as follows
     #+INCLUDE: "../../.github/workflows/ci.yaml" src yaml
@@ -222,6 +223,7 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 
 ** Outstanding Tasks
 **** TODO Fix links inside boxes in org mode
+**** TODO Provide more controls on code folding , currently implemented on every block.
 **** TODO Define a specific layout for org files which can include some common header files.
 **** DONE Define a mechanism for code highlighting 
 - +It can be done using custom css like org.css. But thing approach need some customization to match with default styles+

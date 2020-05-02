@@ -47,6 +47,13 @@
 
 ;; Link Funcitonality FastPages
 
+
+
+;;{% comment %}
+
+(defun jekyll-highlight (lang code)
+  (format "{%% highlight %s %%}\n%s{%% endhighlight %%}" lang code))
+  
 (defun jekyll-include (inc-tmpl url)
    (s-lex-format "{% include ${inc-tmpl} content='<a href=\"${url}\">${url}</a>' %}"))
 
@@ -204,6 +211,18 @@
 
 ;; Define A new backend for fastpages html export
 
+(defun org-fp-code-folding (block)
+  (s-lex-format "<div class=\"cell border-box-sizing code_cell rendered\">
+    <details class=\"description\">
+      <summary class=\"btn btn-sm\" data-open=\"Hide Code\" data-close=\"Show Code\"></summary>
+        <p>
+           <div class=\"input\">
+                ${block}
+          </div>
+        </p>
+    </details>
+</div>"))
+ 
 (defun org-fp-html-src-block (src-block contents info)
   "Transcode a SRC-BLOCK element from Org to HTML.
 CONTENTS holds the contents of the item.  INFO is a plist holding
@@ -216,13 +235,14 @@ contextual information."
 	    (label (let ((lbl (and (org-element-property :name src-block)
 				   (org-export-get-reference src-block info))))
 		     (if lbl (format " id=\"%s\"" lbl) ""))))
+        (org-fp-code-folding
 	(if (not lang) (format "<pre class=\"example\"%s>\n%s</pre>" label code)
 	  (format
 	   "<div class=\"org-src-container\">\n%s%s\n</div>"
 	   (if (not caption) ""
 	     (format "<label class=\"org-src-name\">%s</label>"
 		     (org-export-data caption info)))
-	   (format "{%% highlight %s %%}\n%s{%% endhighlight %%}" lang code))))))
+	   (jekyll-highlight lang code)))))))
 
 ;;	 (format "\n<pre class=\"src src-%s\"%s>%s</pre>" lang label code))))))
 
@@ -238,7 +258,7 @@ contextual information."
 	    (let ((lbl (and (org-element-property :name inline-src-block)
 			    (org-export-get-reference inline-src-block info))))
 	      (if (not lbl) "" (format " id=\"%s\"" lbl)))))
-    (format "{%% highlight %s %%}\n%s{%% endhighlight %%}" lang code)))
+    (jekyll-highlight lang code)))
 
 
 
