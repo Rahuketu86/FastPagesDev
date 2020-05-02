@@ -41,8 +41,24 @@
 (require 'ox-publish)
 (require 'ox-html)
 
+;; Hack into source block Export function to Delegate syntax highlighting to jekyll
 
- 
+;; {% comment %}
+(defun org-html-inline-src-block (inline-src-block _contents info)
+  "Transcode an INLINE-SRC-BLOCK element from Org to HTML.
+CONTENTS holds the contents of the item.  INFO is a plist holding
+contextual information."
+  (let* ((lang (org-element-property :language inline-src-block))
+	 (code (org-html-fontify-code
+		(org-element-property :value inline-src-block)
+		lang))
+	 (label
+	  (let ((lbl (and (org-element-property :name inline-src-block)
+			  (org-export-get-reference inline-src-block info))))
+	    (if (not lbl) "" (format " id=\"%s\"" lbl)))))
+    (format "{%% highlight %s %%}\n%s{%% endhighlight %%}" lang code)))
+
+
  (defun jekyll-include (inc-tmpl url)
     (s-lex-format "{% include ${inc-tmpl} content='<a href=\"${url}\">${url}</a>' %}"))
 
@@ -50,6 +66,7 @@
   (defun jekyll-include-box (inc-tmpl inputtype text)
     (s-lex-format "{% include ${inc-tmpl} ${inputtype}=\"${text}\" %}"))
 
+;; {% endcomment %}
 
   (defun jekyll-include-remote-img (url caption)
     (if caption

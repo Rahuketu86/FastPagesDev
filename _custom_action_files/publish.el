@@ -12,7 +12,28 @@
 (require 'ox-rss)
 (require 'ox-publish)
 (require 'ox-html)
-(setq org-html-htmlize-output-type 'css)
+(require 'fpemacs)
+
+(setq org-html-htmlize-output-type nil)
+
+;; Hack into source block Export function to Delegate syntax highlighting to jekyll
+;; {% comment %}
+(defun org-html-inline-src-block (inline-src-block _contents info)
+  "Transcode an INLINE-SRC-BLOCK element from Org to HTML.
+CONTENTS holds the contents of the item.  INFO is a plist holding
+contextual information."
+  (let* ((lang (org-element-property :language inline-src-block))
+	 (code (org-html-fontify-code
+		(org-element-property :value inline-src-block)
+		lang))
+	 (label
+	  (let ((lbl (and (org-element-property :name inline-src-block)
+			  (org-export-get-reference inline-src-block info))))
+	    (if (not lbl) "" (format " id=\"%s\"" lbl)))))
+    (format "{%% highlight %s %%}\n%s{%% endhighlight %%}" lang code)))
+
+;; {% endcomment %}
+
 (setq org-publish-project-alist
 	'(
 
