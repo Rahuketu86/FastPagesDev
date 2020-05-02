@@ -196,9 +196,7 @@ We need to create a /_org/ folder . Inside /_org/ folder , it should mirror stru
 
   - custom.sh - Used to run emacs in batch mode with above files 
 
-    #+begin_example
     #+INCLUDE: "../../_custom_action_files/custom.sh" src bash
-    #+end_example
     
   
 - Additionally I have defined a public docker image encapsulating emacs and other dependencies for add on which is available from dockerhub as rahuketu86/fastpages-emacs. I add an addtional step to *convert org files* in my ci.yaml to enable this conversion automatically on git push. My modified ci now looks as follows
