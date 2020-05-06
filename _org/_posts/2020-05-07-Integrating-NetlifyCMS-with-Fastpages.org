@@ -24,4 +24,13 @@ Usually CMS are associated with frameworks like wordpress , where content is bac
 I take inspiration from [[https://www.netlifycms.org/docs/add-to-your-site/][Netlify tutorial to migrate an existing website]]. Since Fastpages is based on jekyll framework. We will follow the workflow for the same
 
 - First thing we need to do is to create an admin folder in root location ("/") of our project directory.
+- Next add two files to admin folder with following contnet
+  - index.html
+  [[img:/images/adminindex.png][Index.html]]
+  - config.html
+  #+INCLUDE: "../../admin/config.yml" src yml
 
+- Tutorial goes into a lot of detail about configuring the config.yml correctly .However I always believe in doing things in small pieces. Making some changes and then looking at the output to figure out what has happened. So now what I do is commit the code. Based on the description presented, we should have an url with admin page in the rendered site. So let's go there and examine the output.
+  [[img:/images/cms_error.png][CMS Error]]
+
+The link indicates our configuration is incomplete and gives us recommendation of things that are require fixing.
