@@ -1,1 +1,1 @@
-Sitemap: https://rahuketu86.github.io/FastPagesDev/sitemap.xml
+Sitemap: https://fastpagesdev.netlify.app/sitemap.xml
