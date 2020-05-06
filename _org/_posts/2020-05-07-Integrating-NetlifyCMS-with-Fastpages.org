@@ -1,0 +1,27 @@
+#+OPTIONS: toc:nil 
+#+BEGIN_EXPORT html
+---
+layout: post
+categories: [fastpages, orgmode]
+title: How to Integrate Netlify CMS with Fastpages
+description: Tutorial to use Netlify CMS with Fastpages
+comments: true
+toc: true
+---
+#+END_EXPORT
+
+#+TOC: headline 3
+* Introduction
+
+Fastpages is a wonderful piece of technology created by FastAI team which enables painless blogging with Jupyter Notebook, Word documents or Markdown. I have been hacking around FastPages to see how far I can strech it to enable blogging with other tools I am interested in learning. I have already blogged about integrating Fastpages with Oberservable notebook, a great place to learn d3 and web visualization; and org mode which is an incredible powerful tool for various scenarios including writing, literate programming or GTD. These workflow are incredibly easy once everything is setup; nevertheless these are all expert level workflows for writing which requires personnel who are little bit adept in technology. Even when you are using a word file, you need to have a dedicated github account, need to upload the file and write commit message.Data Scientists are usually well versed in these, but for people not coming from programming background, these thing can be a bit overwhelming initially. A Content Management System in this regard is excellent tool for focussing on writing and editing rather than programming concepts. In this context, I want to experiment with integration of the same and quickly examine the new workflows possible for content generation. 
+
+* Netlify CMS 
+
+Usually CMS are associated with frameworks like wordpress , where content is backed up with a database. For static sites there are no databases. Now in this context, editing workflows are usually driven by structure or organization of your folders/ content . This is sometime also referred to as your content model or data model. Netlify CMS provide workflow to manage the same quite easily from a web interface. So enough chit chat lets get started with some code and steps to implement the same 
+
+* So what do we need to do?
+ 
+I take inspiration from [[https://www.netlifycms.org/docs/add-to-your-site/][Netlify tutorial to migrate an existing website]]. Since Fastpages is based on jekyll framework. We will follow the workflow for the same
+
+- First thing we need to do is to create an admin folder in root location ("/") of our project directory.
+
