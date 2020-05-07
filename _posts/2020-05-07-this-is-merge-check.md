@@ -7,4 +7,4 @@ categories:
   - netlify cms
   - ""
 ---
-Trial Post for checking merge triggers
+Trial Post for checking merge triggers. I like it very much
