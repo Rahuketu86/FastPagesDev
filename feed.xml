@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://fastpagesdev.netlify.app/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fastpagesdev.netlify.app/" rel="alternate" type="text/html" /><updated>2020-05-07T05:58:35-05:00</updated><id>https://fastpagesdev.netlify.app/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">This is merge Check</title><link href="https://fastpagesdev.netlify.app/fastpages/netlify%20cms/2020/05/07/this-is-merge-check.html" rel="alternate" type="text/html" title="This is merge Check" /><published>2020-05-07T05:48:48-05:00</published><updated>2020-05-07T05:48:48-05:00</updated><id>https://fastpagesdev.netlify.app/fastpages/netlify%20cms/2020/05/07/this-is-merge-check</id><content type="html" xml:base="https://fastpagesdev.netlify.app/fastpages/netlify%20cms/2020/05/07/this-is-merge-check.html">&lt;p&gt;Trial Post for checking merge triggers. I like it very much&lt;/p&gt;</content><author><name></name></author><summary type="html">Trial Post for checking merge triggers. I like it very much</summary></entry><entry><title type="html">Test From Netlify CMS</title><link href="https://fastpagesdev.netlify.app/2020/05/07/test-from-netlify-cms.html" rel="alternate" type="text/html" title="Test From Netlify CMS" /><published>2020-05-07T01:52:12-05:00</published><updated>2020-05-07T01:52:12-05:00</updated><id>https://fastpagesdev.netlify.app/2020/05/07/test-from-netlify-cms</id><content type="html" xml:base="https://fastpagesdev.netlify.app/2020/05/07/test-from-netlify-cms.html">&lt;p&gt;I am writing a test post let’s see what happens&lt;/p&gt;</content><author><name></name></author><summary type="html">I am writing a test post let’s see what happens</summary></entry><entry><title type="html">How to Integrate Netlify CMS with Fastpages</title><link href="https://fastpagesdev.netlify.app/fastpages/orgmode/2020/05/07/Integrating-NetlifyCMS-with-Fastpages.html" rel="alternate" type="text/html" title="How to Integrate Netlify CMS with Fastpages" /><published>2020-05-07T00:00:00-05:00</published><updated>2020-05-07T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/fastpages/orgmode/2020/05/07/Integrating-NetlifyCMS-with-Fastpages</id><content type="html" xml:base="https://fastpagesdev.netlify.app/fastpages/orgmode/2020/05/07/Integrating-NetlifyCMS-with-Fastpages.html">&lt;div id=&quot;outline-container-orgdbfb1e8&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgdbfb1e8&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://fastpagesdev.netlify.app/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fastpagesdev.netlify.app/" rel="alternate" type="text/html" /><updated>2020-05-08T02:52:20-05:00</updated><id>https://fastpagesdev.netlify.app/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">This is a test for Beauti</title><link href="https://fastpagesdev.netlify.app/recipe/2020/05/07/this-is-a-test-for-beauti.html" rel="alternate" type="text/html" title="This is a test for Beauti" /><published>2020-05-07T05:48:48-05:00</published><updated>2020-05-07T05:48:48-05:00</updated><id>https://fastpagesdev.netlify.app/recipe/2020/05/07/this-is-a-test-for-beauti</id><content type="html" xml:base="https://fastpagesdev.netlify.app/recipe/2020/05/07/this-is-a-test-for-beauti.html">&lt;p&gt;I love cooking&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/logo.png&quot; alt=&quot;Cooking Image&quot; title=&quot;Awesome recipi&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I love cooking</summary></entry><entry><title type="html">This is merge Check</title><link href="https://fastpagesdev.netlify.app/fastpages/netlify%20cms/2020/05/07/this-is-merge-check.html" rel="alternate" type="text/html" title="This is merge Check" /><published>2020-05-07T05:48:48-05:00</published><updated>2020-05-07T05:48:48-05:00</updated><id>https://fastpagesdev.netlify.app/fastpages/netlify%20cms/2020/05/07/this-is-merge-check</id><content type="html" xml:base="https://fastpagesdev.netlify.app/fastpages/netlify%20cms/2020/05/07/this-is-merge-check.html">&lt;p&gt;Trial Post for checking merge triggers. I like it very much&lt;/p&gt;</content><author><name></name></author><summary type="html">Trial Post for checking merge triggers. I like it very much</summary></entry><entry><title type="html">Test From Netlify CMS</title><link href="https://fastpagesdev.netlify.app/2020/05/07/test-from-netlify-cms.html" rel="alternate" type="text/html" title="Test From Netlify CMS" /><published>2020-05-07T01:52:12-05:00</published><updated>2020-05-07T01:52:12-05:00</updated><id>https://fastpagesdev.netlify.app/2020/05/07/test-from-netlify-cms</id><content type="html" xml:base="https://fastpagesdev.netlify.app/2020/05/07/test-from-netlify-cms.html">&lt;p&gt;I am writing a test post let’s see what happens&lt;/p&gt;</content><author><name></name></author><summary type="html">I am writing a test post let’s see what happens</summary></entry><entry><title type="html">_05_05_how_to_type_in_hinglish</title><link href="https://fastpagesdev.netlify.app/2020/05/07/_05_05_How_to_type_in_hinglish.html" rel="alternate" type="text/html" title="_05_05_how_to_type_in_hinglish" /><published>2020-05-07T00:00:00-05:00</published><updated>2020-05-07T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/2020/05/07/_05_05_How_to_type_in_hinglish</id><content type="html" xml:base="https://fastpagesdev.netlify.app/2020/05/07/_05_05_How_to_type_in_hinglish.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;I belong to a generation of Indians who have largely gotten separated from our roots. Large part of this is owing to the “English Medium” phenomenon where every success metric and qualification criteria has been judged against your fluency in English. But in addition to this , technology also plays a big role. Since everything is in english , we type in english , speak in english and communicate in English. Even when we have to communicate in Hindi , we type in English&lt;/p&gt;
+
+&lt;p&gt;Under these conditions , Google Doc has introduced a wonderful feature , where you can type in english which gets converted to hindi. So here is how you do it. When you open the interface this is what you see:-&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://fastpagesdev.netlify.app/assets/img/2020-05-07-_05_05_How_to_type_in_hinglish/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the top right corner you should see a hindi vowel :aa . Click on it and see the magic. You can type words of hindi with english spelling and it will convert it correctly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://fastpagesdev.netlify.app/assets/img/2020-05-07-_05_05_How_to_type_in_hinglish/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;में इस feature से बहुत impress हुआ हूँ&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;अपनी मातृभाषा में अपने बिचारों को रख पाना एक बहुत बहुमूलिया प्रतिभा है। इतने सालों तक इंडिया से बहार रहने के बाद मुझे व्यतीत होता है की मैं बात तो कर लेता हूँ लेकिन कन्विंस नहीं कर पाता। होपफ़ुल्ली थिस शुड हेल्प रेसोल्वे िट।&lt;/p&gt;</content><author><name></name></author><summary type="html">Introduction</summary></entry><entry><title type="html">How to Integrate Netlify CMS with Fastpages</title><link href="https://fastpagesdev.netlify.app/fastpages/orgmode/2020/05/07/Integrating-NetlifyCMS-with-Fastpages.html" rel="alternate" type="text/html" title="How to Integrate Netlify CMS with Fastpages" /><published>2020-05-07T00:00:00-05:00</published><updated>2020-05-07T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/fastpages/orgmode/2020/05/07/Integrating-NetlifyCMS-with-Fastpages</id><content type="html" xml:base="https://fastpagesdev.netlify.app/fastpages/orgmode/2020/05/07/Integrating-NetlifyCMS-with-Fastpages.html">&lt;div id=&quot;outline-container-org5e63b0c&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5e63b0c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 Fastpages is a wonderful piece of technology created by FastAI team which enables painless blogging with Jupyter Notebook, Word documents or Markdown. I have been hacking around FastPages to see how far I can strech it to enable blogging with other tools I am interested in learning. I have already blogged about integrating Fastpages with Oberservable notebook, a great place to learn d3 and web visualization; and org mode which is an incredible powerful tool for various scenarios including writing, literate programming or GTD. These workflow are incredibly easy once everything is setup; nevertheless these are all expert level workflows for writing which requires personnel who are little bit adept in technology. Even when you are using a word file, you need to have a dedicated github account, need to upload the file and write commit message.Data Scientists are usually well versed in these, but for people not coming from programming background, these thing can be a bit overwhelming initially. A Content Management System in this regard is excellent tool for focussing on writing and editing rather than programming concepts. In this context, I want to experiment with integration of the same and quickly examine the new workflows possible for content generation. 
@@ -7,8 +25,8 @@ Fastpages is a wonderful piece of technology created by FastAI team which enable
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org26ac28d&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org26ac28d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Netlify CMS&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org317055d&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org317055d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Netlify CMS&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Usually CMS are associated with frameworks like wordpress , where content is backed up with a database. For static sites there are no databases. Now in this context, editing workflows are usually driven by structure or organization of your folders/ content . This is sometime also referred to as your content model or data model. Netlify CMS provide workflow to manage the same quite easily from a web interface. So enough chit chat lets get started with some code and steps to implement the same 
@@ -16,8 +34,8 @@ Usually CMS are associated with frameworks like wordpress , where content is bac
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org511ecfa&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org511ecfa&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; So what do we need to do?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orga701133&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orga701133&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; So what do we need to do?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;p&gt;
 I take inspiration from &lt;a href=&quot;https://www.netlifycms.org/docs/add-to-your-site/&quot;&gt;Netlify tutorial to migrate an existing website&lt;/a&gt;. Since Fastpages is based on jekyll framework. We will follow the workflow for the same
@@ -97,23 +115,7 @@ Next add two files to admin folder with following contnet
 The link indicates our configuration is incomplete and gives us recommendation of things that are require fixing.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction Fastpages is a wonderful piece of technology created by FastAI team which enables painless blogging with Jupyter Notebook, Word documents or Markdown. I have been hacking around FastPages to see how far I can strech it to enable blogging with other tools I am interested in learning. I have already blogged about integrating Fastpages with Oberservable notebook, a great place to learn d3 and web visualization; and org mode which is an incredible powerful tool for various scenarios including writing, literate programming or GTD. These workflow are incredibly easy once everything is setup; nevertheless these are all expert level workflows for writing which requires personnel who are little bit adept in technology. Even when you are using a word file, you need to have a dedicated github account, need to upload the file and write commit message.Data Scientists are usually well versed in these, but for people not coming from programming background, these thing can be a bit overwhelming initially. A Content Management System in this regard is excellent tool for focussing on writing and editing rather than programming concepts. In this context, I want to experiment with integration of the same and quickly examine the new workflows possible for content generation.</summary></entry><entry><title type="html">_05_05_how_to_type_in_hinglish</title><link href="https://fastpagesdev.netlify.app/2020/05/06/_05_05_How_to_type_in_hinglish.html" rel="alternate" type="text/html" title="_05_05_how_to_type_in_hinglish" /><published>2020-05-06T00:00:00-05:00</published><updated>2020-05-06T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/2020/05/06/_05_05_How_to_type_in_hinglish</id><content type="html" xml:base="https://fastpagesdev.netlify.app/2020/05/06/_05_05_How_to_type_in_hinglish.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;I belong to a generation of Indians who have largely gotten separated from our roots. Large part of this is owing to the “English Medium” phenomenon where every success metric and qualification criteria has been judged against your fluency in English. But in addition to this , technology also plays a big role. Since everything is in english , we type in english , speak in english and communicate in English. Even when we have to communicate in Hindi , we type in English&lt;/p&gt;
-
-&lt;p&gt;Under these conditions , Google Doc has introduced a wonderful feature , where you can type in english which gets converted to hindi. So here is how you do it. When you open the interface this is what you see:-&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://fastpagesdev.netlify.app/assets/img/2020-05-06-_05_05_How_to_type_in_hinglish/media/image1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;On the top right corner you should see a hindi vowel :aa . Click on it and see the magic. You can type words of hindi with english spelling and it will convert it correctly.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://fastpagesdev.netlify.app/assets/img/2020-05-06-_05_05_How_to_type_in_hinglish/media/image2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;में इस feature से बहुत impress हुआ हूँ&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;अपनी मातृभाषा में अपने बिचारों को रख पाना एक बहुत बहुमूलिया प्रतिभा है। इतने सालों तक इंडिया से बहार रहने के बाद मुझे व्यतीत होता है की मैं बात तो कर लेता हूँ लेकिन कन्विंस नहीं कर पाता। होपफ़ुल्ली थिस शुड हेल्प रेसोल्वे िट।&lt;/p&gt;</content><author><name></name></author><summary type="html">Introduction</summary></entry><entry><title type="html">How To Type In Hinglish</title><link href="https://fastpagesdev.netlify.app/2020/05/05/How-to-type-in-hinglish.html" rel="alternate" type="text/html" title="How To Type In Hinglish" /><published>2020-05-05T00:00:00-05:00</published><updated>2020-05-05T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/2020/05/05/How-to-type-in-hinglish</id><content type="html" xml:base="https://fastpagesdev.netlify.app/2020/05/05/How-to-type-in-hinglish.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction Fastpages is a wonderful piece of technology created by FastAI team which enables painless blogging with Jupyter Notebook, Word documents or Markdown. I have been hacking around FastPages to see how far I can strech it to enable blogging with other tools I am interested in learning. I have already blogged about integrating Fastpages with Oberservable notebook, a great place to learn d3 and web visualization; and org mode which is an incredible powerful tool for various scenarios including writing, literate programming or GTD. These workflow are incredibly easy once everything is setup; nevertheless these are all expert level workflows for writing which requires personnel who are little bit adept in technology. Even when you are using a word file, you need to have a dedicated github account, need to upload the file and write commit message.Data Scientists are usually well versed in these, but for people not coming from programming background, these thing can be a bit overwhelming initially. A Content Management System in this regard is excellent tool for focussing on writing and editing rather than programming concepts. In this context, I want to experiment with integration of the same and quickly examine the new workflows possible for content generation.</summary></entry><entry><title type="html">How To Type In Hinglish</title><link href="https://fastpagesdev.netlify.app/2020/05/05/How-to-type-in-hinglish.html" rel="alternate" type="text/html" title="How To Type In Hinglish" /><published>2020-05-05T00:00:00-05:00</published><updated>2020-05-05T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/2020/05/05/How-to-type-in-hinglish</id><content type="html" xml:base="https://fastpagesdev.netlify.app/2020/05/05/How-to-type-in-hinglish.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;I belong to a generation of Indians who have largely gotten separated from our roots. Large part of this is owing to the “English Medium” phenomenon where every success metric and qualification criteria has been judged against your fluency in English. But in addition to this , technology also plays a big role. Since everything is in english , we type in english , speak in english and communicate in English. Even when we have to communicate in Hindi , we type in English&lt;/p&gt;
 
@@ -129,8 +131,8 @@ The link indicates our configuration is incomplete and gives us recommendation o
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;अपनी मातृभाषा में अपने बिचारों को रख पाना एक बहुत बहुमूलिया प्रतिभा है। इतने सालों तक इंडिया से बहार रहने के बाद मुझे व्यतीत होता है की मैं बात तो कर लेता हूँ लेकिन कन्विंस नहीं कर पाता। होपफ़ुल्ली थिस शुड हेल्प रेसोल्वे िट।&lt;/p&gt;</content><author><name></name></author><summary type="html">Introduction</summary></entry><entry><title type="html">Awesome Org Mode links</title><link href="https://fastpagesdev.netlify.app/orgmode/2020/04/29/Awesome-Org-Mode-Links.html" rel="alternate" type="text/html" title="Awesome Org Mode links" /><published>2020-04-29T00:00:00-05:00</published><updated>2020-04-29T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/orgmode/2020/04/29/Awesome-Org-Mode-Links</id><content type="html" xml:base="https://fastpagesdev.netlify.app/orgmode/2020/04/29/Awesome-Org-Mode-Links.html">&lt;div id=&quot;outline-container-org38fd346&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org38fd346&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;p&gt;अपनी मातृभाषा में अपने बिचारों को रख पाना एक बहुत बहुमूलिया प्रतिभा है। इतने सालों तक इंडिया से बहार रहने के बाद मुझे व्यतीत होता है की मैं बात तो कर लेता हूँ लेकिन कन्विंस नहीं कर पाता। होपफ़ुल्ली थिस शुड हेल्प रेसोल्वे िट।&lt;/p&gt;</content><author><name></name></author><summary type="html">Introduction</summary></entry><entry><title type="html">Awesome Org Mode links</title><link href="https://fastpagesdev.netlify.app/orgmode/2020/04/29/Awesome-Org-Mode-Links.html" rel="alternate" type="text/html" title="Awesome Org Mode links" /><published>2020-04-29T00:00:00-05:00</published><updated>2020-04-29T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/orgmode/2020/04/29/Awesome-Org-Mode-Links</id><content type="html" xml:base="https://fastpagesdev.netlify.app/orgmode/2020/04/29/Awesome-Org-Mode-Links.html">&lt;div id=&quot;outline-container-org3fd0601&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3fd0601&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.
@@ -152,8 +154,8 @@ Above notes will become clear towards the end of this post. As a reference I wil
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org90bafa3&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org90bafa3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; FastPages link&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org91ab431&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org91ab431&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; FastPages link&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 Lot of bells and whistle related to boxes and link are enabled using org mode link functionality
@@ -165,8 +167,8 @@ Lot of bells and whistle related to boxes and link are enabled using org mode li
 &lt;/ul&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org4fff078&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org4fff078&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Youtube Video Link&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgea3d563&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgea3d563&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; Youtube Video Link&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;p&gt;
 You can embed individual video or even playlist
@@ -197,8 +199,8 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org024f33e&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org024f33e&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Twitter Card Link&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org51d50a8&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org51d50a8&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; Twitter Card Link&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
@@ -215,8 +217,8 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org3016ccf&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org3016ccf&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Remote Image Link&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orge4c3d35&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orge4c3d35&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; Remote Image Link&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
@@ -250,8 +252,8 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgbd8825d&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgbd8825d&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.4&lt;/span&gt; Local Images&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgfd0b5c0&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgfd0b5c0&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.4&lt;/span&gt; Local Images&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-4&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:/images/Emacs.png][Emacs is the king]]
@@ -271,8 +273,8 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org6dd849e&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org6dd849e&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.5&lt;/span&gt; Boxes and Stuff&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org778bf5b&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org778bf5b&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.5&lt;/span&gt; Boxes and Stuff&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-5&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[alert:This is an alert box]]
@@ -365,8 +367,8 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org83b2555&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org83b2555&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.6&lt;/span&gt; IFrames and Revealjs Presentation&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgf6bda41&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgf6bda41&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.6&lt;/span&gt; IFrames and Revealjs Presentation&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-6&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[iframe:https://revealjs.com][Reveal JS Presentation]]
@@ -390,8 +392,8 @@ You can also embed powerpoint presentation
 &lt;iframe src=&quot;https://onedrive.live.com/embed?cid=8444B359B1EC9E88&amp;amp;resid=8444B359B1EC9E88%2115872&amp;amp;authkey=AOs57-J59jpd4d8&amp;amp;em=2&amp;amp;wdAr=1.7777777777777777&quot; width=&quot;610px&quot; height=&quot;367px&quot; frameborder=&quot;0&quot;&gt;Ceci est un document &lt;a target=&quot;_blank&quot; href=&quot;https://office.com&quot;&gt;Microsoft Office&lt;/a&gt; incorporé, avec &lt;a target=&quot;_blank&quot; href=&quot;https://office.com/webapps&quot;&gt;Office&lt;/a&gt;.&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.</summary></entry><entry><title type="html">Blogging with Org mode and FastPages</title><link href="https://fastpagesdev.netlify.app/fastpages/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html" rel="alternate" type="text/html" title="Blogging with Org mode and FastPages" /><published>2020-04-27T00:00:00-05:00</published><updated>2020-04-27T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/fastpages/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages</id><content type="html" xml:base="https://fastpagesdev.netlify.app/fastpages/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html">&lt;div id=&quot;outline-container-org4e73d8d&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org4e73d8d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">1 Introduction In this post I want to reveiw the link functionality in org mode 9.0. Purpose of the exercise is to understand how to implement link functionality. I eventually want to use this to encapsulate iframe, include or other liquid or html directives in fastpages jekyll blog inside the link.</summary></entry><entry><title type="html">Blogging with Org mode and FastPages</title><link href="https://fastpagesdev.netlify.app/fastpages/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html" rel="alternate" type="text/html" title="Blogging with Org mode and FastPages" /><published>2020-04-27T00:00:00-05:00</published><updated>2020-04-27T00:00:00-05:00</updated><id>https://fastpagesdev.netlify.app/fastpages/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages</id><content type="html" xml:base="https://fastpagesdev.netlify.app/fastpages/orgmode/2020/04/27/Blogging-with-Orgmode-and-FastPages.html">&lt;div id=&quot;outline-container-org5979c6e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5979c6e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Introduction&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 &lt;p&gt;
 Jeremy and Rachel, esteemed founders of fastai, quote &lt;i&gt;Blogging is like Resume, only better&lt;/i&gt; in this &lt;a href=&quot;https://www.fast.ai/2019/05/13/blogging-advice/&quot;&gt;post&lt;/a&gt;. Blogging really is one of the best medium to learn while doing. It helps to communicate and formulate ideas, and share knowledge with your peers and colleagues. Blogging for me addresses provides three main motivations:
@@ -417,16 +419,16 @@ My objective in this post is to showcase some of the minor changes which I have 
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgd230bc7&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd230bc7&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; EMACS ORG-MODE: WHAT? WHY? HOW?&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgaef54fb&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgaef54fb&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; EMACS ORG-MODE: WHAT? WHY? HOW?&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;p&gt;
 &lt;i&gt;BEFORE CAME JUPYTER, BEFORE CAME INTERNET AND EVEN BEFORE THERE WERE PERSONAL COMPUTERS.THERE WAS SOMETHING CALLED EMACS&lt;/i&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org91c3224&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org91c3224&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The What?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org6a401f0&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org6a401f0&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.1&lt;/span&gt; The What?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-1&quot;&gt;
 &lt;p&gt;
 So what is org-mode? At the very basic level org mode or org format is a text markup defined for structured text editing. It is similar to markdown as it is defined in plaintext, priortizes readability and  has an human centric approach. Combination with emacs elisp system makes it insanely powerful. Instead of yet another markup syntax; it becomes a system of text editing which is highly extensible and infinitely programmable. With various open source plugins' it can be used like a literate programming tool like notebooks or frontend for latex report creation or even online presentations. 
@@ -435,16 +437,16 @@ So what is org-mode? At the very basic level org mode or org format is a text ma
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org4796998&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org4796998&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; The Why?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org812eb3a&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org812eb3a&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.2&lt;/span&gt; The Why?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-2&quot;&gt;
 &lt;p&gt;
 So why should you be interested in Org Mode .Here is a brief  list of things that you can do with it. 
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org80db48c&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org80db48c&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.1&lt;/span&gt; &lt;b&gt;Blogging&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org976166d&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org976166d&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.1&lt;/span&gt; &lt;b&gt;Blogging&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-1&quot;&gt;
 &lt;p&gt;
 You can write a blog post like this. Since Emacs is insanely powerful for text editing you can do really fast typing.
@@ -453,8 +455,8 @@ You can write a blog post like this. Since Emacs is insanely powerful for text e
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org3536594&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org3536594&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.2&lt;/span&gt; &lt;b&gt;FastPages Functionality&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org3ac32d4&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org3ac32d4&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.2&lt;/span&gt; &lt;b&gt;FastPages Functionality&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-2&quot;&gt;
 &lt;p&gt;
 Lot of bells and whistle related to boxes and link are enabled using org mode link functionality
@@ -467,7 +469,7 @@ Lot of bells and whistle related to boxes and link are enabled using org mode li
 &lt;/div&gt;
 
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;org79c2c64&quot;&gt;&lt;/a&gt;Youtube Video Link&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org3579df5&quot;&gt;&lt;/a&gt;Youtube Video Link&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-1&quot;&gt;
 &lt;p&gt;
 You can embed individual video or even playlist
@@ -498,7 +500,7 @@ You can embed individual video or even playlist
 &lt;/li&gt;
 
 
-&lt;li&gt;&lt;a id=&quot;org660425a&quot;&gt;&lt;/a&gt;Twitter Card Link&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org2ef2785&quot;&gt;&lt;/a&gt;Twitter Card Link&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-2&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[twitter:https://twitter.com/jakevdp/status/1204765621767901185?s=20][Altair v4 release]]
@@ -515,7 +517,7 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org5bfb365&quot;&gt;&lt;/a&gt;Remote Image Link&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org96b0ac4&quot;&gt;&lt;/a&gt;Remote Image Link&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-3&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:https://www.fast.ai/images/fastai_paper/show_batch.png][Credits: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/]]
@@ -549,7 +551,7 @@ You can embed individual video or even playlist
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org560cada&quot;&gt;&lt;/a&gt;Local Images&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgf466c98&quot;&gt;&lt;/a&gt;Local Images&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-4&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[img:/images/Emacs.png][Emacs is the king]]
@@ -569,7 +571,7 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org79cfe96&quot;&gt;&lt;/a&gt;Boxes and Stuff&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org95f7eea&quot;&gt;&lt;/a&gt;Boxes and Stuff&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-5&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[alert:This is an alert box]]
@@ -662,7 +664,7 @@ This has been awesome so far.
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;orgca718a5&quot;&gt;&lt;/a&gt;IFrames and Revealjs Presentation&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org6bc2a6f&quot;&gt;&lt;/a&gt;IFrames and Revealjs Presentation&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-2-2-6&quot;&gt;
 &lt;pre class=&quot;example&quot;&gt;
 [[iframe:https://revealjs.com][Reveal JS Presentation]]
@@ -690,8 +692,8 @@ You can also embed powerpoint presentation
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org285cf65&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org285cf65&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.3&lt;/span&gt; &lt;b&gt;Document Embedding&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org47394fa&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org47394fa&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.3&lt;/span&gt; &lt;b&gt;Document Embedding&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-3&quot;&gt;
 &lt;p&gt;
 For a longish article, sometimes you would like to split it in different files and combine them together. This workflow is usually better for writing as well; as each document can be focussed on a single aspect of entire topic you want to present in your article.
@@ -707,8 +709,8 @@ In org-mode it is trivial to do this using `#+INCLUDE` functionality. As an exam
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org943b861&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org943b861&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.4&lt;/span&gt; &lt;b&gt;Literate Programming&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-orgde137c1&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgde137c1&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.4&lt;/span&gt; &lt;b&gt;Literate Programming&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-4&quot;&gt;
 &lt;p&gt;
 You can do literate programming just like jupyter notebooks, create technical reports, even write full fledged books. Org mode also supports various export backends which means same document can be converted to a html blog, a latex report, beamer or revealjs presentations. Here are a few good links to explore
@@ -732,8 +734,8 @@ You can do literate programming just like jupyter notebooks, create technical re
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org4e34cd0&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org4e34cd0&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.5&lt;/span&gt; &lt;b&gt;GTD, Task Manager, Todo&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org6907cf7&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org6907cf7&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.5&lt;/span&gt; &lt;b&gt;GTD, Task Manager, Todo&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-5&quot;&gt;
 &lt;p&gt;
 You can use it as task manager, do project management, create to do list. Follow the recommendations of GTD managing your life in a text edit. And many many more things as described &lt;a href=&quot;https://orgmode.org/worg/org-gtd-etc.html&quot;&gt;here&lt;/a&gt;
@@ -742,8 +744,8 @@ You can use it as task manager, do project management, create to do list. Follow
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-orgb2e6c2a&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;orgb2e6c2a&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.6&lt;/span&gt; &lt;b&gt;Are you excited?&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org7a2767e&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org7a2767e&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.2.6&lt;/span&gt; &lt;b&gt;Are you excited?&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-2-6&quot;&gt;
 &lt;p&gt;
 What I have done is just touch upon the surface of what is possible with org mode, and by extension blogging on fastpages with org mode. There are many more options and functionality available in org mode including beamer presentation, spreadsheets , agenda views etc&amp;#x2026; which are awesome but too broad to cover in this introductory blog post. However over time I will continue to post articles on some tidbits' here and there which can greatly enhance your blogging workflow. Now I hope I have motivated you enough, so time to figure out to do it yourself. 
@@ -753,16 +755,16 @@ What I have done is just touch upon the surface of what is possible with org mod
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org6a6faad&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org6a6faad&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; The How?&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org3c61140&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org3c61140&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;2.3&lt;/span&gt; The How?&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-2-3&quot;&gt;
 &lt;p&gt;
 I have already shown earlier what org mode can do and how it can enhance your writing workflow. Now I will describe how you can do it yourself. Before I go into specifics let me share a bit on general design of fastpages and describe how it can be extended. 
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgae1e3c4&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;orgae1e3c4&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.1&lt;/span&gt; &lt;b&gt;Design of fastpages&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-orgaa6c403&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgaa6c403&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.1&lt;/span&gt; &lt;b&gt;Design of fastpages&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-1&quot;&gt;
 &lt;p&gt;
 So here is brief synopsis. Fastpages is based on Jekyll. It already provides you functionality to write a blog in markdown, notebook or word document. This is how it works
@@ -770,7 +772,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/div&gt;
 
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;org27b508e&quot;&gt;&lt;/a&gt;&lt;b&gt;Markdown Blogging&lt;/b&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org2071d65&quot;&gt;&lt;/a&gt;&lt;b&gt;Markdown Blogging&lt;/b&gt;&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-1-1&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Markdown is the native format for Jekyll Blogging Engine. Jekyll uses an enhanced version of Markdown called Kramdown which comes with addtional functionality for source code coloring links etc&amp;#x2026;&lt;/li&gt;
@@ -786,7 +788,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org144f154&quot;&gt;&lt;/a&gt;&lt;b&gt;Notebook Blogging&lt;/b&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org932af8f&quot;&gt;&lt;/a&gt;&lt;b&gt;Notebook Blogging&lt;/b&gt;&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-1-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Notebook blogging is really what makes fastpages special for data scientist.I should rather specify and say python notebook blogging is what is possible natively in fastpages.  Notebook blogging is enabled by a python package called &quot;nbdev&quot; another tool from FastAI.&lt;/li&gt;
@@ -804,7 +806,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/li&gt;
 
 
-&lt;li&gt;&lt;a id=&quot;org8569c39&quot;&gt;&lt;/a&gt;&lt;b&gt;Word Blogging&lt;/b&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org766ba92&quot;&gt;&lt;/a&gt;&lt;b&gt;Word Blogging&lt;/b&gt;&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-1-3&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;Word blogging structure is a similar
@@ -817,7 +819,7 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org4e4d008&quot;&gt;&lt;/a&gt;&lt;b&gt;Automation via Github Actions&lt;/b&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgea33179&quot;&gt;&lt;/a&gt;&lt;b&gt;Automation via Github Actions&lt;/b&gt;&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-1-4&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;All processing automation are handled by Github Actions
@@ -839,8 +841,8 @@ So here is brief synopsis. Fastpages is based on Jekyll. It already provides you
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org29430a0&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org29430a0&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.2&lt;/span&gt; &lt;b&gt;General Idea for extension&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org6347649&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org6347649&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.2&lt;/span&gt; &lt;b&gt;General Idea for extension&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-2&quot;&gt;
 &lt;p&gt;
 So based on the intuition above we basically need to figure out 3 pieces
@@ -858,8 +860,8 @@ So based on the intuition above we basically need to figure out 3 pieces
 &lt;/div&gt;
 
 
-&lt;div id=&quot;outline-container-org0fd946d&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;org0fd946d&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.3&lt;/span&gt; &lt;b&gt;Org Mode Blogging&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-org3bd87e0&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;org3bd87e0&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.3&lt;/span&gt; &lt;b&gt;Org Mode Blogging&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-3&quot;&gt;
 &lt;p&gt;
 So with the ideas above , I managed to create some extensions and tricks to enable org mode blogging. It has following parts
@@ -867,7 +869,7 @@ So with the ideas above , I managed to create some extensions and tricks to enab
 &lt;/div&gt;
 
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;orgb63ff52&quot;&gt;&lt;/a&gt;&lt;b&gt;Org File Customization&lt;/b&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org6ceded2&quot;&gt;&lt;/a&gt;&lt;b&gt;Org File Customization&lt;/b&gt;&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-3-1&quot;&gt;
 &lt;p&gt;
 A small customization is required to export frontmatter from org file.
@@ -913,7 +915,7 @@ use_math: false
 &lt;/div&gt;
 &lt;/li&gt;
 
-&lt;li&gt;&lt;a id=&quot;org5bea7a8&quot;&gt;&lt;/a&gt;&lt;b&gt;FastPages Customization&lt;/b&gt;&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org68e6d12&quot;&gt;&lt;/a&gt;&lt;b&gt;FastPages Customization&lt;/b&gt;&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-2-3-3-2&quot;&gt;
 &lt;p&gt;
 I have done minimal non invasive customization to enable automation for org mode in fast pages. 
@@ -928,7 +930,7 @@ I have done minimal non invasive customization to enable automation for org mode
 &lt;/div&gt;
 
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;org972e2ce&quot;&gt;&lt;/a&gt;Folder Structure&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;orgb8685a8&quot;&gt;&lt;/a&gt;Folder Structure&lt;br /&gt;
 &lt;div class=&quot;outline-text-6&quot; id=&quot;text-2-3-3-2-1&quot;&gt;
 &lt;p&gt;
 We need to create a &lt;i&gt;_org&lt;/i&gt; folder . Inside &lt;i&gt;_org&lt;/i&gt; folder , it should mirror structure of top level directories as follows
@@ -951,7 +953,7 @@ We need to create a &lt;i&gt;_org&lt;/i&gt; folder . Inside &lt;i&gt;_org&lt;/i&
 &lt;/li&gt;
 
 
-&lt;li&gt;&lt;a id=&quot;org5cdd657&quot;&gt;&lt;/a&gt;Github Action Customization&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org3a449b0&quot;&gt;&lt;/a&gt;Github Action Customization&lt;br /&gt;
 &lt;div class=&quot;outline-text-6&quot; id=&quot;text-2-3-3-2-2&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;I have created some custom actions, which I save in &lt;i&gt;_custom&lt;sub&gt;actions&lt;/sub&gt;&lt;sub&gt;files&lt;/sub&gt;&lt;/i&gt; directory at top level. It has got 3 files
@@ -1398,7 +1400,7 @@ Additionally I have defined a public docker image encapsulating emacs and other 
 &lt;/li&gt;
 
 
-&lt;li&gt;&lt;a id=&quot;orgc9dfaf2&quot;&gt;&lt;/a&gt;Finally for local viewing&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org9fc1e4a&quot;&gt;&lt;/a&gt;Finally for local viewing&lt;br /&gt;
 &lt;div class=&quot;outline-text-6&quot; id=&quot;text-2-3-3-2-3&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;&lt;p&gt;
@@ -1545,8 +1547,8 @@ Update Makefile to add a single line in convert  &lt;span class=&quot;underline&
 
 
 
-&lt;div id=&quot;outline-container-orgd138d05&quot; class=&quot;outline-4&quot;&gt;
-&lt;h4 id=&quot;orgd138d05&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.4&lt;/span&gt; &lt;b&gt;Trying it yourself&lt;/b&gt;&lt;/h4&gt;
+&lt;div id=&quot;outline-container-orgc554df8&quot; class=&quot;outline-4&quot;&gt;
+&lt;h4 id=&quot;orgc554df8&quot;&gt;&lt;span class=&quot;section-number-4&quot;&gt;2.3.4&lt;/span&gt; &lt;b&gt;Trying it yourself&lt;/b&gt;&lt;/h4&gt;
 &lt;div class=&quot;outline-text-4&quot; id=&quot;text-2-3-4&quot;&gt;
 &lt;p&gt;
 &lt;div class=&quot;flash flash-success&quot;&gt;
@@ -1568,12 +1570,12 @@ Update Makefile to add a single line in convert  &lt;span class=&quot;underline&
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org3f75782&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org3f75782&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Conclusion and way forward&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org59bf1e6&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org59bf1e6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Conclusion and way forward&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgc452f9c&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgc452f9c&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; Org Mode Bridge and Other systems&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgd264e6d&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgd264e6d&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.1&lt;/span&gt; Org Mode Bridge and Other systems&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-1&quot;&gt;
 &lt;p&gt;
 Org mode on emacs is a really powerful tool for text processing, writing and literate programming. With all the development done on this repository; it is now fairly easy to get started with org mode on fastpages. In future similar techniques can be adopted to create exporter for Rmarkdown or literate-julia or any other target. In view of author, it is important to use the language native to programming system to build these extensions. So for Rmarkdown , it would be useful to leverage existing infrastructure in &quot;knitr&quot; and &quot;bookdown/ blogdown&quot; packages rather than building things from scratch or extending nbdev. This is less burdensome to maintain and enables a writing flow where we don't have to go back and forth from existing system. 
@@ -1585,15 +1587,15 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orga632bd6&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orga632bd6&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; Outstanding Tasks&lt;/h3&gt;
+&lt;div id=&quot;outline-container-orgbcb9c36&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;orgbcb9c36&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;3.2&lt;/span&gt; Outstanding Tasks&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-3-2&quot;&gt;
 &lt;/div&gt;
 &lt;ol class=&quot;org-ol&quot;&gt;
-&lt;li&gt;&lt;a id=&quot;orga6b133a&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Fix links inside boxes in org mode&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;org9c999bb&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Provide more controls on code folding , currently implemented on every block.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;orge5609f9&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Define a specific layout for org files which can include some common header files.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;org899d30b&quot;&gt;&lt;/a&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; Define a mechanism for code highlighting&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org2156e28&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Fix links inside boxes in org mode&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;org7853a01&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Provide more controls on code folding , currently implemented on every block.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;orgbd3371f&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Define a specific layout for org files which can include some common header files.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;org21a6151&quot;&gt;&lt;/a&gt;&lt;span class=&quot;done DONE&quot;&gt;DONE&lt;/span&gt; Define a mechanism for code highlighting&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-3-2-0-4&quot;&gt;
 &lt;ul class=&quot;org-ul&quot;&gt;
 &lt;li&gt;&lt;del&gt;It can be done using custom css like org.css. But thing approach need some customization to match with default styles&lt;/del&gt;&lt;/li&gt;
@@ -1607,9 +1609,9 @@ Now even though lot of functionality is enabled in orgmode bridge to fastpages, 
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;org6602be5&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Handle internal links and html export more robustly&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;org9a91ed4&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a id=&quot;org7517737&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Create a demo for exporting to beamer and intergrating with blog post&lt;br /&gt;
+&lt;li&gt;&lt;a id=&quot;org6e21f75&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Handle internal links and html export more robustly&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;org01ab0ff&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Enable org-reveal functionality to directly generate and intergrate reveal-js presentation in blog post&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&quot;org921f818&quot;&gt;&lt;/a&gt;&lt;span class=&quot;todo TODO&quot;&gt;TODO&lt;/span&gt; Create a demo for exporting to beamer and intergrating with blog post&lt;br /&gt;
 &lt;div class=&quot;outline-text-5&quot; id=&quot;text-3-2-0-7&quot;&gt;
 &lt;p&gt;
 &lt;div class=&quot;flash flash-success&quot;&gt;
@@ -1630,45 +1632,45 @@ I hope you find this blog post informative to get started with org mode.Please s
 &lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;div id=&quot;text-table-of-contents&quot;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgb99753f&quot;&gt;1. Emacs init.el&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org96d1085&quot;&gt;2. Emacs Customization Group&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org9b01612&quot;&gt;3. Emacs Repositories&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org2bea960&quot;&gt;4. Personal Information&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgaea81b5&quot;&gt;5. Emacs : Add Info directory&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org30e19de&quot;&gt;6. Emacs: Backups&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orga20864b&quot;&gt;7. Emacs: SaveHist&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgcd06c33&quot;&gt;8. Emacs Additional Infopath&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgd5211a3&quot;&gt;9. Utility Functions&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#orgc8cebad&quot;&gt;1. Emacs init.el&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org9400d34&quot;&gt;2. Emacs Customization Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5631fc2&quot;&gt;3. Emacs Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org23740b1&quot;&gt;4. Personal Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgdc7e0ba&quot;&gt;5. Emacs : Add Info directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5bc4e7a&quot;&gt;6. Emacs: Backups&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5986c3a&quot;&gt;7. Emacs: SaveHist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org4ea1056&quot;&gt;8. Emacs Additional Infopath&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orga000468&quot;&gt;9. Utility Functions&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org72a0274&quot;&gt;9.1. Function to open this configuration file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org063a945&quot;&gt;9.1. Function to open this configuration file&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orga72bdd6&quot;&gt;10. Splash Screen and bars&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org560e15e&quot;&gt;11. Configure Emacs for use-package&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org1f5fd95&quot;&gt;12. Improve performance on Windows&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org4ec6045&quot;&gt;13. Emacs Custom Theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org938cc67&quot;&gt;14. Setup Ido and smex&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orge0a7f55&quot;&gt;15. Setup Guru Mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgb3c674e&quot;&gt;16. Setup Magit&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgf3bb5b3&quot;&gt;17. Setup Company Mode&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgde474ff&quot;&gt;18. Org-Mode Settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org855cc4e&quot;&gt;19. Nikola Blog Settings&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgdb4540f&quot;&gt;20. Games&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org8753631&quot;&gt;10. Splash Screen and bars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org800a940&quot;&gt;11. Configure Emacs for use-package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org03904d2&quot;&gt;12. Improve performance on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org629ba6e&quot;&gt;13. Emacs Custom Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org5ec50c3&quot;&gt;14. Setup Ido and smex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgd2a1f6f&quot;&gt;15. Setup Guru Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orga48c319&quot;&gt;16. Setup Magit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orga710577&quot;&gt;17. Setup Company Mode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orgeaae11f&quot;&gt;18. Org-Mode Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org149696a&quot;&gt;19. Nikola Blog Settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org9f3c8e9&quot;&gt;20. Games&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#orgcda3cef&quot;&gt;20.1. Chess&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org1dd7a25&quot;&gt;20.1. Chess&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org60daab4&quot;&gt;21. Setup ox-reveal&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org81c6dd5&quot;&gt;22. Setup htmlize and addtional org-contrib&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orgd927343&quot;&gt;23. String manupulation library elisp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#orga7402d8&quot;&gt;24. FastPages: Links and Backend&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#org8e37bad&quot;&gt;21. Setup ox-reveal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org6235a74&quot;&gt;22. Setup htmlize and addtional org-contrib&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org3d82b8d&quot;&gt;23. String manupulation library elisp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#orga35ee1c&quot;&gt;24. FastPages: Links and Backend&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#org20f0deb&quot;&gt;24.1. Jekyll Liquid Tag Handling&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org0540fcf&quot;&gt;24.2. FastPages Links&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org7e1b76d&quot;&gt;24.3. FastPages Backend&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org1c22660&quot;&gt;24.1. Jekyll Liquid Tag Handling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org2699e57&quot;&gt;24.2. FastPages Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org37c14ad&quot;&gt;24.3. FastPages Backend&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#org16f87f3&quot;&gt;25. Fastpages Blog Publish function&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#org932b93f&quot;&gt;25. Fastpages Blog Publish function&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1676,8 +1678,8 @@ I hope you find this blog post informative to get started with org mode.Please s
 As a tradition for sharing your literate configuration in org mode. I am sharing my complete emacs configuration here. People who are going to use Org Mode with FastPages for Blogging might find the last section useful.
 &lt;/p&gt;
 
-&lt;div id=&quot;outline-container-orgb99753f&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb99753f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Emacs init.el&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgc8cebad&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgc8cebad&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;1&lt;/span&gt; Emacs init.el&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-1&quot;&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-emacs-lisp&quot; data-lang=&quot;emacs-lisp&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -1690,8 +1692,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org96d1085&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org96d1085&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Emacs Customization Group&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org9400d34&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9400d34&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;2&lt;/span&gt; Emacs Customization Group&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-2&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1712,8 +1714,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org9b01612&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org9b01612&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Emacs Repositories&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org5631fc2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5631fc2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;3&lt;/span&gt; Emacs Repositories&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-3&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1747,8 +1749,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org2bea960&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org2bea960&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal Information&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org23740b1&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org23740b1&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;4&lt;/span&gt; Personal Information&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-4&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1767,8 +1769,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgaea81b5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgaea81b5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Emacs : Add Info directory&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgdc7e0ba&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgdc7e0ba&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;5&lt;/span&gt; Emacs : Add Info directory&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-5&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1793,8 +1795,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org30e19de&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org30e19de&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Emacs: Backups&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org5bc4e7a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5bc4e7a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;6&lt;/span&gt; Emacs: Backups&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-6&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1815,8 +1817,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orga20864b&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga20864b&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Emacs: SaveHist&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org5986c3a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5986c3a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;7&lt;/span&gt; Emacs: SaveHist&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-7&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1842,8 +1844,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgcd06c33&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgcd06c33&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; Emacs Additional Infopath&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org4ea1056&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org4ea1056&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;8&lt;/span&gt; Emacs Additional Infopath&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-8&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1861,12 +1863,12 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgd5211a3&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd5211a3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;9&lt;/span&gt; Utility Functions&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orga000468&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orga000468&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;9&lt;/span&gt; Utility Functions&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-9&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org72a0274&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org72a0274&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;9.1&lt;/span&gt; Function to open this configuration file&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org063a945&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org063a945&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;9.1&lt;/span&gt; Function to open this configuration file&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-9-1&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1893,8 +1895,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orga72bdd6&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga72bdd6&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;10&lt;/span&gt; Splash Screen and bars&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org8753631&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org8753631&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;10&lt;/span&gt; Splash Screen and bars&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-10&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1920,8 +1922,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org560e15e&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org560e15e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;11&lt;/span&gt; Configure Emacs for use-package&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org800a940&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org800a940&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;11&lt;/span&gt; Configure Emacs for use-package&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-11&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1950,8 +1952,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org1f5fd95&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org1f5fd95&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;12&lt;/span&gt; Improve performance on Windows&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org03904d2&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org03904d2&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;12&lt;/span&gt; Improve performance on Windows&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-12&quot;&gt;
 &lt;p&gt;
 Improving File Saving Performance on windows.
@@ -1973,8 +1975,8 @@ Improving File Saving Performance on windows.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org4ec6045&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org4ec6045&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;13&lt;/span&gt; Emacs Custom Theme&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org629ba6e&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org629ba6e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;13&lt;/span&gt; Emacs Custom Theme&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-13&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -1995,8 +1997,8 @@ Improving File Saving Performance on windows.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org938cc67&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org938cc67&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;14&lt;/span&gt; Setup Ido and smex&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org5ec50c3&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org5ec50c3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;14&lt;/span&gt; Setup Ido and smex&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-14&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -2022,8 +2024,8 @@ Improving File Saving Performance on windows.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orge0a7f55&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orge0a7f55&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;15&lt;/span&gt; Setup Guru Mode&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgd2a1f6f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgd2a1f6f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;15&lt;/span&gt; Setup Guru Mode&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-15&quot;&gt;
 &lt;p&gt;
 Guru mode works by disabling common key bindings and pushing for
@@ -2053,8 +2055,8 @@ other so that it plays nice with ido-mode.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgb3c674e&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgb3c674e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;16&lt;/span&gt; Setup Magit&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orga48c319&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orga48c319&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;16&lt;/span&gt; Setup Magit&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-16&quot;&gt;
 &lt;p&gt;
 Magit is a git porcelain. With this we can stay within emacs for
@@ -2079,8 +2081,8 @@ configuration modifications and commiting to git.
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgf3bb5b3&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgf3bb5b3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;17&lt;/span&gt; Setup Company Mode&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orga710577&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orga710577&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;17&lt;/span&gt; Setup Company Mode&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-17&quot;&gt;
 &lt;p&gt;
 Company mode is used for autocompletion in Emacs.
@@ -2109,8 +2111,8 @@ Company mode is used for autocompletion in Emacs.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgde474ff&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgde474ff&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;18&lt;/span&gt; Org-Mode Settings&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orgeaae11f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orgeaae11f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;18&lt;/span&gt; Org-Mode Settings&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-18&quot;&gt;
 &lt;p&gt;
 Global settings for all the org-mode buffers.
@@ -2165,8 +2167,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org855cc4e&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org855cc4e&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;19&lt;/span&gt; Nikola Blog Settings&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org149696a&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org149696a&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;19&lt;/span&gt; Nikola Blog Settings&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-19&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -2303,12 +2305,12 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgdb4540f&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgdb4540f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;20&lt;/span&gt; Games&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org9f3c8e9&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org9f3c8e9&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;20&lt;/span&gt; Games&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-20&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-orgcda3cef&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;orgcda3cef&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;20.1&lt;/span&gt; Chess&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org1dd7a25&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org1dd7a25&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;20.1&lt;/span&gt; Chess&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-20-1&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -2330,8 +2332,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org60daab4&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org60daab4&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;21&lt;/span&gt; Setup ox-reveal&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org8e37bad&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org8e37bad&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;21&lt;/span&gt; Setup ox-reveal&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-21&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -2365,8 +2367,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org81c6dd5&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org81c6dd5&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;22&lt;/span&gt; Setup htmlize and addtional org-contrib&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org6235a74&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org6235a74&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;22&lt;/span&gt; Setup htmlize and addtional org-contrib&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-22&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -2387,8 +2389,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orgd927343&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orgd927343&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;23&lt;/span&gt; String manupulation library elisp&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org3d82b8d&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org3d82b8d&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;23&lt;/span&gt; String manupulation library elisp&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-23&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -2408,12 +2410,12 @@ Org Mode with Twitter bootstrap(ox-twbs)
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-orga7402d8&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;orga7402d8&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;24&lt;/span&gt; FastPages: Links and Backend&lt;/h2&gt;
+&lt;div id=&quot;outline-container-orga35ee1c&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;orga35ee1c&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;24&lt;/span&gt; FastPages: Links and Backend&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-24&quot;&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org20f0deb&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org20f0deb&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;24.1&lt;/span&gt; Jekyll Liquid Tag Handling&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org1c22660&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org1c22660&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;24.1&lt;/span&gt; Jekyll Liquid Tag Handling&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-24-1&quot;&gt;
 &lt;p&gt;
 Some code for converting links to jekyll liquid tags . This is to enable fastpages specific boxes and remote link funcitionality
@@ -2421,8 +2423,8 @@ Some code for converting links to jekyll liquid tags . This is to enable fastpag
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org0540fcf&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org0540fcf&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;24.2&lt;/span&gt; FastPages Links&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org2699e57&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org2699e57&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;24.2&lt;/span&gt; FastPages Links&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-24-2&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -2561,8 +2563,8 @@ Some code for converting links to jekyll liquid tags . This is to enable fastpag
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&quot;outline-container-org7e1b76d&quot; class=&quot;outline-3&quot;&gt;
-&lt;h3 id=&quot;org7e1b76d&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;24.3&lt;/span&gt; FastPages Backend&lt;/h3&gt;
+&lt;div id=&quot;outline-container-org37c14ad&quot; class=&quot;outline-3&quot;&gt;
+&lt;h3 id=&quot;org37c14ad&quot;&gt;&lt;span class=&quot;section-number-3&quot;&gt;24.3&lt;/span&gt; FastPages Backend&lt;/h3&gt;
 &lt;div class=&quot;outline-text-3&quot; id=&quot;text-24-3&quot;&gt;
 &lt;div class=&quot;cell border-box-sizing code_cell rendered&quot;&gt;
     &lt;details class=&quot;description&quot;&gt;
@@ -2682,8 +2684,8 @@ contextual information.&quot;&lt;/span&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id=&quot;outline-container-org16f87f3&quot; class=&quot;outline-2&quot;&gt;
-&lt;h2 id=&quot;org16f87f3&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;25&lt;/span&gt; Fastpages Blog Publish function&lt;/h2&gt;
+&lt;div id=&quot;outline-container-org932b93f&quot; class=&quot;outline-2&quot;&gt;
+&lt;h2 id=&quot;org932b93f&quot;&gt;&lt;span class=&quot;section-number-2&quot;&gt;25&lt;/span&gt; Fastpages Blog Publish function&lt;/h2&gt;
 &lt;div class=&quot;outline-text-2&quot; id=&quot;text-25&quot;&gt;
 &lt;p&gt;
 Publishing Code for Fastpages blog
