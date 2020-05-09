@@ -53,7 +53,8 @@ layout: default
       {% endif -%}
     {% endif -%}
   </header>
-
+  
+  {%- include applause_button.html -%}
   <div class="post-content e-content" itemprop="articleBody">
     {{ content | toc  }}
   </div>
