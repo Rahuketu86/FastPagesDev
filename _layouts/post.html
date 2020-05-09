@@ -58,14 +58,10 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content | toc  }}
     <div 
-         style="width:70px;
-                height:auto;
-                background:#CC0000;
-                color:#FFF;
-                padding:5px 2px;
-                text-align:center;
-                top:0;
-                position:relative;float:right;">
+         style="position: sticky;
+                top: 100px;
+                width: 60px;
+                height: 60px;">
       {%- include appause_button.html -%}
     </div>
   </div>
