@@ -60,6 +60,8 @@ function wrap_img(fn) {
 window.onload = wrap_img;
 </script>
 
+<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
+<script src="https://unpkg.com/applause-button/dist/applause-button.js" defer></script>
 <script>
     document.addEventListener("DOMContentLoaded", function(){
     // add link icon to anchor tags
@@ -134,9 +136,8 @@ window.onload = wrap_img;
     </a>
 </div>
         </div>
-      </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
+      </header><applause-button style="width: 58px; height: 58px;"></applause-button>
+<div class="post-content e-content" itemprop="articleBody">
     <ul class="section-nav">
 <li class="toc-entry toc-h1">
 <a href="#About">About </a>
@@ -1004,6 +1005,7 @@ And another {% fn 2 %}
 <script src="https://utteranc.es/client.js" repo="Rahuketu86/FastPagesDev" issue-term="title" label="blogpost-comment" theme="github-light" crossorigin="anonymous" async>
 </script><a class="u-url" href="/jupyter/2020/02/20/test.html" hidden></a>
 </article>
+
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

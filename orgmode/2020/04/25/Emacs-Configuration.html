@@ -58,6 +58,8 @@ function wrap_img(fn) {
 window.onload = wrap_img;
 </script>
 
+<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
+<script src="https://unpkg.com/applause-button/dist/applause-button.js" defer></script>
 <script>
     document.addEventListener("DOMContentLoaded", function(){
     // add link icon to anchor tags
@@ -104,52 +106,51 @@ window.onload = wrap_img;
       </p>
     
 
-    </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
+    </header><applause-button style="width: 58px; height: 58px;"/>
+<div class="post-content e-content" itemprop="articleBody">
     <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org11ee124">1. Emacs init.el</a></li>
-<li><a href="#org6185174">2. Emacs Customization Group</a></li>
-<li><a href="#org2c79e76">3. Emacs Repositories</a></li>
-<li><a href="#org8214986">4. Personal Information</a></li>
-<li><a href="#org4ffe3e4">5. Emacs : Add Info directory</a></li>
-<li><a href="#org6498013">6. Emacs: Backups</a></li>
-<li><a href="#org5533832">7. Emacs: SaveHist</a></li>
-<li><a href="#org8a3192d">8. Emacs Additional Infopath</a></li>
-<li><a href="#orgfc8de29">9. Utility Functions</a>
+<li><a href="#org6dbbdb2">1. Emacs init.el</a></li>
+<li><a href="#orgc7e384a">2. Emacs Customization Group</a></li>
+<li><a href="#orgb85e420">3. Emacs Repositories</a></li>
+<li><a href="#orge34e0f2">4. Personal Information</a></li>
+<li><a href="#org6d2eeed">5. Emacs : Add Info directory</a></li>
+<li><a href="#org75feb98">6. Emacs: Backups</a></li>
+<li><a href="#org5d659b3">7. Emacs: SaveHist</a></li>
+<li><a href="#orgb630e11">8. Emacs Additional Infopath</a></li>
+<li><a href="#orgeae584a">9. Utility Functions</a>
 <ul>
-<li><a href="#orgc50f161">9.1. Function to open this configuration file</a></li>
+<li><a href="#orgc7784fb">9.1. Function to open this configuration file</a></li>
 </ul>
 </li>
-<li><a href="#org90c41a0">10. Splash Screen and bars</a></li>
-<li><a href="#org66cf739">11. Configure Emacs for use-package</a></li>
-<li><a href="#org148f0bd">12. Improve performance on Windows</a></li>
-<li><a href="#org6901962">13. Emacs Custom Theme</a></li>
-<li><a href="#orgd8c284f">14. Setup Ido and smex</a></li>
-<li><a href="#orgcec81db">15. Setup Guru Mode</a></li>
-<li><a href="#org8c7ccab">16. Setup Magit</a></li>
-<li><a href="#org1c76b6b">17. Setup Company Mode</a></li>
-<li><a href="#org746a221">18. Org-Mode Settings</a></li>
-<li><a href="#org14092f6">19. Nikola Blog Settings</a></li>
-<li><a href="#orgbc43d2f">20. Games</a>
+<li><a href="#org568677e">10. Splash Screen and bars</a></li>
+<li><a href="#org0c44930">11. Configure Emacs for use-package</a></li>
+<li><a href="#orgea3764f">12. Improve performance on Windows</a></li>
+<li><a href="#org91694de">13. Emacs Custom Theme</a></li>
+<li><a href="#orgae6cbbc">14. Setup Ido and smex</a></li>
+<li><a href="#orgf58ca9b">15. Setup Guru Mode</a></li>
+<li><a href="#org5c62032">16. Setup Magit</a></li>
+<li><a href="#org8f0d074">17. Setup Company Mode</a></li>
+<li><a href="#orgc9af883">18. Org-Mode Settings</a></li>
+<li><a href="#org0447c39">19. Nikola Blog Settings</a></li>
+<li><a href="#orgf31a123">20. Games</a>
 <ul>
-<li><a href="#org603390a">20.1. Chess</a></li>
+<li><a href="#orgcba8591">20.1. Chess</a></li>
 </ul>
 </li>
-<li><a href="#org1c30c91">21. Setup ox-reveal</a></li>
-<li><a href="#orge06a304">22. Setup htmlize and addtional org-contrib</a></li>
-<li><a href="#org2be456d">23. String manupulation library elisp</a></li>
-<li><a href="#org0f89d0a">24. FastPages: Links and Backend</a>
+<li><a href="#orgc4224da">21. Setup ox-reveal</a></li>
+<li><a href="#org8b9e416">22. Setup htmlize and addtional org-contrib</a></li>
+<li><a href="#org55b062a">23. String manupulation library elisp</a></li>
+<li><a href="#org2a7fb96">24. FastPages: Links and Backend</a>
 <ul>
-<li><a href="#org0c98ed4">24.1. Jekyll Liquid Tag Handling</a></li>
-<li><a href="#orgaa9f87d">24.2. FastPages Links</a></li>
-<li><a href="#orgd39adc9">24.3. FastPages Backend</a></li>
+<li><a href="#orgdc343a5">24.1. Jekyll Liquid Tag Handling</a></li>
+<li><a href="#org865d387">24.2. FastPages Links</a></li>
+<li><a href="#orgc4fecc8">24.3. FastPages Backend</a></li>
 </ul>
 </li>
-<li><a href="#org74f5b43">25. Fastpages Blog Publish function</a></li>
+<li><a href="#org1e32d94">25. Fastpages Blog Publish function</a></li>
 </ul>
 </div>
 </div>
@@ -157,8 +158,8 @@ window.onload = wrap_img;
 As a tradition for sharing your literate configuration in org mode. I am sharing my complete emacs configuration here. People who are going to use Org Mode with FastPages for Blogging might find the last section useful.
 </p>
 
-<div id="outline-container-org11ee124" class="outline-2">
-<h2 id="org11ee124"><span class="section-number-2">1</span> Emacs init.el</h2>
+<div id="outline-container-org6dbbdb2" class="outline-2">
+<h2 id="org6dbbdb2"><span class="section-number-2">1</span> Emacs init.el</h2>
 <div class="outline-text-2" id="text-1">
 
 <figure class="highlight"><pre><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nv">package-initialize</span><span class="p">)</span>
@@ -171,8 +172,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 
-<div id="outline-container-org6185174" class="outline-2">
-<h2 id="org6185174"><span class="section-number-2">2</span> Emacs Customization Group</h2>
+<div id="outline-container-orgc7e384a" class="outline-2">
+<h2 id="orgc7e384a"><span class="section-number-2">2</span> Emacs Customization Group</h2>
 <div class="outline-text-2" id="text-2">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -193,8 +194,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 
-<div id="outline-container-org2c79e76" class="outline-2">
-<h2 id="org2c79e76"><span class="section-number-2">3</span> Emacs Repositories</h2>
+<div id="outline-container-orgb85e420" class="outline-2">
+<h2 id="orgb85e420"><span class="section-number-2">3</span> Emacs Repositories</h2>
 <div class="outline-text-2" id="text-3">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -228,8 +229,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 
-<div id="outline-container-org8214986" class="outline-2">
-<h2 id="org8214986"><span class="section-number-2">4</span> Personal Information</h2>
+<div id="outline-container-orge34e0f2" class="outline-2">
+<h2 id="orge34e0f2"><span class="section-number-2">4</span> Personal Information</h2>
 <div class="outline-text-2" id="text-4">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -248,8 +249,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 </div>
-<div id="outline-container-org4ffe3e4" class="outline-2">
-<h2 id="org4ffe3e4"><span class="section-number-2">5</span> Emacs : Add Info directory</h2>
+<div id="outline-container-org6d2eeed" class="outline-2">
+<h2 id="org6d2eeed"><span class="section-number-2">5</span> Emacs : Add Info directory</h2>
 <div class="outline-text-2" id="text-5">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -274,8 +275,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 </div>
-<div id="outline-container-org6498013" class="outline-2">
-<h2 id="org6498013"><span class="section-number-2">6</span> Emacs: Backups</h2>
+<div id="outline-container-org75feb98" class="outline-2">
+<h2 id="org75feb98"><span class="section-number-2">6</span> Emacs: Backups</h2>
 <div class="outline-text-2" id="text-6">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -296,8 +297,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 </div>
-<div id="outline-container-org5533832" class="outline-2">
-<h2 id="org5533832"><span class="section-number-2">7</span> Emacs: SaveHist</h2>
+<div id="outline-container-org5d659b3" class="outline-2">
+<h2 id="org5d659b3"><span class="section-number-2">7</span> Emacs: SaveHist</h2>
 <div class="outline-text-2" id="text-7">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -323,8 +324,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 </div>
-<div id="outline-container-org8a3192d" class="outline-2">
-<h2 id="org8a3192d"><span class="section-number-2">8</span> Emacs Additional Infopath</h2>
+<div id="outline-container-orgb630e11" class="outline-2">
+<h2 id="orgb630e11"><span class="section-number-2">8</span> Emacs Additional Infopath</h2>
 <div class="outline-text-2" id="text-8">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -342,12 +343,12 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 </div>
-<div id="outline-container-orgfc8de29" class="outline-2">
-<h2 id="orgfc8de29"><span class="section-number-2">9</span> Utility Functions</h2>
+<div id="outline-container-orgeae584a" class="outline-2">
+<h2 id="orgeae584a"><span class="section-number-2">9</span> Utility Functions</h2>
 <div class="outline-text-2" id="text-9">
 </div>
-<div id="outline-container-orgc50f161" class="outline-3">
-<h3 id="orgc50f161"><span class="section-number-3">9.1</span> Function to open this configuration file</h3>
+<div id="outline-container-orgc7784fb" class="outline-3">
+<h3 id="orgc7784fb"><span class="section-number-3">9.1</span> Function to open this configuration file</h3>
 <div class="outline-text-3" id="text-9-1">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -374,8 +375,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 
-<div id="outline-container-org90c41a0" class="outline-2">
-<h2 id="org90c41a0"><span class="section-number-2">10</span> Splash Screen and bars</h2>
+<div id="outline-container-org568677e" class="outline-2">
+<h2 id="org568677e"><span class="section-number-2">10</span> Splash Screen and bars</h2>
 <div class="outline-text-2" id="text-10">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -401,8 +402,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 
-<div id="outline-container-org66cf739" class="outline-2">
-<h2 id="org66cf739"><span class="section-number-2">11</span> Configure Emacs for use-package</h2>
+<div id="outline-container-org0c44930" class="outline-2">
+<h2 id="org0c44930"><span class="section-number-2">11</span> Configure Emacs for use-package</h2>
 <div class="outline-text-2" id="text-11">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -431,8 +432,8 @@ As a tradition for sharing your literate configuration in org mode. I am sharing
 </div>
 </div>
 </div>
-<div id="outline-container-org148f0bd" class="outline-2">
-<h2 id="org148f0bd"><span class="section-number-2">12</span> Improve performance on Windows</h2>
+<div id="outline-container-orgea3764f" class="outline-2">
+<h2 id="orgea3764f"><span class="section-number-2">12</span> Improve performance on Windows</h2>
 <div class="outline-text-2" id="text-12">
 <p>
 Improving File Saving Performance on windows.
@@ -454,8 +455,8 @@ Improving File Saving Performance on windows.
 </div>
 </div>
 
-<div id="outline-container-org6901962" class="outline-2">
-<h2 id="org6901962"><span class="section-number-2">13</span> Emacs Custom Theme</h2>
+<div id="outline-container-org91694de" class="outline-2">
+<h2 id="org91694de"><span class="section-number-2">13</span> Emacs Custom Theme</h2>
 <div class="outline-text-2" id="text-13">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -476,8 +477,8 @@ Improving File Saving Performance on windows.
 </div>
 </div>
 
-<div id="outline-container-orgd8c284f" class="outline-2">
-<h2 id="orgd8c284f"><span class="section-number-2">14</span> Setup Ido and smex</h2>
+<div id="outline-container-orgae6cbbc" class="outline-2">
+<h2 id="orgae6cbbc"><span class="section-number-2">14</span> Setup Ido and smex</h2>
 <div class="outline-text-2" id="text-14">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -503,8 +504,8 @@ Improving File Saving Performance on windows.
 </div>
 </div>
 </div>
-<div id="outline-container-orgcec81db" class="outline-2">
-<h2 id="orgcec81db"><span class="section-number-2">15</span> Setup Guru Mode</h2>
+<div id="outline-container-orgf58ca9b" class="outline-2">
+<h2 id="orgf58ca9b"><span class="section-number-2">15</span> Setup Guru Mode</h2>
 <div class="outline-text-2" id="text-15">
 <p>
 Guru mode works by disabling common key bindings and pushing for
@@ -534,8 +535,8 @@ other so that it plays nice with ido-mode.
 </div>
 </div>
 </div>
-<div id="outline-container-org8c7ccab" class="outline-2">
-<h2 id="org8c7ccab"><span class="section-number-2">16</span> Setup Magit</h2>
+<div id="outline-container-org5c62032" class="outline-2">
+<h2 id="org5c62032"><span class="section-number-2">16</span> Setup Magit</h2>
 <div class="outline-text-2" id="text-16">
 <p>
 Magit is a git porcelain. With this we can stay within emacs for
@@ -560,8 +561,8 @@ configuration modifications and commiting to git.
 </div>
 </div>
 
-<div id="outline-container-org1c76b6b" class="outline-2">
-<h2 id="org1c76b6b"><span class="section-number-2">17</span> Setup Company Mode</h2>
+<div id="outline-container-org8f0d074" class="outline-2">
+<h2 id="org8f0d074"><span class="section-number-2">17</span> Setup Company Mode</h2>
 <div class="outline-text-2" id="text-17">
 <p>
 Company mode is used for autocompletion in Emacs.
@@ -590,8 +591,8 @@ Company mode is used for autocompletion in Emacs.
 </div>
 </div>
 </div>
-<div id="outline-container-org746a221" class="outline-2">
-<h2 id="org746a221"><span class="section-number-2">18</span> Org-Mode Settings</h2>
+<div id="outline-container-orgc9af883" class="outline-2">
+<h2 id="orgc9af883"><span class="section-number-2">18</span> Org-Mode Settings</h2>
 <div class="outline-text-2" id="text-18">
 <p>
 Global settings for all the org-mode buffers.
@@ -646,8 +647,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 </div>
 </div>
 
-<div id="outline-container-org14092f6" class="outline-2">
-<h2 id="org14092f6"><span class="section-number-2">19</span> Nikola Blog Settings</h2>
+<div id="outline-container-org0447c39" class="outline-2">
+<h2 id="org0447c39"><span class="section-number-2">19</span> Nikola Blog Settings</h2>
 <div class="outline-text-2" id="text-19">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -784,12 +785,12 @@ Org Mode with Twitter bootstrap(ox-twbs)
 </div>
 </div>
 
-<div id="outline-container-orgbc43d2f" class="outline-2">
-<h2 id="orgbc43d2f"><span class="section-number-2">20</span> Games</h2>
+<div id="outline-container-orgf31a123" class="outline-2">
+<h2 id="orgf31a123"><span class="section-number-2">20</span> Games</h2>
 <div class="outline-text-2" id="text-20">
 </div>
-<div id="outline-container-org603390a" class="outline-3">
-<h3 id="org603390a"><span class="section-number-3">20.1</span> Chess</h3>
+<div id="outline-container-orgcba8591" class="outline-3">
+<h3 id="orgcba8591"><span class="section-number-3">20.1</span> Chess</h3>
 <div class="outline-text-3" id="text-20-1">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -811,8 +812,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 </div>
 </div>
 
-<div id="outline-container-org1c30c91" class="outline-2">
-<h2 id="org1c30c91"><span class="section-number-2">21</span> Setup ox-reveal</h2>
+<div id="outline-container-orgc4224da" class="outline-2">
+<h2 id="orgc4224da"><span class="section-number-2">21</span> Setup ox-reveal</h2>
 <div class="outline-text-2" id="text-21">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -846,8 +847,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 </div>
 </div>
 
-<div id="outline-container-orge06a304" class="outline-2">
-<h2 id="orge06a304"><span class="section-number-2">22</span> Setup htmlize and addtional org-contrib</h2>
+<div id="outline-container-org8b9e416" class="outline-2">
+<h2 id="org8b9e416"><span class="section-number-2">22</span> Setup htmlize and addtional org-contrib</h2>
 <div class="outline-text-2" id="text-22">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -868,8 +869,8 @@ Org Mode with Twitter bootstrap(ox-twbs)
 </div>
 </div>
 
-<div id="outline-container-org2be456d" class="outline-2">
-<h2 id="org2be456d"><span class="section-number-2">23</span> String manupulation library elisp</h2>
+<div id="outline-container-org55b062a" class="outline-2">
+<h2 id="org55b062a"><span class="section-number-2">23</span> String manupulation library elisp</h2>
 <div class="outline-text-2" id="text-23">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -889,12 +890,12 @@ Org Mode with Twitter bootstrap(ox-twbs)
 </div>
 </div>
 
-<div id="outline-container-org0f89d0a" class="outline-2">
-<h2 id="org0f89d0a"><span class="section-number-2">24</span> FastPages: Links and Backend</h2>
+<div id="outline-container-org2a7fb96" class="outline-2">
+<h2 id="org2a7fb96"><span class="section-number-2">24</span> FastPages: Links and Backend</h2>
 <div class="outline-text-2" id="text-24">
 </div>
-<div id="outline-container-org0c98ed4" class="outline-3">
-<h3 id="org0c98ed4"><span class="section-number-3">24.1</span> Jekyll Liquid Tag Handling</h3>
+<div id="outline-container-orgdc343a5" class="outline-3">
+<h3 id="orgdc343a5"><span class="section-number-3">24.1</span> Jekyll Liquid Tag Handling</h3>
 <div class="outline-text-3" id="text-24-1">
 <p>
 Some code for converting links to jekyll liquid tags . This is to enable fastpages specific boxes and remote link funcitionality
@@ -902,8 +903,8 @@ Some code for converting links to jekyll liquid tags . This is to enable fastpag
 </div>
 </div>
 
-<div id="outline-container-orgaa9f87d" class="outline-3">
-<h3 id="orgaa9f87d"><span class="section-number-3">24.2</span> FastPages Links</h3>
+<div id="outline-container-org865d387" class="outline-3">
+<h3 id="org865d387"><span class="section-number-3">24.2</span> FastPages Links</h3>
 <div class="outline-text-3" id="text-24-2">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -1042,8 +1043,8 @@ Some code for converting links to jekyll liquid tags . This is to enable fastpag
 </div>
 </div>
 </div>
-<div id="outline-container-orgd39adc9" class="outline-3">
-<h3 id="orgd39adc9"><span class="section-number-3">24.3</span> FastPages Backend</h3>
+<div id="outline-container-orgc4fecc8" class="outline-3">
+<h3 id="orgc4fecc8"><span class="section-number-3">24.3</span> FastPages Backend</h3>
 <div class="outline-text-3" id="text-24-3">
 <div class="cell border-box-sizing code_cell rendered">
     <details class="description">
@@ -1163,8 +1164,8 @@ contextual information."</span>
 </div>
 </div>
 
-<div id="outline-container-org74f5b43" class="outline-2">
-<h2 id="org74f5b43"><span class="section-number-2">25</span> Fastpages Blog Publish function</h2>
+<div id="outline-container-org1e32d94" class="outline-2">
+<h2 id="org1e32d94"><span class="section-number-2">25</span> Fastpages Blog Publish function</h2>
 <div class="outline-text-2" id="text-25">
 <p>
 Publishing Code for Fastpages blog
@@ -1238,6 +1239,7 @@ Publishing Code for Fastpages blog
         async>
 </script><a class="u-url" href="/orgmode/2020/04/25/Emacs-Configuration.html" hidden></a>
 </article>
+
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
